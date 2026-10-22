@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Cite the archived version of this study software. License pending institutional approval. Cite the version-specific GitHub release; a DOI has not been assigned."
+title: "SSI precision-prevention study: source reconstruction, statistical analysis and frozen-model evaluation"
+version: 1.0.0-rc2
+type: software
+authors:
+  - family-names: Chambuso
+    given-names: Ramadhani
+    affiliation: Ajman University
+  - family-names: Al Ani
+    given-names: Amer
+  - family-names: Mohamed
+    given-names: Mohamed Elsayed
+  - family-names: Albetar
+    given-names: Mohammed
+contact:
+  - family-names: Chambuso
+    given-names: Ramadhani
+    email: r.chambuso@ajman.ac.ae
+abstract: "Paper-associated code and frozen artifacts for hospital-level surgical site infection surveillance, capacity-dependent review and separate national microbiology context."
+keywords:
+  - surgical site infection
+  - hospital surveillance
+  - frozen prediction model
+  - reproducibility
+  - antimicrobial stewardship
+repository-code: https://github.com/DrChambuso/ssi-precision-prevention
