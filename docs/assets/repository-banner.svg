@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="title description">
+  <title id="title">SSI precision prevention</title>
+  <desc id="description">Study code and reproducibility. Source reconstruction, statistical inference, frozen-model evaluation and vector figures.</desc>
+  <rect x="1" y="1" width="1278" height="298" rx="16" fill="#f4f7fb" stroke="#d6e0ea" stroke-width="2"/>
+  <rect x="1" y="1" width="8" height="298" rx="4" fill="#176b77"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="48" y="49" font-size="16" font-weight="700" letter-spacing="2.2" fill="#176b77">STUDY CODE AND REPRODUCIBILITY</text>
+    <text x="45" y="120" font-size="55" font-weight="700" fill="#142c43">SSI precision prevention</text>
+    <text x="48" y="165" font-size="25" fill="#435b70">Surgical site infection surveillance and precision-prevention review</text>
+    <path d="M48 206 H1232" stroke="#c9d6e2" stroke-width="1.5"/>
+    <g font-size="20" font-weight="700" fill="#253f56">
+      <text x="48" y="254">Source reconstruction</text>
+      <text x="368" y="254">Statistical inference</text>
+      <text x="681" y="254">Frozen evaluation</text>
+      <text x="1018" y="254">Vector figures</text>
+    </g>
+    <g stroke="#b3c5d3" stroke-width="1.5">
+      <path d="M324 234 V260"/>
+      <path d="M637 234 V260"/>
+      <path d="M974 234 V260"/>
+    </g>
+  </g>
+</svg>

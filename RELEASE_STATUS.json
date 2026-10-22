@@ -2,7 +2,7 @@
   "version": "1.0.0-rc2",
   "prepared_date": "2026-10-22",
   "technical_status": "verified for the executed scope below",
-  "public_release_status": "GitHub paper-associated release package; see the version-specific release for publication status",
+  "public_release_status": "Published immutable GitHub release candidate, verified anonymously on 2026-10-22",
   "public_repository": "https://github.com/DrChambuso/ssi-precision-prevention",
   "version_archive_doi": null,
   "software_license": null,
@@ -38,7 +38,6 @@
   },
   "remaining_release_gates": [
     "Institutional software license approval remains pending; public sharing is authorized without granting a software license.",
-    "Choose the actual public repository/archive and its version-specific identifier; update CITATION.cff and section2.17 only after confirming access.",
     "Confirm the main-manuscript figure numbering gap (6 and7) and figure11 caption against final artwork.",
     "Raw national PDF-to-page-text extraction and every historical final editorial layout are not claimed as completely automated or rerun. Preserve the documented scope limits."
   ],
@@ -60,5 +59,10 @@
   "version_link_type": "GitHub full commit permalink and version-specific release; no DOI assigned",
   "release_tag": "v1.0.0-rc2",
   "release_target_url": "https://github.com/DrChambuso/ssi-precision-prevention/releases/tag/v1.0.0-rc2",
-  "code_doi_assigned": false
+  "code_doi_assigned": false,
+  "published_date": "2026-10-22",
+  "published_source_commit": "a83b2e94d0a6f6e87bacc8310d1471af02b21d16",
+  "immutable_release": true,
+  "archive_sha256": "43bd314d31c0597c1106d997d0539eb80eeae64010357c250066538b5d684865",
+  "default_branch_status": "Subsequent presentation and publication-documentation updates; scientific release unchanged"
 }

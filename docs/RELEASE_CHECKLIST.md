@@ -1,6 +1,6 @@
 # Release readiness and author handover
 
-The release is version 1.0.0-rc2. It is a technically verified local release candidate, not an announced public deposit. The main manuscript was not reproduced or edited.
+The release is version 1.0.0-rc2. It is a published, immutable GitHub release candidate. The version and exact source links were verified publicly without authentication on 22 October 2026; see [the publication record](PERMANENT_LINKS.md). The main manuscript was not reproduced or edited.
 
 ## Completed and supported by executed evidence
 
@@ -15,7 +15,7 @@ The release is version 1.0.0-rc2. It is a technically verified local release can
 ## Outstanding publication checks and license status
 
 1. Keep the license pending institutional approval until an authorized decision is received. Public repository creation is authorized; no open-source reuse license is being granted. Add the approved LICENSE text and SPDX identifier to CITATION.cff. Data and dependencies retain their separate terms.
-2. Select the public repository and archive the paper-associated version. Use the actual version-specific DOI or permanent URL in the Code availability statement and software citation. Test access without an authenticated session.
+2. Completed: published the immutable v1.0.0-rc2 package, recorded the exact source commit and verified public access and download checksums. No DOI has been assigned. Use the version-specific links in the Code availability statement and software citation.
 3. Reconcile the existing main-manuscript figure-number gap (6 and 7) and the figure 11 caption. These editorial issues are recorded without altering the final manuscript during code preparation.
 4. Keep the documented computational boundaries explicit. Original national PDF page extraction and every historical editorial finishing operation have not been certified as one automatic source-to-final-layout run.
 

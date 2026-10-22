@@ -1,5 +1,12 @@
 # Change log
 
+## Documentation update, 2026-10-22
+
+- Reorganized the repository landing page, added a vector header and linked task-based documentation.
+- Recorded the verified immutable release, full source commit and manuscript Code availability wording.
+- Updated citation and publication metadata, retaining the pending institutional license decision.
+- Refreshed the default-branch integrity manifest. Scientific code, data, numerical results and final figures are unchanged; the v1.0.0-rc2 tag and archive are unchanged.
+
 ## 1.0.0-rc2, 2026-10-22
 
 - Prepared GitHub publication under the authenticated author account.

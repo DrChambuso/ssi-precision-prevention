@@ -1,20 +1,29 @@
-# Manuscript version links
+# Published version and permanent links
 
-A GitHub repository landing page identifies the project. A full commit SHA permalink identifies a fixed version of its files. A tagged, immutable release can preserve the complete downloadable package associated with the manuscript. A GitHub URL is not a DOI.
+The manuscript-associated software was published on 22 October 2026 as an immutable GitHub release candidate. No DOI has been assigned. The original software license remains pending institutional approval.
 
-The license remains pending institutional approval. Do not describe the code as open source. Do not enable automatic Zenodo archiving while no recognized software license is specified: Zenodo can apply its default license in that situation. A DOI deposit requires review of its actual rights metadata or institutional clarification.
+| Resource | Link |
+| :--- | :--- |
+| Project repository | [DrChambuso/ssi-precision-prevention](https://github.com/DrChambuso/ssi-precision-prevention) |
+| Fixed manuscript version | [v1.0.0-rc2](https://github.com/DrChambuso/ssi-precision-prevention/releases/tag/v1.0.0-rc2) |
+| Exact published source | [a83b2e94d0a6f6e87bacc8310d1471af02b21d16](https://github.com/DrChambuso/ssi-precision-prevention/tree/a83b2e94d0a6f6e87bacc8310d1471af02b21d16) |
+| Complete package | [Supplementary Software 1 ZIP](https://github.com/DrChambuso/ssi-precision-prevention/releases/download/v1.0.0-rc2/Supplementary_Software_1_SSI_Code_v1.0.0-rc2.zip) |
+| Download checksum | [SHA-256 sidecar](https://github.com/DrChambuso/ssi-precision-prevention/releases/download/v1.0.0-rc2/Supplementary_Software_1_SSI_Code_v1.0.0-rc2.zip.sha256) |
 
-Official guidance:
+## Integrity and verification
 
-- GitHub licensing: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
-- Commit permalinks: https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files
-- Immutable releases: https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases
-- Zenodo license fallback: https://support.zenodo.org/help/en-gb/24-github-integration/149-how-to-specify-a-license-for-a-software-record-on-github
+The full published archive SHA-256 is:
 
-The actual repository, commit and release URLs will be inserted only after creation and verification. No permanent public identifier is claimed by this preparation document.
+```text
+43bd314d31c0597c1106d997d0539eb80eeae64010357c250066538b5d684865
+```
 
-## Verified repository and controlled import
+Anonymous public retrieval verified both downloadable assets, their byte sizes and SHA-256 values. All 567 files in the published source snapshot matched the sealed package. GitHub confirmed the release is immutable and its tag identifies the exact source commit above. These publication checks supplement the computational validation records; they are not a new statistical reanalysis.
 
-The repository exists at https://github.com/DrChambuso/ssi-precision-prevention . The paper-associated version tag is v1.0.0-rc2. The final commit and release links are recorded after successful publication; this file does not mint a DOI.
+## Current documentation and archived science
 
-The repository import workflow reads only its own draft release asset, authenticates the complete ZIP with an explicitly supplied SHA256, verifies every internal file checksum and rejects unsafe paths or workflow changes. It copies verified data and source files without running code from the archive, then commits them with the repository-scoped GitHub Actions token. The workflow is a publication transfer mechanism; it is not an independent statistical reanalysis.
+The default branch may receive presentation and documentation updates. Cite the immutable release or exact full commit when identifying the manuscript-associated scientific package. The original release, tag and downloadable archive are unchanged by later documentation edits. Each source tree's integrity manifest covers that tree's own files. Historical validation reports retain their original preparation-time wording and executed scope.
+
+## Rights status
+
+Public access does not grant an open-source reuse license. See [LICENSE_PENDING.md](../LICENSE_PENDING.md) and [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md). An approved license will require a separately versioned update. No automatic DOI archive integration has been enabled while institutional licensing approval remains pending.
