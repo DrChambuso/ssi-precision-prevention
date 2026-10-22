@@ -1,0 +1,6 @@
+Pediatric Location Type,CLABSI,CLABSI,CAUTI,CAUTI,VAP,VAP
+Pediatric Location Type,No. of Units,"No. (%) Pathogens (n = 14,804)",No. of Units,"No. (%) Pathogens (n = 1,443)",No. of Units,No. (%) Pathogens (n = 205)
+NICUs,740,"5,474 (37.0)",. . .,. . .,. . .,. . .
+Pediatric ICUs,330,"3,332 (22.5)",277,"1,010 (70.0)",62,202 (98.5)
+Pediatric oncology units,128,"3,468 (23.4)",39,91 (6.3),0,0 (0.0)
+Pediatric wards,494,"2,530 (17.1)",187,342 (23.7),3,3 (1.5)

@@ -1,0 +1,33 @@
+18 
+ 
+Table 14. Percent of CAUTI Pathogens That Were Resistant to Selected Antimicrobials and Classified as "Urgent" or "Serious" Antimicrobial Resistant Threats1, by Location 
+Type, Adults, 2018-2021 
+ Hospital ICUs Hospital Wards Oncology Units LTACHs IRFs 
+Pathogen, Antimicrobial Phenotype # Reported % Tested %R # Reported % Tested %R # Reported % Tested %R # Reported % Tested %R # Reported % Tested %R 
+Urgent Threats                               
+Acinetobacter spp. 156     234     13     120     27     
+Carbapenem-NS   74.4 44.8   78.6 51.1   . .   89.2 83.2   . . 
+                                
+Select Enterobacterales2 22,372     25,145     1,354     4,107     3,052     
+Carbapenem-resistant (CRE)   74.7 1.8   75.4 2.2   76.5 2.0   84.0 8.4   75.8 1.4 
+                                
+Serious Threats                               
+Select Enterobacterales3 19,955     22,725     1,211     3,631     2,728     
+Extended-spectrum cephalosporin-NS   85.8 21.5   85.9 24.4   86.5 25.7   92.2 41.6   87.7 15.6 
+                                
+Enterobacter spp. 1,930     2,042     122     397     252     
+Cefepime-NS   80.0 13.3   75.3 13.0   81.1 13.1   85.1 27.2   78.6 11.1 
+                                
+Enterococcus faecalis 5,273     4,796     317     572     355     
+Vancomycin-resistant (VRE)   89.3 2.8   89.2 5.5   91.8 5.8   89.3 24.5   93.2 5.1 
+                                
+Enterococcus faecium 1,303     1,242     101     500     57     
+Vancomycin-resistant (VRE)   92.7 76.5   92.4 79.2   94.1 83.2   97.6 88.9   94.7 72.2 
+                                
+Pseudomonas aeruginosa 5,701     7,283     424     2,034     850     
+Multidrug-resistant (MDR)   95.7 8.7   95.2 10.6   93.2 9.9   99.1 20.8   95.9 6.7 
+                                
+Staphylococcus aureus 634     999     61     107     89     
+Meth/ox/cefox - resistant (MRSA)   91.5 39.8   91.4 53.2   93.4 52.6   89.7 81.3   93.3 63.9 
+Note: Percent resistance is not calculated when the number of tested isolates is < 20. Refer to Technical Resources for more information about phenotype definitions, acronyms, and terms used in this table.   
+Footnotes: 

@@ -1,0 +1,14 @@
+Main dataset: SSI_annual_reports_2016_2025.csv
+One row represents one California hospital-age-procedure annual report.
+Reporting years: 2016-2025.
+Reports: 72,854. Operations: 6,737,972. Reported SSIs: 37,525.
+The 78,583 California source rows include 5,729 pairs of non-overlapping 2020 half-year reports aggregated to annual reports.
+Blank cells indicate unavailable or inapplicable values. Recorded zeros remain zero.
+Identifiers and two-character signal codes should be imported as text.
+Prediction fields use earlier reports. The predicted_probability_of_report_signal field is an annual report-level O>E signal probability.
+Source-published predicted_ssi_cases is a separate risk-adjusted count.
+Time-to-alert tables use reporting years and annual report signals.
+National microbiology and AMR summaries are separate populations and are not linked to individual California reports. Their counts are not additive to California totals.
+AMR tested-count and resistant-count ranges are rounding-compatible reconstructions, not exact isolate counts.
+Figure source tables retain their original variable names, effect estimates, confidence intervals, P values and q values.
+SSI-depth composition tables count pathogen reports classified by depth. SSI-event denominators are supplied separately in national_ssi_source_totals.csv.

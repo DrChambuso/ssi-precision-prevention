@@ -1,0 +1,138 @@
+[
+  {
+    "archive_file": "figure_sources/editorial_archive/label_fig1_bold.py",
+    "historical_source": "work/label_fig1_bold.py",
+    "original_sha256": "48ea36f5af62ab84ebf28d951d3bbcfec233a17b97b188535e6b19c6a788ce0c",
+    "adapted_sha256": "61bbb8e6f92bb67db7e22ec2ca029bb60b67ca124f78cd24889509fbf639d520",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/unify_fig1_legend_font.py",
+    "historical_source": "work/unify_fig1_legend_font.py",
+    "original_sha256": "ab2a521c0eace0c0e3f2b4008b6395a57348a79ffa8bde6bb5dbea231d9fe65c",
+    "adapted_sha256": "db2352254f5666e5243e4ed9384d0ac6802fa0e5ceab0e9475073c648ea63993",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/restore_master02_titles.py",
+    "historical_source": "work/restore_master02_titles.py",
+    "original_sha256": "4f219b9d411a54597eeec2393a57e54482a90b60b687611dcd82107c220c3a5a",
+    "adapted_sha256": "88a7ff2fa0a3ee64e7085e9e16bc47550da9dae81c494cd96a206bfe8be3663b",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/enlarge_master02_titles.py",
+    "historical_source": "work/enlarge_master02_titles.py",
+    "original_sha256": "d49ad6fd0faff034fb34050fa436c735da34013aa79d57ad35f8f3979441665b",
+    "adapted_sha256": "beefe576b9906e21bc00cdee006249eea9e1d9496d0e26681c651610ddcd33e1",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/add_master02_colour_key.py",
+    "historical_source": "work/add_master02_colour_key.py",
+    "original_sha256": "4a31d478da117025a1d2c3e58c85e87e6b4e3e726152a34a16f09cc72e8ce1ca",
+    "adapted_sha256": "f454e6170362607ffe2ab4f6d51ed680b3fbf54ea2abfb524647460cc2b22a97",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/clean_master02_colour_key.py",
+    "historical_source": "work/clean_master02_colour_key.py",
+    "original_sha256": "5c1d2b2f7886ab35cda79e3f3370e608326bc88bbe8600b2d244ff80969006a9",
+    "adapted_sha256": "5a95ccd5fa99ef0f288a0aa301d9df22203f6d2ba43374f85f3436bc1197f888",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/space_profile_figure.py",
+    "historical_source": "work/space_profile_figure.py",
+    "original_sha256": "ed835f62b3930adce8303b3916f6f65a79454ee720520c2465528b50cbd10943",
+    "adapted_sha256": "ac8bde166d2b30f758036d8e73731c79ebb3c56688a3be3ac4a40edcc0d72770",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/label_fig12_compact.py",
+    "historical_source": "work/label_fig12_compact.py",
+    "original_sha256": "15ba08f7592e25869464d995d34fc97152443eb87002cf5480abed53edbdd177",
+    "adapted_sha256": "18e776914f15e87ef50b762d271a5c642d9d72e7bd93910724b59255775d54ed",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/style_fig13_shared_key.py",
+    "historical_source": "work/style_fig13_shared_key.py",
+    "original_sha256": "7a44f63d6c706ec7f34fb34748b6ed3d589ffa6933a47d422e96e99d595ab1d9",
+    "adapted_sha256": "a50a736f78bf4b0a739a91d06097a0437ce8f0d0dfd72c06371e4fcebdaf52e4",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/bold_fig14_panel_a.py",
+    "historical_source": "work/bold_fig14_panel_a.py",
+    "original_sha256": "9efefd15aed94e05d4c011de763900b8b3697375d5478b0647356462ab0b1c7a",
+    "adapted_sha256": "6475ba2095d53fbc4d69deb0a37d3f3c1c49f6383174c0c07e08f44785018c24",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/supplement_vector_audit__clean_figures.py",
+    "historical_source": "work/supplement_vector_audit/clean_figures.py",
+    "original_sha256": "04afadfb4ee70403ef8dc6ee18528427cff10658b62f732f007beed7174d7006",
+    "adapted_sha256": "21617569e61ce724e74dd7b0b7dff4c2355b0e79a03f3c7723ad1da98a7f095f",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/supplement_vector_audit__final_polish.py",
+    "historical_source": "work/supplement_vector_audit/final_polish.py",
+    "original_sha256": "7069fcbd78eeccfcbac2885bb348aa0ab9d05898049a501dcf1c339857d79d8c",
+    "adapted_sha256": "46b62164013f9d71a2c4fc60d28c20b837a827fbef9e90e31350fae7cd5105ec",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/supplement_vector_audit__polish_tables.py",
+    "historical_source": "work/supplement_vector_audit/polish_tables.py",
+    "original_sha256": "0eeae5e29f83f30d63eeeffbaab68f5952bfa3ebdbb7b91a4177b279a44849be",
+    "adapted_sha256": "0cf96e0c85ce095b2bc2f78bb7cccb65acbb95b2a4b3ceec22beb3f1252d1387",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/supplement_vector_audit__pending_patch.py",
+    "historical_source": "work/supplement_vector_audit/pending_patch.py",
+    "original_sha256": "283562fe2cbbf58649e4b89c56dbdecd0723695e1f0da27a3477e7772fe9cace",
+    "adapted_sha256": "69d24be46801f0d7414e28432750461695488d6d2f428695807ab18146cab372",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/supplement_vector_audit__final_title_patch.py",
+    "historical_source": "work/supplement_vector_audit/final_title_patch.py",
+    "original_sha256": "efb87ae22d1aecae7fc603ef14dfb8079e365cbf0a1ffbb2351cf8f5ded61311",
+    "adapted_sha256": "92b493f72062acf15e13f9cc9d3f0173a1b7c03d92c1fce1011901082d21a1a5",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/supplement_vector_audit__repair_s1_labels.py",
+    "historical_source": "work/supplement_vector_audit/repair_s1_labels.py",
+    "original_sha256": "ea73d419d29676f67b8b141070e4f82ccae457c139ba173d130777884e53f1f9",
+    "adapted_sha256": "ead53db60f6cc06f5719bb5b5489cacefa639e063b990972372c0734bf8cfa2f",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  },
+  {
+    "archive_file": "figure_sources/editorial_archive/supplement_inventory__clean_s21.py",
+    "historical_source": "work/supplement_inventory/clean_s21.py",
+    "original_sha256": "f41f257c2474b31b9a681ae3b0cdd351a5b59f53f24fafc4e486bf64183277ec",
+    "adapted_sha256": "242019c64edb9a9e6c7f25bf3d0e8cb966e318071b24ce04d19e1794d9bff7dd",
+    "status": "archived editorial source, not an end-to-end reproduction entry point",
+    "adaptation": "Absolute path constants replaced by logical path adapter; AST formatting normalized; prohibited Unicode dash literals expressed as Python Unicode escapes with identical AST semantics; scientific constants/formulas unchanged."
+  }
+]

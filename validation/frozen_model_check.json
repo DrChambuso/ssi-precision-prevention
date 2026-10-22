@@ -1,0 +1,1298 @@
+{
+  "status": "pass",
+  "scope": "Actual retained study inputs, all18,341 heldout probabilities, training-only scaling, target cohorts, AUC/AP, exact tie-aware signal/case capture. No model refit and no bootstrap rerun.",
+  "checks": [
+    {
+      "name": "cohort_key_unique",
+      "passed": true
+    },
+    {
+      "name": "heldout_key_unique",
+      "passed": true
+    },
+    {
+      "name": "cohort_rows",
+      "passed": true,
+      "observed": 57694,
+      "expected": 57694
+    },
+    {
+      "name": "feature_from_actual_lag_counts_log_volume",
+      "passed": true,
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "feature_from_actual_lag_counts_log_expected_rate",
+      "passed": true,
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "feature_from_actual_lag_counts_log_prior_sir",
+      "passed": true,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "feature_from_actual_lag_counts_log_history_sir",
+      "passed": true,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "signal_matches_target_count_comparison",
+      "passed": true
+    },
+    {
+      "name": "history_depth_matches_available_reports",
+      "passed": true
+    },
+    {
+      "name": "training_only_center_log_volume",
+      "passed": true,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "training_only_sample_scale_log_volume",
+      "passed": true,
+      "maximum_absolute_difference": 6.661338147750939e-15,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "training_only_center_log_expected_rate",
+      "passed": true,
+      "maximum_absolute_difference": 2.220446049250313e-15,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "training_only_sample_scale_log_expected_rate",
+      "passed": true,
+      "maximum_absolute_difference": 4.218847493575595e-15,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "training_only_center_log_prior_sir",
+      "passed": true,
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "training_only_sample_scale_log_prior_sir",
+      "passed": true,
+      "maximum_absolute_difference": 7.66053886991358e-15,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "training_only_center_log_history_sir",
+      "passed": true,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "training_only_sample_scale_log_history_sir",
+      "passed": true,
+      "maximum_absolute_difference": 1.865174681370263e-14,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "population_Training_reports",
+      "passed": true,
+      "observed": 39353,
+      "expected": 39353
+    },
+    {
+      "name": "population_Training_signals",
+      "passed": true,
+      "observed": 6634,
+      "expected": 6634
+    },
+    {
+      "name": "population_Training_sites",
+      "passed": true,
+      "observed": 392,
+      "expected": 392
+    },
+    {
+      "name": "population_Training_services",
+      "passed": true,
+      "observed": 9052,
+      "expected": 9052
+    },
+    {
+      "name": "population_Training_operations",
+      "passed": true,
+      "observed": 3751313,
+      "expected": 3751313
+    },
+    {
+      "name": "population_Training_SSI_cases",
+      "passed": true,
+      "observed": 20306,
+      "expected": 20306
+    },
+    {
+      "name": "population_Training_years",
+      "passed": true,
+      "observed": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "expected": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "name": "population_Test_reports",
+      "passed": true,
+      "observed": 18132,
+      "expected": 18132
+    },
+    {
+      "name": "population_Test_signals",
+      "passed": true,
+      "observed": 3540,
+      "expected": 3540
+    },
+    {
+      "name": "population_Test_sites",
+      "passed": true,
+      "observed": 337,
+      "expected": 337
+    },
+    {
+      "name": "population_Test_services",
+      "passed": true,
+      "observed": 7117,
+      "expected": 7117
+    },
+    {
+      "name": "population_Test_operations",
+      "passed": true,
+      "observed": 1959747,
+      "expected": 1959747
+    },
+    {
+      "name": "population_Test_SSI_cases",
+      "passed": true,
+      "observed": 11897,
+      "expected": 11897
+    },
+    {
+      "name": "population_Test_years",
+      "passed": true,
+      "observed": [
+        2023,
+        2024,
+        2025
+      ],
+      "expected": [
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "population_Oregon_external_reports",
+      "passed": true,
+      "observed": 209,
+      "expected": 209
+    },
+    {
+      "name": "population_Oregon_external_signals",
+      "passed": true,
+      "observed": 55,
+      "expected": 55
+    },
+    {
+      "name": "population_Oregon_external_sites",
+      "passed": true,
+      "observed": 46,
+      "expected": 46
+    },
+    {
+      "name": "population_Oregon_external_operations",
+      "passed": true,
+      "observed": 34916,
+      "expected": 34916
+    },
+    {
+      "name": "population_Oregon_external_SSI_cases",
+      "passed": true,
+      "observed": 219,
+      "expected": 219
+    },
+    {
+      "name": "population_Oregon_external_years",
+      "passed": true,
+      "observed": [
+        2017
+      ],
+      "expected": [
+        2017
+      ]
+    },
+    {
+      "name": "development_and_evaluation_target_years_disjoint",
+      "passed": true
+    },
+    {
+      "name": "heldout_excludes_training",
+      "passed": true
+    },
+    {
+      "name": "all_heldout_match_cohort",
+      "passed": true
+    },
+    {
+      "name": "heldout_matches_cohort_n",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "heldout_matches_cohort_y",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "heldout_matches_cohort_e",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "heldout_matches_cohort_n_lag1",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "heldout_matches_cohort_y_lag1",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "heldout_matches_cohort_e_lag1",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "heldout_matches_cohort_outcome",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "all_heldout_frozen_probabilities_12_significant_digits",
+      "passed": true,
+      "maximum_absolute_difference": 1.0000333894311098e-12,
+      "absolute_tolerance": 2e-12
+    },
+    {
+      "name": "raw_probabilities_within_archived_rounding",
+      "passed": true,
+      "maximum_absolute_difference": 5.014877402231832e-13,
+      "absolute_tolerance": 6e-13
+    },
+    {
+      "name": "heldout_standardized_feature_log_volume",
+      "passed": true,
+      "maximum_absolute_difference": 7.105427357601002e-15,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "heldout_standardized_feature_log_expected_rate",
+      "passed": true,
+      "maximum_absolute_difference": 1.1102230246251565e-14,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "heldout_standardized_feature_log_prior_sir",
+      "passed": true,
+      "maximum_absolute_difference": 9.325873406851315e-15,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "heldout_standardized_feature_log_history_sir",
+      "passed": true,
+      "maximum_absolute_difference": 7.105427357601002e-15,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "comparator_from_actual_counts_prior_volume",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    {
+      "name": "comparator_from_actual_counts_prior_cases",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    {
+      "name": "comparator_from_actual_counts_prior_sir",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    {
+      "name": "reference_row_unique_Test_combined_AUC",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_combined_AUC",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_combined_AP",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_combined_AP",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_combined_capture_10",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_combined_capture_10",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_combined_capture_20",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_combined_capture_20",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_combined_capture_30",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_combined_capture_30",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "exact_review_budget_Test_combined_0.1",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Test_combined_0.2",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Test_combined_0.3",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "reference_row_unique_Test_prior_cases_AUC",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_cases_AUC",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_cases_AP",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_cases_AP",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_cases_capture_10",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_cases_capture_10",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_cases_capture_20",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_cases_capture_20",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_cases_capture_30",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_cases_capture_30",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "exact_review_budget_Test_prior_cases_0.1",
+      "passed": true,
+      "maximum_absolute_difference": 2.2737367544323206e-13,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Test_prior_cases_0.2",
+      "passed": true,
+      "maximum_absolute_difference": 4.547473508864641e-13,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Test_prior_cases_0.3",
+      "passed": true,
+      "maximum_absolute_difference": 9.094947017729282e-13,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "reference_row_unique_Test_prior_volume_AUC",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_volume_AUC",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_volume_AP",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_volume_AP",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_volume_capture_10",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_volume_capture_10",
+      "passed": true,
+      "maximum_absolute_difference": 2.7755575615628914e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_volume_capture_20",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_volume_capture_20",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_volume_capture_30",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_volume_capture_30",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "exact_review_budget_Test_prior_volume_0.1",
+      "passed": true,
+      "maximum_absolute_difference": 2.2737367544323206e-13,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Test_prior_volume_0.2",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Test_prior_volume_0.3",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "reference_row_unique_Test_prior_sir_AUC",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_sir_AUC",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_sir_AP",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_sir_AP",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_sir_capture_10",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_sir_capture_10",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_sir_capture_20",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_sir_capture_20",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Test_prior_sir_capture_30",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Test_prior_sir_capture_30",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "exact_review_budget_Test_prior_sir_0.1",
+      "passed": true,
+      "maximum_absolute_difference": 2.2737367544323206e-13,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Test_prior_sir_0.2",
+      "passed": true,
+      "maximum_absolute_difference": 4.547473508864641e-13,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Test_prior_sir_0.3",
+      "passed": true,
+      "maximum_absolute_difference": 9.094947017729282e-13,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "reference_row_unique_Oregon external_combined_AUC",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_combined_AUC",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_combined_AP",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_combined_AP",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_combined_capture_10",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_combined_capture_10",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_combined_capture_20",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_combined_capture_20",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_combined_capture_30",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_combined_capture_30",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "exact_review_budget_Oregon external_combined_0.1",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Oregon external_combined_0.2",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Oregon external_combined_0.3",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_cases_AUC",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_cases_AUC",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_cases_AP",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_cases_AP",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_cases_capture_10",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_cases_capture_10",
+      "passed": true,
+      "maximum_absolute_difference": 8.326672684688674e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_cases_capture_20",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_cases_capture_20",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_cases_capture_30",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_cases_capture_30",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "exact_review_budget_Oregon external_prior_cases_0.1",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Oregon external_prior_cases_0.2",
+      "passed": true,
+      "maximum_absolute_difference": 7.105427357601002e-15,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Oregon external_prior_cases_0.3",
+      "passed": true,
+      "maximum_absolute_difference": 7.105427357601002e-15,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_volume_AUC",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_volume_AUC",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_volume_AP",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_volume_AP",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_volume_capture_10",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_volume_capture_10",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_volume_capture_20",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_volume_capture_20",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_volume_capture_30",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_volume_capture_30",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "exact_review_budget_Oregon external_prior_volume_0.1",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Oregon external_prior_volume_0.2",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Oregon external_prior_volume_0.3",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_sir_AUC",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_sir_AUC",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_sir_AP",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_sir_AP",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_sir_capture_10",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_sir_capture_10",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_sir_capture_20",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_sir_capture_20",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "reference_row_unique_Oregon external_prior_sir_capture_30",
+      "passed": true
+    },
+    {
+      "name": "point_metric_Oregon external_prior_sir_capture_30",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "exact_review_budget_Oregon external_prior_sir_0.1",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Oregon external_prior_sir_0.2",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "exact_review_budget_Oregon external_prior_sir_0.3",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-08
+    },
+    {
+      "name": "case_capture_prior_cases_0.1_combined",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_cases_0.1_comparator",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_cases_0.1_difference",
+      "passed": true,
+      "maximum_absolute_difference": 2.7755575615628914e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_cases_0.2_combined",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_cases_0.2_comparator",
+      "passed": true,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_cases_0.2_difference",
+      "passed": true,
+      "maximum_absolute_difference": 5.908901840045999e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_cases_0.3_combined",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_cases_0.3_comparator",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_cases_0.3_difference",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_volume_0.1_combined",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_volume_0.1_comparator",
+      "passed": true,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_volume_0.1_difference",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_volume_0.2_combined",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_volume_0.2_comparator",
+      "passed": true,
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_volume_0.2_difference",
+      "passed": true,
+      "maximum_absolute_difference": 3.469446951953614e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_volume_0.3_combined",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_volume_0.3_comparator",
+      "passed": true,
+      "maximum_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "case_capture_prior_volume_0.3_difference",
+      "passed": true,
+      "maximum_absolute_difference": 7.632783294297951e-17,
+      "absolute_tolerance": 1e-11
+    },
+    {
+      "name": "development_evaluation_hospital_overlap",
+      "passed": true,
+      "observed": 298,
+      "expected": 298
+    },
+    {
+      "name": "development_evaluation_service_overlap",
+      "passed": true,
+      "observed": 6088,
+      "expected": 6088
+    }
+  ],
+  "populations": {
+    "Training": {
+      "reports": 39353,
+      "signals": 6634,
+      "sites": 392,
+      "services": 9052,
+      "operations": 3751313,
+      "SSI_cases": 20306,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    "Test": {
+      "reports": 18132,
+      "signals": 3540,
+      "sites": 337,
+      "services": 7117,
+      "operations": 1959747,
+      "SSI_cases": 11897,
+      "years": [
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "Oregon external": {
+      "reports": 209,
+      "signals": 55,
+      "sites": 46,
+      "services": 209,
+      "operations": 34916,
+      "SSI_cases": 219,
+      "years": [
+        2017
+      ]
+    }
+  },
+  "training_test_overlap": {
+    "sites": 298,
+    "services": 6088
+  },
+  "metrics": {
+    "Test": {
+      "combined": {
+        "AUC": 0.781456230950788,
+        "AP": 0.43643150045901136,
+        "signals": 3540.0,
+        "report_equivalents": 18132.0,
+        "capacity": {
+          "0.1": {
+            "selected_report_equivalents": 1813.2,
+            "signal_capture": 0.26163841807909605,
+            "precision": 0.5108096183542907,
+            "case_capture": 0.45248381945028154
+          },
+          "0.2": {
+            "selected_report_equivalents": 3626.4,
+            "signal_capture": 0.4596045197740113,
+            "precision": 0.44865431281711887,
+            "case_capture": 0.6764226275531646
+          },
+          "0.3": {
+            "selected_report_equivalents": 5439.599999999999,
+            "signal_capture": 0.6268361581920904,
+            "precision": 0.4079344069416869,
+            "case_capture": 0.8102042531730689
+          }
+        }
+      },
+      "prior_cases": {
+        "AUC": 0.6833675793252553,
+        "AP": 0.34365391206903234,
+        "signals": 3540.0,
+        "report_equivalents": 18132.0,
+        "capacity": {
+          "0.1": {
+            "selected_report_equivalents": 1813.1999999999998,
+            "signal_capture": 0.25270525655003795,
+            "precision": 0.49336896546830716,
+            "case_capture": 0.5110010697735157
+          },
+          "0.2": {
+            "selected_report_equivalents": 3626.3999999999996,
+            "signal_capture": 0.4356644360338618,
+            "precision": 0.4252846083057221,
+            "case_capture": 0.675960244526033
+          },
+          "0.3": {
+            "selected_report_equivalents": 5439.6,
+            "signal_capture": 0.5657054415700268,
+            "precision": 0.3681515668721771,
+            "case_capture": 0.7731524709900329
+          }
+        }
+      },
+      "prior_volume": {
+        "AUC": 0.731438004494375,
+        "AP": 0.34159716799792633,
+        "signals": 3540.0,
+        "report_equivalents": 18132.0,
+        "capacity": {
+          "0.1": {
+            "selected_report_equivalents": 1813.1999999999998,
+            "signal_capture": 0.18794042116076012,
+            "precision": 0.3669253755289493,
+            "case_capture": 0.39288285052763494
+          },
+          "0.2": {
+            "selected_report_equivalents": 3626.4,
+            "signal_capture": 0.3759717514124294,
+            "precision": 0.36701411868519745,
+            "case_capture": 0.620800201731529
+          },
+          "0.3": {
+            "selected_report_equivalents": 5439.599999999999,
+            "signal_capture": 0.5438983050847457,
+            "precision": 0.35395984998896973,
+            "case_capture": 0.7632008069261158
+          }
+        }
+      },
+      "prior_sir": {
+        "AUC": 0.5358679432736149,
+        "AP": 0.2813829742333209,
+        "signals": 3540.0,
+        "report_equivalents": 18132.0,
+        "capacity": {
+          "0.1": {
+            "selected_report_equivalents": 1813.1999999999998,
+            "signal_capture": 0.2072494796312816,
+            "precision": 0.40462340497172783,
+            "case_capture": 0.18857650977911283
+          },
+          "0.2": {
+            "selected_report_equivalents": 3626.3999999999996,
+            "signal_capture": 0.4151862820275523,
+            "precision": 0.40529435207851733,
+            "case_capture": 0.4551936361727815
+          },
+          "0.3": {
+            "selected_report_equivalents": 5439.5999999999985,
+            "signal_capture": 0.43225516827996074,
+            "precision": 0.28130437820998994,
+            "case_capture": 0.47808860135273207
+          }
+        }
+      }
+    },
+    "Oregon external": {
+      "combined": {
+        "AUC": 0.7257378984651712,
+        "AP": 0.5298107092947077,
+        "signals": 55.0,
+        "report_equivalents": 209.0,
+        "capacity": {
+          "0.1": {
+            "selected_report_equivalents": 20.900000000000002,
+            "signal_capture": 0.25272727272727274,
+            "precision": 0.6650717703349283,
+            "case_capture": 0.4378995433789955
+          },
+          "0.2": {
+            "selected_report_equivalents": 41.800000000000004,
+            "signal_capture": 0.4,
+            "precision": 0.5263157894736842,
+            "case_capture": 0.6292237442922375
+          },
+          "0.3": {
+            "selected_report_equivalents": 62.699999999999996,
+            "signal_capture": 0.5636363636363636,
+            "precision": 0.4944178628389155,
+            "case_capture": 0.7534246575342466
+          }
+        }
+      },
+      "prior_cases": {
+        "AUC": 0.6874852420306966,
+        "AP": 0.45096168160519545,
+        "signals": 55.0,
+        "report_equivalents": 209.0,
+        "capacity": {
+          "0.1": {
+            "selected_report_equivalents": 20.900000000000002,
+            "signal_capture": 0.22636363636363638,
+            "precision": 0.5956937799043062,
+            "case_capture": 0.49855403348554034
+          },
+          "0.2": {
+            "selected_report_equivalents": 41.8,
+            "signal_capture": 0.3983838383838384,
+            "precision": 0.5241892610313663,
+            "case_capture": 0.6878741755454084
+          },
+          "0.3": {
+            "selected_report_equivalents": 62.7,
+            "signal_capture": 0.5121083172147002,
+            "precision": 0.4492178221181581,
+            "case_capture": 0.7558632080054407
+          }
+        }
+      },
+      "prior_volume": {
+        "AUC": 0.6707792207792208,
+        "AP": 0.41350462993615733,
+        "signals": 55.0,
+        "report_equivalents": 209.0,
+        "capacity": {
+          "0.1": {
+            "selected_report_equivalents": 20.900000000000002,
+            "signal_capture": 0.16181818181818186,
+            "precision": 0.42583732057416274,
+            "case_capture": 0.3178082191780822
+          },
+          "0.2": {
+            "selected_report_equivalents": 41.800000000000004,
+            "signal_capture": 0.32727272727272727,
+            "precision": 0.43062200956937796,
+            "case_capture": 0.6118721461187214
+          },
+          "0.3": {
+            "selected_report_equivalents": 62.699999999999996,
+            "signal_capture": 0.48818181818181816,
+            "precision": 0.42822966507177035,
+            "case_capture": 0.7317351598173516
+          }
+        }
+      },
+      "prior_sir": {
+        "AUC": 0.6465761511216057,
+        "AP": 0.4615673457498175,
+        "signals": 55.0,
+        "report_equivalents": 209.0,
+        "capacity": {
+          "0.1": {
+            "selected_report_equivalents": 20.900000000000002,
+            "signal_capture": 0.23636363636363636,
+            "precision": 0.6220095693779903,
+            "case_capture": 0.2237442922374429
+          },
+          "0.2": {
+            "selected_report_equivalents": 41.800000000000004,
+            "signal_capture": 0.36363636363636365,
+            "precision": 0.47846889952153104,
+            "case_capture": 0.3378995433789954
+          },
+          "0.3": {
+            "selected_report_equivalents": 62.699999999999996,
+            "signal_capture": 0.5218181818181817,
+            "precision": 0.4577352472089314,
+            "case_capture": 0.49178082191780814
+          }
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 14.735194833017886,
+  "runtime": {
+    "Python": "3.12.14",
+    "NumPy": "2.3.5",
+    "pandas": "2.2.3",
+    "system": "Darwin",
+    "machine": "arm64"
+  },
+  "input_sha256": {
+    "model/model_coefficients.csv": "0656feb8cacb3227e0c7ae78ed28771981de6978e4c3b18563295f9577124035",
+    "model/training_feature_scaling.csv": "d9a802bc8acc9c1e7964e14127ec7ca2df74ca819652cb48ffc3736bcecdfe01",
+    "model/model_metadata.json": "015f0112d31bfdd48825790603e2b735fbd2ab95686c727a9dbffca7d4850ea5",
+    "data/derived/prediction/heldout_predictions.csv": "aeffb6ffab2344ac4fcf833761114b0b54811fac2e3f386b262d9e55f9c2c77f",
+    "data/derived/prediction/lagged_prediction_cohort.csv.gz": "96f921cbf12f8a335bce0118411c9526f108e2e5bd98a777f270e77bc0974517"
+  },
+  "limitations": [
+    "Checks reproduce archived frozen point estimates, not all inferential intervals or P values.",
+    "Training uncertainty is not estimated; no model retraining or recalibration.",
+    "The prediction target is an aggregate annual SSI signal; captured SSIs are not prevented infections."
+  ]
+}

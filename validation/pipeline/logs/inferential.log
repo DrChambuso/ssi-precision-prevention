@@ -1,0 +1,27 @@
+Models: 116  Warnings: 0  Skipped/failed: 25 
+                                            model       term log_effect
+alert_lag1 Next_report_alert_prior_alert_adjusted alert_lag1  0.5782179
+            robust_SE   effect   lower    upper        z             p reports
+alert_lag1 0.02395328 1.782858 1.70109 1.868557 24.13941 9.646896e-129   57485
+           sites operations SSI_cases alerts converged
+alert_lag1   431    5711060     32203  10174      TRUE
+                                               model      term log_effect
+history01 Next_report_alert_two_year_memory_adjusted history01  0.5849447
+history10 Next_report_alert_two_year_memory_adjusted history10  0.4528073
+history11 Next_report_alert_two_year_memory_adjusted history11  0.8414202
+           robust_SE   effect    lower    upper        z             p reports
+history01 0.02923444 1.794892 1.694936 1.900742 20.00875  4.620462e-89   46465
+history10 0.02982170 1.572721 1.483430 1.667387 15.18382  4.526528e-52   46465
+history11 0.03427682 2.319659 2.168938 2.480854 24.54779 4.566683e-133   46465
+          sites operations SSI_cases alerts converged
+history01   404    4796726     27584   8571      TRUE
+history10   404    4796726     27584   8571      TRUE
+history11   404    4796726     27584   8571      TRUE
+                             group units sites events high_units low_units
+exp(coef)  All ages and procedures 10081   431   4191       1608      8473
+exp(coef)1                   Adult  8352   430   3931       1506      6846
+exp(coef)2               Pediatric  1729   364    260        102      1627
+                 HR    lower    upper            p  robust_SE iterations
+exp(coef)  1.599047 1.480325 1.727290 8.691431e-33 0.03936092          4
+exp(coef)1 1.589718 1.469341 1.719958 8.466218e-31 0.04017577          4
+exp(coef)2 1.820559 1.351251 2.452864 8.178389e-05 0.15210116          4

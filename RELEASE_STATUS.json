@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0-rc2",
+  "prepared_date": "2026-10-22",
+  "technical_status": "verified for the executed scope below",
+  "public_release_status": "GitHub paper-associated release package; see the version-specific release for publication status",
+  "public_repository": "https://github.com/DrChambuso/ssi-precision-prevention",
+  "version_archive_doi": null,
+  "software_license": null,
+  "verification": {
+    "source_count_and_hash_verification": {
+      "passed": true,
+      "files": 22,
+      "rows": 78583
+    },
+    "frozen_model": {
+      "status": "pass",
+      "checks": 180
+    },
+    "analytical_pipeline": {
+      "completed_stages": 23,
+      "compared_tables": 28,
+      "all_comparisons_passed": true,
+      "maximum_absolute_difference": 8.271806125530277e-25
+    },
+    "portable_relocation_review": "pass",
+    "final_vectors": {
+      "pdf_files": 32,
+      "pages": 56,
+      "displayed_raster_images": 0
+    },
+    "main_figure_12": {
+      "archived_and_regenerated_text_equal": true,
+      "render_pixel_identical_144dpi": true,
+      "source": "figures/main/Main_Figure_12.pdf",
+      "regenerated": "generated_figures/main12/Fig_14_bold_panel_a_vector.pdf",
+      "note": "Regeneration reads archived derived tables and verified display cache; it does not refit models or rerun bootstrap inference."
+    }
+  },
+  "remaining_release_gates": [
+    "Institutional software license approval remains pending; public sharing is authorized without granting a software license.",
+    "Choose the actual public repository/archive and its version-specific identifier; update CITATION.cff and section2.17 only after confirming access.",
+    "Confirm the main-manuscript figure numbering gap (6 and7) and figure11 caption against final artwork.",
+    "Raw national PDF-to-page-text extraction and every historical final editorial layout are not claimed as completely automated or rerun. Preserve the documented scope limits."
+  ],
+  "original_manuscript_modified": false,
+  "source_data_and_software_rights": "Separate; see THIRD_PARTY_NOTICES.md",
+  "runtime_output_directories_excluded_from_release": [
+    "results",
+    "generated_figures",
+    "__pycache__",
+    ".venv",
+    ".git"
+  ],
+  "software_license_status": "pending institutional approval",
+  "public_sharing_authorized": true,
+  "institutional_license_approved": false,
+  "supersedes": "1.0.0-rc1 (metadata and publication preparation only)",
+  "repository_access": "public",
+  "author_account": "DrChambuso",
+  "version_link_type": "GitHub full commit permalink and version-specific release; no DOI assigned",
+  "release_tag": "v1.0.0-rc2",
+  "release_target_url": "https://github.com/DrChambuso/ssi-precision-prevention/releases/tag/v1.0.0-rc2",
+  "code_doi_assigned": false
+}

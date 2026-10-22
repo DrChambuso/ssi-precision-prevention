@@ -1,0 +1,64 @@
+                   outcome                          F 
+"Organ/space report share"         "3.69714637271881" 
+                         p               permutations 
+       "0.102380952380952"                      "840" 
+                       df1                        df2 
+                       "2"                        "9" 
+                   outcome                          F 
+"Conditional MRSA percent"         "3.93214676901718" 
+                         p               permutations 
+      "0.0357142857142857"                       "84" 
+                       df1                        df2 
+                       "2"                        "7" 
+
+Call:
+lm(formula = percent_mrsa ~ factor(age) + factor(ecotype), data = A)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-12.210  -3.337   1.863   3.639   8.290 
+
+Coefficients:
+                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            50.737      5.851   8.671 5.43e-05 ***
+factor(age)pediatric  -16.174      6.072  -2.664   0.0323 *  
+factor(ecotype)2      -16.826      6.072  -2.771   0.0277 *  
+factor(ecotype)3      -11.463      7.698  -1.489   0.1801    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 7.074 on 7 degrees of freedom
+Multiple R-squared:  0.6791,	Adjusted R-squared:  0.5416 
+F-statistic: 4.938 on 3 and 7 DF,  p-value: 0.03772
+
+                         2.5 %    97.5 %
+(Intercept)           36.90043 64.573254
+factor(age)pediatric -30.53241 -1.814961
+factor(ecotype)2     -31.18504 -2.467592
+factor(ecotype)3     -29.66616  6.739847
+                       outcome                              F 
+"Conditional MRSA ecotype1vs2"             "8.21400229202352" 
+                             p                   permutations 
+          "0.0714285714285714"                           "14" 
+                           df1                            df2 
+                           "1"                            "6" 
+                                        outcome         F          p
+Superficial incisional   Superficial incisional 0.8130709 0.57738095
+Deep incisional                 Deep incisional 3.1746529 0.16666667
+Organ/space                         Organ/space 3.6971464 0.10238095
+1                      Conditional MRSA percent 3.9321468 0.03571429
+                       permutations profiles      BH_q
+Superficial incisional          840       13 0.5773810
+Deep incisional                 840       13 0.2222222
+Organ/space                     840       13 0.2047619
+1                                84       11 0.1428571
+                                               unit
+Superficial incisional Age-procedure source profile
+Deep incisional        Age-procedure source profile
+Organ/space            Age-procedure source profile
+1                      Age-procedure source profile
+                                                                             test
+Superficial incisional Exact age-blocked profile permutation, partial-F statistic
+Deep incisional        Exact age-blocked profile permutation, partial-F statistic
+Organ/space            Exact age-blocked profile permutation, partial-F statistic
+1                      Exact age-blocked profile permutation, partial-F statistic

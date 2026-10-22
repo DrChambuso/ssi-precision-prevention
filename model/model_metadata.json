@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "coefficient_file": "model_coefficients.csv",
+  "scaling_file": "training_feature_scaling.csv",
+  "reference_age": "Adult",
+  "reference_procedure": "Abdominal aortic aneurysm repair",
+  "known_ages": [
+    "Adult",
+    "Pediatric"
+  ],
+  "known_procedures": [
+    "Abdominal aortic aneurysm repair",
+    "Appendix surgery",
+    "Bile duct, liver or pancreatic surgery",
+    "Cardiac surgery",
+    "Cesarean section",
+    "Colon surgery",
+    "Coronary bypass, chest and donor incisions",
+    "Coronary bypass, chest incision only",
+    "Exploratory abdominal surgery (laparotomy)",
+    "Gallbladder surgery",
+    "Gastric surgery",
+    "Heart transplant",
+    "Hip prosthesis",
+    "Hysterectomy, abdominal",
+    "Hysterectomy, vaginal",
+    "Kidney surgery",
+    "Kidney transplant",
+    "Knee prosthesis",
+    "Laminectomy",
+    "Liver transplant",
+    "Open reduction of fracture",
+    "Ovarian surgery",
+    "Pacemaker surgery",
+    "Rectal surgery",
+    "Small bowel surgery",
+    "Spinal fusion",
+    "Spleen surgery",
+    "Thoracic surgery"
+  ],
+  "training_years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "california_test_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "score_significant_digits": 12,
+  "transformation": "Natural logarithms; training-only sample standard deviation (ddof=1); fixed half-count0.5 for the specified numerator and denominator transformations.",
+  "unit": "annual hospital-age-procedure service report",
+  "target": "observed target-year SSI count exceeds source-predicted count",
+  "not_for_patient_level_prediction": true
+}

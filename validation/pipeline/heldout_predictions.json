@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_new_prediction/heldout_predictions.csv",
+  "rows": 18341,
+  "numeric_columns": 32,
+  "maximum_absolute_difference": 0.0,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

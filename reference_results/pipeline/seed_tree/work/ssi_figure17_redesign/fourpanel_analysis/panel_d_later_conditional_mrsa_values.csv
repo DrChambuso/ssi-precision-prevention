@@ -1,0 +1,12 @@
+"profile_id","age","category","percent_mrsa","percent_tested","reported_s_aureus","compatible_tested_min","compatible_tested_max","compatible_mrsa_min","compatible_mrsa_max","n_ssi_pathogen_reports","source_table","ecotype"
+"adult|2018-2021|Abdominal","adult","Abdominal",52.6,91.4,6407,5853,5859,3076,3084,112285,"Table 16",1
+"adult|2018-2021|Breast","adult","Breast",21.7,86.5,769,665,665,144,144,2325,"Table 17",2
+"adult|2018-2021|Cardiac","adult","Cardiac",33.5,91.2,2574,2347,2348,786,787,10506,"Table 16",2
+"adult|2018-2021|Neurosurgical","adult","Neurosurgical",29.1,90.2,846,763,763,222,222,3921,"Table 17",2
+"adult|2018-2021|Ob/Gyn","adult","Ob/Gyn",38.7,91.6,3025,2770,2772,1071,1074,26181,"Table 16",2
+"adult|2018-2021|Orthopedic","adult","Orthopedic",36.4,90.2,18744,16898,16916,6143,6165,55613,"Table 16",2
+"adult|2018-2021|Vascular","adult","Vascular",42.2,93.5,611,571,571,241,241,2801,"Table 17",2
+"pediatric|2018-2021|Abdominal","pediatric","Abdominal",32.7,90.5,220,199,199,65,65,3060,"Table P10",1
+"pediatric|2018-2021|Cardiac","pediatric","Cardiac",17.2,84.8,171,145,145,25,25,427,"Table P10",3
+"pediatric|2018-2021|Neurosurgical","pediatric","Neurosurgical",29,83.7,202,169,169,49,49,793,"Table P10",3
+"pediatric|2018-2021|Orthopedic","pediatric","Orthopedic",19.6,86.1,273,235,235,46,46,892,"Table P10",2

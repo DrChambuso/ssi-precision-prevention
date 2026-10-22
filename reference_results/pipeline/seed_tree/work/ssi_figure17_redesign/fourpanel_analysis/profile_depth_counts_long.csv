@@ -1,0 +1,70 @@
+profile_id,depth,count,total,proportion
+adult|2015-2017|Abdominal,Superficial incisional,25120,83297,0.30157148516753307
+adult|2015-2017|Abdominal,Deep incisional,9637,83297,0.1156944427770508
+adult|2015-2017|Abdominal,Organ/space,48540,83297,0.5827340720554162
+adult|2015-2017|Cardiac,Superficial incisional,3907,8647,0.4518330056667052
+adult|2015-2017|Cardiac,Deep incisional,2588,8647,0.29929455302417024
+adult|2015-2017|Cardiac,Organ/space,2152,8647,0.24887244130912456
+adult|2015-2017|Ob/Gyn,Superficial incisional,10851,20345,0.5333497173752765
+adult|2015-2017|Ob/Gyn,Deep incisional,2616,20345,0.1285819611698206
+adult|2015-2017|Ob/Gyn,Organ/space,6878,20345,0.3380683214549029
+adult|2015-2017|Orthopedic,Superficial incisional,9798,36147,0.2710598389907876
+adult|2015-2017|Orthopedic,Deep incisional,15362,36147,0.424986859213766
+adult|2015-2017|Orthopedic,Organ/space,10987,36147,0.3039533017954464
+adult|2015-2017|Other procedures,Superficial incisional,1885,5697,0.3308758995962787
+adult|2015-2017|Other procedures,Deep incisional,1962,5697,0.344391785150079
+adult|2015-2017|Other procedures,Organ/space,1850,5697,0.32473231525364227
+adult|2018-2021|Abdominal,Superficial incisional,28873,112285,0.2571403125974084
+adult|2018-2021|Abdominal,Deep incisional,7449,112285,0.06634011666740883
+adult|2018-2021|Abdominal,Organ/space,75963,112285,0.6765195707351828
+adult|2018-2021|Breast,Superficial incisional,913,2325,0.39268817204301076
+adult|2018-2021|Breast,Deep incisional,932,2325,0.40086021505376346
+adult|2018-2021|Breast,Organ/space,480,2325,0.2064516129032258
+adult|2018-2021|Cardiac,Superficial incisional,4642,10506,0.44184275652008376
+adult|2018-2021|Cardiac,Deep incisional,2483,10506,0.2363411383971064
+adult|2018-2021|Cardiac,Organ/space,3381,10506,0.32181610508280983
+adult|2018-2021|Neurosurgical,Superficial incisional,462,3921,0.11782708492731446
+adult|2018-2021|Neurosurgical,Deep incisional,665,3921,0.1695995919408314
+adult|2018-2021|Neurosurgical,Organ/space,2794,3921,0.7125733231318541
+adult|2018-2021|Ob/Gyn,Superficial incisional,13546,26181,0.5173981131354799
+adult|2018-2021|Ob/Gyn,Deep incisional,2154,26181,0.08227340437722012
+adult|2018-2021|Ob/Gyn,Organ/space,10481,26181,0.40032848248729996
+adult|2018-2021|Orthopedic,Superficial incisional,13596,55613,0.24447521263014044
+adult|2018-2021|Orthopedic,Deep incisional,20789,55613,0.3738154747990578
+adult|2018-2021|Orthopedic,Organ/space,21228,55613,0.3817093125708018
+adult|2018-2021|Vascular,Superficial incisional,1290,2801,0.46054980364155657
+adult|2018-2021|Vascular,Deep incisional,1142,2801,0.4077115315958586
+adult|2018-2021|Vascular,Organ/space,369,2801,0.13173866476258478
+adult|2018-2021|Other procedures,Superficial incisional,666,2037,0.3269513991163476
+adult|2018-2021|Other procedures,Deep incisional,572,2037,0.2808051055473736
+adult|2018-2021|Other procedures,Organ/space,799,2037,0.39224349533627884
+pediatric|2015-2017|Abdominal,Superficial incisional,688,2215,0.31060948081264106
+pediatric|2015-2017|Abdominal,Deep incisional,158,2215,0.07133182844243792
+pediatric|2015-2017|Abdominal,Organ/space,1369,2215,0.618058690744921
+pediatric|2015-2017|Cardiac,Superficial incisional,142,312,0.4551282051282051
+pediatric|2015-2017|Cardiac,Deep incisional,48,312,0.15384615384615385
+pediatric|2015-2017|Cardiac,Organ/space,122,312,0.391025641025641
+pediatric|2015-2017|Neurosurgical,Superficial incisional,44,419,0.10501193317422435
+pediatric|2015-2017|Neurosurgical,Deep incisional,49,419,0.11694510739856802
+pediatric|2015-2017|Neurosurgical,Organ/space,326,419,0.7780429594272077
+pediatric|2015-2017|Orthopedic,Superficial incisional,148,487,0.30390143737166325
+pediatric|2015-2017|Orthopedic,Deep incisional,266,487,0.5462012320328542
+pediatric|2015-2017|Orthopedic,Organ/space,73,487,0.14989733059548255
+pediatric|2015-2017|Other procedures,Superficial incisional,53,93,0.5698924731182796
+pediatric|2015-2017|Other procedures,Deep incisional,19,93,0.20430107526881722
+pediatric|2015-2017|Other procedures,Organ/space,21,93,0.22580645161290322
+pediatric|2018-2021|Abdominal,Superficial incisional,902,3060,0.29477124183006537
+pediatric|2018-2021|Abdominal,Deep incisional,188,3060,0.06143790849673202
+pediatric|2018-2021|Abdominal,Organ/space,1970,3060,0.6437908496732027
+pediatric|2018-2021|Cardiac,Superficial incisional,151,427,0.35362997658079626
+pediatric|2018-2021|Cardiac,Deep incisional,47,427,0.11007025761124122
+pediatric|2018-2021|Cardiac,Organ/space,229,427,0.5362997658079626
+pediatric|2018-2021|Neurosurgical,Superficial incisional,68,793,0.08575031525851198
+pediatric|2018-2021|Neurosurgical,Deep incisional,42,793,0.05296343001261034
+pediatric|2018-2021|Neurosurgical,Organ/space,683,793,0.8612862547288777
+pediatric|2018-2021|Orthopedic,Superficial incisional,231,892,0.2589686098654709
+pediatric|2018-2021|Orthopedic,Deep incisional,439,892,0.492152466367713
+pediatric|2018-2021|Orthopedic,Organ/space,222,892,0.24887892376681614
+pediatric|2018-2021|Other procedures,Superficial incisional,55,110,0.5
+pediatric|2018-2021|Other procedures,Deep incisional,32,110,0.2909090909090909
+pediatric|2018-2021|Other procedures,Organ/space,23,110,0.20909090909090908

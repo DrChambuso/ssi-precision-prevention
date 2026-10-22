@@ -1,0 +1,39 @@
+                                 comparison       HR     lower    upper
+severity1 Severity 1 versus no baseline SSI 1.096212 0.9507932 1.263873
+severity2 Severity 2 versus no baseline SSI 1.679466 1.4921969 1.890237
+severity3 Severity 3 versus no baseline SSI 1.594117 1.4432183 1.760794
+           robust_SE            p         q_BH
+severity1 0.07261338 2.058466e-01 2.058466e-01
+severity2 0.06032072 8.303263e-18 1.245490e-17
+severity3 0.05073793 3.900794e-20 1.170238e-19
+                              chisq df                p
+severity                   33.98087  3 0.00000019996934
+log1p(baseline_operations) 14.69134  1 0.00012662686574
+log1p(baseline_expected)    5.22844  1 0.02222045034032
+GLOBAL                     42.14210  5 0.00000005512983
+                          comparison followup_year        HR     lower    upper
+1  Severity 1 versus no baseline SSI             1 1.2025466 1.0127109 1.427968
+2  Severity 2 versus no baseline SSI             1 1.9701471 1.7055258 2.275826
+3  Severity 3 versus no baseline SSI             1 2.0275731 1.7753433 2.315638
+4  Severity 1 versus no baseline SSI             3 1.0684085 0.9136571 1.249371
+5  Severity 2 versus no baseline SSI             3 1.5364612 1.3466007 1.753091
+6  Severity 3 versus no baseline SSI             3 1.4125322 1.2699533 1.571119
+7  Severity 1 versus no baseline SSI             5 0.9969903 0.8057466 1.233626
+8  Severity 2 versus no baseline SSI             5 1.3284924 1.1027127 1.600500
+9  Severity 3 versus no baseline SSI             5 1.1433311 0.9758811 1.339514
+10 Severity 1 versus no baseline SSI             9 0.9137702 0.6695714 1.247031
+11 Severity 2 versus no baseline SSI             9 1.1060728 0.8384099 1.459187
+12 Severity 3 versus no baseline SSI             9 0.8759605 0.6846047 1.120803
+              p         q_BH
+1  3.537057e-02 3.537057e-02
+2  3.119094e-20 4.678640e-20
+3  1.834204e-25 5.502613e-25
+4  4.071777e-01 4.071777e-01
+5  1.747155e-10 2.985088e-10
+6  1.990059e-10 2.985088e-10
+7  9.778694e-01 9.778694e-01
+8  2.800782e-03 8.402347e-03
+9  9.735261e-02 1.460289e-01
+10 5.697498e-01 5.697498e-01
+11 4.757290e-01 5.697498e-01
+12 2.922885e-01 5.697498e-01

@@ -1,0 +1,8 @@
+22 
+ 
+1. As classified by CDC's 2022 Special Report: COVID-19 U.S. Impact on Antimicrobial Resistance 
+2. The top 4 surgical categories by pathogen volume are shown in this table. Refer to CDC’s Antibiotic Resistance & Patient Safety Portal for antimicrobial resistance data for each NHSN 
+procedure code. 
+3. Consists of E.coli, Klebsiella oxytoca, Klebsiella pneumoniae, Klebsiella aerogenes, and Enterobacter spp. 
+4. Consists of E.coli, Klebsiella oxytoca, and Klebsiella pneumoniae. 
+ 

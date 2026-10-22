@@ -1,0 +1,46 @@
+14 
+ 
+Table P10. Percent of SSI Pathogens That Were Resistant to Selected Antimicrobials and Classified as "Urgent" or "Serious" Antimicrobial Resistant Threats1 for High-volume Surgical 
+Categories2, Pediatrics, 2018-2021 
+ All Surgery Types Abdominal Orthopedic Neurosurgical Cardiac 
+Pathogen, Antimicrobial Phenotype 
+# 
+Reported 
+% 
+Tested %R # Reported 
+% 
+Tested %R 
+# 
+Reported 
+% 
+Tested %R # Reported 
+% 
+Tested %R # Reported 
+% 
+Tested %R 
+Urgent Threats                               
+Acinetobacter spp. 20     2     3     11     2     
+Carbapenem-NS   . .   . .   . .   . .   . . 
+                                
+Select Enterobacterales3 1,386     1,014     223     105     32     
+Carbapenem-resistant (CRE)   75.6 1.0   75.5 1.2   71.7 0.6   82.9 0.0   78.1 0.0 
+                                
+Serious Threats                               
+Select Enterobacterales4 1,079     834     152     69     15     
+Extended-spectrum cephalosporin-NS   86.2 17.0   85.3 17.4   85.5 17.7   95.7 7.6   . . 
+                                
+Enterobacter spp. 286     169     64     33     17     
+Cefepime-NS   83.9 9.2   84.0 9.9   82.8 7.5   78.8 7.7   . . 
+                                
+Enterococcus faecalis 306     235     21     21     25     
+Vancomycin-resistant (VRE)   86.9 0.0   88.1 0.0   . .   . .   80.0 0.0 
+                                
+Enterococcus faecium 62     54     7     1     0     
+Vancomycin-resistant (VRE)   90.3 12.5   90.7 10.2   . .   . .   . . 
+                                
+Pseudomonas aeruginosa 449     253     100     64     26     
+Multidrug-resistant (MDR)   95.5 1.4   98.4 1.6   96.0 2.1   87.5 0.0   88.5 0.0 
+                                
+Staphylococcus aureus 891     220     273     202     171     
+Meth/ox/cefox - resistant (MRSA)   86.6 25.4   90.5 32.7   86.1 19.6   83.7 29.0   84.8 17.2 
+Note: Percent resistance is not calculated when the number of tested isolates is < 20. Refer to Technical Resources for more information about phenotype definitions, acronyms, and terms used in this table.   

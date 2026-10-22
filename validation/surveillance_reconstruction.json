@@ -1,0 +1,188 @@
+{
+  "passed": true,
+  "counts": {
+    "source_rows": 78583,
+    "annual_reports": 72854,
+    "operations": 6737972,
+    "ssis": 37525,
+    "hospitals": 469,
+    "procedures": 28,
+    "signals": 12032,
+    "two_half_year_annual_reports": 5729
+  },
+  "checks": {
+    "operations": {
+      "pass": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "ssi_cases": {
+      "pass": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "predicted_ssi_cases": {
+      "pass": true,
+      "maximum_absolute_difference": 1.7763568394002505e-15
+    },
+    "source_rows_combined": {
+      "pass": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "previous_year_operations": {
+      "pass": true
+    },
+    "previous_year_ssi_cases": {
+      "pass": true
+    },
+    "previous_year_predicted_ssi_cases": {
+      "pass": true
+    },
+    "two_years_earlier_operations": {
+      "pass": true
+    },
+    "two_years_earlier_ssi_cases": {
+      "pass": true
+    },
+    "two_years_earlier_predicted_ssi_cases": {
+      "pass": true
+    },
+    "three_years_earlier_operations": {
+      "pass": true
+    },
+    "three_years_earlier_ssi_cases": {
+      "pass": true
+    },
+    "three_years_earlier_predicted_ssi_cases": {
+      "pass": true
+    },
+    "signal_rule": {
+      "pass": true
+    },
+    "zero_predicted_ratio_rule": {
+      "pass": true
+    },
+    "eligible_values": {
+      "pass": true
+    },
+    "population_totals": {
+      "pass": true
+    }
+  },
+  "issues": [],
+  "raw_source_files_verified_this_run": [
+    {
+      "filename": "ssi-in-adult-patients-2016.csv",
+      "sha256": "d1831fc965994f05c385cbd1ce5689d63ad597472ad2ef68e6e9f8bc022b3c50",
+      "verified_rows": 6431
+    },
+    {
+      "filename": "ssi-in-adult-patients-2017.csv",
+      "sha256": "76acbef16dbf8d9f08eebdb32701da3251dab359b30da1ce93d87f5480194a52",
+      "verified_rows": 6464
+    },
+    {
+      "filename": "ssi-in-adult-patients-2018.csv",
+      "sha256": "548d92399aa9fbcf435e0641f44029eb9ca3f6c1b957611950846050f3f13d6d",
+      "verified_rows": 6412
+    },
+    {
+      "filename": "ssi-in-adult-patients-2019.csv",
+      "sha256": "f4b9c48e872361db1cf8bc770a0d01128c39b7b753537bbf2d309101c08dba46",
+      "verified_rows": 6303
+    },
+    {
+      "filename": "ssi-in-adult-patients-2021.csv",
+      "sha256": "21577ebb16344a23b1a3da247e0ee2b03f80b0aab6dc3b5dbb8c82cc561ae02a",
+      "verified_rows": 6139
+    },
+    {
+      "filename": "ssi-in-adult-patients-2022.csv",
+      "sha256": "d0cc9015151b0b5fce3d9573843f07ed6a60bbaa2db187d548789e6bc6d21af0",
+      "verified_rows": 6092
+    },
+    {
+      "filename": "ssi-in-adult-patients-2023.csv",
+      "sha256": "c7b2fdfb99bba98ac1ad31204c8f87abaf0ca30ad9623827c727669cbce21f09",
+      "verified_rows": 6038
+    },
+    {
+      "filename": "ssi-in-adult-patients-2024.csv",
+      "sha256": "1f62da979c741a405ce98966bec6e21924e443be5fe327e3849f23a60a417ccd",
+      "verified_rows": 5928
+    },
+    {
+      "filename": "ssi-in-adult-patients-2025.csv",
+      "sha256": "22d63cda928efd333ff987293337d56e366839b9f1319cb1f4019ce0aa3fa8a0",
+      "verified_rows": 5896
+    },
+    {
+      "filename": "ssi-in-adult-patients-january-1-june-30-2020-updated-annually.csv",
+      "sha256": "fd4ee70529d7ee5ea78b377e5ba026585b977105b3e3f063698412070088e663",
+      "verified_rows": 5384
+    },
+    {
+      "filename": "ssi-in-adult-patients-july-1-december-31-2020-updated-annually.csv",
+      "sha256": "2a0ee37607b1fdb544e896dcaa560fe1ce4773a720cea5ad3395a00be1a70497",
+      "verified_rows": 5658
+    },
+    {
+      "filename": "ssi-in-pediatric-patients-2016.csv",
+      "sha256": "1155b2fc44af686dcf20f84553ed112ad99d527eb89fae622fdddd1a27027368",
+      "verified_rows": 1494
+    },
+    {
+      "filename": "ssi-in-pediatric-patients-2017.csv",
+      "sha256": "3bdd21d83f15a9ac5b8780c94c36212b3e22d5026ea8602a224fcd59581c60d1",
+      "verified_rows": 1431
+    },
+    {
+      "filename": "ssi-in-pediatric-patients-2018.csv",
+      "sha256": "a747edc21f2552ae0d04ed50364fe34f4827c00a491772645344afc7d723637c",
+      "verified_rows": 1415
+    },
+    {
+      "filename": "ssi-in-pediatric-patients-2019.csv",
+      "sha256": "3dc09f202119ea810779173ded7170f56b55ccfce6e405cdfb1e77efe9a19d38",
+      "verified_rows": 1367
+    },
+    {
+      "filename": "ssi-in-pediatric-patients-2022.csv",
+      "sha256": "a56c13d24de4de52c317b9b2faa402c65105eb9d78a0ee75d2ce420cde3a9e9c",
+      "verified_rows": 1237
+    },
+    {
+      "filename": "ssi-in-pediatric-patients-2023.csv",
+      "sha256": "279f64ac1abc1f83871faa0070d56a1e3de853386b17937b4bc9e636d6f638b5",
+      "verified_rows": 1240
+    },
+    {
+      "filename": "ssi-in-pediatric-patients-2024.csv",
+      "sha256": "ed5c622d962071d06fc75c47e62c2a03063aa03ac65a0b9471b6a0a738e0306b",
+      "verified_rows": 344
+    },
+    {
+      "filename": "ssi-in-pediatric-patients-2025.csv",
+      "sha256": "1e7608d4c503268cd2b1e40cfdfe36758e09913cc828c5037ed4ab635e1405c3",
+      "verified_rows": 320
+    },
+    {
+      "filename": "ssi-in-pediatric-patients-january-1-december-31-2021.csv",
+      "sha256": "ca29f6dcd8cd15c4e2cdea463feecff8a7a80d9694f9fb8cc528a0785654e919",
+      "verified_rows": 1116
+    },
+    {
+      "filename": "ssi-in-pediatric-patients-january-1-june-30-2020-updated-annually.csv",
+      "sha256": "5c823732bdab6d1ed490bd2d5229037fb42a44a0a2d9e349cf656db1d692cee0",
+      "verified_rows": 924
+    },
+    {
+      "filename": "ssi-in-pediatric-patients-july-1-december-31-2020-updated-annually.csv",
+      "sha256": "00eab97f6cf8fa4f9582310f0df6acf03991feb7d81fea21d8eb87d0bb02bc67",
+      "verified_rows": 950
+    }
+  ],
+  "raw_source_validation": "all original counts and hashes verified",
+  "seconds": 2.762330584228039,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3"
+}

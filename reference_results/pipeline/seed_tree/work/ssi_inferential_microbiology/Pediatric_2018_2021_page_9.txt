@@ -1,0 +1,51 @@
+9 
+ 
+Table P7. The Top 15 SSI Pathogens Reported to NHSN Following Surgery Types1 with High Pathogen Volume, Pediatrics, 2018-2021 
+ 
+  All Surgery Types1 Abdominal2 Orthopedic3 Neurosurgical4 Cardiac5 
+Pathogen 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+Staphylococcus aureus 891 16.9 1 220 7.2 5 273 30.6 1 202 25.5 1 171 40.0 1 
+Escherichia coli 872 16.5 2 725 23.7 1 100 11.2 2 30 3.8 8 11 2.6 7 
+Pseudomonas aeruginosa 449 8.5 3 253 8.3 3 100 11.2 2 64 8.1 3 26 6.1 3 
+Coagulase-negative 
+staphylococci 364 6.9 4 70 2.3 11 54 6.1 6 168 21.2 2 60 14.1 2 
+Viridans group 
+streptococci 316 6.0 5 268 8.8 2 2 0.2 24 32 4.0 7 11 2.6 7 
+Enterococcus faecalis6 306 5.8 6 235 7.7 4 21 2.4 8 21 2.6 10 25 5.9 4 
+Enterobacter spp. 286 5.4 7 169 5.5 7 64 7.2 4 33 4.2 6 17 4.0 5 
+Bacteroides spp. 230 4.4 8 214 7.0 6 12 1.3 11 1 0.1 33 1 0.2 27 
+Select Klebsiella spp. 228 4.3 9 120 3.9 9 59 6.6 5 42 5.3 4 4 0.9 12 
+Candida albicans6 155 2.9 10 127 4.2 8 8 0.9 12 10 1.3 13 8 1.9 9 
+Other Enterococcus spp.6 119 2.3 11 107 3.5 10 8 0.9 12 0 0.0 . 2 0.5 21 
+Proteus spp. 82 1.6 12 30 1.0 14 40 4.5 7 4 0.5 17 3 0.7 14 
+Other Candida spp.6 80 1.5 13 46 1.5 13 7 0.8 15 20 2.5 11 6 1.4 10 
+Serratia spp. 74 1.4 14 17 0.6 18 13 1.5 10 26 3.3 9 17 4.0 5 
+Enterococcus faecium6 62 1.2 15 54 1.8 12 7 0.8 15 1 0.1 33 0 0.0 . 
+Other pathogen 768 14.5   405 13.2   124 13.9   139 17.5   65 15.2   
+Total 5,282 100.0   3,060 100.0   892 100.0   793 100.0   427 100.0   
+Note: Refer to Technical Resources for more information about the acronyms and terms used in this table.   
+Footnotes: 
+1. The top 4 surgical categories by pathogen volume are shown in this table. "All surgery types" consists of all NHSN procedures codes combined and is not limited to the 4 categories 
+shown in the table. 
+2. Some ranks are not shown: Citrobacter spp. (#15, 0.8%). 
+3. Some rankings are not shown: Cutibacterium acnes (#9, 1.8%); Citrobacter spp. (tied for #12, 0.9%); Group A streptococci (tied for #15, 0.8%). 

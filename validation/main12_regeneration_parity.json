@@ -1,0 +1,7 @@
+{
+  "archived_and_regenerated_text_equal": true,
+  "render_pixel_identical_144dpi": true,
+  "source": "figures/main/Main_Figure_12.pdf",
+  "regenerated": "generated_figures/main12/Fig_14_bold_panel_a_vector.pdf",
+  "note": "Regeneration reads archived derived tables and verified display cache; it does not refit models or rerun bootstrap inference."
+}

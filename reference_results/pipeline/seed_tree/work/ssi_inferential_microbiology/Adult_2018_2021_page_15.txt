@@ -1,0 +1,33 @@
+15 
+ 
+Table 12. Percent of CLABSI Pathogens That Were Resistant to Selected Antimicrobials and Classified as "Urgent" or "Serious" Antimicrobial Resistant Threats1, by Location 
+Type, Adults, 2018-2021 
+ Hospital ICUs Hospital Wards Hospital Oncology Units LTACHs 
+Pathogen, Antimicrobial Phenotype # Reported % Tested %R # Reported % Tested %R # Reported % Tested %R # Reported % Tested %R 
+Urgent Threats                         
+Acinetobacter spp. 448     473     63     158     
+Carbapenem-NS   79.9 41.1   77.8 34.2   81.0 15.7   89.9 70.4 
+                          
+Select Enterobacterales2 4,434     7,494     6,488     1,486     
+Carbapenem-resistant (CRE)   73.8 6.4   72.9 5.0   74.4 3.4   87.7 16.5 
+                          
+Serious Threats                         
+Select Enterobacterales3 3,164     5,929     5,699     1,173     
+Extended-spectrum cephalosporin-NS   82.5 33.2   80.5 28.9   81.9 30.5   92.2 49.7 
+                          
+Enterobacter spp. 1,037     1,374     741     277     
+Cefepime-NS   74.9 14.5   76.6 12.6   76.4 11.0   80.5 22.4 
+                          
+Enterococcus faecalis 5,539     3,344     970     1,088     
+Vancomycin-resistant (VRE)   88.3 3.8   88.1 6.7   87.7 4.6   94.7 12.9 
+                          
+Enterococcus faecium 3,200     1,884     1,974     487     
+Vancomycin-resistant (VRE)   90.5 79.1   90.3 74.9   89.6 70.4   96.3 80.0 
+                          
+Pseudomonas aeruginosa 1,316     1,644     1,011     414     
+Multidrug-resistant (MDR)   87.2 14.2   88.8 11.9   88.1 8.5   98.3 25.3 
+                          
+Staphylococcus aureus 3,288     5,914     1,307     910     
+Meth/ox/cefox - resistant (MRSA)   85.5 44.9   86.4 48.0   86.2 43.0   92.5 70.0 
+Note: Refer to Technical Resources for more information about phenotype definitions, acronyms, and terms used in this table.   
+Footnotes: 

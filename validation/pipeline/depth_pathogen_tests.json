@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_inferential_microbiology/depth_pathogen_tests.csv",
+  "rows": 30,
+  "numeric_columns": 21,
+  "maximum_absolute_difference": 1.5930919111324523e-58,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

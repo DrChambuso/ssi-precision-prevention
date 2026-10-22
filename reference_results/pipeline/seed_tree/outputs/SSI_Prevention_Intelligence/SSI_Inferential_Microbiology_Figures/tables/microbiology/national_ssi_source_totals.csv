@@ -1,0 +1,5 @@
+age,period,ssi_events,pathogen_reports,ssi_events_without_pathogen,ssi_events_with_pathogen,fraction_without_pathogen
+adult,2015-2017,132258,154133,27237.0,105021.0,0.20593839314067958
+adult,2018-2021,190384,215669,46099.0,144285.0,0.24213694428103202
+pediatric,2015-2017,3218,3526,,,
+pediatric,2018-2021,5054,5282,1292.0,3762.0,0.2556390977443609

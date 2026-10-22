@@ -1,0 +1,33 @@
+2 
+ 
+Table 1. Facilities Reporting at Least 1 HAI Pathogen to NHSN, Adults1, 2018 - 2021 
+ 
+  Facilities Pathogens 
+Facility Type # % # % 
+General 3,195 66.1 415,931 91.8 
+Critical Access 557 11.5 2,650 0.6 
+Long-term Acute Care 439 9.1 17,572 3.9 
+Free-standing Inpatient Rehabilitation 310 6.4 2,659 0.6 
+Veterans' Affairs 106 2.2 1,463 0.3 
+Surgical 87 1.8 1,525 0.3 
+Children’s 40 0.8 419 0.1 
+Military 28 0.6 677 0.1 
+Oncology 20 0.4 7,603 1.7 
+Orthopedic 20 0.4 893 0.2 
+Women's and Children's 13 0.3 514 0.1 
+Women's 12 0.2 965 0.2 
+Psychiatric 9 0.2 69 0.0 
+     
+  Facilities Pathogens 
+Bed Size # % # % 
+1-50 1,618 33.5 19,367 4.3 
+51-100 871 18.0 22,159 4.9 
+101-200 993 20.5 58,133 12.8 
+≥ 201 1,354 28.0 353,281 78.0 
+Total 4,836 100.0 452,940 100.0 
+Note: Refer to Technical Resources for more information about the acronyms and terms used in this 
+table.   
+Footnotes: 
+1. Refer to Methods for criteria used to define adult and pediatric patient populations. 
+ 
+  

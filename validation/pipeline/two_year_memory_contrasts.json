@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_inferential_stats/two_year_memory_contrasts.csv",
+  "rows": 6,
+  "numeric_columns": 7,
+  "maximum_absolute_difference": 0.0,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

@@ -1,0 +1,722 @@
+{
+  "status": "specification recovered from manuscript, supplementary methods and selected original study records; not a full analysis rerun",
+  "audit_date": "2026-10-22",
+  "sources": [
+    {
+      "role": "current_manuscript",
+      "path": "current_work/outputs/Manuscript_with_hypothesis_references.docx",
+      "sha256": "ec48d03b832731acf9e9861c115ed6c89791535f6a8b764c53bbf7428ca54ba3"
+    },
+    {
+      "role": "current_supplement",
+      "path": "current_work/outputs/submission_supplementary_material/Submission_files/Supplementary_Material.docx",
+      "sha256": "249fab164a7d38026f54d9fb2a1e4ed93683dd460ce1174de365420aead2ec46"
+    },
+    {
+      "role": "frozen_coefficients",
+      "path": "archive:final_desktop_data/figure_data/prediction/model_coefficients.csv",
+      "sha256": "0656feb8cacb3227e0c7ae78ed28771981de6978e4c3b18563295f9577124035"
+    },
+    {
+      "role": "frozen_scaling",
+      "path": "archive:final_desktop_data/figure_data/prediction/training_feature_scaling.csv",
+      "sha256": "d9a802bc8acc9c1e7964e14127ec7ca2df74ca819652cb48ffc3736bcecdfe01"
+    },
+    {
+      "role": "R_session",
+      "path": "archive:legacy_integrated_release/reproducibility/R_session_information.txt",
+      "sha256": "1aeffb00a32e0cddf79e25c127eb32d496dadb316aa834cd43ff83e1724a83af"
+    }
+  ],
+  "california_reconstruction": {
+    "observation": "named hospital-age group-procedure-calendar year",
+    "year_range": [
+      2016,
+      2025
+    ],
+    "benchmark_era": 2015,
+    "source_csv_files": 22,
+    "raw_source_rows": 78583,
+    "annual_reports": 72854,
+    "operations": 6737972,
+    "ssis": 37525,
+    "predicted_ssis": 43255.891,
+    "hospitals": 469,
+    "services": 12507,
+    "procedures": 28,
+    "adult": {
+      "reports": 61682,
+      "operations": 6526888,
+      "ssis": 36470
+    },
+    "pediatric": {
+      "reports": 11172,
+      "operations": 211084,
+      "ssis": 1055
+    },
+    "signal_reports": 12032,
+    "zero_predicted_reports": 5025,
+    "signals_with_zero_prediction": 14,
+    "2020_combined_reports": 5729,
+    "2020_rule": "sum nonoverlapping half-year operations, observed SSIs and predicted SSIs within the annual key; do not also sum overlapping annual versions",
+    "hospital_key": "state, county, lowercase alphanumeric normalized facility name",
+    "missing_year_rule": "a missing report is missing, never quiet or zero burden; exact calendar-year lag matching",
+    "source_url": "https://data.chhs.ca.gov/dataset/surgical-site-infections-ssis-for-operative-procedures-in-california-hospitals"
+  },
+  "outcomes": {
+    "signal": "observed_ssis > source_predicted_ssis",
+    "quiet": "observed_ssis <= source_predicted_ssis",
+    "incidence": "1000 * sum(observed_ssis) / sum(operations)",
+    "pooled_oe": "sum(observed_ssis)/sum(source_predicted_ssis)",
+    "zero_expected": "eligible for binary signal, undefined unsmoothed O/E",
+    "intended_use": "prioritize surgical services for local precision-prevention review; infection prevention benefit was not measured"
+  },
+  "cohorts": {
+    "adjacent_year": {
+      "reports": 57485,
+      "operations": 5711060,
+      "ssis": 32203,
+      "signals": 10174
+    },
+    "two_prior_years": {
+      "reports": 46465,
+      "services": 8732,
+      "hospitals": 404
+    },
+    "earlier_context": {
+      "targets": [
+        2022,
+        2025
+      ],
+      "baseline": [
+        2016,
+        2019
+      ],
+      "reports": 19978,
+      "services": 5848,
+      "hospitals": 293,
+      "operations": 2192410,
+      "ssis": 13469
+    },
+    "training": {
+      "targets": [
+        2017,
+        2022
+      ],
+      "reports": 39353,
+      "signals": 6634,
+      "hospitals": 392,
+      "services": 9052,
+      "operations": 3751313,
+      "ssis": 20306
+    },
+    "california_evaluation": {
+      "targets": [
+        2023,
+        2025
+      ],
+      "reports": 18132,
+      "signals": 3540,
+      "hospitals": 337,
+      "services": 7117,
+      "operations": 1959747,
+      "ssis": 11897,
+      "shared_training_hospitals": 298,
+      "shared_training_services": 6088
+    },
+    "oregon": {
+      "target_year": 2017,
+      "predictor_year": 2016,
+      "reports": 209,
+      "hospitals": 46,
+      "operations": 34916,
+      "ssis": 219,
+      "signals": 55,
+      "adult_reports": 201,
+      "pediatric_reports": 8,
+      "pediatric_signals": 1
+    }
+  },
+  "frozen_model": {
+    "model": "unpenalized binomial logistic GLM",
+    "response": "next annual report signal",
+    "reference_age": "Adult",
+    "reference_procedure": "Abdominal aortic aneurysm repair",
+    "numeric_features": {
+      "log_volume": "log(1 + N[t-1])",
+      "log_expected_rate": "log((E[t-1] + 0.5)/(N[t-1] + 1))",
+      "log_prior_sir": "log((O[t-1] + 0.5)/(E[t-1] + 0.5))",
+      "log_history_sir": "log((sum available O[t-1:t-3] + 0.5)/(sum available E[t-1:t-3] + 0.5))"
+    },
+    "history_rule": "t-1 required; older missing years left unfilled; available older counts summed",
+    "scaling": "development sample means and sample standard deviations only; z=(f-center)/scale",
+    "scaling_constants": [
+      {
+        "feature": "log_volume",
+        "center": "3.5377767855724",
+        "scale": "1.56598588367049"
+      },
+      {
+        "feature": "log_expected_rate",
+        "center": "-3.69147842274537",
+        "scale": "1.18305537515656"
+      },
+      {
+        "feature": "log_prior_sir",
+        "center": "-0.185673822549723",
+        "scale": "0.52091922074583"
+      },
+      {
+        "feature": "log_history_sir",
+        "center": "-0.244634246902084",
+        "scale": "0.611989829315017"
+      }
+    ],
+    "coefficients": [
+      {
+        "term": "(Intercept)",
+        "estimate": -3.15142118999327,
+        "SE": 0.503589257077525,
+        "p": 3.90146316648157e-10
+      },
+      {
+        "term": "agePediatric",
+        "estimate": -0.221514806173433,
+        "SE": 0.0659324183961611,
+        "p": 0.000780200410527633
+      },
+      {
+        "term": "procedureAppendix surgery",
+        "estimate": 0.606390838053074,
+        "SE": 0.509125380603558,
+        "p": 0.233636228650579
+      },
+      {
+        "term": "procedureBile duct, liver or pancreatic surgery",
+        "estimate": 2.27296155836821,
+        "SE": 0.508705972655145,
+        "p": 7.89084228903417e-06
+      },
+      {
+        "term": "procedureCardiac surgery",
+        "estimate": 0.80104439840275,
+        "SE": 0.515042666949179,
+        "p": 0.119875312872128
+      },
+      {
+        "term": "procedureCesarean section",
+        "estimate": -0.0050230758476758,
+        "SE": 0.512977341220616,
+        "p": 0.992187236554026
+      },
+      {
+        "term": "procedureColon surgery",
+        "estimate": 2.4151590639556,
+        "SE": 0.506959184912386,
+        "p": 1.89782281016884e-06
+      },
+      {
+        "term": "procedureCoronary bypass, chest and donor incisions",
+        "estimate": 1.47873904069498,
+        "SE": 0.512802596739319,
+        "p": 0.00393105527871399
+      },
+      {
+        "term": "procedureCoronary bypass, chest incision only",
+        "estimate": 1.02236820968424,
+        "SE": 0.532622600387452,
+        "p": 0.0549212932306922
+      },
+      {
+        "term": "procedureExploratory abdominal surgery (laparotomy)",
+        "estimate": 1.24485616631986,
+        "SE": 0.508008166449512,
+        "p": 0.0142671883288762
+      },
+      {
+        "term": "procedureGallbladder surgery",
+        "estimate": 0.867595124698287,
+        "SE": 0.50890659833913,
+        "p": 0.088227641828539
+      },
+      {
+        "term": "procedureGastric surgery",
+        "estimate": 1.60751185791011,
+        "SE": 0.509085852576912,
+        "p": 0.00159049693182827
+      },
+      {
+        "term": "procedureHeart transplant",
+        "estimate": 1.64208658761387,
+        "SE": 0.632832284245754,
+        "p": 0.00946401552894085
+      },
+      {
+        "term": "procedureHip prosthesis",
+        "estimate": 1.48954297234099,
+        "SE": 0.508051865965937,
+        "p": 0.00336925727013193
+      },
+      {
+        "term": "procedureHysterectomy, abdominal",
+        "estimate": 1.41188438294536,
+        "SE": 0.508537038663195,
+        "p": 0.00549704757302271
+      },
+      {
+        "term": "procedureHysterectomy, vaginal",
+        "estimate": 0.905519411189481,
+        "SE": 0.515366989058869,
+        "p": 0.0789113232499699
+      },
+      {
+        "term": "procedureKidney surgery",
+        "estimate": 0.806490120280351,
+        "SE": 0.515453390963984,
+        "p": 0.117671383045995
+      },
+      {
+        "term": "procedureKidney transplant",
+        "estimate": 1.22802861565197,
+        "SE": 0.557631242040371,
+        "p": 0.027649526113973
+      },
+      {
+        "term": "procedureKnee prosthesis",
+        "estimate": 1.06981799051396,
+        "SE": 0.509308611300243,
+        "p": 0.0356822490722928
+      },
+      {
+        "term": "procedureLaminectomy",
+        "estimate": 0.820896899022861,
+        "SE": 0.511167421646343,
+        "p": 0.108290236166846
+      },
+      {
+        "term": "procedureLiver transplant",
+        "estimate": 1.80166331019651,
+        "SE": 0.622807277706643,
+        "p": 0.00381811820642441
+      },
+      {
+        "term": "procedureOpen reduction of fracture",
+        "estimate": 1.34493283600733,
+        "SE": 0.507718615154777,
+        "p": 0.00807368131377159
+      },
+      {
+        "term": "procedureOvarian surgery",
+        "estimate": -0.941197980567079,
+        "SE": 0.523367803720295,
+        "p": 0.0721217150072127
+      },
+      {
+        "term": "procedurePacemaker surgery",
+        "estimate": 0.089062995292792,
+        "SE": 0.515703353220588,
+        "p": 0.862885679592704
+      },
+      {
+        "term": "procedureRectal surgery",
+        "estimate": 1.21304239533945,
+        "SE": 0.514664962768106,
+        "p": 0.0184254565857202
+      },
+      {
+        "term": "procedureSmall bowel surgery",
+        "estimate": 2.28636751789522,
+        "SE": 0.506972006026415,
+        "p": 6.48735908871497e-06
+      },
+      {
+        "term": "procedureSpinal fusion",
+        "estimate": 1.52749037798222,
+        "SE": 0.509054576722451,
+        "p": 0.00269411391806577
+      },
+      {
+        "term": "procedureSpleen surgery",
+        "estimate": 1.22753881338595,
+        "SE": 0.522616587204199,
+        "p": 0.0188323775823983
+      },
+      {
+        "term": "procedureThoracic surgery",
+        "estimate": 0.441918673014797,
+        "SE": 0.513079003131085,
+        "p": 0.389068835348284
+      },
+      {
+        "term": "log_volume_z",
+        "estimate": 0.552823397625425,
+        "SE": 0.0467891350886803,
+        "p": 3.25738887668385e-32
+      },
+      {
+        "term": "log_expected_rate_z",
+        "estimate": -0.72309149679354,
+        "SE": 0.0580498379436083,
+        "p": 1.29080575165215e-35
+      },
+      {
+        "term": "log_prior_sir_z",
+        "estimate": 0.130693607187043,
+        "SE": 0.0173613549820181,
+        "p": 5.15841665695307e-14
+      },
+      {
+        "term": "log_history_sir_z",
+        "estimate": 0.242894211499012,
+        "SE": 0.018632807452833,
+        "p": 7.65242036734716e-39
+      }
+    ],
+    "coefficient_count": 33,
+    "fit_iterations": 6,
+    "max_iterations": 100,
+    "variable_selection": false,
+    "penalty": false,
+    "hyperparameter_tuning": false,
+    "calendar_year_predictor": false,
+    "evaluation_recalibration": false,
+    "score_rounding": "12 significant digits before tie handling",
+    "probability": "1/(1+exp(-linear_predictor))"
+  },
+  "association_models": {
+    "incidence": "Poisson log link, observed SSIs response, log operations offset, age + procedure + categorical target year",
+    "reference_levels": {
+      "age": "Adult",
+      "procedure": "Colon surgery",
+      "year": 2016
+    },
+    "annual_trend": "replace categorical year by year-2016",
+    "late_early": "2016-2019 versus 2022-2025; omit 2020-2021, adjust age",
+    "next_signal": "modified-Poisson, previous signal + log(1+previous operations) + log((previous E+0.5)/(previous N+1)) + age + procedure + categorical target year",
+    "two_year_history": "replace signal with indicators for 01,10,11 versus00; six pairwise contrasts",
+    "standardization": "companion logistic model, counterfactual history on common observed covariate population, average predicted probabilities; delta-method covariance",
+    "earlier_context_extra_covariates": [
+      "log((earlier sum O+0.5)/(earlier sum E+0.5))",
+      "log(1+earlier sum N)"
+    ],
+    "covariance": "hospital-summed score sandwich; finite sample G/(G-1)*(n-1)/(n-p)",
+    "tests": "two-sided normal Wald coefficients, robust rank-adjusted chi-square categorical tests; covariance rank excludes eigenvalues <=1e-10 times largest",
+    "invalid_models": "nonconvergence, singular information or invalid covariance recorded unavailable"
+  },
+  "review_capacity": {
+    "capacities": [
+      0.1,
+      0.2,
+      0.3
+    ],
+    "unit": "equal nominal report slots, pooled held-out reports; not equal staff time, hospitals or patients",
+    "boundary_ties": "same fractional weight within tied score boundary, preserving exact expected selection budget",
+    "signal_capture": "weighted selected target signals / all target signals",
+    "case_capture": "weighted selected target SSI counts / all target SSI counts",
+    "precision": "selected signals / selected report equivalents",
+    "comparators": [
+      "prior SSI count",
+      "prior operation count",
+      "prior smoothed O/E"
+    ],
+    "clinical_limit": "retrospective captured burden is not infections prevented; no exact capacity crossover inferred"
+  },
+  "resampling": [
+    {
+      "analysis": "complete-panel incidence, pooled O/E and signal-frequency descriptive intervals",
+      "draws": 400,
+      "seed": 20261016,
+      "unit": "whole named hospital",
+      "scope": "469-hospital frame"
+    },
+    {
+      "analysis": "original calibration-bin and Brier/log-loss intervals",
+      "draws": 250,
+      "seed": 20261016,
+      "unit": "whole named hospital"
+    },
+    {
+      "analysis": "final AUC, AP and signal-capture paired inference",
+      "draws": 1999,
+      "seed": 20261016,
+      "unit": "whole named hospital",
+      "rng": "NumPy default_rng; hospital integer sampling with bincount multiplicities; sequence depends on dataset/group loop order"
+    },
+    {
+      "analysis": "SSI-case-capture paired comparisons",
+      "draws": 1999,
+      "seed": 20261017,
+      "unit": "whole named hospital",
+      "rng": "NumPy default_rng; multinomial hospital multiplicities"
+    },
+    {
+      "analysis": "absolute five-year follow-up probability differences",
+      "draws": 999,
+      "seed": 20261018,
+      "unit": "whole named hospital",
+      "scope": "431-hospital frame"
+    },
+    {
+      "analysis": "operational-profile later outcome intervals",
+      "draws": 1999,
+      "seed": 20261021,
+      "unit": "whole named hospital",
+      "scope": "337 later hospitals, centroids fixed"
+    },
+    {
+      "analysis": "national-profile depth means",
+      "draws": "exhaustive ordered resampling for n=2 or3, otherwise99999",
+      "seed": "20261020 + group number",
+      "unit": "source profile"
+    },
+    {
+      "analysis": "national-profile report-weighted pooled-share alternatives",
+      "draws": 9999,
+      "seed": "retain exact source implementation; not independently verified here",
+      "unit": "source profile"
+    }
+  ],
+  "prediction_inference": {
+    "interval": "2.5th/97.5th percentiles",
+    "paired_p": "(1+count(abs(d_boot-d_obs)>=abs(d_obs-null)))/(B_valid+1)",
+    "minimum_p_1999": 0.0005,
+    "conditional_on_frozen_model": true,
+    "refit_in_each_draw": false,
+    "valid_draw_rule": "withhold inference if fewer than90% of draws contain both outcomes",
+    "subgroup_minima": {
+      "reports": 30,
+      "hospitals": 10,
+      "each_outcome": 5
+    },
+    "single_method_nulls": {
+      "auc": 0.5,
+      "ap": "jointly resampled signal prevalence",
+      "signal_capture": "capacity"
+    }
+  },
+  "followup": {
+    "baseline": "first eligible2016-2024 report with exact next-year observed report, one entry per service",
+    "services": 10081,
+    "hospitals": 431,
+    "first_signals": 4191,
+    "gap_censored": 3786,
+    "administrative_censored": 2104,
+    "zero_expected_baselines": 692,
+    "outcome": "first annual O>E after baseline",
+    "censoring": "first missing annual report or end2025",
+    "cox": "high baseline + log(1+N) + log(1+E), stratify age/procedure/baseline year, Efron ties, hospital-cluster uncertainty",
+    "time_varying": "high baseline * log(1+t); HR(t)=exp(b_high+b_time*log(1+t)); report t1,3,5,9",
+    "common2018_adult_services": 5846,
+    "restricted_adult_sensitivity_services": 2325
+  },
+  "operational_profiles": {
+    "training_reports": 39353,
+    "features": "same four standardized numeric prior-only frozen-model features",
+    "method": "K-means squared Euclidean Hartigan-Wong",
+    "k": 3,
+    "starts": 100,
+    "max_iterations": 100,
+    "seed": 20261019,
+    "label_order": "increasing training centroid log volume",
+    "training_sizes": [
+      16097,
+      15324,
+      7932
+    ],
+    "evaluation_sizes": [
+      6630,
+      7509,
+      3993
+    ],
+    "assignment": "nearest frozen centroid, first cluster for exact distance tie",
+    "pca": "training standardized features, no additional centering/scaling; project later with same loadings",
+    "hulls": "descriptive footprints, not confidence regions"
+  },
+  "national_microbiology": {
+    "source_strata": [
+      "adult2015-2017",
+      "pediatric2015-2017",
+      "adult2018-2021",
+      "pediatric2018-2021"
+    ],
+    "ssi_events": 330914,
+    "pathogen_reports": 378610,
+    "adult_pathogen_reports": 369802,
+    "category_pathogen_rows": 373,
+    "depth_summary_rows": 123,
+    "pathogen_depth_rows": 64,
+    "amr_rows": 330,
+    "crosswalk": {
+      "abdominal": 10,
+      "orthopedic": 5,
+      "obstetric_gynecologic": 4,
+      "cardiac": 6,
+      "vascular": 1,
+      "kidney": 2
+    },
+    "linkage": "separate aggregate context; no hospital, patient, SSI event or isolate linkage to California",
+    "taxon_tests": "two-sided Fisher exact on category pathogen counts versus all other categories in same age-period stratum",
+    "share_ratio": "(k1/n1)/(k0/n0), log SE=sqrt(1/k1-1/n1+1/k0-1/n0)",
+    "zero_cells": "add0.5 to all four cells for ratio/interval only; exact test uses original counts",
+    "global_test": "Pearson asymptotic chi-square; Cramer V; no Monte Carlo",
+    "repeat_period": "match category-taxon, require stable taxonomy and direction/significance in each period",
+    "amr": "enumerate integer tested/positive counts compatible with one-decimal percentage rounding; do not fill untested organisms",
+    "rounding_tolerance": 1e-09,
+    "amr_compatible_rows": 272,
+    "amr_missing_phenotype_rows": 58,
+    "amr_missing_testing_rows": 14,
+    "proportion_intervals": "Wilson, envelope over compatible count pairs"
+  },
+  "national_profiles": {
+    "discovery_profiles": 10,
+    "later_profiles": 13,
+    "composition": "eight comparable explicit taxa + exact remaining-taxa component, centered log ratio with pseudocount0.5",
+    "method": "unweighted K-means, compare k2,3,4; select k3 by largest mean silhouette",
+    "starts": 1000,
+    "max_iterations": 200,
+    "seed": 20261020,
+    "label_order": "decreasing discovery E.coli share",
+    "pseudocount_sensitivities": [
+      0.25,
+      0.5,
+      1
+    ],
+    "depth_permutations": 840,
+    "mrsa_permutations": 84,
+    "permutation": "exact within-age label assignment, preserving age-block group sizes; partial F age-only versus age+profile model",
+    "mrsa_model": "unweighted age-adjusted linear model with t intervals",
+    "group_sizes": [
+      3,
+      8,
+      2
+    ]
+  },
+  "multiplicity": {
+    "procedure_families": 28,
+    "history_family": 6,
+    "procedure_family_outcome_contrasts": 4,
+    "signal_capture_capacities": 3,
+    "case_capture_comparisons": 6,
+    "operational_profile_pairwise_per_outcome_model": 3,
+    "national_families": {
+      "category_enrichment": 276,
+      "pooled_period_category": 116,
+      "adult_pediatric": 124,
+      "later_earlier": 146,
+      "adult_pathogen_depth": 30,
+      "age_depth": 57,
+      "period_depth": 60,
+      "global_composition": 4,
+      "source_profile_later_outcomes": 4
+    },
+    "method": "Benjamini-Hochberg, retain unavailable tests within planned family size",
+    "underflow_floor": 1e-300
+  },
+  "software_evidence": {
+    "R_archived": {
+      "R": "4.5.0",
+      "survival": "3.8-3",
+      "Matrix": "1.7-3",
+      "platform": "aarch64-apple-darwin20",
+      "OS": "macOS26.6.2",
+      "BLAS": "R libRblas",
+      "LAPACK": "3.12.1"
+    },
+    "python_audit_declared": {
+      "Python": "3.12.14",
+      "pandas": "2.2.3",
+      "NumPy": "2.3.5"
+    },
+    "main_additional_figure_versions_declared": {
+      "NumPy": "2.5.4",
+      "Matplotlib": "3.11.2"
+    },
+    "qualification": "Python versions are documented reanalysis/audit or figure environments; do not infer a single locked original-run environment from these declarations"
+  },
+  "checks_this_audit": {
+    "coefficient_csv_rows": 33,
+    "supplement_coefficient_rows": 33,
+    "max_coefficient_table_difference": 0.0,
+    "max_scaling_table_difference": 0.0,
+    "original_main_preserved": true,
+    "original_supplement_preserved": true,
+    "full_analysis_rerun": false
+  },
+  "release_blockers": [
+    "No confirmed public repository URL, versioned archive DOI or author-selected license in manuscript",
+    "Original scripts use absolute local paths and multiple historical analysis output variants",
+    "Original Python environment not fully locked; current manuscript conflates analysis/audit and later figure versions",
+    "Final figure allocation map required because original source figure numbers differ from final main and supplementary numbering",
+    "Clinical effect on prevented SSIs has not been evaluated; package must preserve retrospective service-level target and denominator limits"
+  ],
+  "figure_bindings": {
+    "current_main": [
+      {
+        "paragraph_index": 138,
+        "legend": "Fig. 1. Procedure-specific SSI incidence, precision, annual burden and reporting pathways connected current burden with later SSI signals. (a) All 28 California surgical procedures, ordered by observed SSI incidence, from 72,854 annual hospital-age-procedure reports covering 6,737,972 operations and 37,525 SSIs in 2016-2025. Blue points and lines show pooled SSI incidence and 95% hospital-bootstrap confidence intervals (CIs); crosses show the rate implied by source-predicted counts. Observed-to-predicted ratios use pooled counts. Annual adjusted incidence rate ratios (aIRRs) and Benjamini-Hochberg q values come from age-adjusted count models with operation offsets and hospital-cluster robust uncertainty. (b) Reporting pathways adjusted risk ratios (aRRs) for a next-year above-predicted report after a prior above-predicted report, with 95% hospital-cluster robust confidence intervals. The all-age comparison reports P; procedure comparisons report Benjamini-Hochberg q across 28 planned tests. NE indicates an unavailable adjusted estimate. "
+      },
+      {
+        "paragraph_index": 159,
+        "legend": "Fig. 2. Procedure similarities, annual surveillance profiles and concordance between procedure incidence and benchmark changes. (a) The average-linkage dendrogram groups 28 procedures by five standardized pooled reporting features: SSI incidence, observed-to-predicted ratio, above-predicted report frequency, next-year signal frequency after a signal, and the SSI share in consecutive above-predicted reports. (b) Procedure evidence columns and annual observed-to-predicted profiles. Cell colors show the four stated ratio intervals; asterisks (*) indicate years with at least 25% above-predicted reports. Clustering summarizes observed reporting patterns, whereas the aRR concerns the independently defined subsequent report. NE, not estimable. (c) Each point is one procedure. Horizontal and vertical coordinates show the pooled late-to-early changes in SSI incidence and the observed-to-predicted SSI ratio, comparing 2022-2025 with 2016-2019. Ratios are shown on log2 scales; the zero-change lines define labeled quadrants. Point colors identify procedure families, area reflects late operative volume, and rings identify procedures with adjusted incidence q<0.05. Quadrant summaries show procedure counts and shares of later SSIs. Codes link points to b. (d) Age-adjusted late-to-early aIRRs, 95% hospital-cluster robust confidence intervals, P values and Benjamini-Hochberg q values for all 28 planned procedure comparisons. NE, not estimable."
+      },
+      {
+        "paragraph_index": 205,
+        "legend": "Fig. 3. Earlier SSI signals and subsequent annual follow-up. (a-c) Kaplan-Meier curves for all 10,081 eligible hospital-age-procedure units, 8,352 adult units and 1,729 pediatric units. Blue and red distinguish baseline SSI counts at or below and above source prediction. Follow-up begins after each unit's first eligible baseline report and stops at the first above-predicted report, reporting gap or administrative end. Adjusted P values come from Cox models stratified by age, procedure and baseline year, controlling baseline operation and predicted SSI counts, with hospital-cluster robust variance. Adult and pediatric annotations retain time-varying adjusted hazard ratios (HRs) at years 1 and 5. (d) The five-year summary for the overall population and six selected procedures, including follow-up SSI counts. All reporting-event outcomes concern annual hospital-procedure reports. Open circles mark censoring."
+      },
+      {
+        "paragraph_index": 239,
+        "legend": "Fig. 4. Procedure-specific timing across the maximum eligible adult population. (a-f) Kaplan-Meier curves for colon, small bowel, spinal fusion, fracture reduction, hip prosthesis and exploratory laparotomy procedures. The six panels include 2,339 adult hospital-procedure units and 1,493 first follow-up alerts. Baselines are each unit's first eligible report in 2016-2024, followed through available consecutive reports in 2017-2025. Blue and red distinguish counts at or below and above source prediction; zero predicted counts remain included. Follow-up stops at a reporting gap, first alert or the end of 2025. Numbers at risk appear below each curve. The shared summary gives group sizes, median years to first alert, five-year alert-free percentages with 95% hospital-cluster confidence intervals, and unadjusted log-rank P values. "
+      },
+      {
+        "paragraph_index": 273,
+        "legend": "Fig. 5. Procedure timing with a common 2018 baseline. (a-f) Sensitivity analysis for the same six adult procedures, using a common 2018 baseline. Baseline counts pool the available reports from 2016-2018; an observed 2018 report is required, and one available baseline year is sufficient. Follow-up covers consecutive annual reports from 2019-2025, stopping at the first missing year, first above-predicted report or administrative end. Zero predicted counts remain included. Blue and red distinguish baseline counts at or below and above source prediction. At-risk counts are hospital-procedure units. The shared summary gives baseline group sizes, median years, five-year alert-free percentages and 95% hospital-cluster confidence intervals, and unadjusted log-rank P values. "
+      },
+      {
+        "paragraph_index": 313,
+        "legend": "Fig. 8. Earlier report profiles and later SSI outcomes. (a) Profiles learned from 39,353 reports in 2017-2022 are projected onto all 18,132 eligible later reports in 2023-2025. Principal-component loadings, scaling and profile definitions use earlier data only. Points are reports; hulls describe their displayed footprints. (b) Later above-predicted report percentages, source whole-hospital bootstrap 95% confidence intervals and adjusted risk ratios relative to P2. Fractions show signals/reports. (c) Earlier feature means and procedure mix in the fixed profiles. The first four cell values are standardized feature means; later rows are report percentages. Shading is standardized within each row. (d) All 11,502 P2/P3 reports, including 6,966 with zero SSIs, with boxplots on a log[1+rate] scale. Boxes show medians and interquartile ranges; whiskers extend to the most extreme observations within 1.5 times the interquartile range. \t"
+      },
+      {
+        "paragraph_index": 347,
+        "legend": "Fig. 9. Held-out procedure-specific SSI signal prediction. (a-h) Receiver operating characteristic curves for colon, small bowel, spinal fusion, fracture reduction, exploratory laparotomy, hip prosthesis, bile/liver/pancreatic procedures and cesarean delivery. Curves use every eligible 2023-2025 test report for each procedure, including adults, children and zero source-predicted counts. The report model was developed on 2017-2022 target reports using prior reports only. Each panel compares the frozen combined model with prior operation volume, SSI count and observed-to-predicted ratio. AUC denotes area under the curve. Combined-model 95% confidence intervals and added AUC relative to prior SSI count use 1,999 paired whole-hospital bootstrap draws. P values use the original centered-null bootstrap; Benjamini-Hochberg q values cover the eight procedure comparisons. The dashed diagonal marks chance discrimination."
+      },
+      {
+        "paragraph_index": 373,
+        "legend": "Fig. 10. Historical pathogen profiles and later depth and resistance patterns. (a) Nine-part pathogen compositions from 10 discovery source profiles in 2015-2017 define three fixed groups; 13 later profiles in 2018-2021 are projected using discovery principal-component loadings. Filled circles identify discovery profiles and open squares later profiles. G1 is enteric/yeast enriched; G2 is mixed; G3 contains pediatric cardiac and neurosurgical staphylococcal profiles. (b) Later organ/space involvement as unweighted source-profile means, with source-profile bootstrap 95% confidence intervals; every profile is displayed. (c) Pathogen-report-weighted later composition. Denominators are 117,382, 102,349 and 1,220 pathogen reports in G1-G3. Eight comparable explicit taxa plus the exact remaining-taxa component include all organisms. (d) Published MRSA percentages among tested Staphylococcus aureus reports from 11 source profiles; 33,842 organism reports provide context. Boxes show medians and interquartile ranges; whiskers extend to the most extreme observations within 1.5 times the interquartile range. "
+      },
+      {
+        "paragraph_index": 382,
+        "legend": "Fig. 11. Procedure-specific antimicrobial resistance in adult and pediatric SSI reports. (a) National adult and pediatric SSI reports in 2015-2017, with the same 13 organism-phenotype rows aligned across separate age-specific column blocks. (b) Corresponding 2018-2021 reports, with six shared rows and separate adult and pediatric blocks. Adult superficial incisional, deep incisional and organ/space strata are separate from surgical-category totals and divided by a dashed line. The prominent cell value is the published phenotype percentage among tested organism reports. T is the published tested percentage; N is the reported organism count, not an operation or patient count. Purple shading represents phenotype percentage. NR denotes unavailable or suppressed information, not zero. Asterisks indicate the published unadjusted mid-P<0.05 comparison with abdominal surgery in 2015-2017. MRSA, methicillin-resistant Staphylococcus aureus; VRE, vancomycin-resistant enterococci; CRE, carbapenem-resistant Enterobacterales; MDR, source-defined multidrug resistance; NS, non-susceptible. Genus and species names are italic; spp., source qualifiers and the order Enterobacterales are roman. Organism-group and phenotype definitions follow each reporting period."
+      },
+      {
+        "paragraph_index": 404,
+        "legend": "Fig. 12. Procedure evidence, capacity-dependent prioritization and microbiology-informed review. (a) Surveillance of 6,737,972 operations across 72,854 annual reports, 2016-2025, identified 37,525 surgical site infections (SSIs). The 28 procedures are ranked by SSI burden, with incidence, observed-to-predicted ratios and adjusted next-year signal risk ratios (aRRs). A signal denotes more SSIs than predicted. The aRR compares next-year signal risk following an above-predicted versus at-or-below-predicted report. Confidence intervals (CIs) account for hospital clustering; Benjamini-Hochberg (BH) q values correct for 28 procedure tests. NE indicates an unavailable estimate. Kidney categories lack dedicated national pathogen profiles.(b) Differences in SSI case capture (circles) and annual signal capture (squares) between the history-informed model and ranking by prior SSI counts at 10%, 20% and 30% review capacity. Positive values favor the model. Whiskers show 95% CIs from 1,999 paired whole-hospital bootstrap resamples. The model was frozen before testing on 18,132 reports from 337 hospitals during 2023-2025, containing 11,897 SSIs and 3,540 signals. At 30% capacity, it captured 81.0% of cases and 62.7% of signals. Capture measures retrospective prioritization; clinical benefit requires prospective evaluation.(c) Selected pathogen enrichment across 369,802 national adult pathogen reports, pooled from 2015-2017 and 2018-2021. Filled and open circles show pathogen shares within the specified category and across other categories, respectively; whiskers show Wilson 95% CIs. Orthopedic Staphylococcus aureus and abdominal Escherichia coli enrichment replicated across both periods (BH q<0.001). Report-share ratios use log-ratio CIs and describe pathogen composition. "
+      },
+      {
+        "paragraph_index": 439,
+        "legend": "Fig. 13. A translational layered prevention review centered on surgical patients. The layered illustration links SSI surveillance, history-informed service priority, focused prevention review, procedure microbiology and antimicrobial susceptibility testing (AST), and feedback, with surgical patients as the population to protect. The adjusted risk ratio (aRR) compares an earlier above-predicted signal followed by one quiet year with two quiet years, controlling workload, benchmark rate, age, procedure and year. The 20% review-capacity gain compares frozen predictions with prior SSI count in 18,132 later reports using a paired whole-hospital bootstrap. Report-based prioritization identifies services for local clinical review. Local culture, AST, prophylaxis and adherence information inform action. Annual reassessment reviews calibration and reporting gaps. Prospective evaluation of implementation uptake and subsequent SSI incidence is the next step. National microbiology supplies separate context and is not linked to California patients."
+      }
+    ],
+    "supplement_allocation_crosswalk": "current_work/outputs/submission_supplementary_material/Author_only/Figure_allocation_crosswalk.csv",
+    "current_main_figure_count": 13,
+    "current_supplement_figure_count": 21,
+    "important_bindings": {
+      "main12a": "procedure_prior_alert_adjusted_RR.csv + procedure count summaries",
+      "main12b": [
+        "future_SSI_case_capture_comparisons.csv",
+        "prediction_paired_comparisons_1999_cluster_bootstrap.csv"
+      ],
+      "main12c": "adult2015-2017/2018-2021 category enrichment pooled from original pathogen composition counts",
+      "supplement18": "final paired signal-capture inference1999draws",
+      "supplement19": "paired SSI-case-capture inference1999draws",
+      "calibration_figures": "original250draw probability-loss/bin intervals, not1999 discrimination table"
+    }
+  },
+  "supporting_study_record_paths": {
+    "raw_to_master_audit": "archive:analysis_root/work/ssi_final_dataset/independent_master_audit.json",
+    "final181check_audit": "archive:analysis_root/work/ssi_final_dataset/independent_final_master_audit.json",
+    "prediction_model": "archive:legacy_integrated_release/reproducibility/prediction/fit_prediction.R",
+    "paired_signal_inference": "archive:legacy_integrated_release/tables/statistics/prediction_paired_inference.py",
+    "case_capture_implementation": "archive:analysis_root/work/prepare_ssi_inferential_delivery.py",
+    "latest_main12_layout": "current_work/work/redesign_fig14_advanced.py"
+  }
+}

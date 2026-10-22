@@ -1,0 +1,19 @@
+{
+  "scope": "New release core checks; not a historical lockfile",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "processor": "arm",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "python-dateutil": "2.9.0.post0",
+    "pytz": "2026.5",
+    "tzdata": "2026.5",
+    "six": "1.17.0"
+  },
+  "hardware_note": "macOS arm64 host; no GPU used. CPU model and physical RAM were not accessible under the execution sandbox.",
+  "fresh_dependency_install_performed": true,
+  "installation_time_seconds": 22.061687749810517,
+  "fresh_install_evidence": "validation/independent_release_review.json"
+}

@@ -1,0 +1,28 @@
+13 
+ 
+Table 10. The Top 15 SSI Pathogens Reported to NHSN Following Select Surgery Types with Low Pathogen Volume, Adults, 2018-
+2021 
+ 
+  Neurosurgical Vascular1 Breast2 
+Pathogen # Pathogens % Pathogens Rank # Pathogens % Pathogens Rank # Pathogens % Pathogens Rank 
+Staphylococcus aureus 846 21.6 1 611 21.8 1 769 33.1 1 
+Coagulase-negative staphylococci 765 19.5 2 183 6.5 5 215 9.2 3 
+Cutibacterium acnes 479 12.2 3 4 0.1 40 18 0.8 17 
+Select Klebsiella spp. 275 7.0 4 159 5.7 7 81 3.5 8 
+Enterobacter spp. 212 5.4 5 165 5.9 6 137 5.9 4 
+Pseudomonas aeruginosa 205 5.2 6 278 9.9 2 275 11.8 2 
+Serratia spp. 142 3.6 7 89 3.2 9 104 4.5 6 
+Escherichia coli 107 2.7 8 211 7.5 3 106 4.6 5 
+Candida albicans 65 1.7 9 46 1.6 13 9 0.4 24 
+Enterococcus faecalis 61 1.6 10 187 6.7 4 96 4.1 7 
+Proteus spp. 60 1.5 11 137 4.9 8 74 3.2 9 
+Viridans group streptococci 60 1.5 12 41 1.5 15 28 1.2 11 
+Citrobacter spp. 45 1.1 13 49 1.7 12 19 0.8 15 
+Propionibacterium not specified 44 1.1 14 4 0.1 40 7 0.3 27 
+Acinetobacter spp. 34 0.9 15 24 0.9 19 37 1.6 10 
+Other pathogen 521 13.3   613 21.9   350 15.1   
+Total 3,921 100.0   2,801 100.0   2,325 100.0   
+Note: Refer to Technical Resources for more information about the acronyms and terms used in this table.   
+Footnotes: 
+1. Some rankings are not shown: Other Enterococcus spp. (#10, 2.3%); Bacteroides spp.(#11, 2.1%); Group B streptococci (#14, 1.5%). 
+2. Some rankings are not shown: Group B streptococci (#12, 1.1%); Staphylococcus not specified (#13, 1.0%); Morganella spp. (#14, 0.9%).

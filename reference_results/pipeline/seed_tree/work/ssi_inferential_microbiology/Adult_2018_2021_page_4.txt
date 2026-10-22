@@ -1,0 +1,28 @@
+4 
+ 
+Table 3. The Top 15 HAI Pathogens Reported to NHSN, Adults, 2018 - 20211 
+ 
+Pathogen # Pathogens % Pathogens Rank 
+Escherichia coli 73,556 16.2 1 
+Staphylococcus aureus 51,131 11.3 2 
+Enterococcus faecalis2 39,129 8.6 3 
+Select Klebsiella spp. 38,496 8.5 4 
+Pseudomonas aeruginosa 36,004 7.9 5 
+Coagulase-negative staphylococci 32,276 7.1 6 
+Enterobacter spp. 18,431 4.1 7 
+Enterococcus faecium2 16,904 3.7 8 
+Candida albicans2 16,458 3.6 9 
+Proteus spp. 13,953 3.1 10 
+Bacteroides spp. 11,602 2.6 11 
+Viridans group streptococci 9,962 2.2 12 
+Other Candida spp. 2 9,803 2.2 13 
+Other Enterococcus spp. 2 9,091 2.0 14 
+Candida glabrata2 7,622 1.7 15 
+Other pathogen 68,522 15.1   
+Total 452,940 100.0   
+Note: Refer to Technical Resources for more information about the acronyms and terms used in this table.   
+Footnotes: 
+1. Supplemental Data Tables are available for download that contain HAI pathogen distributions 
+for each year individually. 
+2. When analyzed at the genus-level, Enterococcus spp. ranked #2 (14.4%) and Candida spp. 
+ranked #6 (7.5%).

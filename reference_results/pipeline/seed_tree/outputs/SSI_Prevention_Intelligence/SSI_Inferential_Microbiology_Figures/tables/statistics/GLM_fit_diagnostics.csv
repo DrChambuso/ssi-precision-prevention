@@ -1,0 +1,117 @@
+"model","reports","sites","coefficients","rank","converged","iterations","response_range","fitted_range","maximum_abs_coefficient","min_information_eigenvalue"
+"SSI_rate_age_procedure_year",72854,469,38,38,TRUE,6,"0 to 31","0.00062752 to 34.128",3.80187834655024,15.9580724132952
+"SSI_rate_linear_year_trend",72854,469,30,30,TRUE,6,"0 to 31","0.0006571 to 34.498",3.84699833531545,15.9582227585574
+"Next_report_alert_prior_alert_adjusted",57485,431,40,40,TRUE,6,"0 to 1","0.0034714 to 1.6128",3.8970265524916,8.77710824833214
+"Next_report_SSI_rate_prior_alert_adjusted",57485,431,40,40,TRUE,6,"0 to 31","0.00074723 to 27.753",2.97048744457913,8.95580783668663
+"Family_SSI_rate_prior_alert:All ages and procedures",57485,431,40,40,TRUE,6,"0 to 31","0.00074723 to 27.753",2.97048744457913,8.95580783668663
+"Family_next_report_alert:All ages and procedures",57485,431,40,40,TRUE,6,"0 to 1","0.0034714 to 1.6128",3.8970265524916,8.77710824833214
+"Family_current_workload:All ages and procedures",57485,431,39,39,TRUE,2,"0.693147180559945 to 8.05038445306702","0.48927 to 7.8183",0.9300524323872,81.388331414118
+"Family_SSI_rate_prior_alert:Bone and spine",12492,419,17,17,TRUE,6,"0 to 22","0.0022079 to 22.307",3.30607870035567,65.8750800586292
+"Family_next_report_alert:Bone and spine",12492,419,17,17,TRUE,5,"0 to 1","0.017541 to 1.4473",4.33914837397017,24.6891818958268
+"Family_current_workload:Bone and spine",12492,419,16,16,TRUE,2,"0.693147180559945 to 7.67461749736436","0.59085 to 7.3319",0.94098688511116,145.355271636215
+"Family_SSI_rate_prior_alert:Digestive procedures",25446,424,21,21,TRUE,6,"0 to 31","0.0016211 to 27.193",2.99806053362955,88.546382430711
+"Family_next_report_alert:Digestive procedures",25446,424,21,21,TRUE,6,"0 to 1","0.0077393 to 1.082",3.98702954407203,41.0894612414552
+"Family_current_workload:Digestive procedures",25446,424,20,20,TRUE,2,"0.693147180559945 to 7.11395610956603","0.52523 to 6.9593",0.93039726215697,258.683254522321
+"Family_SSI_rate_prior_alert:Heart, chest and aorta",6376,361,18,18,TRUE,6,"0 to 18","0.0017811 to 7.7112",4.22659162111797,1.44949786248076
+"Family_next_report_alert:Heart, chest and aorta",6376,361,18,18,TRUE,6,"0 to 1","0.0076673 to 1.001",5.55140133331293,1.42669600655472
+"Family_current_workload:Heart, chest and aorta",6376,361,17,17,TRUE,2,"0.693147180559945 to 6.7696419768525","0.55278 to 6.5324",0.914955881974666,58.6028683714162
+"Family_SSI_rate_prior_alert:Other procedures",13171,411,20,20,TRUE,6,"0 to 24","0.00074571 to 7.7259",4.6865850010086,16.7076583698227
+"Family_next_report_alert:Other procedures",13171,411,20,20,TRUE,6,"0 to 1","0.0026909 to 1.0217",5.89521193258048,7.1895201312701
+"Family_current_workload:Other procedures",13171,411,19,19,TRUE,2,"0.693147180559945 to 8.05038445306702","0.47884 to 7.8361",0.916367290003724,98.2860151508203
+"Next_report_alert_two_year_memory_adjusted",46465,404,41,41,TRUE,6,"0 to 1","0.0037913 to 1.7255",3.75090618621267,3.95799021955008
+"Two_year_memory_logistic_sensitivity",46465,404,41,41,TRUE,6,"0 to 1","0.0022594 to 0.8428",3.9393392043113,3.86045360662407
+"Procedure_next_alert:Colon surgery",3061,412,13,13,TRUE,5,"0 to 1","0.047747 to 0.91059",3.55991672066282,7.49662177933944
+"Early_late_rate:Colon surgery",3044,446,3,3,TRUE,5,"0 to 29","0.019072 to 16.458",3.76055619929654,108.647613781593
+"Pediatric_adult_rate:Colon surgery",3815,450,11,11,TRUE,5,"0 to 29","0.016243 to 15.787",3.73610211453659,63.7656514130891
+"Procedure_rate_year_trend:Colon surgery",3815,450,3,3,TRUE,5,"0 to 29","0.018039 to 15.963",3.74969796048381,130.229890097548
+"Early_late_rate:Abdominal aortic aneurysm repair",715,215,2,2,TRUE,7,"0 to 1","0.0041068 to 0.33265",5.49511694252224,3.05572809000173
+"Procedure_next_alert:Appendix surgery",4485,410,13,13,TRUE,6,"0 to 1","0.0032475 to 0.8715",5.87879494455331,3.84733798443491
+"Early_late_rate:Appendix surgery",4342,448,3,3,TRUE,6,"0 to 7","0.0020218 to 2.0384",5.70657837417865,127.939638364473
+"Pediatric_adult_rate:Appendix surgery",5452,452,11,11,TRUE,6,"0 to 7","0.0017002 to 2.341",5.55659871008305,13.1975093587088
+"Procedure_rate_year_trend:Appendix surgery",5452,452,3,3,TRUE,6,"0 to 7","0.0019335 to 2.0408",5.63330417449496,152.425425432232
+"Procedure_next_alert:Bile duct, liver or pancreatic surgery",2100,348,13,13,TRUE,6,"0 to 1","0.021326 to 1.4841",3.73222530297256,4.40597629161057
+"Early_late_rate:Bile duct, liver or pancreatic surgery",2216,394,3,3,TRUE,6,"0 to 31","0.0098034 to 37.614",3.55258818267857,15.8517815230017
+"Pediatric_adult_rate:Bile duct, liver or pancreatic surgery",2777,400,11,11,TRUE,6,"0 to 31","0.0083339 to 27.263",3.62081244173122,19.6302556068251
+"Procedure_rate_year_trend:Bile duct, liver or pancreatic surgery",2777,400,3,3,TRUE,6,"0 to 31","0.0091955 to 35.645",3.65208774715548,19.8099881380478
+"Procedure_next_alert:Cardiac surgery",1439,224,13,13,TRUE,6,"0 to 1","0.009848 to 0.84676",4.92688415241472,1.58300098094743
+"Early_late_rate:Cardiac surgery",1494,278,3,3,TRUE,6,"0 to 18","0.0028823 to 3.8276",5.79451268752877,64.2177430216088
+"Pediatric_adult_rate:Cardiac surgery",1862,289,11,11,TRUE,6,"0 to 18","0.0024757 to 3.5692",6.00122315556168,4.00969031580884
+"Procedure_rate_year_trend:Cardiac surgery",1862,289,3,3,TRUE,6,"0 to 18","0.0029521 to 3.6958",5.73839247407428,80.6216973407761
+"Procedure_next_alert:Cesarean section",2691,308,13,13,TRUE,6,"0 to 1","0.0092248 to 0.94849",4.26585077789762,2.50876158713505
+"Early_late_rate:Cesarean section",2757,339,3,3,TRUE,6,"0 to 24","0.0014923 to 5.1066",6.50741721564333,13.855047568566
+"Pediatric_adult_rate:Cesarean section",3489,344,11,11,TRUE,6,"0 to 24","0.0013861 to 5.7013",6.52447349186578,15.7714796378944
+"Procedure_rate_year_trend:Cesarean section",3489,344,3,3,TRUE,6,"0 to 24","0.0013252 to 5.0175",6.62622928594766,15.835256402095
+"Procedure_next_alert:Coronary bypass, chest and donor incisions",991,167,12,12,TRUE,5,"0 to 1","0.042123 to 0.66326",4.12670636356221,1.17674500606723
+"Early_late_rate:Coronary bypass, chest and donor incisions",965,186,2,2,TRUE,5,"0 to 8","0.0059505 to 5.0341",5.1242781835661,123.410946567242
+"Procedure_rate_year_trend:Coronary bypass, chest and donor incisions",1196,192,2,2,TRUE,5,"0 to 8","0.0057654 to 4.979",5.1558893083886,220.008048283019
+"Procedure_next_alert:Coronary bypass, chest incision only",864,155,12,12,TRUE,6,"0 to 1","0.018146 to 0.19007",4.7252258817418,0.303985428797836
+"Early_late_rate:Coronary bypass, chest incision only",859,175,2,2,TRUE,6,"0 to 3","0.0048247 to 0.98267",5.26450201805131,13.9444872469904
+"Procedure_rate_year_trend:Coronary bypass, chest incision only",1075,181,2,2,TRUE,6,"0 to 3","0.004754 to 1.0455",5.30832374428535,26.7536078569084
+"Procedure_next_alert:Exploratory abdominal surgery (laparotomy)",3421,417,13,13,TRUE,6,"0 to 1","0.0079468 to 1.1267",5.98590787020467,5.49148772935405
+"Early_late_rate:Exploratory abdominal surgery (laparotomy)",3430,455,3,3,TRUE,6,"0 to 17","0.0053118 to 8.1451",5.16692980814508,78.8089603880117
+"Pediatric_adult_rate:Exploratory abdominal surgery (laparotomy)",4321,459,11,11,TRUE,6,"0 to 22","0.004422 to 8.9034",5.11694493786022,25.9256747825146
+"Procedure_rate_year_trend:Exploratory abdominal surgery (laparotomy)",4321,459,3,3,TRUE,6,"0 to 22","0.0046467 to 8.2703",5.24119919839873,90.4982197212584
+"Procedure_next_alert:Gallbladder surgery",3420,418,13,13,TRUE,7,"0 to 1","0.00064761 to 0.85121",5.87413550399362,1.87776521719875
+"Early_late_rate:Gallbladder surgery",3497,451,3,3,TRUE,8,"0 to 10","0.00029355 to 2.4784",5.72300971164137,1.99711350616005
+"Procedure_rate_year_trend:Gallbladder surgery",4403,458,3,3,TRUE,8,"0 to 10","0.00033873 to 2.4392",5.74192327238222,2.99449678013872
+"Procedure_next_alert:Gastric surgery",2384,386,12,12,TRUE,6,"0 to 1","0.043409 to 0.73404",2.99363159126567,3.95367869453254
+"Early_late_rate:Gastric surgery",2337,429,3,3,TRUE,6,"0 to 8","0.0049037 to 5.6036",5.3177572531588,9.7727211711196
+"Pediatric_adult_rate:Gastric surgery",2909,433,11,11,TRUE,6,"0 to 8","0.0039787 to 6.7238",5.20383361680981,9.09873151549801
+"Procedure_rate_year_trend:Gastric surgery",2909,433,3,3,TRUE,6,"0 to 8","0.0047255 to 5.5433",5.35477970631581,9.67736552181984
+"Procedure_next_alert:Hip prosthesis",2597,401,13,13,TRUE,6,"0 to 1","0.021644 to 0.88977",4.50131262303005,1.84708960274827
+"Early_late_rate:Hip prosthesis",2523,434,3,3,TRUE,6,"0 to 15","0.0046181 to 8.4858",5.18147255311275,0.999498374930377
+"Procedure_rate_year_trend:Hip prosthesis",3150,439,3,3,TRUE,6,"0 to 15","0.0054532 to 8.5629",5.21156062790779,1.9983062704459
+"Procedure_next_alert:Hysterectomy, abdominal",2416,381,13,13,TRUE,6,"0 to 1","0.014084 to 0.82994",5.3559958764523,0.928584038619921
+"Early_late_rate:Hysterectomy, abdominal",2362,426,3,3,TRUE,5,"0 to 8","0.0059425 to 3.6131",5.12562168308173,0.998929133690243
+"Procedure_rate_year_trend:Hysterectomy, abdominal",2931,431,3,3,TRUE,5,"0 to 8","0.0056832 to 3.5142",5.17023238783726,0.999066050798337
+"Procedure_next_alert:Hysterectomy, vaginal",1769,335,12,12,TRUE,6,"0 to 1","0.0066742 to 0.66031",4.93819568148892,0.588679463103455
+"Early_late_rate:Hysterectomy, vaginal",1864,385,2,2,TRUE,6,"0 to 6","0.0044035 to 0.96877",5.42535657663969,31.3696037939457
+"Procedure_rate_year_trend:Hysterectomy, vaginal",2298,390,2,2,TRUE,6,"0 to 6","0.0043348 to 0.97672",5.44106912177997,88.3278810571132
+"Procedure_next_alert:Kidney surgery",1591,277,12,12,TRUE,6,"0 to 1","0.014166 to 0.71596",4.45740509752615,0.793966220727047
+"Early_late_rate:Kidney surgery",1622,335,2,2,TRUE,6,"0 to 4","0.0030283 to 1.6118",5.79976940799989,36.7833934443477
+"Procedure_rate_year_trend:Kidney surgery",2013,341,2,2,TRUE,6,"0 to 5","0.0029887 to 1.6908",5.81290850967346,67.9690371403788
+"Procedure_next_alert:Kidney transplant",221,32,13,13,TRUE,6,"0 to 1","0.00084509 to 1.1524",10.1774356774517,0.112012481389058
+"Early_late_rate:Kidney transplant",236,47,3,3,TRUE,6,"0 to 8","0.0046106 to 3.4976",5.25798949250133,3.87845487394872
+"Pediatric_adult_rate:Kidney transplant",287,49,11,11,TRUE,6,"0 to 8","0.0027083 to 3.765",4.87654734558444,1.50023371705443
+"Procedure_rate_year_trend:Kidney transplant",287,49,3,3,TRUE,6,"0 to 8","0.0041956 to 3.0654",5.47373048296494,4.82497569216469
+"Procedure_next_alert:Knee prosthesis",2426,392,13,13,TRUE,5,"0 to 1","0.033953 to 0.96074",3.72926375171178,2.53276439259785
+"Early_late_rate:Knee prosthesis",2383,432,3,3,TRUE,6,"0 to 10","0.0033404 to 6.2766",5.70166807433502,3.98773509327422
+"Procedure_rate_year_trend:Knee prosthesis",2969,437,3,3,TRUE,6,"0 to 10","0.0032797 to 6.4436",5.72001705212295,3.98901485720178
+"Procedure_next_alert:Laminectomy",2013,316,13,13,TRUE,6,"0 to 1","0.0074203 to 0.88438",6.19085861757336,1.82904796511135
+"Early_late_rate:Laminectomy",2089,363,3,3,TRUE,6,"0 to 10","0.0024244 to 5.2173",5.81425290607388,38.5915944407064
+"Pediatric_adult_rate:Laminectomy",2606,371,11,11,TRUE,6,"0 to 10","0.0020814 to 5.8576",5.79367663100761,10.4991909589797
+"Procedure_rate_year_trend:Laminectomy",2606,371,3,3,TRUE,6,"0 to 10","0.0024337 to 5.2373",5.84156618215935,47.0307990179407
+"Procedure_next_alert:Open reduction of fracture",3367,410,13,13,TRUE,6,"0 to 1","0.0048146 to 0.9017",5.92433911184138,4.57618496606041
+"Early_late_rate:Open reduction of fracture",3614,444,3,3,TRUE,6,"0 to 18","0.0033766 to 6.601",4.99717399411789,64.8948564077195
+"Pediatric_adult_rate:Open reduction of fracture",4379,448,11,11,TRUE,6,"0 to 19","0.0030407 to 7.2067",5.07584659682747,21.4241763715964
+"Procedure_rate_year_trend:Open reduction of fracture",4379,448,3,3,TRUE,6,"0 to 19","0.0031281 to 6.6318",5.05924776834398,69.9780431641946
+"Procedure_next_alert:Ovarian surgery",2438,392,12,12,TRUE,7,"0 to 1","0.00067953 to 0.23556",9.04209913156038,0.0917215059995828
+"Early_late_rate:Ovarian surgery",2367,433,2,2,TRUE,6,"0 to 2","0.00067858 to 0.41392",7.19018830435954,21.502381107441
+"Procedure_rate_year_trend:Ovarian surgery",2951,437,2,2,TRUE,6,"0 to 2","0.00060235 to 0.42199",7.1708801496021,47.8100505063492
+"Procedure_next_alert:Pacemaker surgery",1926,328,12,12,TRUE,6,"0 to 1","0.0057753 to 0.83076",5.66943268650337,0.935315272656099
+"Early_late_rate:Pacemaker surgery",1916,371,3,3,TRUE,6,"0 to 6","0.0016773 to 2.5392",6.18373137288632,0.990476501647957
+"Procedure_rate_year_trend:Pacemaker surgery",2377,376,3,3,TRUE,6,"0 to 6","0.0016309 to 2.3333",6.19311989472103,0.98757855796897
+"Procedure_next_alert:Rectal surgery",2318,370,13,13,TRUE,6,"0 to 1","0.0032337 to 0.49329",6.16770952514954,1.48866396682624
+"Early_late_rate:Rectal surgery",2373,423,3,3,TRUE,6,"0 to 19","0.0023693 to 1.7431",4.85149341637353,4.92108337226744
+"Pediatric_adult_rate:Rectal surgery",2965,427,11,11,TRUE,6,"0 to 19","0.0015131 to 1.7437",4.65890748308042,4.64716514525577
+"Procedure_rate_year_trend:Rectal surgery",2965,427,3,3,TRUE,6,"0 to 19","0.0022993 to 1.544",4.85529273126274,5.90127258848317
+"Procedure_next_alert:Small bowel surgery",2940,408,13,13,TRUE,6,"0 to 1","0.0079963 to 0.76576",5.19842432422985,4.47995390529644
+"Early_late_rate:Small bowel surgery",2966,439,3,3,TRUE,6,"0 to 31","0.011375 to 14.827",4.12668229660201,95.9456553850658
+"Pediatric_adult_rate:Small bowel surgery",3715,444,11,11,TRUE,6,"0 to 31","0.0098193 to 16.281",4.01277480901815,31.1809778061529
+"Procedure_rate_year_trend:Small bowel surgery",3715,444,3,3,TRUE,6,"0 to 31","0.0099483 to 15.121",4.19277493964344,111.621097013505
+"Procedure_next_alert:Spinal fusion",2089,303,13,13,TRUE,5,"0 to 1","0.029307 to 1.2665",4.11244537385092,4.56366832709739
+"Early_late_rate:Spinal fusion",2097,335,3,3,TRUE,5,"0 to 22","0.006357 to 12.811",5.05819506582275,95.7823972736202
+"Pediatric_adult_rate:Spinal fusion",2639,341,11,11,TRUE,5,"0 to 22","0.0060246 to 13.572",5.11089897901381,22.3926654997318
+"Procedure_rate_year_trend:Spinal fusion",2639,341,3,3,TRUE,5,"0 to 22","0.0058716 to 13.394",5.13762614105866,126.856818169785
+"Procedure_next_alert:Spleen surgery",1317,266,12,12,TRUE,6,"0 to 1","0.0066594 to 0.90335",5.51295116672098,0.190954572979547
+"Early_late_rate:Spleen surgery",1516,361,2,2,TRUE,6,"0 to 3","0.0056196 to 0.76539",4.92133172975739,18.7402859533463
+"Procedure_rate_year_trend:Spleen surgery",1879,370,2,2,TRUE,6,"0 to 3","0.0058695 to 0.76396",4.89635478709763,37.1135110008171
+"Procedure_next_alert:Thoracic surgery",2477,358,13,13,TRUE,6,"0 to 1","0.0058997 to 1.1192",5.77746812006893,1.70686820876518
+"Early_late_rate:Thoracic surgery",2591,411,3,3,TRUE,6,"0 to 10","0.0023874 to 2.7794",6.03756500461071,23.5382485907182
+"Pediatric_adult_rate:Thoracic surgery",3242,417,11,11,TRUE,6,"0 to 10","0.0020099 to 2.9918",6.20967918040363,3.935916562115
+"Procedure_rate_year_trend:Thoracic surgery",3242,417,3,3,TRUE,6,"0 to 10","0.0021095 to 2.9941",6.16131754546056,32.6174051028488
+"Calibration_joint:Test:All ages and procedures",18132,337,2,2,TRUE,5,"0 to 1","0.0020865 to 0.86149",0.986261534587088,693.048867409015
+"Calibration_joint:Test:Adult",16618,336,2,2,TRUE,5,"0 to 1","0.002072 to 0.85956",0.985145160270225,658.010083177629
+"Calibration_joint:Test:Pediatric",1514,245,2,2,TRUE,6,"0 to 1","0.0023553 to 0.77105",1.18691819311638,21.2316724198144
+"Calibration_joint:Oregon external:All ages and procedures",209,46,2,2,TRUE,4,"0 to 1","0.010023 to 0.71594",0.96444815354583,12.4836326346849
+"Calibration_joint:Oregon external:Adult",201,46,2,2,TRUE,4,"0 to 1","0.0094899 to 0.72189",0.979250159971393,12.1493053774431

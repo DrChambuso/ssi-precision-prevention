@@ -1,0 +1,12 @@
+Surgical Category,Specific Type of SSI,Specific Type of SSI,Specific Type of SSI,"All SSI Types, No. of Pathogens (Column %)"
+Surgical Category,No. of Pathogens (Row %),No. of Pathogens (Row %),No. of Pathogens (Row %),"All SSI Types, No. of Pathogens (Column %)"
+Surgical Category,Superficial Incisional,Deep Incisional,Organ/Space,"All SSI Types, No. of Pathogens (Column %)"
+Abdominal,688 (31.1),158 (7.1),"1,369 (61.8)","2,215 (62.8)"
+Orthopedic,148 (30.4),266 (54.6),73 (15.0),487 (13.8)
+Neurosurgical,44 (10.5),49 (11.7),326 (77.8),419 (11.9)
+Cardiac,142 (45.5),48 (15.4),122 (39.1),312 (8.8)
+Ob/Gyn,42 (64.6),13 (20.0),10 (15.4),65 (1.8)
+Kidney,4 (23.5),2 (11.8),11 (64.7),17 (0.5)
+Vascular,4 (57.1),3 (42.9),0 (0.0),7 (0.2)
+Breast surgery,3 (75.0),1 (25.0),0 (0.0),4 (0.1)
+Total,"1,075 (30.5)",540 (15.3),"1,911 (54.2)","3,526 (100.0)"

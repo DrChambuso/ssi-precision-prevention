@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_inferential_microbiology/amr_occurrence_priority_rounding_bounds.csv",
+  "rows": 105,
+  "numeric_columns": 11,
+  "maximum_absolute_difference": 0.0,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_inferential_stats/prediction_paired_comparisons_1999_cluster_bootstrap.csv",
+  "rows": 555,
+  "numeric_columns": 16,
+  "maximum_absolute_difference": 0.0,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

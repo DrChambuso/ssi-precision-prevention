@@ -1,0 +1,9 @@
+Converged: TRUE
+Iterations: 6
+Rank: 33
+Coefficients: 33
+Warnings: None
+Training: 39353
+Training alerts: 6634
+Evaluation: 18341
+Prediction range: 0.0016962089132 to 0.849622271009

@@ -1,0 +1,31 @@
+7 
+ 
+Table P5. The Top 15 CAUTI Pathogens Reported to NHSN, Pediatrics, 2018-2021 
+  
+All Reporting Facility & Location Types1 
+(n=268 facilities) 
+Pathogen # Pathogens % Pathogens Rank 
+Escherichia coli 529 32.0 1 
+Pseudomonas aeruginosa 328 19.8 2 
+Enterococcus faecalis2 195 11.8 3 
+Select Klebsiella spp. 168 10.2 4 
+Enterobacter spp. 99 6.0 5 
+Coagulase-negative staphylococci 72 4.4 6 
+Citrobacter spp. 44 2.7 7 
+Staphylococcus aureus 32 1.9 8 
+Proteus spp. 31 1.9 9 
+Other Enterococcus spp.2 29 1.8 10 
+Enterococcus faecium2 28 1.7 11 
+Serratia spp. 27 1.6 12 
+Morganella spp. 11 0.7 13 
+Stenotrophomonas maltophilia 10 0.6 14 
+Acinetobacter spp. 8 0.5 15 
+Other pathogen 42 2.5   
+Total 1,653 100.0   
+Note: Refer to Technical Resources for more information about the acronyms and terms used in this 
+table.   
+Footnotes: 
+1. There were no differences in the CAUTI pathogen distributions across facility or location types.  
+2. When analyzed at the genus-level, Enterococcus spp. ranked #3 (15.2%). 
+ 
+  

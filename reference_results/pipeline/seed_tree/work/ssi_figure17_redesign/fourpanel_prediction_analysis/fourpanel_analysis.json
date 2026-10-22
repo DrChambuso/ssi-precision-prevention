@@ -1,0 +1,573 @@
+{
+  "title": "Earlier report profiles identify distinct later SSI reporting and incidence patterns",
+  "question": "Can three operational profiles defined without target outcomes distinguish later annual SSI signals and actual SSI incidence?",
+  "design": "Exploratory K=3 unsupervised training on prior-only report features, frozen before later-year assignment and outcome evaluation.",
+  "training_reports": 39353,
+  "training_sites": 392,
+  "training_years": [
+    2017,
+    2022
+  ],
+  "test_reports": 18132,
+  "test_sites": 337,
+  "test_years": [
+    2023,
+    2025
+  ],
+  "test_operations": 1959747,
+  "test_SSI_cases": 11897,
+  "test_signals": 3540,
+  "training_test_site_overlap": 298,
+  "training_test_unit_overlap": 6088,
+  "bootstrap_replicates": 1999,
+  "bootstrap_seed": 20261021,
+  "cluster_unit": "Canonical named hospital site, retaining all report years, age groups and procedures.",
+  "profile_labels": {
+    "1": "Lower-volume reports",
+    "2": "Higher volume, lower SSI history",
+    "3": "Higher volume, higher SSI history"
+  },
+  "profile_definition": {
+    "method": "K-means Euclidean clustering of four training-standardized prior-only continuous features.",
+    "k": 3,
+    "random_seed": 20261019,
+    "random_starts": 100,
+    "maximum_iterations": 100,
+    "labels": "Increasing training-centroid prior log-volume; future outcomes were not used to order profile labels.",
+    "assignment": "Nearest frozen training centroid using squared Euclidean distance and training-only means/SDs.",
+    "features": [
+      "log(1+prior operations)",
+      "log((prior predicted SSI+0.5)/(prior operations+1))",
+      "log((prior observed SSI+0.5)/(prior predicted SSI+0.5))",
+      "log((available t-3 to t-1 observed SSI sum+0.5)/(available predicted SSI sum+0.5))"
+    ],
+    "unit": "An annual report profile, not an immutable hospital type; the same service can change profile across years."
+  },
+  "PCA": {
+    "fit": "Training-standardized features only; test points projected with frozen training loadings.",
+    "PC1_variance_fraction": 0.551251617296408,
+    "PC2_variance_fraction": 0.364207981932488,
+    "PC1_PC2_variance_fraction": 0.9154595992288961,
+    "variance": [
+      {
+        "component": "PC1",
+        "variance_fraction": 0.551251617296408,
+        "cumulative_fraction": 0.551251617296408
+      },
+      {
+        "component": "PC2",
+        "variance_fraction": 0.364207981932488,
+        "cumulative_fraction": 0.915459599228896
+      },
+      {
+        "component": "PC3",
+        "variance_fraction": 0.070151773929309,
+        "cumulative_fraction": 0.985611373158205
+      },
+      {
+        "component": "PC4",
+        "variance_fraction": 0.014388626841795,
+        "cumulative_fraction": 1.0
+      }
+    ],
+    "loadings": [
+      {
+        "feature": "log_volume",
+        "PC1": -0.577668941432798,
+        "PC2": -0.401540859510355,
+        "PC3": -0.031772690790167,
+        "PC4": 0.709967624872816
+      },
+      {
+        "feature": "log_expected_rate",
+        "PC1": 0.559775282650597,
+        "PC2": 0.438150216570069,
+        "PC3": -0.064145683935862,
+        "PC4": 0.700400850860024
+      },
+      {
+        "feature": "log_prior_sir",
+        "PC1": 0.430893809475743,
+        "PC2": -0.555624820779523,
+        "PC3": 0.707802207703964,
+        "PC4": 0.06802659964013
+      },
+      {
+        "feature": "log_history_sir",
+        "PC1": 0.408999696812647,
+        "PC2": -0.581438203420629,
+        "PC3": -0.70277440343381,
+        "PC4": -0.027513660032913
+      }
+    ]
+  },
+  "panels": {
+    "a": {
+      "title": "Frozen report profiles in later years",
+      "data_file": "later_test_profile_assignments.csv",
+      "point_count": 18132,
+      "x": "PC1",
+      "y": "PC2",
+      "group": "profile",
+      "hulls_file": "all_test_points_convex_hulls.csv",
+      "hull_definition": "Convex hull of all test points assigned to each profile; descriptive projection footprint, not a confidence region.",
+      "alternative_display_sample": "optional_PCA_display_sample_3000.csv contains 1,000 random test points per profile, seed 20261020. If used, label it 3,000 displayed of 18,132 analyzed. All-point plotting is preferred when legible.",
+      "inference": "No P value on PCA separation or clustering geometry; those are constructed from the features."
+    },
+    "b": {
+      "title": "Following-report signal prevalence",
+      "data_file": "panel_b_prevalence_and_all_profile_outcomes.csv",
+      "height": "signal_fraction",
+      "lower": "signal_fraction_lower",
+      "upper": "signal_fraction_upper",
+      "CI": "1999 common whole-hospital percentile bootstrap draws.",
+      "counts": "signals/reports",
+      "pairwise_model": "future_signal_adjusted_RR",
+      "global_tests": [
+        {
+          "model": "future_signal_adjusted_RR",
+          "df": 2,
+          "Wald_chisq": 720.30275976757,
+          "p": 3.87474446564094e-157
+        }
+      ],
+      "contrasts": [
+        {
+          "model": "future_signal_adjusted_RR",
+          "comparison": "Profile 1 versus Profile 2",
+          "effect": 0.293532132560416,
+          "lower": 0.256323844018421,
+          "upper": 0.336141622623582,
+          "robust_SE": 0.069155843455094,
+          "p": 2.70241260166757e-70,
+          "reports": 18132,
+          "sites": 337,
+          "q_BH": 4.05361890250136e-70
+        },
+        {
+          "model": "future_signal_adjusted_RR",
+          "comparison": "Profile 3 versus Profile 1",
+          "effect": 6.19500255638411,
+          "lower": 5.39315591614745,
+          "upper": 7.11606659816738,
+          "robust_SE": 0.070720510693364,
+          "p": 1.20789253181537e-146,
+          "reports": 18132,
+          "sites": 337,
+          "q_BH": 3.6236775954461e-146
+        },
+        {
+          "model": "future_signal_adjusted_RR",
+          "comparison": "Profile 3 versus Profile 2",
+          "effect": 1.81843231159266,
+          "lower": 1.68372108852233,
+          "upper": 1.96392151549652,
+          "robust_SE": 0.039269635169385,
+          "p": 2.32632523915666e-52,
+          "reports": 18132,
+          "sites": 337,
+          "q_BH": 2.32632523915666e-52
+        }
+      ],
+      "primary_contrast": "Profile 3 versus Profile 2, whose volume and expected-rate centroids are similar."
+    },
+    "c": {
+      "title": "Prior components and operative mix",
+      "data_file": "panel_c_training_components_and_procedure_mix.csv",
+      "feature_definition": "Four frozen training-center means on the training-z scale.",
+      "procedure_selection": "Union of top three operative procedures by number of training reports within each profile, with no outcomes used for selection.",
+      "procedure_list": [
+        "Appendix surgery",
+        "Bile duct, liver or pancreatic surgery",
+        "Colon surgery",
+        "Gallbladder surgery",
+        "Open reduction of fracture",
+        "Rectal surgery"
+      ],
+      "procedure_shares": "Count of training reports for procedure/profile divided by all training reports in that profile.",
+      "color": "Row-standardized values across the three profiles, descriptive; exact feature values and procedure shares are provided separately.",
+      "inference": "No P values for defining components or procedure composition."
+    },
+    "d": {
+      "title": "Future observed SSI rates in similar-volume profiles",
+      "data_file": "panel_d_all_11502_report_rates.csv",
+      "reports": 11502,
+      "displayed_reports": 11502,
+      "model_reports": 18132,
+      "model_hospitals": 337,
+      "displayed_hospitals": 329,
+      "displayed_operations": 1887586,
+      "displayed_SSI_cases": 11424,
+      "groups": [
+        2,
+        3
+      ],
+      "box_summary_file": "panel_d_boxplot_summary.csv",
+      "point_grain": "One observed annual report. Every zero-SSI report is retained.",
+      "y": "log1p_SSI_rate_per_1000",
+      "suggested_axis_label": "SSIs per 1,000 operations (log[1+rate] scale)",
+      "box_definition": "Median and interquartile range; Tukey 1.5 IQR whiskers of the displayed transformed report rates.",
+      "tick_suggestion_original_rates": [
+        0,
+        1,
+        5,
+        10,
+        25,
+        50,
+        100,
+        500,
+        1000
+      ],
+      "test": "Exposure-offset Poisson count model, age/procedure/year adjusted, hospital-cluster robust inference. No Mann-Whitney test.",
+      "contrast": [
+        {
+          "model": "future_SSI_incidence_adjusted_IRR",
+          "comparison": "Profile 3 versus Profile 2",
+          "effect": 1.65922979155219,
+          "lower": 1.54598984844225,
+          "upper": 1.78076428118096,
+          "robust_SE": 0.036065882600572,
+          "p": 8.91119049463451e-45,
+          "reports": 18132,
+          "sites": 337,
+          "q_BH": 2.67335714839035e-44
+        }
+      ],
+      "descriptive_note": "Displayed distributions use all 11,502 Profile 2/3 reports, including zeros. The IRR uses the full 18,132-report adjusted model to retain all available information. It compares count-based SSI incidence using operation exposures, rather than report medians."
+    }
+  },
+  "population_table": [
+    {
+      "profile": 1,
+      "label": "Lower-volume reports",
+      "reports": 6630,
+      "sites": 336,
+      "units": 3452,
+      "operations": 72161,
+      "SSI_cases": 473,
+      "signals": 353,
+      "SSI_positive_reports": 377,
+      "share_of_test_reports": 0.365651886168101,
+      "share_of_test_operations": 0.036821589725613,
+      "share_of_test_SSI_cases": 0.039757922165252,
+      "share_of_test_signals": 0.099717514124294,
+      "bootstrap_repeats": 1999,
+      "bootstrap_frame_sites": 337,
+      "signal_fraction": 0.053242835595777,
+      "signal_fraction_lower": 0.04669103298442,
+      "signal_fraction_upper": 0.060088221664612,
+      "SSI_rate_per_1000": 6.554787211928881,
+      "SSI_rate_per_1000_lower": 5.704747972801604,
+      "SSI_rate_per_1000_upper": 7.515781192355441,
+      "SSI_positive_report_fraction": 0.056862745098039,
+      "SSI_positive_report_fraction_lower": 0.049915982782813,
+      "SSI_positive_report_fraction_upper": 0.064181576218306
+    },
+    {
+      "profile": 2,
+      "label": "Higher volume, lower SSI history",
+      "reports": 7509,
+      "sites": 328,
+      "units": 3618,
+      "operations": 1160394,
+      "SSI_cases": 5318,
+      "signals": 1568,
+      "SSI_positive_reports": 2427,
+      "share_of_test_reports": 0.414129715420252,
+      "share_of_test_operations": 0.592114186167908,
+      "share_of_test_SSI_cases": 0.447003446246953,
+      "share_of_test_signals": 0.442937853107345,
+      "bootstrap_repeats": 1999,
+      "bootstrap_frame_sites": 337,
+      "signal_fraction": 0.208816087361832,
+      "signal_fraction_lower": 0.195044241952608,
+      "signal_fraction_upper": 0.221815832746065,
+      "SSI_rate_per_1000": 4.582926144051072,
+      "SSI_rate_per_1000_lower": 4.18687271828323,
+      "SSI_rate_per_1000_upper": 4.977348244145598,
+      "SSI_positive_report_fraction": 0.323212145425489,
+      "SSI_positive_report_fraction_lower": 0.302449035424544,
+      "SSI_positive_report_fraction_upper": 0.343071516793719
+    },
+    {
+      "profile": 3,
+      "label": "Higher volume, higher SSI history",
+      "reports": 3993,
+      "sites": 296,
+      "units": 2286,
+      "operations": 727192,
+      "SSI_cases": 6106,
+      "signals": 1619,
+      "SSI_positive_reports": 2109,
+      "share_of_test_reports": 0.220218398411648,
+      "share_of_test_operations": 0.371064224106479,
+      "share_of_test_SSI_cases": 0.513238631587795,
+      "share_of_test_signals": 0.457344632768362,
+      "bootstrap_repeats": 1999,
+      "bootstrap_frame_sites": 337,
+      "signal_fraction": 0.405459554219885,
+      "signal_fraction_lower": 0.381009716909393,
+      "signal_fraction_upper": 0.426915070102924,
+      "SSI_rate_per_1000": 8.39668203170552,
+      "SSI_rate_per_1000_lower": 7.693765695578165,
+      "SSI_rate_per_1000_upper": 9.111553238487623,
+      "SSI_positive_report_fraction": 0.528174305033809,
+      "SSI_positive_report_fraction_lower": 0.498409867286763,
+      "SSI_positive_report_fraction_upper": 0.555299989043359
+    }
+  ],
+  "training_and_test_population_table": [
+    {
+      "dataset": "Training",
+      "profile": 1,
+      "reports": 16097,
+      "sites": 392,
+      "units": 5164,
+      "operations": 164425,
+      "SSI_cases": 1027,
+      "signals": 743,
+      "signal_fraction": 0.046157669130894,
+      "SSI_rate_per_1000": 6.24600881861031,
+      "SSI_positive_reports": 788,
+      "SSI_positive_fraction": 0.048953221097099,
+      "median_report_SSI_rate": 0.0,
+      "Q1_report_SSI_rate": 0,
+      "Q3_report_SSI_rate": 0.0,
+      "median_prior_volume": 7,
+      "median_prior_cases": 0,
+      "median_prior_expected": 0.03,
+      "median_prior_OE_smoothed": 0.943396226415094,
+      "median_history_OE_smoothed": 0.899280575539568
+    },
+    {
+      "dataset": "Training",
+      "profile": 2,
+      "reports": 15324,
+      "sites": 378,
+      "units": 4795,
+      "operations": 2232810,
+      "SSI_cases": 9195,
+      "signals": 3024,
+      "signal_fraction": 0.197337509788567,
+      "SSI_rate_per_1000": 4.11812917355261,
+      "SSI_positive_reports": 4612,
+      "SSI_positive_fraction": 0.300965805272775,
+      "median_report_SSI_rate": 0.0,
+      "Q1_report_SSI_rate": 0,
+      "Q3_report_SSI_rate": 4.32900432900433,
+      "median_prior_volume": 90,
+      "median_prior_cases": 0,
+      "median_prior_expected": 0.433,
+      "median_prior_OE_smoothed": 0.609756097560976,
+      "median_history_OE_smoothed": 0.528914029090272
+    },
+    {
+      "dataset": "Training",
+      "profile": 3,
+      "reports": 7932,
+      "sites": 355,
+      "units": 3372,
+      "operations": 1354078,
+      "SSI_cases": 10084,
+      "signals": 2867,
+      "signal_fraction": 0.361447302067574,
+      "SSI_rate_per_1000": 7.44713376925111,
+      "SSI_positive_reports": 3746,
+      "SSI_positive_fraction": 0.47226424609178,
+      "median_report_SSI_rate": 0.0,
+      "Q1_report_SSI_rate": 0,
+      "Q3_report_SSI_rate": 11.2359550561798,
+      "median_prior_volume": 107,
+      "median_prior_cases": 1,
+      "median_prior_expected": 0.5745,
+      "median_prior_OE_smoothed": 1.52891448309243,
+      "median_history_OE_smoothed": 1.54004106776181
+    },
+    {
+      "dataset": "Test",
+      "profile": 1,
+      "reports": 6630,
+      "sites": 336,
+      "units": 3452,
+      "operations": 72161,
+      "SSI_cases": 473,
+      "signals": 353,
+      "signal_fraction": 0.053242835595777,
+      "SSI_rate_per_1000": 6.55478721192888,
+      "SSI_positive_reports": 377,
+      "SSI_positive_fraction": 0.056862745098039,
+      "median_report_SSI_rate": 0.0,
+      "Q1_report_SSI_rate": 0,
+      "Q3_report_SSI_rate": 0.0,
+      "median_prior_volume": 7,
+      "median_prior_cases": 0,
+      "median_prior_expected": 0.04,
+      "median_prior_OE_smoothed": 0.943396226415094,
+      "median_history_OE_smoothed": 0.862068965517241
+    },
+    {
+      "dataset": "Test",
+      "profile": 2,
+      "reports": 7509,
+      "sites": 328,
+      "units": 3618,
+      "operations": 1160394,
+      "SSI_cases": 5318,
+      "signals": 1568,
+      "signal_fraction": 0.208816087361832,
+      "SSI_rate_per_1000": 4.58292614405107,
+      "SSI_positive_reports": 2427,
+      "SSI_positive_fraction": 0.323212145425489,
+      "median_report_SSI_rate": 0.0,
+      "Q1_report_SSI_rate": 0,
+      "Q3_report_SSI_rate": 5.20833333333333,
+      "median_prior_volume": 90,
+      "median_prior_cases": 0,
+      "median_prior_expected": 0.48,
+      "median_prior_OE_smoothed": 0.595238095238095,
+      "median_history_OE_smoothed": 0.5
+    },
+    {
+      "dataset": "Test",
+      "profile": 3,
+      "reports": 3993,
+      "sites": 296,
+      "units": 2286,
+      "operations": 727192,
+      "SSI_cases": 6106,
+      "signals": 1619,
+      "signal_fraction": 0.405459554219885,
+      "SSI_rate_per_1000": 8.39668203170552,
+      "SSI_positive_reports": 2109,
+      "SSI_positive_fraction": 0.528174305033809,
+      "median_report_SSI_rate": 2.86532951289398,
+      "Q1_report_SSI_rate": 0,
+      "Q3_report_SSI_rate": 13.3333333333333,
+      "median_prior_volume": 111,
+      "median_prior_cases": 1,
+      "median_prior_expected": 0.65,
+      "median_prior_OE_smoothed": 1.5625,
+      "median_history_OE_smoothed": 1.46443514644351
+    }
+  ],
+  "frozen_centroids": [
+    {
+      "profile": 1,
+      "log_volume": -0.99304863152365,
+      "log_expected_rate": 0.952703531565388,
+      "log_prior_sir": 0.196379539320797,
+      "log_history_sir": 0.180068461351127
+    },
+    {
+      "profile": 2,
+      "log_volume": 0.668376141804134,
+      "log_expected_rate": -0.662772025271486,
+      "log_prior_sir": -0.802024478903565,
+      "log_history_sir": -0.772196421163909
+    },
+    {
+      "profile": 3,
+      "log_volume": 0.724017627915985,
+      "log_expected_rate": -0.652969015676682,
+      "log_prior_sir": 1.15092053331714,
+      "log_history_sir": 1.12639636101193
+    }
+  ],
+  "model_descriptions": {
+    "future_signal_adjusted_RR": "Modified-Poisson future annual signal, adjusted for age, procedure and target year.",
+    "future_SSI_incidence_adjusted_IRR": "Poisson future SSI count with log(current operations) offset, adjusted for age, procedure and target year.",
+    "future_signal_volume_expected_rate_sensitivity_RR": "As primary signal model, additionally adjusted for prior log-volume and smoothed prior expected-rate feature.",
+    "future_incidence_volume_expected_rate_sensitivity_IRR": "As primary incidence model, additionally adjusted for prior log-volume and smoothed prior expected-rate feature."
+  },
+  "sensitivity_contrasts": [
+    {
+      "model": "future_signal_volume_expected_rate_sensitivity_RR",
+      "comparison": "Profile 1 versus Profile 2",
+      "effect": 0.713689540312943,
+      "lower": 0.61133673062325,
+      "upper": 0.833178728575369,
+      "robust_SE": 0.078979657641035,
+      "p": 1.9476299299e-05,
+      "reports": 18132,
+      "sites": 337,
+      "q_BH": 1.9476299299e-05
+    },
+    {
+      "model": "future_signal_volume_expected_rate_sensitivity_RR",
+      "comparison": "Profile 3 versus Profile 1",
+      "effect": 2.45904937103572,
+      "lower": 2.0975269286544,
+      "upper": 2.88288256354849,
+      "robust_SE": 0.081130532138486,
+      "p": 1.39569762387435e-28,
+      "reports": 18132,
+      "sites": 337,
+      "q_BH": 2.09354643581153e-28
+    },
+    {
+      "model": "future_signal_volume_expected_rate_sensitivity_RR",
+      "comparison": "Profile 3 versus Profile 2",
+      "effect": 1.75499781522132,
+      "lower": 1.62811900642952,
+      "upper": 1.89176425019821,
+      "robust_SE": 0.038286860891731,
+      "p": 7.37516702983006e-49,
+      "reports": 18132,
+      "sites": 337,
+      "q_BH": 2.21255010894902e-48
+    },
+    {
+      "model": "future_incidence_volume_expected_rate_sensitivity_IRR",
+      "comparison": "Profile 1 versus Profile 2",
+      "effect": 0.799452405305594,
+      "lower": 0.68299391958701,
+      "upper": 0.935768430757568,
+      "robust_SE": 0.08032706270625,
+      "p": 0.005328692418644,
+      "reports": 18132,
+      "sites": 337,
+      "q_BH": 0.005328692418644
+    },
+    {
+      "model": "future_incidence_volume_expected_rate_sensitivity_IRR",
+      "comparison": "Profile 3 versus Profile 1",
+      "effect": 2.12090141464392,
+      "lower": 1.78160231779259,
+      "upper": 2.52481867907082,
+      "robust_SE": 0.088942885703678,
+      "p": 2.83720806946285e-17,
+      "reports": 18132,
+      "sites": 337,
+      "q_BH": 4.25581210419427e-17
+    },
+    {
+      "model": "future_incidence_volume_expected_rate_sensitivity_IRR",
+      "comparison": "Profile 3 versus Profile 2",
+      "effect": 1.69555973735312,
+      "lower": 1.58433240343933,
+      "upper": 1.81459573552366,
+      "robust_SE": 0.034617241231162,
+      "p": 1.57508669982178e-52,
+      "reports": 18132,
+      "sites": 337,
+      "q_BH": 4.72526009946533e-52
+    }
+  ],
+  "cautions": [
+    "K=3 is an exploratory visualization choice, not a validated optimum selected by clinical utility.",
+    "Profiles characterize prior reporting features; they are not microbial ecotypes, patient-level disease states or causal mechanisms.",
+    "Training and test hospitals overlap. The evaluation is chronological later-report testing, not an independent-hospital validation.",
+    "Uncertainty is conditional on the frozen training profile definition and does not incorporate re-estimation of clusters.",
+    "Component and procedure heatmaps are descriptive; testing their separation would be circular.",
+    "The smoothed expected-rate feature contains a half-count constant and is not the unsmoothed source expected SSI rate.",
+    "This summarizes prognostic patterns. Incremental predictive utility versus the already fitted full signal model has not been established.",
+    "Keep report observations, operation exposure denominators, and SSI case counts distinct."
+  ],
+  "source_path": "__LEGACY_ROOT__/work/ssi_new_prediction/lagged_prediction_cohort.csv.gz",
+  "source_sha256": "3e73859cb165d1f24e4b175bf688b65b4cc54a4d227501943e986820c823405a",
+  "reproducibility_scripts": [
+    "fit_frozen_report_profiles.R",
+    "prepare_fourpanel_data.py",
+    "verify_fourpanel_data.py"
+  ]
+}

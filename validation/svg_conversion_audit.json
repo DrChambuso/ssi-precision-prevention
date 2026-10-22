@@ -1,0 +1,112 @@
+[
+  {
+    "figure": 3,
+    "source_media": "image5.svg",
+    "render_pixel_identical_72dpi": false,
+    "source_dimensions_pt": [
+      0.0,
+      0.0,
+      481.8897705078125,
+      504.5669250488281
+    ],
+    "pdf_dimensions_pt": [
+      0.0,
+      0.0,
+      481.8897705078125,
+      504.5669250488281
+    ],
+    "source_svg_sha256": "d70323c05ecea962d90f5faf7663a4522313989628a9260e5261526521e6f25a",
+    "pdf_sha256": "2d99c5b05fa3ecfa1ee8acb62c202fbba0c18629a5e491293456778454aa8f7a",
+    "pixel_diff_mean_channel_value_72dpi": 0.004808074168412692,
+    "fraction_channels_changed_more_than_10_72dpi": 5.0668967311668926e-05,
+    "max_channel_difference_72dpi": 14
+  },
+  {
+    "figure": 4,
+    "source_media": "image7.svg",
+    "render_pixel_identical_72dpi": false,
+    "source_dimensions_pt": [
+      0.0,
+      0.0,
+      481.8897705078125,
+      538.5827026367188
+    ],
+    "pdf_dimensions_pt": [
+      0.0,
+      0.0,
+      481.8897705078125,
+      538.5827026367188
+    ],
+    "source_svg_sha256": "0597eeda3098c266ba7f05cae58212310aa1b3c63a68b8610496721a165bb95e",
+    "pdf_sha256": "7b91dd941023fceaafe6deb7a3e69a1b1106771b26b6d4c1643e24db79f97c4a",
+    "pixel_diff_mean_channel_value_72dpi": 0.008904353895462371,
+    "fraction_channels_changed_more_than_10_72dpi": 0.00019758940920766647,
+    "max_channel_difference_72dpi": 14
+  },
+  {
+    "figure": 5,
+    "source_media": "image9.svg",
+    "render_pixel_identical_72dpi": false,
+    "source_dimensions_pt": [
+      0.0,
+      0.0,
+      481.8897705078125,
+      538.5827026367188
+    ],
+    "pdf_dimensions_pt": [
+      0.0,
+      0.0,
+      481.8897705078125,
+      538.5827026367188
+    ],
+    "source_svg_sha256": "94031cf781357b6f54427c52c9f8f3c4b51357ecc19eb19e94b5092409a9ac80",
+    "pdf_sha256": "ded3386859df45457f6dda8e20eb19ae20097e746a8b3ff7b4d79beadaf73e30",
+    "pixel_diff_mean_channel_value_72dpi": 0.008896655606791943,
+    "fraction_channels_changed_more_than_10_72dpi": 0.00020400464976635694,
+    "max_channel_difference_72dpi": 15
+  },
+  {
+    "figure": 9,
+    "source_media": "image12.svg",
+    "render_pixel_identical_72dpi": false,
+    "source_dimensions_pt": [
+      0.0,
+      0.0,
+      481.8897705078125,
+      538.5827026367188
+    ],
+    "pdf_dimensions_pt": [
+      0.0,
+      0.0,
+      481.8897705078125,
+      538.5827026367188
+    ],
+    "source_svg_sha256": "e20ca3289106ce2d5a1e3ac13be319c3176e0fb15fa15d55811574e361e68cef",
+    "pdf_sha256": "24d680c4e53928c0138b28e6e9d9cef39bf1c1a8f382dc871f875a7b5ca60b48",
+    "pixel_diff_mean_channel_value_72dpi": 0.009805053669902515,
+    "fraction_channels_changed_more_than_10_72dpi": 0.00011034213760947608,
+    "max_channel_difference_72dpi": 14
+  },
+  {
+    "figure": 13,
+    "source_media": "image17.svg",
+    "render_pixel_identical_72dpi": false,
+    "source_dimensions_pt": [
+      0.0,
+      0.0,
+      481.8897705078125,
+      348.6614074707031
+    ],
+    "pdf_dimensions_pt": [
+      0.0,
+      0.0,
+      481.8897705078125,
+      348.6614074707031
+    ],
+    "source_svg_sha256": "3fea9069aeccc16fb85309843a9505c7506b03efc3dc875e3653458900ba76da",
+    "pdf_sha256": "2184af6217b7792c1c510a4d0204b2a873c75e5fede1c3bfbbe38a488329db51",
+    "pixel_diff_mean_channel_value_72dpi": 0.026426026544919885,
+    "fraction_channels_changed_more_than_10_72dpi": 0.00042207135978313855,
+    "max_channel_difference_72dpi": 16
+  }
+]

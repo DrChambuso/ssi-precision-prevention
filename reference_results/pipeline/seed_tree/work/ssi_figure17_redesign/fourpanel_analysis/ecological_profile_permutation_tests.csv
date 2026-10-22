@@ -1,0 +1,4 @@
+"outcome","F","p","permutations","profiles","inference"
+"Organ/space report fraction",3.69714637271881,0.102380952380952,840,13,"Exact permutation of ecotype labels within age group; profile is unit; age-adjusted partial-F statistic"
+"Conditional MRSA percent",3.93214676901718,0.0357142857142857,84,11,"Exact permutation of ecotype labels within age group; profile is unit; age-adjusted partial-F statistic"
+"Conditional MRSA percent ecotype1vs2",8.21400229202352,0.0714285714285714,14,9,"Exact permutation of ecotype labels within age group; profile is unit; age-adjusted partial-F statistic"

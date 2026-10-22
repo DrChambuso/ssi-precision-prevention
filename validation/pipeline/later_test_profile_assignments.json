@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_figure17_redesign/fourpanel_prediction_analysis/later_test_profile_assignments.csv",
+  "rows": 18132,
+  "numeric_columns": 21,
+  "maximum_absolute_difference": 0.0,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

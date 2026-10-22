@@ -1,0 +1,5 @@
+"model","df","Wald_chisq","p"
+"future_signal_adjusted_RR",2,720.30275976757,3.87474446564094e-157
+"future_SSI_incidence_adjusted_IRR",2,201.721215113359,1.57323897412646e-44
+"future_signal_volume_expected_rate_sensitivity_RR",2,266.496076302359,1.35242224800654e-58
+"future_incidence_volume_expected_rate_sensitivity_IRR",2,236.958384026061,3.50865517368387e-52

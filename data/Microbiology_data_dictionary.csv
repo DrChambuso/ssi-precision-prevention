@@ -1,0 +1,101 @@
+dataset,variable,source_variable,label,definition,data_type,missing_rows
+microbiology/adult_pediatric_pathogen_tests.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/adult_pediatric_pathogen_tests.csv,surgical_category,category,Surgical category or SSI depth,Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories,text,0
+microbiology/adult_pediatric_pathogen_tests.csv,organism,pathogen,Organism,"Published species or group, harmonized spelling only; retain source taxonomy differences",text,0
+microbiology/adult_pediatric_pathogen_tests.csv,primary_cross_period_comparability,primary_cross_period_comparability,Primary cross-period comparison permitted,False for period-shifted Klebsiella and Enterobacter definitions,text,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,surgical_category,category,Surgical category or SSI depth,Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories,text,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,organism,pathogen,Organism,"Published species or group, harmonized spelling only; retain source taxonomy differences",text,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,phenotype,phenotype,Antimicrobial or resistance phenotype,"Source-specific definition retained, including footnote variants",text,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,measure,measure,Phenotype measure,Resistance or non-susceptibility according to source definition,text,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,organism_reports,reported_count,Reported organism count,Source count of organism reports before drug-specific testing; repeated across phenotypes,integer,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,tested_percent,percent_tested,Organism reports tested (%),Published rounded percentage of reported organism count tested for phenotype,number,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,resistant_or_nonsusceptible_percent,percent_result,Resistance or non-susceptibility (%),"Published rounded phenotype percentage among tested organism reports, not among all SSI events",number,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,possible_tested_count_min,compatible_tested_min,Minimum compatible tested reports,Derived minimum integer compatible with rounded tested percentage; not exact source count,integer,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,possible_tested_count_max,compatible_tested_max,Maximum compatible tested reports,Derived maximum integer compatible with rounded tested percentage; not exact source count,integer,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,possible_resistant_count_min,compatible_result_min,Minimum compatible phenotype reports,Derived minimum phenotype count compatible with both published percentages; not exact source count,integer,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,possible_resistant_count_max,compatible_result_max,Maximum compatible phenotype reports,Derived maximum phenotype count compatible with both published percentages; not exact source count,integer,0
+microbiology/amr_occurrence_priority_rounding_bounds.csv,source_table,source_table,Source table,Table in age-period source document identified by source metadata,text,0
+microbiology/category_enrichment_tests.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/category_enrichment_tests.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/category_enrichment_tests.csv,surgical_category,category,Surgical category or SSI depth,Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories,text,0
+microbiology/category_enrichment_tests.csv,organism,pathogen,Organism,"Published species or group, harmonized spelling only; retain source taxonomy differences",text,0
+microbiology/category_enrichment_tests.csv,primary_cross_period_comparability,primary_cross_period_comparability,Primary cross-period comparison permitted,False for period-shifted Klebsiella and Enterobacter definitions,text,0
+microbiology/cross_period_pathogen_signal_replication.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/cross_period_pathogen_signal_replication.csv,surgical_category,category,Surgical category or SSI depth,Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories,text,0
+microbiology/cross_period_pathogen_signal_replication.csv,organism,pathogen,Organism,"Published species or group, harmonized spelling only; retain source taxonomy differences",text,0
+microbiology/depth_age_tests.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/depth_age_tests.csv,surgical_category,category,Surgical category or SSI depth,Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories,text,0
+microbiology/depth_age_tests.csv,ssi_depth,depth,SSI depth,"Superficial incisional, deep incisional or organ/space; all-SSI total overlaps these components",text,0
+microbiology/depth_pathogen_tests.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/depth_pathogen_tests.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/depth_pathogen_tests.csv,organism,pathogen,Organism,"Published species or group, harmonized spelling only; retain source taxonomy differences",text,0
+microbiology/depth_pathogen_tests.csv,ssi_depth,depth,SSI depth,"Superficial incisional, deep incisional or organ/space; all-SSI total overlaps these components",text,0
+microbiology/depth_pathogen_tests.csv,primary_cross_period_comparability,primary_cross_period_comparability,Primary cross-period comparison permitted,False for period-shifted Klebsiella and Enterobacter definitions,text,0
+microbiology/depth_period_tests.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/depth_period_tests.csv,surgical_category,category,Surgical category or SSI depth,Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories,text,0
+microbiology/depth_period_tests.csv,ssi_depth,depth,SSI depth,"Superficial incisional, deep incisional or organ/space; all-SSI total overlaps these components",text,0
+microbiology/global_composition_tests.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/global_composition_tests.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/national_ssi_amr.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/national_ssi_amr.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/national_ssi_amr.csv,surgical_category,category,Surgical category or SSI depth,Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories,text,0
+microbiology/national_ssi_amr.csv,organism,pathogen,Organism,"Published species or group, harmonized spelling only; retain source taxonomy differences",text,0
+microbiology/national_ssi_amr.csv,phenotype,phenotype,Antimicrobial or resistance phenotype,"Source-specific definition retained, including footnote variants",text,0
+microbiology/national_ssi_amr.csv,measure,measure,Phenotype measure,Resistance or non-susceptibility according to source definition,text,0
+microbiology/national_ssi_amr.csv,organism_reports,reported_count,Reported organism count,Source count of organism reports before drug-specific testing; repeated across phenotypes,integer,0
+microbiology/national_ssi_amr.csv,tested_percent,percent_tested,Organism reports tested (%),Published rounded percentage of reported organism count tested for phenotype,number,14
+microbiology/national_ssi_amr.csv,resistant_or_nonsusceptible_percent,percent_result,Resistance or non-susceptibility (%),"Published rounded phenotype percentage among tested organism reports, not among all SSI events",number,58
+microbiology/national_ssi_amr.csv,source_significant_compared_with_abdominal,source_significant_vs_abdominal,Source comparison significant vs abdominal,"Original source significance flag in 2015-2017, not a new test",text,0
+microbiology/national_ssi_amr.csv,source_p_value_threshold,source_p_threshold,Source P value threshold,0.05 when source significance flag is present; blank otherwise,number,279
+microbiology/national_ssi_amr.csv,source_table,source_table,Source table,Table in age-period source document identified by source metadata,text,0
+microbiology/national_ssi_amr.csv,possible_tested_count_min,compatible_tested_min,Minimum compatible tested reports,Derived minimum integer compatible with rounded tested percentage; not exact source count,integer,58
+microbiology/national_ssi_amr.csv,possible_tested_count_max,compatible_tested_max,Maximum compatible tested reports,Derived maximum integer compatible with rounded tested percentage; not exact source count,integer,58
+microbiology/national_ssi_amr.csv,possible_resistant_count_min,compatible_result_min,Minimum compatible phenotype reports,Derived minimum phenotype count compatible with both published percentages; not exact source count,integer,58
+microbiology/national_ssi_amr.csv,possible_resistant_count_max,compatible_result_max,Maximum compatible phenotype reports,Derived maximum phenotype count compatible with both published percentages; not exact source count,integer,58
+microbiology/national_ssi_amr.csv,rounding_aware_wilson_lower,rounding_aware_wilson_lower,Rounding-aware 95% CI lower,Minimum Wilson lower bound across compatible integer numerator-denominator pairs,number,58
+microbiology/national_ssi_amr.csv,rounding_aware_wilson_upper,rounding_aware_wilson_upper,Rounding-aware 95% CI upper,Maximum Wilson upper bound across compatible integer numerator-denominator pairs,number,58
+microbiology/national_ssi_amr.csv,compatible_integer_pairs,compatible_integer_pairs,Compatible integer pairs,Number of tested-positive integer pairs satisfying nearest 0.1 percentage-point rounding,integer,58
+microbiology/national_ssi_amr.csv,exact_tested_count_available,exact_tested_count_available,Exact tested count available,False for every AMR source cell,text,0
+microbiology/national_ssi_depth.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/national_ssi_depth.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/national_ssi_depth.csv,surgical_category,category,Surgical category or SSI depth,Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories,text,0
+microbiology/national_ssi_depth.csv,ssi_depth,depth,SSI depth,"Superficial incisional, deep incisional or organ/space; all-SSI total overlaps these components",text,0
+microbiology/national_ssi_depth.csv,organism_reports,count,Pathogen reports,Exact published organism report count; depth datasets count pathogen reports classified by SSI depth,integer,0
+microbiology/national_ssi_depth.csv,total_organism_reports,total,Total pathogen reports in stratum,Composition denominator repeated across components; never sum repeated denominators,integer,0
+microbiology/national_ssi_depth.csv,source_table,source_table,Source table,Table in age-period source document identified by source metadata,text,0
+microbiology/national_ssi_depth.csv,proportion_of_organism_reports,proportion,Share of pathogen reports,Count divided by total pathogen reports in its source stratum,number,0
+microbiology/national_ssi_pathogens.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/national_ssi_pathogens.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/national_ssi_pathogens.csv,surgical_category,category,Surgical category or SSI depth,Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories,text,0
+microbiology/national_ssi_pathogens.csv,organism,pathogen,Organism,"Published species or group, harmonized spelling only; retain source taxonomy differences",text,0
+microbiology/national_ssi_pathogens.csv,organism_reports,reported_count,Reported organism count,Source count of organism reports before drug-specific testing; repeated across phenotypes,integer,0
+microbiology/national_ssi_pathogens.csv,total_organism_reports,total,Total pathogen reports in stratum,Composition denominator repeated across components; never sum repeated denominators,integer,0
+microbiology/national_ssi_pathogens.csv,source_table,source_table,Source table,Table in age-period source document identified by source metadata,text,0
+microbiology/national_ssi_pathogens.csv,proportion_of_organism_reports,proportion,Share of pathogen reports,Count divided by total pathogen reports in its source stratum,number,0
+microbiology/national_ssi_pathogens.csv,primary_cross_period_comparability,primary_cross_period_comparability,Primary cross-period comparison permitted,False for period-shifted Klebsiella and Enterobacter definitions,text,0
+microbiology/national_ssi_pathogens_by_depth.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/national_ssi_pathogens_by_depth.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/national_ssi_pathogens_by_depth.csv,ssi_depth,depth,SSI depth,"Superficial incisional, deep incisional or organ/space; all-SSI total overlaps these components",text,0
+microbiology/national_ssi_pathogens_by_depth.csv,organism,pathogen,Organism,"Published species or group, harmonized spelling only; retain source taxonomy differences",text,0
+microbiology/national_ssi_pathogens_by_depth.csv,organism_reports,reported_count,Reported organism count,Source count of organism reports before drug-specific testing; repeated across phenotypes,integer,0
+microbiology/national_ssi_pathogens_by_depth.csv,total_organism_reports,total,Total pathogen reports in stratum,Composition denominator repeated across components; never sum repeated denominators,integer,0
+microbiology/national_ssi_pathogens_by_depth.csv,source_table,source_table,Source table,Table in age-period source document identified by source metadata,text,0
+microbiology/national_ssi_pathogens_by_depth.csv,proportion_of_organism_reports,proportion,Share of pathogen reports,Count divided by total pathogen reports in its source stratum,number,0
+microbiology/national_ssi_source_totals.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/national_ssi_source_totals.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/national_ssi_source_totals.csv,ssi_events,ssi_events,SSI events,Published number of SSI events in source population; can have multiple pathogen reports,integer,0
+microbiology/national_ssi_source_totals.csv,pathogen_reports,pathogen_reports,Pathogen reports,"Published number of organism reports, not unique patients or operations",integer,0
+microbiology/national_ssi_source_totals.csv,ssi_events_without_pathogen,ssi_events_without_pathogen,SSI events without reported pathogen,"Source events without a reported organism, blank when unavailable",integer,1
+microbiology/national_ssi_source_totals.csv,ssi_events_with_pathogen,ssi_events_with_pathogen,SSI events with reported pathogen,Source events minus events without a reported organism,integer,1
+microbiology/national_ssi_source_totals.csv,fraction_without_pathogen,fraction_without_pathogen,Share of SSI events without reported pathogen,Events without reported pathogen divided by all SSI events,number,1
+microbiology/period_shift_tests.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/period_shift_tests.csv,surgical_category,category,Surgical category or SSI depth,Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories,text,0
+microbiology/period_shift_tests.csv,organism,pathogen,Organism,"Published species or group, harmonized spelling only; retain source taxonomy differences",text,0
+microbiology/period_shift_tests.csv,primary_cross_period_comparability,primary_cross_period_comparability,Primary cross-period comparison permitted,False for period-shifted Klebsiella and Enterobacter definitions,text,0
+microbiology/pooled_category_enrichment_tests.csv,age_group,age,Age group,Adult or pediatric source population,text,0
+microbiology/pooled_category_enrichment_tests.csv,reporting_period,period,Reporting period,Published source interval,text,0
+microbiology/pooled_category_enrichment_tests.csv,surgical_category,category,Surgical category or SSI depth,Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories,text,0
+microbiology/pooled_category_enrichment_tests.csv,organism,pathogen,Organism,"Published species or group, harmonized spelling only; retain source taxonomy differences",text,0
+microbiology/pooled_category_enrichment_tests.csv,primary_cross_period_comparability,primary_cross_period_comparability,Primary cross-period comparison permitted,False for period-shifted Klebsiella and Enterobacter definitions,text,0

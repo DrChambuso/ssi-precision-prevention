@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_inferential_microbiology/national_ssi_pathogens.csv",
+  "rows": 373,
+  "numeric_columns": 4,
+  "maximum_absolute_difference": 0.0,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

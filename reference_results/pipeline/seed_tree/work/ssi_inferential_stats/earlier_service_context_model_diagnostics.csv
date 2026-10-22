@@ -1,0 +1,3 @@
+"model","converged","iterations","fitted_min","fitted_max","maximum_abs_coefficient"
+"Poisson",TRUE,6,0.00329976597669926,2.04102348521523,5.2936032831075
+"Logistic",TRUE,6,0.00172566310641191,0.884939438814683,5.65281130310337

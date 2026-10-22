@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_inferential_microbiology/pooled_category_enrichment_tests.csv",
+  "rows": 116,
+  "numeric_columns": 21,
+  "maximum_absolute_difference": 8.271806125530277e-25,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

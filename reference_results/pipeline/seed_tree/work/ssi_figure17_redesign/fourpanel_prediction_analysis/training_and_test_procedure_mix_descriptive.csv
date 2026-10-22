@@ -1,0 +1,169 @@
+dataset,profile,procedure,reports,profile_reports,fraction
+Training,1,Abdominal aortic aneurysm repair,350,16097,0.021743181959371312
+Training,1,Appendix surgery,1196,16097,0.07429955892402311
+Training,1,"Bile duct, liver or pancreatic surgery",974,16097,0.06050816922407902
+Training,1,Cardiac surgery,381,16097,0.02366900664720134
+Training,1,Cesarean section,687,16097,0.04267876001739455
+Training,1,Colon surgery,682,16097,0.04236814313226067
+Training,1,"Coronary bypass, chest and donor incisions",60,16097,0.0037274026216065105
+Training,1,"Coronary bypass, chest incision only",442,16097,0.027458532645834626
+Training,1,Exploratory abdominal surgery (laparotomy),861,16097,0.053488227620053425
+Training,1,Gallbladder surgery,786,16097,0.04882897434304529
+Training,1,Gastric surgery,757,16097,0.047027396409268805
+Training,1,Heart transplant,24,16097,0.0014909610486426041
+Training,1,Hip prosthesis,373,16097,0.02317201963098714
+Training,1,"Hysterectomy, abdominal",589,16097,0.03659066906877058
+Training,1,"Hysterectomy, vaginal",825,16097,0.05125178604708952
+Training,1,Kidney surgery,587,16097,0.03646642231471703
+Training,1,Kidney transplant,75,16097,0.004659253277008138
+Training,1,Knee prosthesis,304,16097,0.018885506616139653
+Training,1,Laminectomy,386,16097,0.023979623532335216
+Training,1,Liver transplant,27,16097,0.0016773311797229297
+Training,1,Open reduction of fracture,787,16097,0.048891097720072066
+Training,1,Ovarian surgery,728,16097,0.04522581847549233
+Training,1,Pacemaker surgery,507,16097,0.03149655215257501
+Training,1,Rectal surgery,1005,16097,0.06243399391190905
+Training,1,Small bowel surgery,773,16097,0.04802137044169721
+Training,1,Spinal fusion,359,16097,0.022302292352612288
+Training,1,Spleen surgery,764,16097,0.04746226004845623
+Training,1,Thoracic surgery,808,16097,0.05019568863763434
+Training,2,Abdominal aortic aneurysm repair,11,15324,0.0007178282432785173
+Training,2,Appendix surgery,1406,15324,0.09175150091359958
+Training,2,"Bile duct, liver or pancreatic surgery",261,15324,0.017032106499608457
+Training,2,Cardiac surgery,418,15324,0.02727747324458366
+Training,2,Cesarean section,878,15324,0.05729574523623075
+Training,2,Colon surgery,821,15324,0.05357608979378752
+Training,2,"Coronary bypass, chest and donor incisions",392,15324,0.025580788305925344
+Training,2,"Coronary bypass, chest incision only",76,15324,0.004959540589924301
+Training,2,Exploratory abdominal surgery (laparotomy),952,15324,0.06212477160010441
+Training,2,Gallbladder surgery,1043,15324,0.0680631688854085
+Training,2,Gastric surgery,557,15324,0.036348211955103106
+Training,2,Heart transplant,30,15324,0.001957713390759593
+Training,2,Hip prosthesis,856,15324,0.055860088749673714
+Training,2,"Hysterectomy, abdominal",703,15324,0.04587575045679979
+Training,2,"Hysterectomy, vaginal",297,15324,0.01938136256851997
+Training,2,Kidney surgery,329,15324,0.0214695901853302
+Training,2,Kidney transplant,49,15324,0.003197598538240668
+Training,2,Knee prosthesis,843,15324,0.05501174628034456
+Training,2,Laminectomy,664,15324,0.043330723048812324
+Training,2,Liver transplant,41,15324,0.0026755416340381102
+Training,2,Open reduction of fracture,974,15324,0.06356042808666144
+Training,2,Ovarian surgery,559,15324,0.03647872618115375
+Training,2,Pacemaker surgery,570,15324,0.03719655442443226
+Training,2,Rectal surgery,447,15324,0.029169929522317933
+Training,2,Small bowel surgery,752,15324,0.04907334899504046
+Training,2,Spinal fusion,667,15324,0.04352649438788828
+Training,2,Spleen surgery,68,15324,0.004437483685721744
+Training,2,Thoracic surgery,660,15324,0.04306969459671104
+Training,3,Abdominal aortic aneurysm repair,1,7932,0.0001260716086737267
+Training,3,Appendix surgery,563,7932,0.07097831568330812
+Training,3,"Bile duct, liver or pancreatic surgery",218,7932,0.027483610690872417
+Training,3,Cardiac surgery,162,7932,0.02042360060514372
+Training,3,Cesarean section,424,7932,0.05345436207766011
+Training,3,Colon surgery,596,7932,0.0751386787695411
+Training,3,"Coronary bypass, chest and donor incisions",204,7932,0.025718608169440244
+Training,3,"Coronary bypass, chest incision only",55,7932,0.006933938477054967
+Training,3,Exploratory abdominal surgery (laparotomy),554,7932,0.06984367120524458
+Training,3,Gallbladder surgery,561,7932,0.07072617246596066
+Training,3,Gastric surgery,254,7932,0.032022188603126577
+Training,3,Heart transplant,7,7932,0.0008825012607160867
+Training,3,Hip prosthesis,516,7932,0.06505295007564296
+Training,3,"Hysterectomy, abdominal",346,7932,0.04362077660110943
+Training,3,"Hysterectomy, vaginal",145,7932,0.01828038325769037
+Training,3,Kidney surgery,150,7932,0.018910741301059002
+Training,3,Kidney transplant,30,7932,0.0037821482602118004
+Training,3,Knee prosthesis,500,7932,0.06303580433686334
+Training,3,Laminectomy,327,7932,0.041225416036308624
+Training,3,Liver transplant,8,7932,0.0010085728693898135
+Training,3,Open reduction of fracture,523,7932,0.06593545133635906
+Training,3,Ovarian surgery,355,7932,0.04475542107917297
+Training,3,Pacemaker surgery,219,7932,0.02760968229954614
+Training,3,Rectal surgery,74,7932,0.009329299041855773
+Training,3,Small bowel surgery,458,7932,0.05774079677256682
+Training,3,Spinal fusion,398,7932,0.050176500252143215
+Training,3,Spleen surgery,65,7932,0.008194654563792234
+Training,3,Thoracic surgery,219,7932,0.02760968229954614
+Test,1,Abdominal aortic aneurysm repair,143,6630,0.021568627450980392
+Test,1,Appendix surgery,371,6630,0.05595776772247361
+Test,1,"Bile duct, liver or pancreatic surgery",429,6630,0.06470588235294118
+Test,1,Cardiac surgery,155,6630,0.023378582202111614
+Test,1,Cesarean section,103,6630,0.015535444947209653
+Test,1,Colon surgery,255,6630,0.038461538461538464
+Test,1,"Coronary bypass, chest and donor incisions",26,6630,0.00392156862745098
+Test,1,"Coronary bypass, chest incision only",233,6630,0.035143288084464555
+Test,1,Exploratory abdominal surgery (laparotomy),280,6630,0.042232277526395176
+Test,1,Gallbladder surgery,239,6630,0.03604826546003016
+Test,1,Gastric surgery,380,6630,0.05731523378582202
+Test,1,Heart transplant,17,6630,0.002564102564102564
+Test,1,Hip prosthesis,156,6630,0.023529411764705882
+Test,1,"Hysterectomy, abdominal",263,6630,0.03966817496229261
+Test,1,"Hysterectomy, vaginal",428,6630,0.06455505279034691
+Test,1,Kidney surgery,281,6630,0.042383107088989444
+Test,1,Kidney transplant,25,6630,0.003770739064856712
+Test,1,Knee prosthesis,151,6630,0.02277526395173454
+Test,1,Laminectomy,128,6630,0.019306184012066366
+Test,1,Liver transplant,15,6630,0.0022624434389140274
+Test,1,Open reduction of fracture,321,6630,0.04841628959276018
+Test,1,Ovarian surgery,400,6630,0.06033182503770739
+Test,1,Pacemaker surgery,231,6630,0.03484162895927602
+Test,1,Rectal surgery,476,6630,0.07179487179487179
+Test,1,Small bowel surgery,324,6630,0.048868778280542986
+Test,1,Spinal fusion,127,6630,0.019155354449472098
+Test,1,Spleen surgery,349,6630,0.0526395173453997
+Test,1,Thoracic surgery,324,6630,0.048868778280542986
+Test,2,Abdominal aortic aneurysm repair,2,7509,0.00026634705020641894
+Test,2,Appendix surgery,733,7509,0.09761619390065256
+Test,2,"Bile duct, liver or pancreatic surgery",109,7509,0.014515914236249833
+Test,2,Cardiac surgery,248,7509,0.03302703422559595
+Test,2,Cesarean section,378,7509,0.05033959248901319
+Test,2,Colon surgery,440,7509,0.05859635104541217
+Test,2,"Coronary bypass, chest and donor incisions",206,7509,0.027433746171261153
+Test,2,"Coronary bypass, chest incision only",43,7509,0.0057264615794380075
+Test,2,Exploratory abdominal surgery (laparotomy),456,7509,0.060727127447063524
+Test,2,Gallbladder surgery,504,7509,0.06711945665201757
+Test,2,Gastric surgery,312,7509,0.041550139832201356
+Test,2,Heart transplant,11,7509,0.0014649087761353043
+Test,2,Hip prosthesis,424,7509,0.05646557464376082
+Test,2,"Hysterectomy, abdominal",325,7509,0.04328139565854308
+Test,2,"Hysterectomy, vaginal",43,7509,0.0057264615794380075
+Test,2,Kidney surgery,140,7509,0.018644293514449326
+Test,2,Kidney transplant,25,7509,0.003329338127580237
+Test,2,Knee prosthesis,384,7509,0.05113863363963244
+Test,2,Laminectomy,355,7509,0.04727660141163936
+Test,2,Liver transplant,27,7509,0.003595685177786656
+Test,2,Open reduction of fracture,477,7509,0.06352377147423093
+Test,2,Ovarian surgery,251,7509,0.03342655480090558
+Test,2,Pacemaker surgery,298,7509,0.03968571048075643
+Test,2,Rectal surgery,270,7509,0.03595685177786656
+Test,2,Small bowel surgery,358,7509,0.047676121986949
+Test,2,Spinal fusion,309,7509,0.04115061925689173
+Test,2,Spleen surgery,43,7509,0.0057264615794380075
+Test,2,Thoracic surgery,338,7509,0.04501265148488481
+Test,3,Abdominal aortic aneurysm repair,1,3993,0.00025043826696719256
+Test,3,Appendix surgery,216,3993,0.054094665664913597
+Test,3,"Bile duct, liver or pancreatic surgery",109,3993,0.027297771099423992
+Test,3,Cardiac surgery,75,3993,0.018782870022539443
+Test,3,Cesarean section,221,3993,0.05534685699974956
+Test,3,Colon surgery,267,3993,0.06686701728024042
+Test,3,"Coronary bypass, chest and donor incisions",103,3993,0.025795141497620837
+Test,3,"Coronary bypass, chest incision only",15,3993,0.003756574004507889
+Test,3,Exploratory abdominal surgery (laparotomy),318,3993,0.07963936889556725
+Test,3,Gallbladder surgery,287,3993,0.07187578261958427
+Test,3,Gastric surgery,124,3993,0.03105434510393188
+Test,3,Heart transplant,8,3993,0.0020035061357375405
+Test,3,Hip prosthesis,272,3993,0.06811920861507638
+Test,3,"Hysterectomy, abdominal",190,3993,0.04758327072376659
+Test,3,"Hysterectomy, vaginal",31,3993,0.00776358627598297
+Test,3,Kidney surgery,104,3993,0.026045579764588028
+Test,3,Kidney transplant,17,3993,0.004257450538442274
+Test,3,Knee prosthesis,244,3993,0.06110693713999499
+Test,3,Laminectomy,153,3993,0.03831705484598046
+Test,3,Liver transplant,1,3993,0.00025043826696719256
+Test,3,Open reduction of fracture,285,3993,0.07137490608564989
+Test,3,Ovarian surgery,145,3993,0.03631354871024293
+Test,3,Pacemaker surgery,101,3993,0.02529426496368645
+Test,3,Rectal surgery,46,3993,0.01152016028049086
+Test,3,Small bowel surgery,275,3993,0.06887052341597796
+Test,3,Spinal fusion,229,3993,0.0573503631354871
+Test,3,Spleen surgery,28,3993,0.007012271475081392
+Test,3,Thoracic surgery,128,3993,0.03205609817180065

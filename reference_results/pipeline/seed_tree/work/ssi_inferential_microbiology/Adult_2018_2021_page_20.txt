@@ -1,0 +1,31 @@
+20 
+ 
+Table 15. Percent of PVAP Pathogens That Were Resistant to Selected Antimicrobials and Classified as "Urgent" or "Serious" Antimicrobial 
+Resistant Threats1, by Facility Type, Adults, 2018-2021 
+ Acute Care Hospitals LTACHs 
+Pathogen, Antimicrobial Phenotype  # Reported % Tested %R # Reported % Tested %R 
+Urgent Threats             
+Acinetobacter spp. 443     23     
+Carbapenem-NS   82.6 36.1   91.3 85.7 
+              
+Select Enterobacterales2 3,603     68     
+Carbapenem-resistant (CRE)   74.8 2.8   85.3 17.2 
+              
+Serious Threats             
+Select Enterobacterales3 2,292     51     
+Extended-spectrum cephalosporin-NS   88.7 19.6   92.2 53.2 
+              
+Enterobacter spp. 932     14     
+Cefepime-NS   79.7 9.2   . . 
+              
+Pseudomonas aeruginosa 2,062     105     
+Multidrug-resistant (MDR)   95.4 15.4   97.1 34.3 
+              
+Staphylococcus aureus 4,556     65     
+Meth/ox/cefox - resistant (MRSA)   91.6 35.6   95.4 59.7 
+Note: Percent resistance is not calculated when the number of tested isolates is < 20. Refer to Technical Resources for more information about phenotype 
+definitions, acronyms, and terms used in this table.   
+Footnotes: 
+1. As classified by CDC's 2022 Special Report: COVID-19 U.S. Impact on Antimicrobial Resistance 
+2. Consists of E.coli, Klebsiella oxytoca, Klebsiella pneumoniae, Klebsiella aerogenes, and Enterobacter spp. 
+3. Consists of E.coli, Klebsiella oxytoca, and Klebsiella pneumoniae.

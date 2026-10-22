@@ -1,0 +1,15 @@
+ecotype,label,vertex_order,profile_id,PC1,PC2
+1,Enteric and yeast enriched,0,adult|2018-2021|Abdominal,-2.29791202844407,-1.03377285075275
+1,Enteric and yeast enriched,1,pediatric|2018-2021|Abdominal,-2.10402801966839,-1.77955802847976
+1,Enteric and yeast enriched,2,pediatric|2015-2017|Abdominal,-1.78951804125539,-1.66865669127978
+1,Enteric and yeast enriched,3,adult|2018-2021|Other procedures,-0.835200378471518,-1.09242581031485
+1,Enteric and yeast enriched,4,adult|2015-2017|Abdominal,-2.02540740042781,-0.858122126589995
+2,Mixed operative profile,0,adult|2018-2021|Ob/Gyn,-1.2279074592949,0.279143437556067
+2,Mixed operative profile,1,pediatric|2015-2017|Other procedures,0.141984728643884,0.067560858251828
+2,Mixed operative profile,2,adult|2018-2021|Neurosurgical,1.08821466135265,0.301088780071466
+2,Mixed operative profile,3,adult|2015-2017|Orthopedic,0.602381275161856,1.39622176053582
+2,Mixed operative profile,4,pediatric|2018-2021|Orthopedic,-0.134466476484427,2.07343994455436
+3,Pediatric staphylococcal concentrated,0,pediatric|2018-2021|Cardiac,1.08521691945038,-0.568649030361215
+3,Pediatric staphylococcal concentrated,1,pediatric|2018-2021|Neurosurgical,1.30327171062382,-0.998893906291835
+3,Pediatric staphylococcal concentrated,2,pediatric|2015-2017|Cardiac,2.25931246519541,-1.50112176514217
+3,Pediatric staphylococcal concentrated,3,pediatric|2015-2017|Neurosurgical,1.77097408291188,-0.99681293603745

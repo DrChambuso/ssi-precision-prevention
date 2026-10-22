@@ -1,0 +1,18 @@
+{
+  "national_ssi_pathogen_reports": 378610,
+  "national_ssi_events": 330914,
+  "pathogen_rows": 373,
+  "depth_rows": 123,
+  "amr_rows": 330,
+  "amr_source_p_markers": 51,
+  "amr_exact_tested_counts": 0,
+  "amr_rounding_compatible_cells": 272,
+  "original_bloodstream_source_volume": 274807,
+  "california_linkage": "No row-level hospital, patient, procedure or event identifiers linking microbiology to California SSI reports; national SSI surveillance can overlap California cases, so denominators must not be added",
+  "note": "Pathogen report counts are not operation or patient counts. Fisher tests assume report exchangeability and lack hospital or event clustering because only published marginals are available. Periods are nonoverlapping but facilities can recur. Treat count-based microbiology p-values as exploratory, and emphasize effect sizes, Wilson CIs, replication, BH correction. AMR count ranges are reconstructed under nearest0.1 percentage-point rounding, never presented as source exact counts."
+}
+      age    period  n_reports  categories  explicit_taxa   chi_square  degrees_freedom  p_value  minimum_expected  cramers_v                                                            test
+    adult 2015-2017     148436           4             15 36934.138561               45      NaN         99.672701   0.287994 Pearson chi-square on shared explicit taxa plus common residual
+    adult 2018-2021     213632           7             11 45242.915074               66      NaN         32.997865   0.187874 Pearson chi-square on shared explicit taxa plus common residual
+pediatric 2015-2017       3433           4             16  1114.409496               48      NaN          3.453539   0.328946 Pearson chi-square on shared explicit taxa plus common residual
+pediatric 2018-2021       5172           4             15  1606.031725               45      NaN          5.118716   0.321727 Pearson chi-square on shared explicit taxa plus common residual

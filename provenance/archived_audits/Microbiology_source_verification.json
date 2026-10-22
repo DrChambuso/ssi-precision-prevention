@@ -1,0 +1,895 @@
+{
+  "core_tables": [
+    {
+      "path": "archive:legacy_integrated_release/tables/microbiology/national_ssi_source_totals.csv",
+      "file": "national_ssi_source_totals.csv",
+      "rows": 4,
+      "columns": [
+        "age",
+        "period",
+        "ssi_events",
+        "pathogen_reports",
+        "ssi_events_without_pathogen",
+        "ssi_events_with_pathogen",
+        "fraction_without_pathogen"
+      ],
+      "sha256": "d792028c13d46298171e4386ad8baba0ed19ea5c949d6360afa7fba07ba0ac09",
+      "grain": "Age group and reporting period",
+      "role": "National source denominators, not California cohort",
+      "key_columns": [
+        "age",
+        "period"
+      ],
+      "duplicate_keys": 0
+    },
+    {
+      "path": "archive:legacy_integrated_release/tables/microbiology/national_ssi_pathogens.csv",
+      "file": "national_ssi_pathogens.csv",
+      "rows": 373,
+      "columns": [
+        "age",
+        "period",
+        "category",
+        "pathogen",
+        "count",
+        "total",
+        "source_table",
+        "source_age",
+        "proportion",
+        "primary_cross_period_comparability",
+        "taxonomy_note"
+      ],
+      "sha256": "acfa9fd14baa3c0e0a89500902c48dd259215900b25a8260e376645064d4ee28",
+      "grain": "Age group, period, source surgical category and pathogen",
+      "role": "Published pathogen counts plus source all-procedure marginals",
+      "key_columns": [
+        "age",
+        "period",
+        "category",
+        "pathogen"
+      ],
+      "duplicate_keys": 0
+    },
+    {
+      "path": "archive:legacy_integrated_release/tables/microbiology/national_ssi_depth.csv",
+      "file": "national_ssi_depth.csv",
+      "rows": 123,
+      "columns": [
+        "age",
+        "period",
+        "category",
+        "depth",
+        "count",
+        "total",
+        "source_table",
+        "proportion"
+      ],
+      "sha256": "99a76af048f66a5c875153310ae53309e5d2299fc6a6f35407f7012d695a1fd8",
+      "grain": "Age group, period, source surgical category and SSI depth",
+      "role": "Pathogen reports classified by SSI depth, not operation counts",
+      "key_columns": [
+        "age",
+        "period",
+        "category",
+        "depth"
+      ],
+      "duplicate_keys": 0
+    },
+    {
+      "path": "archive:legacy_integrated_release/tables/microbiology/national_ssi_pathogens_by_depth.csv",
+      "file": "national_ssi_pathogens_by_depth.csv",
+      "rows": 64,
+      "columns": [
+        "age",
+        "period",
+        "depth",
+        "pathogen",
+        "count",
+        "total",
+        "source_table",
+        "proportion"
+      ],
+      "sha256": "f083b825bb2b156611ab1e9b7817383067a73733ebedfb561356691a639fdd59",
+      "grain": "Age group, period, SSI depth and pathogen",
+      "role": "Adult 2018-2021 depth-specific ecology; includes overlapping all-SSI row",
+      "key_columns": [
+        "age",
+        "period",
+        "depth",
+        "pathogen"
+      ],
+      "duplicate_keys": 0
+    },
+    {
+      "path": "archive:legacy_integrated_release/tables/microbiology/national_ssi_amr.csv",
+      "file": "national_ssi_amr.csv",
+      "rows": 330,
+      "columns": [
+        "age",
+        "period",
+        "category",
+        "pathogen",
+        "phenotype",
+        "measure",
+        "reported_count",
+        "percent_tested",
+        "percent_result",
+        "source_significant_vs_abdominal",
+        "source_p_threshold",
+        "source_table",
+        "compatible_tested_min",
+        "compatible_tested_max",
+        "compatible_result_min",
+        "compatible_result_max",
+        "rounding_aware_wilson_lower",
+        "rounding_aware_wilson_upper",
+        "compatible_integer_pairs",
+        "count_status",
+        "exact_tested_count_available"
+      ],
+      "sha256": "ce1bcf2c3648e448317a3c0c3a6919ebc1cd31a0cd828755862e777b533fdc6f",
+      "grain": "Age group, period, source surgical category or SSI-depth stratum, organism and phenotype",
+      "role": "Source rounded percentages and organism counts; reconstructed bounds distinguished from exact counts",
+      "key_columns": [
+        "age",
+        "period",
+        "category",
+        "pathogen",
+        "phenotype"
+      ],
+      "duplicate_keys": 0
+    },
+    {
+      "path": "archive:legacy_integrated_release/tables/microbiology/microbiology_source_metadata.csv",
+      "file": "microbiology_source_metadata.csv",
+      "rows": 5,
+      "columns": [
+        "source",
+        "title",
+        "local_path",
+        "source_url",
+        "tables_used",
+        "sha256"
+      ],
+      "sha256": "066e9b6020e71f7214f1f19936fb904b9f99c17a8e0a798ff9a450669f99a7fa",
+      "grain": "Original source document",
+      "role": "Source paths, URLs, tables and SHA256",
+      "key_columns": [
+        "source"
+      ],
+      "duplicate_keys": 0
+    },
+    {
+      "path": "archive:legacy_integrated_release/tables/microbiology/california_28_procedure_microbiology_context_crosswalk.csv",
+      "file": "california_28_procedure_microbiology_context_crosswalk.csv",
+      "rows": 28,
+      "columns": [
+        "california_procedure",
+        "national_body_site_category",
+        "mapping_source",
+        "source_url",
+        "linkage_status",
+        "microbiology_review_focus",
+        "dedicated_2018_2021_pathogen_profile_available"
+      ],
+      "sha256": "3a71982b6baf26fcb22a09b7c5dae3a23e8b8a47559060ffb8d87f99fe110d85",
+      "grain": "California procedure",
+      "role": "Anatomic context mapping, not microbiology linkage",
+      "key_columns": [
+        "california_procedure"
+      ],
+      "duplicate_keys": 0
+    }
+  ],
+  "figure24_cells": {
+    "path": "archive:analysis_root/outputs/SSI_Prevention_Intelligence/SSI_Clean_Main_Text_Figures/source_tables/Figure_24_complete_plotted_cells.csv",
+    "file": "Figure_24_complete_plotted_cells.csv",
+    "rows": 188,
+    "columns": [
+      "panel",
+      "age",
+      "period",
+      "pathogen",
+      "phenotype",
+      "category",
+      "percent_result",
+      "percent_tested",
+      "reported_count",
+      "source_significance_star",
+      "value_text",
+      "secondary_text",
+      "secondary_font_pt",
+      "source_table"
+    ],
+    "sha256": "23133dc56f8741ec34820e7479251679a9c8465e513e6e064d28e35f47f7dd5b",
+    "grain": "Plotted figure cell",
+    "role": "Figure 24 exact plotted values, NR cells and preserved source stars",
+    "key_columns": [
+      "panel",
+      "age",
+      "period",
+      "pathogen",
+      "phenotype",
+      "category"
+    ],
+    "duplicate_keys": 0
+  },
+  "figure28_tables": [
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/all_independent_outcome_tests_BH_family4.csv",
+      "file": "all_independent_outcome_tests_BH_family4.csv",
+      "rows": 4,
+      "columns": [
+        "outcome",
+        "F",
+        "p",
+        "permutations",
+        "profiles",
+        "BH_q",
+        "unit",
+        "test"
+      ],
+      "sha256": "37e69f5455ab88021f30e1c2a441c3853d7bb51d60584f9c3c2e6aa4cf7345cb",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/cluster_number_diagnostics.csv",
+      "file": "cluster_number_diagnostics.csv",
+      "rows": 3,
+      "columns": [
+        "k",
+        "tot_withinss",
+        "between_ratio",
+        "mean_silhouette",
+        "minimum_group_size"
+      ],
+      "sha256": "829871170415af9d84827602be13f363b3ec76b6491bce2c688b33624f11c6ed",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/ecological_profile_permutation_tests.csv",
+      "file": "ecological_profile_permutation_tests.csv",
+      "rows": 3,
+      "columns": [
+        "outcome",
+        "F",
+        "p",
+        "permutations",
+        "profiles",
+        "inference"
+      ],
+      "sha256": "e145840d729fde85ad5b4d4227e912bdc7e94e3dbc976182ac484481531f5d9a",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/frozen_clr_cluster_centroids.csv",
+      "file": "frozen_clr_cluster_centroids.csv",
+      "rows": 3,
+      "columns": [
+        "ecotype",
+        "Candida albicans",
+        "Coagulase-negative staphylococci",
+        "Enterococcus faecalis",
+        "Escherichia coli",
+        "Proteus spp",
+        "Pseudomonas aeruginosa",
+        "Remaining reported taxa",
+        "Staphylococcus aureus",
+        "Viridans group streptococci"
+      ],
+      "sha256": "0cc9fc5f9a139e9404c13ffe553c4b1b2c59db1df3ee5c7553263d56f5fa1a05",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/later_conditional_mrsa_profiles.csv",
+      "file": "later_conditional_mrsa_profiles.csv",
+      "rows": 11,
+      "columns": [
+        "profile_id",
+        "age",
+        "category",
+        "percent_mrsa",
+        "percent_tested",
+        "reported_s_aureus",
+        "compatible_tested_min",
+        "compatible_tested_max",
+        "compatible_mrsa_min",
+        "compatible_mrsa_max",
+        "n_ssi_pathogen_reports",
+        "source_table"
+      ],
+      "sha256": "fddd4f8121f3f7076cb89c4bfc1c530b38f23c78818d47417dbf95c5b14816c2",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/later_organ_space_profile_values.csv",
+      "file": "later_organ_space_profile_values.csv",
+      "rows": 13,
+      "columns": [
+        "profile_id",
+        "age",
+        "period",
+        "category",
+        "n_pathogen_reports",
+        "role",
+        "residual_profile",
+        "ecotype",
+        "PC1",
+        "PC2",
+        "depth",
+        "count",
+        "total",
+        "proportion"
+      ],
+      "sha256": "29230518f3f11be36359ae577822dc6f1860f6eee70274be49abed5da2fa1735",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/panel_a_convex_hull_vertices.csv",
+      "file": "panel_a_convex_hull_vertices.csv",
+      "rows": 14,
+      "columns": [
+        "ecotype",
+        "label",
+        "vertex_order",
+        "profile_id",
+        "PC1",
+        "PC2"
+      ],
+      "sha256": "5651dc4c09e4f676fa600f7f911602766fa41739dedcc1a9927cf64720539184",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/panel_a_projection_points.csv",
+      "file": "panel_a_projection_points.csv",
+      "rows": 23,
+      "columns": [
+        "profile_id",
+        "age",
+        "period",
+        "category",
+        "n_pathogen_reports",
+        "role",
+        "residual_profile",
+        "ecotype",
+        "PC1",
+        "PC2",
+        "profile_label",
+        "ecotype_label"
+      ],
+      "sha256": "9c7af8f30a1743456f2063bf563ef5837484df0f92d2d3de37dfc274fc29f547",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/panel_b_all_depth_prevalences.csv",
+      "file": "panel_b_all_depth_prevalences.csv",
+      "rows": 9,
+      "columns": [
+        "depth",
+        "ecotype",
+        "profiles",
+        "source_reports",
+        "depth_reports",
+        "fraction",
+        "profile_boot_lower",
+        "profile_boot_upper",
+        "source_wilson_lower",
+        "source_wilson_upper"
+      ],
+      "sha256": "5d1e74f8e660f131b09b7dad5c97356818907392b3ed69cddae648f13cee65f4",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/panel_b_later_depth_prevalence.csv",
+      "file": "panel_b_later_depth_prevalence.csv",
+      "rows": 3,
+      "columns": [
+        "ecotype",
+        "profiles",
+        "source_reports",
+        "organ_space_reports",
+        "organ_space_fraction",
+        "source_wilson_lower",
+        "source_wilson_upper",
+        "profile_boot_lower",
+        "profile_boot_upper",
+        "mean_profile_fraction",
+        "median_profile_fraction"
+      ],
+      "sha256": "c81d3994e6ab6b3240112d30e9c3516bdd39d6b3374e8849c0f40eb237219d0e",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/panel_b_pairwise_profile_contrasts.csv",
+      "file": "panel_b_pairwise_profile_contrasts.csv",
+      "rows": 3,
+      "columns": [
+        "group0",
+        "group1",
+        "adjusted_difference",
+        "t_ci_lower",
+        "t_ci_upper",
+        "permutation_p",
+        "permutations",
+        "BH_q"
+      ],
+      "sha256": "5d484f235b705f42c11bad4ff081169a8b0e80ad704fe8c2e6651a3075f4d89d",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/panel_b_unweighted_profile_means.csv",
+      "file": "panel_b_unweighted_profile_means.csv",
+      "rows": 9,
+      "columns": [
+        "depth",
+        "ecotype",
+        "profiles",
+        "unweighted_mean_profile_fraction",
+        "profile_boot_lower",
+        "profile_boot_upper",
+        "bootstrap_mode",
+        "source_reports",
+        "depth_reports"
+      ],
+      "sha256": "fcd82aad3871ed9668295af114ca20f1863bb94df85953900179359280fc9c12",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/panel_c_later_component_heatmap.csv",
+      "file": "panel_c_later_component_heatmap.csv",
+      "rows": 27,
+      "columns": [
+        "ecotype",
+        "pathogen",
+        "count",
+        "total",
+        "proportion"
+      ],
+      "sha256": "5c81c0bea722e3a2a5bb6e06c4751068818d5c4cef0a0d54345432163d73b9f6",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/panel_d_age_adjusted_mrsa_effects.csv",
+      "file": "panel_d_age_adjusted_mrsa_effects.csv",
+      "rows": 4,
+      "columns": [
+        "term",
+        "estimate",
+        "lower",
+        "upper"
+      ],
+      "sha256": "ae771d098a96ece2ac9c9251075443ebc809d705421fcad9a9524bac98a72b51",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/panel_d_later_conditional_mrsa_values.csv",
+      "file": "panel_d_later_conditional_mrsa_values.csv",
+      "rows": 11,
+      "columns": [
+        "profile_id",
+        "age",
+        "category",
+        "percent_mrsa",
+        "percent_tested",
+        "reported_s_aureus",
+        "compatible_tested_min",
+        "compatible_tested_max",
+        "compatible_mrsa_min",
+        "compatible_mrsa_max",
+        "n_ssi_pathogen_reports",
+        "source_table",
+        "ecotype"
+      ],
+      "sha256": "5c1f53e6675edc71ef9e9ef3bba748bd9c5bf0f42c821f9778dba614f2898178",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/panel_d_mrsa_box_summary.csv",
+      "file": "panel_d_mrsa_box_summary.csv",
+      "rows": 3,
+      "columns": [
+        "ecotype",
+        "count",
+        "min",
+        "median",
+        "max",
+        "q1",
+        "q3"
+      ],
+      "sha256": "42a7d07aac5e9d6274cbb7120aa79db7275475eaa465dc34615bceb4e19493c7",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/pca_component_loadings.csv",
+      "file": "pca_component_loadings.csv",
+      "rows": 9,
+      "columns": [
+        "component",
+        "PC1",
+        "PC2"
+      ],
+      "sha256": "a597a9bba2404ff889d52eed6be9dc4bdf5b548badb9d420992c3811dcbe061e",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/pca_explained_variance.csv",
+      "file": "pca_explained_variance.csv",
+      "rows": 9,
+      "columns": [
+        "component",
+        "variance_fraction"
+      ],
+      "sha256": "183f09d62aecf3ead5ea50f926e78e638fce51065d2a66b698ab98e8c2edbf84",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/profile_counts_long.csv",
+      "file": "profile_counts_long.csv",
+      "rows": 207,
+      "columns": [
+        "profile_id",
+        "pathogen",
+        "count",
+        "total",
+        "proportion"
+      ],
+      "sha256": "9b8ad972ddf147845f41b29e80d1cf8d35154600a25d3194c127b02930f69766",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/profile_counts_wide.csv",
+      "file": "profile_counts_wide.csv",
+      "rows": 23,
+      "columns": [
+        "profile_id",
+        "Candida albicans",
+        "Coagulase-negative staphylococci",
+        "Enterococcus faecalis",
+        "Escherichia coli",
+        "Proteus spp",
+        "Pseudomonas aeruginosa",
+        "Remaining reported taxa",
+        "Staphylococcus aureus",
+        "Viridans group streptococci"
+      ],
+      "sha256": "a3dbf9af0a4e0457078ebe12749f7afa36387254d0be3e270f9eb49811d3aa41",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/profile_depth_counts_long.csv",
+      "file": "profile_depth_counts_long.csv",
+      "rows": 69,
+      "columns": [
+        "profile_id",
+        "depth",
+        "count",
+        "total",
+        "proportion"
+      ],
+      "sha256": "5161fb630cf4948d245b8fce34686771702c3ee3a55de6326b7c6fa990bc8fa9",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/profile_ecotypes_and_projection.csv",
+      "file": "profile_ecotypes_and_projection.csv",
+      "rows": 23,
+      "columns": [
+        "profile_id",
+        "age",
+        "period",
+        "category",
+        "n_pathogen_reports",
+        "role",
+        "residual_profile",
+        "ecotype",
+        "PC1",
+        "PC2"
+      ],
+      "sha256": "30d4f49c718e7474759c086832295bcbb76b4869979f78247e8165785f8f05ea",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/profile_metadata.csv",
+      "file": "profile_metadata.csv",
+      "rows": 23,
+      "columns": [
+        "profile_id",
+        "age",
+        "period",
+        "category",
+        "n_pathogen_reports",
+        "role",
+        "residual_profile"
+      ],
+      "sha256": "99331220d1d55309fca88fa1da9c5f29555bbf0ef50cd232872586a42103cea4",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/pseudocount_sensitivity.csv",
+      "file": "pseudocount_sensitivity.csv",
+      "rows": 69,
+      "columns": [
+        "profile_id",
+        "pseudocount",
+        "ecotype",
+        "agrees_primary"
+      ],
+      "sha256": "b03234b3eeae110cbd9fa42e14d35e12156ee9a98e1c7498692cd802bf008e3f",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    },
+    {
+      "path": "archive:later_frozen_profiles/analysis/fourpanel_analysis/training_profile_component_shares.csv",
+      "file": "training_profile_component_shares.csv",
+      "rows": 10,
+      "columns": [
+        "profile_id",
+        "training_ecotype",
+        "ordered_ecotype",
+        "Candida albicans",
+        "Coagulase-negative staphylococci",
+        "Enterococcus faecalis",
+        "Escherichia coli",
+        "Proteus spp",
+        "Pseudomonas aeruginosa",
+        "Remaining reported taxa",
+        "Staphylococcus aureus",
+        "Viridans group streptococci"
+      ],
+      "sha256": "fdca0a6833b9f5432c81552cbc844544ae6789df8a1200190d792032d247081c",
+      "grain": "See filename and column definitions",
+      "role": "Figure 28 input or derived result"
+    }
+  ],
+  "source_document_integrity": [
+    {
+      "source": "adult_2015_2017",
+      "title": "Antimicrobial-resistant pathogens associated with adult healthcare-associated infections: Summary of data reported to the National Healthcare Safety Network, 2015-2017",
+      "local_path": "archive:raw_nhsn_html/adult_2015_2017.html",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8276252/",
+      "tables_used": "Tables 2, 8, 9, 15; Table 8 crosswalk footnotes",
+      "sha256": "0fa56563e45586c27a0ff7b8083e388406a7b836b7dabf5e3d038b697b5e037f",
+      "source_file_exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "pediatric_2015_2017",
+      "title": "Antimicrobial-resistant pathogens associated with pediatric healthcare-associated infections: Summary of data reported to the National Healthcare Safety Network, 2015-2017",
+      "local_path": "archive:raw_nhsn_html/pediatric_2015_2017.html",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8276251/",
+      "tables_used": "Tables 2, 8, 9, 12",
+      "sha256": "52c00983be0490ebe318294f9919272213c78533a412926a93e5ba59ce2daced",
+      "source_file_exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "adult_2018_2021",
+      "title": "2018-2021 HAI Pathogens & Antimicrobial Resistance Report: Data Tables for Adult HAIs",
+      "local_path": "archive:raw_nhsn_pdf/Adult Pathogen & Resistance Tables.pdf",
+      "source_url": "https://www.cdc.gov/nhsn/hai-report/index.html",
+      "tables_used": "Tables 2, 7, 8, 9, 10, 16, 17, 18; PDF pages 3, 9, 10, 12, 13, 21, 23, 25",
+      "sha256": "6899ed6f47455122d9a64a7fe45507bf042d07d225b98d8ea1bb4897e517aab9",
+      "source_file_exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "pediatric_2018_2021",
+      "title": "2018-2021 HAI Pathogens & Antimicrobial Resistance Report: Data Tables for Pediatric HAIs",
+      "local_path": "archive:raw_nhsn_pdf/Pediatric Pathogen & Resistance Tables.pdf",
+      "source_url": "https://www.cdc.gov/nhsn/hai-report/index.html",
+      "tables_used": "Tables P2, P6, P7, P10; PDF pages 3, 8, 9, 14",
+      "sha256": "2bff023234e0c20026362b032e08ddc770dec8074063815b568afa8c1b8d856e",
+      "source_file_exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "methods_2018_2021",
+      "title": "HAI Pathogens and Antimicrobial Resistance Report, 2018-2021",
+      "local_path": "archive:raw_nhsn_pdf/HAI Pathogen & AR Report 2018-2021.pdf",
+      "source_url": "https://www.cdc.gov/nhsn/hai-report/index.html",
+      "tables_used": "Methods: PDF pages 7-9, especially page 8 for taxonomy and phenotype changes",
+      "sha256": "9100fe469e9c2e8e975d9bcb6062527f3acb99e22f4f7b8dbe7ce9c6dab7ce4f",
+      "source_file_exists": true,
+      "hash_matches": true
+    }
+  ],
+  "variable_labels": {
+    "age": {
+      "label": "Age group",
+      "definition": "Adult or pediatric source population"
+    },
+    "period": {
+      "label": "Reporting period",
+      "definition": "Published source interval"
+    },
+    "category": {
+      "label": "Surgical category or SSI depth",
+      "definition": "Original source category. AMR tables also contain depth strata; all-procedure totals overlap component categories"
+    },
+    "pathogen": {
+      "label": "Organism",
+      "definition": "Published species or group, harmonized spelling only; retain source taxonomy differences"
+    },
+    "count": {
+      "label": "Pathogen reports",
+      "definition": "Exact published organism report count; depth datasets count pathogen reports classified by SSI depth"
+    },
+    "total": {
+      "label": "Total pathogen reports in stratum",
+      "definition": "Composition denominator repeated across components; never sum repeated denominators"
+    },
+    "proportion": {
+      "label": "Share of pathogen reports",
+      "definition": "Count divided by total pathogen reports in its source stratum"
+    },
+    "depth": {
+      "label": "SSI depth",
+      "definition": "Superficial incisional, deep incisional or organ/space; all-SSI total overlaps these components"
+    },
+    "ssi_events": {
+      "label": "SSI events",
+      "definition": "Published number of SSI events in source population; can have multiple pathogen reports"
+    },
+    "pathogen_reports": {
+      "label": "Pathogen reports",
+      "definition": "Published number of organism reports, not unique patients or operations"
+    },
+    "ssi_events_without_pathogen": {
+      "label": "SSI events without reported pathogen",
+      "definition": "Source events without a reported organism, blank when unavailable"
+    },
+    "ssi_events_with_pathogen": {
+      "label": "SSI events with reported pathogen",
+      "definition": "Source events minus events without a reported organism"
+    },
+    "fraction_without_pathogen": {
+      "label": "Share of SSI events without reported pathogen",
+      "definition": "Events without reported pathogen divided by all SSI events"
+    },
+    "reported_count": {
+      "label": "Reported organism count",
+      "definition": "Source count of organism reports before drug-specific testing; repeated across phenotypes"
+    },
+    "percent_tested": {
+      "label": "Organism reports tested (%)",
+      "definition": "Published rounded percentage of reported organism count tested for phenotype"
+    },
+    "percent_result": {
+      "label": "Resistance or non-susceptibility (%)",
+      "definition": "Published rounded phenotype percentage among tested organism reports, not among all SSI events"
+    },
+    "phenotype": {
+      "label": "Antimicrobial or resistance phenotype",
+      "definition": "Source-specific definition retained, including footnote variants"
+    },
+    "measure": {
+      "label": "Phenotype measure",
+      "definition": "Resistance or non-susceptibility according to source definition"
+    },
+    "source_significant_vs_abdominal": {
+      "label": "Source comparison significant vs abdominal",
+      "definition": "Original source significance flag in 2015-2017, not a new test"
+    },
+    "source_p_threshold": {
+      "label": "Source P value threshold",
+      "definition": "0.05 when source significance flag is present; blank otherwise"
+    },
+    "compatible_tested_min": {
+      "label": "Minimum compatible tested reports",
+      "definition": "Derived minimum integer compatible with rounded tested percentage; not exact source count"
+    },
+    "compatible_tested_max": {
+      "label": "Maximum compatible tested reports",
+      "definition": "Derived maximum integer compatible with rounded tested percentage; not exact source count"
+    },
+    "compatible_result_min": {
+      "label": "Minimum compatible phenotype reports",
+      "definition": "Derived minimum phenotype count compatible with both published percentages; not exact source count"
+    },
+    "compatible_result_max": {
+      "label": "Maximum compatible phenotype reports",
+      "definition": "Derived maximum phenotype count compatible with both published percentages; not exact source count"
+    },
+    "rounding_aware_wilson_lower": {
+      "label": "Rounding-aware 95% CI lower",
+      "definition": "Minimum Wilson lower bound across compatible integer numerator-denominator pairs"
+    },
+    "rounding_aware_wilson_upper": {
+      "label": "Rounding-aware 95% CI upper",
+      "definition": "Maximum Wilson upper bound across compatible integer numerator-denominator pairs"
+    },
+    "compatible_integer_pairs": {
+      "label": "Compatible integer pairs",
+      "definition": "Number of tested-positive integer pairs satisfying nearest 0.1 percentage-point rounding"
+    },
+    "exact_tested_count_available": {
+      "label": "Exact tested count available",
+      "definition": "False for every AMR source cell"
+    },
+    "primary_cross_period_comparability": {
+      "label": "Primary cross-period comparison permitted",
+      "definition": "False for period-shifted Klebsiella and Enterobacter definitions"
+    },
+    "profile_id": {
+      "label": "Microbiology profile ID",
+      "definition": "Age group, period and source surgical category; other procedures computed as residual of all-surgery total"
+    },
+    "ecotype": {
+      "label": "Pathogen profile group",
+      "definition": "Discovery-fitted compositional group assigned with frozen discovery definitions"
+    },
+    "n_pathogen_reports": {
+      "label": "Pathogen reports in profile",
+      "definition": "Non-overlapping profile composition denominator after exact residual categories"
+    },
+    "residual_profile": {
+      "label": "Other-procedure residual profile",
+      "definition": "True where source all-procedure total minus represented category totals was used"
+    },
+    "role": {
+      "label": "Study role",
+      "definition": "Discovery for 2015-2017; later evaluation for 2018-2021"
+    },
+    "PC1": {
+      "label": "Projection dimension 1",
+      "definition": "Score from discovery-fitted centered-log-ratio PCA"
+    },
+    "PC2": {
+      "label": "Projection dimension 2",
+      "definition": "Score from discovery-fitted centered-log-ratio PCA"
+    },
+    "source_table": {
+      "label": "Source table",
+      "definition": "Table in age-period source document identified by source metadata"
+    }
+  },
+  "audit": {
+    "unique_core_keys": true,
+    "all_pathogen_compositions_close": true,
+    "all_depth_compositions_close": true,
+    "all_depth_pathogen_compositions_close": true,
+    "national_pathogen_reports": 378610,
+    "national_ssi_events": 330914,
+    "amr_rows": 330,
+    "amr_rows_with_result_missing": 58,
+    "amr_rows_with_tested_percent_missing": 14,
+    "amr_rows_with_rounding_compatible_pairs": 272,
+    "exact_tested_denominators_available": 0,
+    "source_significance_flags": 51,
+    "profile_count": 23,
+    "discovery_profiles": 10,
+    "later_profiles": 13,
+    "later_mrsa_profiles": 11,
+    "later_mrsa_reported_s_aureus": 33842
+  },
+  "separation_rules": [
+    "National data have no row-level patient, event, hospital or procedure linkage to California reports. Keep them in separate tables.",
+    "National SSI totals may include California; never add national SSI events or pathogen reports to the 72,854 reports, 6,737,972 operations and 37,525 California SSIs.",
+    "All-surgery rows, SSI-depth rows and surgical category rows are overlapping summaries. Use a declared view before aggregating.",
+    "Blank source values are unavailable or suppressed, not zero. Exact tested counts cannot be inferred uniquely from rounded percentages.",
+    "Original non-SSI bloodstream Data/Pathogens.csv, Resistance.csv and Clinical_sensitivity.csv are a separate evidence inventory, not used to establish the California SSI sample or the national SSI source-cell analyses."
+  ]
+}

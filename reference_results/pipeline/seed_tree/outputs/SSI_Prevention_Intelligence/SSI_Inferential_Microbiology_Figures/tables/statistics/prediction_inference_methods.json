@@ -1,0 +1,14 @@
+{
+  "bootstrap_repeats": 1999,
+  "random_seed": 20261016,
+  "resampling_unit": "Canonical named hospital site; all reports for each sampled site retained together. Identical hospital draws for paired prediction methods.",
+  "confidence_intervals": "Percentile 95% confidence intervals from paired whole-site bootstrap.",
+  "p_value": "Two-sided centered bootstrap: (1 + number of valid draws with abs(delta_star - observed_delta) >= abs(observed_delta - null))/(1 + number of valid draws). Null is zero for paired differences. This is not the fraction of uncentered bootstrap differences below zero.",
+  "p_resolution": 0.0005,
+  "normal_bootstrap_SE_p": "Also supplied as a sensitivity calculation using the bootstrap standard error and standard normal approximation.",
+  "single_method_nulls": "AUC 0.5, AP alert prevalence (AP minus prevalence re-estimated together in every bootstrap draw), and alert capture under random review equal to review capacity. Primary inferential model comparison is paired difference, rather than superiority to random review.",
+  "capacity_ties": "Fractional random selection within boundary score ties, preserving exact expected review capacity for weighted samples.",
+  "BH_families": "Procedure-level tests adjusted across 28 planned procedure tests separately for each comparator and metric, including unavailable procedures conservatively in the family size. Pooled, age and year tests are not mixed into those families.",
+  "scope": "Frozen predictions are evaluated; bootstrap uncertainty describes test-site sampling conditional on the trained model, not training estimation uncertainty.",
+  "external": "Oregon external target-year 2017 reports are evaluated independently from California."
+}

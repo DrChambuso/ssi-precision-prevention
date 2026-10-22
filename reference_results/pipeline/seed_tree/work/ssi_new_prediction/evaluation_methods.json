@@ -1,0 +1,9 @@
+{
+  "bootstrap_repeats": 250,
+  "bootstrap_unit": "Named site, with all age groups, procedures and years resampled together within each evaluated population.",
+  "CI": "Percentile 95% site-cluster bootstrap confidence interval.",
+  "review_budget_ties": "At each exact report review capacity, equal-score reports at the boundary contribute fractionally, giving expected alert capture under uniform random selection within that score tie. This avoids arbitrary sorting of tied comparator values.",
+  "AP": "Average precision, using distinct score thresholds and stepwise recall increments.",
+  "calibration": "Observed report-alert fraction by prediction decile, with site-cluster confidence intervals. Predictions remain frozen from training; no recalibration applied.",
+  "evaluation": "Repeated annual reports remain grouped within site for uncertainty. Counts of procedures/SSI events describe exposure, and are not independent prediction sample size."
+}

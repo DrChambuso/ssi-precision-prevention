@@ -1,0 +1,3 @@
+﻿age_group,reports,operations,ssi_cases,predicted_ssi_cases,reports_above_predicted,ssi_per_1000_operations
+Adult,61682,6526888,36470,42014.159,11371,5.587655250097749
+Pediatric,11172,211084,1055,1241.732,661,4.99801027079267

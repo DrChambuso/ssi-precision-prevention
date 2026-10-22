@@ -1,0 +1,118 @@
+Record,Source,Period,Years,Characteristic,Category,Count,Cohort denominator,Reported percent,Source table,Source locator,Source URL
+China_clinical_evidence_0001,CN_NF_2023,All,2018-2021,Age,<60,543,599,90.65,T1,body row 2; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0002,CN_NF_2023,Before pandemic,2018-2019,Age,<60,312,341,91.5,T1,body row 2; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0003,CN_NF_2023,During pandemic,2020-2021,Age,<60,231,258,89.53,T1,body row 2; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0004,CN_NF_2023,All,2018-2021,Age,≥60,56,599,9.35,T1,body row 3; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0005,CN_NF_2023,Before pandemic,2018-2019,Age,≥60,29,341,8.5,T1,body row 3; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0006,CN_NF_2023,During pandemic,2020-2021,Age,≥60,27,258,10.47,T1,body row 3; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0007,CN_NF_2023,All,2018-2021,Gender,Male,336,599,56.09,T1,body row 5; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0008,CN_NF_2023,Before pandemic,2018-2019,Gender,Male,190,341,55.72,T1,body row 5; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0009,CN_NF_2023,During pandemic,2020-2021,Gender,Male,146,258,56.59,T1,body row 5; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0010,CN_NF_2023,All,2018-2021,Gender,Female,263,599,43.91,T1,body row 6; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0011,CN_NF_2023,Before pandemic,2018-2019,Gender,Female,151,341,44.28,T1,body row 6; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0012,CN_NF_2023,During pandemic,2020-2021,Gender,Female,112,258,43.41,T1,body row 6; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0013,CN_NF_2023,All,2018-2021,Haematological malignancy,AML/ALL,447,599,74.62,T1,body row 8; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0014,CN_NF_2023,Before pandemic,2018-2019,Haematological malignancy,AML/ALL,254,341,74.49,T1,body row 8; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0015,CN_NF_2023,During pandemic,2020-2021,Haematological malignancy,AML/ALL,193,258,74.8,T1,body row 8; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0016,CN_NF_2023,All,2018-2021,Haematological malignancy,Lymphoma,35,599,5.84,T1,body row 9; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0017,CN_NF_2023,Before pandemic,2018-2019,Haematological malignancy,Lymphoma,25,341,7.33,T1,body row 9; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0018,CN_NF_2023,During pandemic,2020-2021,Haematological malignancy,Lymphoma,10,258,3.88,T1,body row 9; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0019,CN_NF_2023,All,2018-2021,Haematological malignancy,Plasma cell disorder,20,599,3.34,T1,body row 10; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0020,CN_NF_2023,Before pandemic,2018-2019,Haematological malignancy,Plasma cell disorder,10,341,2.93,T1,body row 10; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0021,CN_NF_2023,During pandemic,2020-2021,Haematological malignancy,Plasma cell disorder,10,258,3.88,T1,body row 10; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0022,CN_NF_2023,All,2018-2021,Haematological malignancy,Others,97,599,16.2,T1,body row 11; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0023,CN_NF_2023,Before pandemic,2018-2019,Haematological malignancy,Others,52,341,15.25,T1,body row 11; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0024,CN_NF_2023,During pandemic,2020-2021,Haematological malignancy,Others,45,258,17.44,T1,body row 11; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0025,CN_NF_2023,All,2018-2021,Disease status,Remission,262,599,43.74,T1,body row 13; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0026,CN_NF_2023,Before pandemic,2018-2019,Disease status,Remission,145,341,42.52,T1,body row 13; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0027,CN_NF_2023,During pandemic,2020-2021,Disease status,Remission,117,258,45.35,T1,body row 13; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0028,CN_NF_2023,All,2018-2021,Disease status,No remission,337,599,56.26,T1,body row 14; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0029,CN_NF_2023,Before pandemic,2018-2019,Disease status,No remission,196,341,57.48,T1,body row 14; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0030,CN_NF_2023,During pandemic,2020-2021,Disease status,No remission,141,258,54.65,T1,body row 14; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0031,CN_NF_2023,All,2018-2021,Comorbidities,No,525,599,87.65,T1,body row 16; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0032,CN_NF_2023,Before pandemic,2018-2019,Comorbidities,No,301,341,88.27,T1,body row 16; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0033,CN_NF_2023,During pandemic,2020-2021,Comorbidities,No,224,258,86.82,T1,body row 16; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0034,CN_NF_2023,All,2018-2021,Comorbidities,Yes,74,599,12.35,T1,body row 17; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0035,CN_NF_2023,Before pandemic,2018-2019,Comorbidities,Yes,40,341,11.73,T1,body row 17; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0036,CN_NF_2023,During pandemic,2020-2021,Comorbidities,Yes,34,258,13.18,T1,body row 17; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0037,CN_NF_2023,All,2018-2021,Invasive procedure,No,132,599,22.04,T1,body row 19; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0038,CN_NF_2023,Before pandemic,2018-2019,Invasive procedure,No,85,341,24.93,T1,body row 19; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0039,CN_NF_2023,During pandemic,2020-2021,Invasive procedure,No,47,258,18.22,T1,body row 19; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0040,CN_NF_2023,All,2018-2021,Invasive procedure,Yes,467,599,77.96,T1,body row 20; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0041,CN_NF_2023,Before pandemic,2018-2019,Invasive procedure,Yes,256,341,75.07,T1,body row 20; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0042,CN_NF_2023,During pandemic,2020-2021,Invasive procedure,Yes,211,258,81.78,T1,body row 20; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0043,CN_NF_2023,All,2018-2021,Oral mucositis,No,564,599,94.16,T1,body row 22; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0044,CN_NF_2023,Before pandemic,2018-2019,Oral mucositis,No,321,341,94.13,T1,body row 22; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0045,CN_NF_2023,During pandemic,2020-2021,Oral mucositis,No,243,258,94.19,T1,body row 22; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0046,CN_NF_2023,All,2018-2021,Oral mucositis,Yes,35,599,5.84,T1,body row 23; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0047,CN_NF_2023,Before pandemic,2018-2019,Oral mucositis,Yes,20,341,5.87,T1,body row 23; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0048,CN_NF_2023,During pandemic,2020-2021,Oral mucositis,Yes,15,258,5.81,T1,body row 23; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0049,CN_NF_2023,All,2018-2021,Pulmonary infection,No,417,599,69.62,T1,body row 25; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0050,CN_NF_2023,Before pandemic,2018-2019,Pulmonary infection,No,226,341,66.28,T1,body row 25; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0051,CN_NF_2023,During pandemic,2020-2021,Pulmonary infection,No,191,258,74.03,T1,body row 25; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0052,CN_NF_2023,All,2018-2021,Pulmonary infection,Yes,182,599,30.38,T1,body row 26; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0053,CN_NF_2023,Before pandemic,2018-2019,Pulmonary infection,Yes,115,341,33.72,T1,body row 26; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0054,CN_NF_2023,During pandemic,2020-2021,Pulmonary infection,Yes,67,258,25.97,T1,body row 26; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0055,CN_NF_2023,All,2018-2021,Perianal infection,No,552,599,92.15,T1,body row 28; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0056,CN_NF_2023,Before pandemic,2018-2019,Perianal infection,No,308,341,90.32,T1,body row 28; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0057,CN_NF_2023,During pandemic,2020-2021,Perianal infection,No,244,258,94.57,T1,body row 28; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0058,CN_NF_2023,All,2018-2021,Perianal infection,Yes,47,599,7.85,T1,body row 29; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0059,CN_NF_2023,Before pandemic,2018-2019,Perianal infection,Yes,33,341,9.68,T1,body row 29; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0060,CN_NF_2023,During pandemic,2020-2021,Perianal infection,Yes,14,258,5.43,T1,body row 29; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0061,CN_NF_2023,All,2018-2021,Gastroenteritis,No,544,599,90.82,T1,body row 31; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0062,CN_NF_2023,Before pandemic,2018-2019,Gastroenteritis,No,310,341,90.91,T1,body row 31; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0063,CN_NF_2023,During pandemic,2020-2021,Gastroenteritis,No,234,258,90.7,T1,body row 31; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0064,CN_NF_2023,All,2018-2021,Gastroenteritis,Yes,55,599,9.18,T1,body row 32; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0065,CN_NF_2023,Before pandemic,2018-2019,Gastroenteritis,Yes,31,341,9.09,T1,body row 32; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0066,CN_NF_2023,During pandemic,2020-2021,Gastroenteritis,Yes,24,258,9.3,T1,body row 32; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0067,CN_NF_2023,All,2018-2021,Shock,No,434,599,72.45,T1,body row 34; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0068,CN_NF_2023,Before pandemic,2018-2019,Shock,No,245,341,71.85,T1,body row 34; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0069,CN_NF_2023,During pandemic,2020-2021,Shock,No,189,258,73.26,T1,body row 34; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0070,CN_NF_2023,All,2018-2021,Shock,Yes,165,599,27.55,T1,body row 35; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0071,CN_NF_2023,Before pandemic,2018-2019,Shock,Yes,96,341,28.15,T1,body row 35; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0072,CN_NF_2023,During pandemic,2020-2021,Shock,Yes,69,258,26.74,T1,body row 35; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0073,CN_NF_2023,All,2018-2021,ICU,No,582,599,97.16,T1,body row 37; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0074,CN_NF_2023,Before pandemic,2018-2019,ICU,No,331,341,97.07,T1,body row 37; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0075,CN_NF_2023,During pandemic,2020-2021,ICU,No,251,258,97.29,T1,body row 37; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0076,CN_NF_2023,All,2018-2021,ICU,Yes,17,599,2.84,T1,body row 38; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0077,CN_NF_2023,Before pandemic,2018-2019,ICU,Yes,10,341,2.93,T1,body row 38; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0078,CN_NF_2023,During pandemic,2020-2021,ICU,Yes,7,258,2.71,T1,body row 38; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0079,CN_NF_2023,All,2018-2021,Neutropenia,No,64,599,10.68,T1,body row 40; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0080,CN_NF_2023,Before pandemic,2018-2019,Neutropenia,No,39,341,11.44,T1,body row 40; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0081,CN_NF_2023,During pandemic,2020-2021,Neutropenia,No,25,258,9.69,T1,body row 40; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0082,CN_NF_2023,All,2018-2021,Neutropenia,Yes,535,599,89.32,T1,body row 41; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0083,CN_NF_2023,Before pandemic,2018-2019,Neutropenia,Yes,302,341,88.56,T1,body row 41; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0084,CN_NF_2023,During pandemic,2020-2021,Neutropenia,Yes,233,258,90.31,T1,body row 41; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0085,CN_NF_2023,All,2018-2021,Duration of neutropenia before BSI,<14,482,599,80.47,T1,body row 43; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0086,CN_NF_2023,Before pandemic,2018-2019,Duration of neutropenia before BSI,<14,280,341,82.11,T1,body row 43; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0087,CN_NF_2023,During pandemic,2020-2021,Duration of neutropenia before BSI,<14,202,258,78.29,T1,body row 43; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0088,CN_NF_2023,All,2018-2021,Duration of neutropenia before BSI,≥14,117,599,19.53,T1,body row 44; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0089,CN_NF_2023,Before pandemic,2018-2019,Duration of neutropenia before BSI,≥14,61,341,17.89,T1,body row 44; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0090,CN_NF_2023,During pandemic,2020-2021,Duration of neutropenia before BSI,≥14,56,258,21.71,T1,body row 44; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0091,CN_NF_2023,All,2018-2021,Adequate initial antibiotic treatment,Yes,458,599,76.46,T1,body row 46; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0092,CN_NF_2023,Before pandemic,2018-2019,Adequate initial antibiotic treatment,Yes,269,341,78.89,T1,body row 46; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0093,CN_NF_2023,During pandemic,2020-2021,Adequate initial antibiotic treatment,Yes,189,258,73.26,T1,body row 46; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0094,CN_NF_2023,All,2018-2021,Adequate initial antibiotic treatment,No,141,599,23.54,T1,body row 47; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0095,CN_NF_2023,Before pandemic,2018-2019,Adequate initial antibiotic treatment,No,72,341,21.11,T1,body row 47; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0096,CN_NF_2023,During pandemic,2020-2021,Adequate initial antibiotic treatment,No,69,258,26.74,T1,body row 47; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0097,CN_NF_2023,All,2018-2021,Microbiological organisms,Gram negative,487,599,81.3,T1,body row 49; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0098,CN_NF_2023,Before pandemic,2018-2019,Microbiological organisms,Gram negative,293,341,85.92,T1,body row 49; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0099,CN_NF_2023,During pandemic,2020-2021,Microbiological organisms,Gram negative,194,258,75.19,T1,body row 49; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0100,CN_NF_2023,All,2018-2021,Microbiological organisms,Gram positive,81,599,13.52,T1,body row 50; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0101,CN_NF_2023,Before pandemic,2018-2019,Microbiological organisms,Gram positive,32,341,9.39,T1,body row 50; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0102,CN_NF_2023,During pandemic,2020-2021,Microbiological organisms,Gram positive,49,258,19.0,T1,body row 50; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0103,CN_NF_2023,All,2018-2021,Microbiological organisms,Fungus,31,599,5.18,T1,body row 51; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0104,CN_NF_2023,Before pandemic,2018-2019,Microbiological organisms,Fungus,16,341,4.69,T1,body row 51; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0105,CN_NF_2023,During pandemic,2020-2021,Microbiological organisms,Fungus,15,258,5.81,T1,body row 51; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0106,CN_NF_2023,All,2018-2021,7 days,Alive,562,599,93.82,T1,body row 53; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0107,CN_NF_2023,Before pandemic,2018-2019,7 days,Alive,314,341,92.08,T1,body row 53; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0108,CN_NF_2023,During pandemic,2020-2021,7 days,Alive,248,258,96.12,T1,body row 53; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0109,CN_NF_2023,All,2018-2021,7 days,Death,37,599,6.18,T1,body row 54; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0110,CN_NF_2023,Before pandemic,2018-2019,7 days,Death,27,341,7.92,T1,body row 54; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0111,CN_NF_2023,During pandemic,2020-2021,7 days,Death,10,258,3.88,T1,body row 54; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0112,CN_NF_2023,All,2018-2021,30 days,Alive,490,599,81.8,T1,body row 56; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0113,CN_NF_2023,Before pandemic,2018-2019,30 days,Alive,269,341,78.89,T1,body row 56; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0114,CN_NF_2023,During pandemic,2020-2021,30 days,Alive,221,258,85.66,T1,body row 56; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0115,CN_NF_2023,All,2018-2021,30 days,Death,109,599,18.2,T1,body row 57; column 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0116,CN_NF_2023,Before pandemic,2018-2019,30 days,Death,72,341,21.11,T1,body row 57; column 3,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1
+China_clinical_evidence_0117,CN_NF_2023,During pandemic,2020-2021,30 days,Death,37,258,14.34,T1,body row 57; column 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC10759088/#T1

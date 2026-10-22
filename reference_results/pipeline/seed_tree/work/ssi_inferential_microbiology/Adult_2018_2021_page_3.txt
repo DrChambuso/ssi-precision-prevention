@@ -1,0 +1,22 @@
+3 
+ 
+Table 2. Frequency of Pathogens and HAI Events Reported to NHSN, by HAI Type, Adults, 
+2018-2021 
+ 
+  Pathogens1 HAI Events2 
+HAI Type # % # % 
+SSI 215,669 47.6 190,384 47.4 
+CLABSI 113,604 25.1 100,851 25.1 
+CAUTI 107,934 23.8 96,974 24.2 
+PVAP 15,733 3.5 13,114 3.3 
+Total 452,940 100.0 401,323 100.0 
+Note: Refer to Technical Resources for more information about the  
+acronyms and terms used in this table.  
+ 
+Footnotes: 
+1. Between 1-3 pathogens are required to be reported to NHSN for each CLABSI and CAUTI event. 
+Between 0 -3 pathogens can be reported to NHSN for each PVAP and SSI event. 
+2. There were 46,099 SSIs and 403 PVAPs reported to NHSN without a pathogen from 2018 - 2021. 
+These events are included in the event counts in Table 2. 
+ 
+  

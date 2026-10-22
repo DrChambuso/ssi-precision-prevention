@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_inferential_microbiology/national_ssi_amr.csv",
+  "rows": 330,
+  "numeric_columns": 13,
+  "maximum_absolute_difference": 0.0,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

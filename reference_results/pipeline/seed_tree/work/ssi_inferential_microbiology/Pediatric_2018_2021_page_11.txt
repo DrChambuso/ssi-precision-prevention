@@ -1,0 +1,48 @@
+11 
+ 
+Table P8. Percent of CLABSI Pathogens That Were Resistant to Selected Antimicrobials and Classified as "Urgent" or "Serious" Antimicrobial 
+Resistant Threats1, by Location Type, Pediatrics, 2018-2021 
+ NICUs Pediatric ICUs Pediatric Oncology Units Pediatric Wards 
+ Pathogen, Antimicrobial Phenotype 
+# 
+Reported 
+% 
+Tested %R 
+# 
+Reported 
+% 
+Tested %R 
+# 
+Reported 
+% 
+Tested %R 
+# 
+Reported 
+% 
+Tested %R 
+Urgent Threats                         
+Acinetobacter spp. 28     46     42     32     
+Carbapenem-NS   75.0 4.8   80.4 0.0   78.6 3.0   75.0 0.0 
+                          
+Select Enterobacterales2 1,135     836     1,163     731     
+Carbapenem-resistant (CRE)   71.8 0.5   79.7 2.9   81.3 3.7   77.3 1.1 
+                          
+Serious Threats                         
+Select Enterobacterales3 946     547     957     546     
+Extended-spectrum cephalosporin-NS   83.1 10.4   87.4 24.3   88.5 34.9   87.0 20.2 
+                          
+Enterobacter spp. 167     275     193     171     
+Cefepime-NS   71.9 0.8   81.8 13.3   72.5 16.4   78.9 8.1 
+                          
+Enterococcus faecalis 511     553     225     238     
+Vancomycin-resistant (VRE)   89.6 0.2   87.5 0.0   80.9 1.1   84.5 0.0 
+                          
+Enterococcus faecium 22     109     130     49     
+Vancomycin-resistant (VRE)   90.9 5.0   92.7 21.8   90.0 37.6   93.9 30.4 
+                          
+Pseudomonas aeruginosa 144     178     217     97     
+Multidrug-resistant (MDR)   81.3 1.7   88.2 9.6   90.8 8.1   95.9 5.4 
+                          
+Staphylococcus aureus 1,346     511     281     324     
+Meth/ox/cefox - resistant (MRSA)   87.0 28.6   85.3 27.3   82.9 33.5   82.7 32.1 
+Note: Refer to Technical Resources for more information about phenotype definitions, acronyms, and terms used in this table.   

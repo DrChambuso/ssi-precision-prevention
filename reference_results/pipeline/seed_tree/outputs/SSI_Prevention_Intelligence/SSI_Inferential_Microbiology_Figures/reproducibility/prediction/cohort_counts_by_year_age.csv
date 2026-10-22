@@ -1,0 +1,21 @@
+set,State,age,year,reports,alerts,operations,SSIs,sites,prior_zero_expected,target_zero_expected
+Oregon external,Oregon,Adult,2017,201,54,34499,217,46,1,0
+Oregon external,Oregon,Pediatric,2017,8,1,417,2,6,0,0
+Test,California,Adult,2023,5607,1078,625322,3680,318,138,136
+Test,California,Adult,2024,5494,1114,643938,3868,317,107,166
+Test,California,Adult,2025,5517,1172,638356,4036,317,155,195
+Test,California,Pediatric,2023,926,70,19476,132,238,228,234
+Test,California,Pediatric,2024,340,59,18053,96,115,2,0
+Test,California,Pediatric,2025,248,47,14602,85,97,0,0
+Training,California,Adult,2017,5705,1067,632314,3215,317,113,0
+Training,California,Adult,2018,5838,1152,635976,3536,328,0,137
+Training,California,Adult,2019,5846,1138,661412,3557,329,130,145
+Training,California,Adult,2020,5421,900,523421,2726,316,106,192
+Training,California,Adult,2021,5676,981,604693,3307,330,188,135
+Training,California,Adult,2022,5311,1056,574401,3422,304,126,150
+Training,California,Pediatric,2017,1022,60,21218,106,266,225,0
+Training,California,Pediatric,2018,1011,63,21184,95,264,0,257
+Training,California,Pediatric,2019,1040,71,22369,106,268,252,249
+Training,California,Pediatric,2020,924,52,19924,84,244,211,271
+Training,California,Pediatric,2021,801,48,18233,85,235,233,221
+Training,California,Pediatric,2022,758,46,16168,67,220,210,203

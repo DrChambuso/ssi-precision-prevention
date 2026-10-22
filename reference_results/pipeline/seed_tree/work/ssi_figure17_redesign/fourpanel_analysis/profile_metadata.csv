@@ -1,0 +1,24 @@
+profile_id,age,period,category,n_pathogen_reports,role,residual_profile
+adult|2015-2017|Abdominal,adult,2015-2017,Abdominal,83297,Discovery,False
+adult|2015-2017|Cardiac,adult,2015-2017,Cardiac,8647,Discovery,False
+adult|2015-2017|Ob/Gyn,adult,2015-2017,Ob/Gyn,20345,Discovery,False
+adult|2015-2017|Orthopedic,adult,2015-2017,Orthopedic,36147,Discovery,False
+adult|2015-2017|Other procedures,adult,2015-2017,Other procedures,5697,Discovery,True
+adult|2018-2021|Abdominal,adult,2018-2021,Abdominal,112285,Later evaluation,False
+adult|2018-2021|Breast,adult,2018-2021,Breast,2325,Later evaluation,False
+adult|2018-2021|Cardiac,adult,2018-2021,Cardiac,10506,Later evaluation,False
+adult|2018-2021|Neurosurgical,adult,2018-2021,Neurosurgical,3921,Later evaluation,False
+adult|2018-2021|Ob/Gyn,adult,2018-2021,Ob/Gyn,26181,Later evaluation,False
+adult|2018-2021|Orthopedic,adult,2018-2021,Orthopedic,55613,Later evaluation,False
+adult|2018-2021|Vascular,adult,2018-2021,Vascular,2801,Later evaluation,False
+adult|2018-2021|Other procedures,adult,2018-2021,Other procedures,2037,Later evaluation,True
+pediatric|2015-2017|Abdominal,pediatric,2015-2017,Abdominal,2215,Discovery,False
+pediatric|2015-2017|Cardiac,pediatric,2015-2017,Cardiac,312,Discovery,False
+pediatric|2015-2017|Neurosurgical,pediatric,2015-2017,Neurosurgical,419,Discovery,False
+pediatric|2015-2017|Orthopedic,pediatric,2015-2017,Orthopedic,487,Discovery,False
+pediatric|2015-2017|Other procedures,pediatric,2015-2017,Other procedures,93,Discovery,True
+pediatric|2018-2021|Abdominal,pediatric,2018-2021,Abdominal,3060,Later evaluation,False
+pediatric|2018-2021|Cardiac,pediatric,2018-2021,Cardiac,427,Later evaluation,False
+pediatric|2018-2021|Neurosurgical,pediatric,2018-2021,Neurosurgical,793,Later evaluation,False
+pediatric|2018-2021|Orthopedic,pediatric,2018-2021,Orthopedic,892,Later evaluation,False
+pediatric|2018-2021|Other procedures,pediatric,2018-2021,Other procedures,110,Later evaluation,True

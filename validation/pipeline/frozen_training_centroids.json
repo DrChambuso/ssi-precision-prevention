@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_figure17_redesign/fourpanel_prediction_analysis/frozen_training_centroids.csv",
+  "rows": 3,
+  "numeric_columns": 5,
+  "maximum_absolute_difference": 0.0,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

@@ -1,0 +1,5 @@
+"outcome","F","p","permutations","profiles","BH_q","unit","test"
+"Superficial incisional",0.813070946595302,0.577380952380952,840,13,0.577380952380952,"Age-procedure source profile","Exact age-blocked profile permutation, partial-F statistic"
+"Deep incisional",3.17465291096288,0.166666666666667,840,13,0.222222222222222,"Age-procedure source profile","Exact age-blocked profile permutation, partial-F statistic"
+"Organ/space",3.69714637271881,0.102380952380952,840,13,0.204761904761905,"Age-procedure source profile","Exact age-blocked profile permutation, partial-F statistic"
+"Conditional MRSA percent",3.93214676901718,0.0357142857142857,84,11,0.142857142857143,"Age-procedure source profile","Exact age-blocked profile permutation, partial-F statistic"

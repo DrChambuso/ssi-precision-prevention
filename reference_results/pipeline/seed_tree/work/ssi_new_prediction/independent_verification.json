@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Unique unit-year rows in lagged cohort and heldout predictions.",
+    "All source target, prior and history fields independently reconstructed. Only t-3 to t-1 source predictors.",
+    "Chronological California development/test split and separate Oregon hospital identities verified.",
+    "Frozen R model probabilities independently reconstructed from coefficient table and feature scaling.",
+    "Every estimable pooled, subgroup and procedure AUC checked by independent rank formula and trapezoidal ROC integration. AP checked by grouped threshold formula.",
+    "Review-capacity counts, capture and precision reconcile, with fractional boundary tie allocation.",
+    "Calibration bins reconcile to evaluation report/alert totals and confidence bounds lie within 0 to 1.",
+    "All generated plain text, code and CSV files audited for prohibited dash/minus characters."
+  ],
+  "heldout_probability_max_error": 5.008216064084081e-13,
+  "AUC_max_error": 2.220446049250313e-16,
+  "plain_text_files_audited": [
+    "paired_method_comparisons_and_losses.csv",
+    "training_feature_scaling.csv",
+    "cohort_audit.json",
+    "review_capacity_results.csv",
+    "prepare_prediction.py",
+    "cohort_counts_by_year_age.csv",
+    "evaluate_prediction.py",
+    "model_coefficients.csv",
+    "verify_prediction.py",
+    "calibration_global_diagnostics.csv",
+    "heldout_predictions.csv",
+    "calibration_deciles.csv",
+    "model_fit_audit.txt",
+    "review_capacity_curve.csv",
+    "heldout_performance.csv",
+    "fit_prediction.R",
+    "model_fit.log",
+    "evaluation_methods.json",
+    "independent_verification.json",
+    "extra_diagnostics.py"
+  ],
+  "source_reconstructed_report_pairs": 57694,
+  "heldout_rows": 18341,
+  "California_test_rows": 18132,
+  "Oregon_rows": 209
+}

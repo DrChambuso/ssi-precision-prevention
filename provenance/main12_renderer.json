@@ -1,0 +1,17 @@
+{
+  "historical_source": "work/bold_fig14_panel_a.py",
+  "original_script_sha256": "9efefd15aed94e05d4c011de763900b8b3697375d5478b0647356462ab0b1c7a",
+  "release_script": "scripts/regenerate_main_12.py",
+  "release_script_sha256": "327ae90bc0764e8cc385b40594eaf8ce28e026be9f30b9bccae2699d9b126154",
+  "adaptation": "Input paths made repository-relative; font directory supplied as required CLI argument; generated files kept separate; report paths made relative. Scientific values, formulas and layout unchanged.",
+  "test_environment": {
+    "python": "3.12",
+    "font_files": [
+      "Arial.ttf",
+      "Arial Bold.ttf",
+      "Arial Italic.ttf"
+    ]
+  },
+  "verification_report": "validation/main12_regeneration_parity.json",
+  "inference_scope": "Rendering from archived derived tables and verified table display cache. Statistical models and bootstrap confidence intervals are not recomputed by this script."
+}

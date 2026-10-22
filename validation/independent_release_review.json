@@ -1,0 +1,172 @@
+{
+  "status": "pass",
+  "scope": "Independent relocation review, retaining actual input data and frozen artifacts; not a fresh full statistical rerun",
+  "reviewed_date": "2026-10-22",
+  "relocation": {
+    "destination": "temporary directory with a space in its path",
+    "author_path_environment_variables_used": false,
+    "environment": "minimal PATH/HOME/TMPDIR/locale plus Python no-user-site; no PYTHONPATH, CODEX_HOME or RSCRIPT overrides",
+    "existing_dependency_runtime": true,
+    "copied_runtime_results": false,
+    "commands": [
+      {
+        "label": "relocated_surveillance",
+        "command": "${TESTED_PYTHON} scripts/reconstruct_surveillance.py",
+        "exit_code": 0,
+        "elapsed_seconds": 1.7839903747662902,
+        "output": "{\n  \"passed\": true,\n  \"counts\": {\n    \"source_rows\": 78583,\n    \"annual_reports\": 72854,\n    \"operations\": 6737972,\n    \"ssis\": 37525,\n    \"hospitals\": 469,\n    \"procedures\": 28,\n    \"signals\": 12032,\n    \"two_half_year_annual_reports\": 5729\n  },\n  \"raw_files_verified\": 0,\n  \"seconds\": 1.2801287500187755\n}\n"
+      },
+      {
+        "label": "relocated_frozen_model",
+        "command": "${TESTED_PYTHON} scripts/check_frozen_model.py --root .",
+        "exit_code": 0,
+        "elapsed_seconds": 0.9233052912168205,
+        "output": "{\"status\": \"pass\", \"checks\": 180, \"failed\": [], \"elapsed_seconds\": 0.837, \"report\": \"validation/frozen_model_check.json\"}\n"
+      },
+      {
+        "label": "relocated_all_unit_tests",
+        "command": "${TESTED_PYTHON} -m unittest discover -s tests -v",
+        "exit_code": 0,
+        "elapsed_seconds": 0.4305837918072939,
+        "output": "test_actual_zero_expected_predictor_remains_finite (test_frozen.RealFrozenModelTests.test_actual_zero_expected_predictor_remains_finite) ... ok\ntest_missing_immediate_report_or_inconsistent_missingness_rejected (test_frozen.RealFrozenModelTests.test_missing_immediate_report_or_inconsistent_missingness_rejected) ... ok\ntest_missing_older_history_uses_only_observed_reports (test_frozen.RealFrozenModelTests.test_missing_older_history_uses_only_observed_reports) ... ok\ntest_real_heldout_probabilities_from_counts (test_frozen.RealFrozenModelTests.test_real_heldout_probabilities_from_counts) ... ok\ntest_unknown_or_missing_age_is_rejected (test_frozen.RealFrozenModelTests.test_unknown_or_missing_age_is_rejected) ... ok\ntest_unknown_procedure_is_not_silently_reference (test_frozen.RealFrozenModelTests.test_unknown_procedure_is_not_silently_reference) ... ok\ntest_boundary_tie_shares_exact_budget_and_ignores_row_order (test_frozen.SelectionTests.test_boundary_tie_shares_exact_budget_and_ignores_row_order) ... ok\ntest_hospital_multiplicity_tie_uses_report_equivalents (test_frozen.SelectionTests.test_hospital_multiplicity_tie_uses_report_equivalents) ... ok\ntest_reject_invalid_capacity_or_weights (test_frozen.SelectionTests.test_reject_invalid_capacity_or_weights) ... ok\ntest_rounding_defines_ties (test_frozen.SelectionTests.test_rounding_defines_ties) ... ok\ntest_tied_auc_half_credit_and_capture_denominators (test_frozen.SelectionTests.test_tied_auc_half_credit_and_capture_denominators) ... ok\ntest_zero_weight_hospital_and_endpoint_budgets (test_frozen.SelectionTests.test_zero_weight_hospital_and_endpoint_budgets) ... ok\ntest_duplicate_source_rejected (test_reconstruction.SourceAggregationTests.test_duplicate_source_rejected) ... ok\ntest_half_years_sum_without_imputing_gap (test_reconstruction.SourceAggregationTests.test_half_years_sum_without_imputing_gap) ... ok\ntest_missing_is_not_zero (test_reconstruction.SourceAggregationTests.test_missing_is_not_zero) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.137s\n\nOK\n"
+      },
+      {
+        "label": "relocated_legacy_stage_inventory",
+        "command": "${TESTED_PYTHON} scripts/legacy_pipeline.py list",
+        "exit_code": 0,
+        "elapsed_seconds": 0.04340254236012697,
+        "output": "prediction_prepare [Python] Construct exact lagged predictors from annual source panel.\nprediction_fit [R] Fit training-only33coefficient logistic model; export frozen coefficients and scaling.\nprediction_evaluate [Python] Earlier single-method evaluator,not final paired1999inference.\nprediction_diagnostics [Python] Calibration and continuous descriptive capacity curves.\nprediction_verify [Python] Independent coefficient/scaling and point-estimate reconstruction.\ninferential [R] Hospital-cluster incidence,signal,memory,trend and survival models.\nearlier_context [R] Non-overlapping earlier service baseline adjustment.\nwithin_unit [R] Within-unit conditional model and exact conditional model design.\nseverity_survival [R] Four-state baseline time-varying survival inference.\nsignal_bootstrap [Python] Final1999paired whole-hospital bootstrap;seed20261016.\ninferential_verify [Python] Independent robust covariance,conditional likelihood and data-history checks.\nmicrobiology_extract [Python] Re-extract2015-2017HTML factual tables from author-supplied originals.\nmicrobiology_tables [Python] Rebuild national counts,phenotype bounds and tests from archived table/page extracts.\nmicrobiology_exact [R] Replace approximate P values with exact R tests and family-specific BH.\nmicrobiology_context [Python] Rebuild contextual crosswalk,source hashes and cross-period replication;requires original HTML/PDF files.\nservice_profiles_fit [R] Train-only Kmeans/PCA freeze and later projection;seed20261019.\nservice_profiles_panels [Python] Profile confidence intervals and final panel tables;seed20261021.\nservice_profiles_verify [Python] Independent later service-profile numerical checks.\nmicrobiology_profiles_prepare [Python] Prepare national compositional profile matrices.\nmicrobiology_profiles_fit [R] Train-only CLR compositional clusters and frozen PCA.\nmicrobiology_profiles_evaluate [R] Later national depth and MRSA profile contrasts.\nfigures_base [R] Generate archived base vector panels from sandbox tables;later final layout finishing separate.\nfigures_microbiology [R] Generate archived national microbiology vector panels.\ncase_bootstrap [Python] Final case-capture1999draw paired hospital bootstrap;seed20261017.\nsurvival_absolute [Python] Absolute5year signal probability differences999draws;seed20261018.\n"
+      },
+      {
+        "label": "fresh_venv_creation",
+        "command": "${TESTED_PYTHON} -m venv ${REVIEW_TMP}/fresh_venv",
+        "exit_code": 0,
+        "elapsed_seconds": 1.4403392910026014,
+        "output": ""
+      },
+      {
+        "label": "fresh_venv_offline_install",
+        "command": "${REVIEW_TMP}/fresh_venv/bin/python -m pip install --no-index --no-cache-dir -r environment/requirements-core.txt",
+        "exit_code": 1,
+        "elapsed_seconds": 0.20151145802810788,
+        "output": "ERROR: Could not find a version that satisfies the requirement numpy==2.3.5 (from versions: none)\nERROR: No matching distribution found for numpy==2.3.5\n"
+      },
+      {
+        "label": "relocated_original_RDS",
+        "command": "Rscript -e args<-commandArgs(TRUE)\nm<-readRDS(args[1]);coef_csv<-read.csv(args[2],check.names=FALSE,fileEncoding=\"UTF-8-BOM\")\nstopifnot(all(c(\"term\",\"estimate\") %in% names(coef_csv)),nrow(coef_csv)==33)\nh<-read.csv(args[3],check.names=FALSE)\ncf<-coef(m);stopifnot(all(coef_csv$term %in% names(cf)))\np<-predict(m,newdata=h,type=\"response\")\ncat(\"R_version=\",as.character(getRversion()),\"\\n\",sep=\"\")\ncat(\"reference_age=\",m$xlevels$age[1],\"\\n\",sep=\"\")\ncat(\"reference_procedure=\",m$xlevels$procedure[1],\"\\n\",sep=\"\")\ncat(\"coefficients=\",length(cf),\"\\n\",sep=\"\")\ncat(\"coefficient_csv_max_difference=\",format(max(abs(cf[coef_csv$term]-coef_csv$estimate)),digits=17),\"\\n\",sep=\"\")\ncat(\"heldout_probability_max_difference=\",format(max(abs(signif(p,12)-h$combined)),digits=17),\"\\n\",sep=\"\")\ncat(\"formula=\",paste(deparse(formula(m)),collapse=\" \"),\"\\n\",sep=\"\")\nstopifnot(m$xlevels$age[1]==\"Adult\",m$xlevels$procedure[1]==\"Abdominal aortic aneurysm repair\",length(cf)==33,max(abs(cf[coef_csv$term]-coef_csv$estimate))<1e-12,max(abs(signif(p,12)-h$combined))<1e-11)\n model/report_alert_model.rds model/model_coefficients.csv data/derived/prediction/heldout_predictions.csv",
+        "exit_code": 0,
+        "elapsed_seconds": 0.6844500829465687,
+        "output": "R_version=4.5.0\nreference_age=Adult\nreference_procedure=Abdominal aortic aneurysm repair\ncoefficients=33\ncoefficient_csv_max_difference=4.6629367034256575e-15\nheldout_probability_max_difference=1.0000333894311098e-12\nformula=outcome ~ age + procedure + log_volume_z + log_expected_rate_z +      log_prior_sir_z + log_history_sir_z\n"
+      }
+    ],
+    "all_unit_tests_passed": 15
+  },
+  "factor_reference_verification": {
+    "R_version": "4.5.0",
+    "reference_age": "Adult",
+    "reference_procedure": "Abdominal aortic aneurysm repair",
+    "coefficients": "33",
+    "coefficient_csv_max_difference": "4.6629367034256575e-15",
+    "heldout_probability_max_difference": "1.0000333894311098e-12",
+    "formula": "outcome ~ age + procedure + log_volume_z + log_expected_rate_z +      log_prior_sir_z + log_history_sir_z",
+    "association_model_reference": "Colon surgery",
+    "source_evidence": {
+      "prediction_fit.R": "factor(train[[f]]) without a procedure relevel; actual serialized model xlevels independently inspected",
+      "inferential.R": "explicit relevel(g$procedure, Colon surgery) in preprocessing"
+    },
+    "metadata_matches_original_RDS": true
+  },
+  "coefficient_lineage": {
+    "model_csv_has_utf8_BOM": true,
+    "coefficient_row_count": 33,
+    "candidate_archive_files": [
+      {
+        "file": "reference_results/pipeline/seed_tree/work/ssi_new_prediction/model_coefficients.csv",
+        "byte_equal": false,
+        "parsed_estimate_max_difference": 0.0,
+        "model_term_order_equal": true
+      },
+      {
+        "file": "reference_results/pipeline/seed_tree/outputs/SSI_Prevention_Intelligence/SSI_Inferential_Microbiology_Figures/reproducibility/prediction/model_coefficients.csv",
+        "byte_equal": false,
+        "parsed_estimate_max_difference": 0.0,
+        "model_term_order_equal": true
+      }
+    ],
+    "encoding_advice_added_to": "docs/FROZEN_MODEL.md"
+  },
+  "fresh_environment": {
+    "venv_created": true,
+    "network_install_attempted": true,
+    "network_install_succeeded": true,
+    "isolated_temporary_environment": true,
+    "existing_packages_inherited": false,
+    "global_installation": false,
+    "default_sandbox_attempt": "DNS restriction prevented connection; installation succeeded with approved network access",
+    "core_requirements_sha256": "40a8fd0420ab6a57bb365e29e0f69307d116819d3eea9c63f09a94739c661af3",
+    "creation_seconds": 1.4163558748550713,
+    "install_seconds": 22.061687749810517,
+    "commands": [
+      {
+        "label": "fresh_venv_creation",
+        "command": "${BASE_PYTHON} -m venv ${CLEAN_TMP}/venv",
+        "exit_code": 0,
+        "elapsed_seconds": 1.4163558748550713,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "label": "fresh_network_dependency_install",
+        "command": "${CLEAN_TMP}/venv/bin/python -m pip install --disable-pip-version-check --no-cache-dir --retries 1 --timeout 15 -r environment/requirements-core.txt",
+        "exit_code": 0,
+        "elapsed_seconds": 22.061687749810517,
+        "stdout": "Collecting numpy==2.3.5 (from -r environment/requirements-core.txt (line 2))\n  Downloading numpy-2.3.5-cp312-cp312-macosx_14_0_arm64.whl.metadata (62 kB)\nCollecting pandas==2.2.3 (from -r environment/requirements-core.txt (line 3))\n  Downloading pandas-2.2.3-cp312-cp312-macosx_11_0_arm64.whl.metadata (89 kB)\nCollecting python-dateutil==2.9.0.post0 (from -r environment/requirements-core.txt (line 4))\n  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)\nCollecting pytz==2026.5 (from -r environment/requirements-core.txt (line 5))\n  Downloading pytz-2026.5-py2.py3-none-any.whl.metadata (22 kB)\nCollecting tzdata==2026.5 (from -r environment/requirements-core.txt (line 6))\n  Downloading tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)\nCollecting six==1.17.0 (from -r environment/requirements-core.txt (line 7))\n  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)\nDownloading numpy-2.3.5-cp312-cp312-macosx_14_0_arm64.whl (5.1 MB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 5.1/5.1 MB 35.5 MB/s eta 0:00:00\nDownloading pandas-2.2.3-cp312-cp312-macosx_11_0_arm64.whl (11.4 MB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 11.4/11.4 MB 39.5 MB/s eta 0:00:00\nDownloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)\nDownloading pytz-2026.5-py2.py3-none-any.whl (506 kB)\nDownloading tzdata-2026.5-py2.py3-none-any.whl (347 kB)\nDownloading six-1.17.0-py2.py3-none-any.whl (11 kB)\nInstalling collected packages: pytz, tzdata, six, numpy, python-dateutil, pandas\nSuccessfully installed numpy-2.3.5 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2026.5 six-1.17.0 tzdata-2026.5\n",
+        "stderr": ""
+      },
+      {
+        "label": "clean_venv_surveillance",
+        "command": "${CLEAN_TMP}/venv/bin/python scripts/reconstruct_surveillance.py",
+        "exit_code": 0,
+        "elapsed_seconds": 15.8825619998388,
+        "stdout": "{\n  \"passed\": true,\n  \"counts\": {\n    \"source_rows\": 78583,\n    \"annual_reports\": 72854,\n    \"operations\": 6737972,\n    \"ssis\": 37525,\n    \"hospitals\": 469,\n    \"procedures\": 28,\n    \"signals\": 12032,\n    \"two_half_year_annual_reports\": 5729\n  },\n  \"raw_files_verified\": 0,\n  \"seconds\": 1.233850833028555\n}\n",
+        "stderr": ""
+      },
+      {
+        "label": "clean_venv_frozen_model",
+        "command": "${CLEAN_TMP}/venv/bin/python scripts/check_frozen_model.py --root .",
+        "exit_code": 0,
+        "elapsed_seconds": 0.8716869996860623,
+        "stdout": "{\"status\": \"pass\", \"checks\": 180, \"failed\": [], \"elapsed_seconds\": 0.77, \"report\": \"validation/frozen_model_check.json\"}\n",
+        "stderr": ""
+      },
+      {
+        "label": "clean_venv_all_unit_tests",
+        "command": "${CLEAN_TMP}/venv/bin/python -m unittest discover -s tests -v",
+        "exit_code": 0,
+        "elapsed_seconds": 0.4037700002081692,
+        "stdout": "",
+        "stderr": "test_actual_zero_expected_predictor_remains_finite (test_frozen.RealFrozenModelTests.test_actual_zero_expected_predictor_remains_finite) ... ok\ntest_missing_immediate_report_or_inconsistent_missingness_rejected (test_frozen.RealFrozenModelTests.test_missing_immediate_report_or_inconsistent_missingness_rejected) ... ok\ntest_missing_older_history_uses_only_observed_reports (test_frozen.RealFrozenModelTests.test_missing_older_history_uses_only_observed_reports) ... ok\ntest_real_heldout_probabilities_from_counts (test_frozen.RealFrozenModelTests.test_real_heldout_probabilities_from_counts) ... ok\ntest_unknown_or_missing_age_is_rejected (test_frozen.RealFrozenModelTests.test_unknown_or_missing_age_is_rejected) ... ok\ntest_unknown_procedure_is_not_silently_reference (test_frozen.RealFrozenModelTests.test_unknown_procedure_is_not_silently_reference) ... ok\ntest_boundary_tie_shares_exact_budget_and_ignores_row_order (test_frozen.SelectionTests.test_boundary_tie_shares_exact_budget_and_ignores_row_order) ... ok\ntest_hospital_multiplicity_tie_uses_report_equivalents (test_frozen.SelectionTests.test_hospital_multiplicity_tie_uses_report_equivalents) ... ok\ntest_reject_invalid_capacity_or_weights (test_frozen.SelectionTests.test_reject_invalid_capacity_or_weights) ... ok\ntest_rounding_defines_ties (test_frozen.SelectionTests.test_rounding_defines_ties) ... ok\ntest_tied_auc_half_credit_and_capture_denominators (test_frozen.SelectionTests.test_tied_auc_half_credit_and_capture_denominators) ... ok\ntest_zero_weight_hospital_and_endpoint_budgets (test_frozen.SelectionTests.test_zero_weight_hospital_and_endpoint_budgets) ... ok\ntest_duplicate_source_rejected (test_reconstruction.SourceAggregationTests.test_duplicate_source_rejected) ... ok\ntest_half_years_sum_without_imputing_gap (test_reconstruction.SourceAggregationTests.test_half_years_sum_without_imputing_gap) ... ok\ntest_missing_is_not_zero (test_reconstruction.SourceAggregationTests.test_missing_is_not_zero) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.136s\n\nOK\n"
+      },
+      {
+        "label": "clean_venv_installed_versions",
+        "command": "${CLEAN_TMP}/venv/bin/python -m pip freeze",
+        "exit_code": 0,
+        "elapsed_seconds": 0.17841283278539777,
+        "stdout": "numpy==2.3.5\npandas==2.2.3\npython-dateutil==2.9.0.post0\npytz==2026.5\nsix==1.17.0\ntzdata==2026.5\n",
+        "stderr": ""
+      }
+    ],
+    "relocated_path_has_space": true,
+    "checks_status": "all commands passed, including15unit tests and180frozen model checks",
+    "earlier_offline_attempt": "Fresh offline install failed solely because no cached NumPy wheel was available; this was an environment availability limit rather than evidence of an invalid package requirement.",
+    "fresh_dependency_install_verified": true,
+    "test_count": 15,
+    "frozen_check_count": 180
+  },
+  "elapsed_seconds": 5.917792708147317,
+  "limits": [
+    "Full inferential and figure environments were not installed from scratch by this core installation review.",
+    "Every original inferential stage and every vector layout were not independently rerun by this review.",
+    "Public repository, persistent identifier and software-license approval remain release decisions."
+  ]
+}

@@ -1,0 +1,6 @@
+"dataset","group","Wald_chisq","df","p"
+"Test","All ages and procedures",17.1881358851286,2,0.000185201165502067
+"Test","Adult",13.3161124484901,2,0.00128363905346111
+"Test","Pediatric",32.9313298391292,2,0.0000000706403080677936
+"Oregon external","All ages and procedures",0.940281517781536,2,0.624914299848005
+"Oregon external","Adult",0.825185167150387,2,0.661931909831053

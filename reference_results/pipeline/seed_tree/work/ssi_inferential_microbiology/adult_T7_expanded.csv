@@ -1,0 +1,20 @@
+Pathogen,Hospital ICUs,Hospital ICUs,Hospital Wards,Hospital Wards,LTACHs,LTACHs
+Pathogen,No. (%) Pathogens,Rank,No. (%) Pathogens,Rank,No. (%) Pathogens,Rank
+Staphylococcus aureus,"2,673 (28.8)",1,58 (20.1),2,102 (21.2),2
+Pseudomonas aeruginosa,"1,192 (12.9)",2,63 (21.8),1,157 (32.6),1
+Selected Klebsiella spp,936 (10.1),3,38 (13.1),3,50 (10.4),3
+Enterobacter spp,781 (8.4),4,18 (6.2),4,21 (4.4),7
+Haemophilus influenzae,550 (5.9),5,10 (3.5),8,1 (0.2),16
+All Streptococcus spp,527 (5.7),6,6 (2.1),10,1 (0.2),16
+Escherichia coli,520 (5.6),7,14 (4.8),7,18 (3.7),8
+Serratia spp,428 (4.6),8,6 (2.1),10,24 (5.0),6
+Stenotrophomonas maltophilia,372 (4.0),9,17 (5.9),5,25 (5.2),5
+Acinetobacter spp,294 (3.2),10,17 (5.9),5,32 (6.6),4
+Proteus spp,134 (1.4),11,7 (2.4),9,14 (2.9),9
+Citrobacter spp,110 (1.2),12,6 (2.1),10,6 (1.2),10
+Moraxella catarrhalis,71 (0.8),13,0 (0.0),…,4 (0.8),12
+Morganella spp,32 (0.3),14,0 (0.0),…,0 (0.0),…
+Burkholderia cepacia,26 (0.3),15,0 (0.0),…,0 (0.0),…
+Haemophilus NOS,26 (0.3),15,1 (0.3),19,0 (0.0),…
+Other,594 (6.4),,28 (9.7),,27 (5.6),
+Total,"9,266 (100.0)",,289 (100.0),,482 (100.0),

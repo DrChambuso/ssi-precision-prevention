@@ -1,0 +1,19 @@
+Pathogen,Hospital Wards,Hospital Wards,Hospital ICUs,Hospital ICUs,Hospital Oncology Units,Hospital Oncology Units,LTACHs,LTACHs
+Pathogen,No. (%) Pathogens,Rank,No. (%) Pathogens,Rank,No. (%) Pathogens,Rank,No. (%) Pathogens,Rank
+Staphylococcus aureus,"5,386 (15.5)",1,"2,497 (9.1)",3,"1,163 (7.2)",6,"1,217 (11.2)",3
+Coagulase-negative staphylococci,"3,792 (10.9)",2,"3,789 (13.8)",1,"1,681 (10.4)",2,"1,277 (11.8)",2
+Selected Klebsiella spp,"3,344 (9.6)",3,"1,708 (6.2)",8,"1,441 (8.9)",4,"1,158 (10.7)",4
+Enterococcus faecalis,"2,636 (7.6)",4,"2,117 (7.7)",5,664 (4.1),8,"1,314 (12.1)",1
+Candida albicans,"2,469 (7.1)",5,"2,844 (10.4)",2,216 (1.3),15,642 (5.9),7
+Escherichia coli,"2,279 (6.6)",6,"1,129 (4.1)",9,"2,667 (16.5)",1,394 (3.6),10
+Other Candida spp,"1,876 (5.4)",7,"2,186 (8.0)",4,559 (3.5),9,739 (6.8),5
+Enterococcus faecium,"1,673 (4.8)",8,"1,981 (7.2)",6,"1,670 (10.3)",3,691 (6.4),6
+Candida glabrata,"1,460 (4.2)",9,"1,836 (6.7)",7,249 (1.5),12,489 (4.5),9
+Enterobacter spp,"1,453 (4.2)",10,"1,078 (3.9)",10,532 (3.3),10,383 (3.5),11
+Pseudomonas aeruginosa,"1,407 (4.0)",11,"1,061 (3.9)",11,701 (4.3),7,495 (4.6),8
+Serratia spp,678 (1.9),12,588 (2.1),12,100 (0.6),18,256 (2.4),13
+Acinetobacter spp,660 (1.9),13,392 (1.4),14,66 (0.4),22,245 (2.3),14
+Other Enterococcus spp,577 (1.7),14,545 (2.0),13,339 (2.1),11,257 (2.4),12
+Viridans group streptococci,430 (1.2),15,223 (0.8),19,"1,386 (8.6)",5,33 (0.3),22
+Other,"4,668 (13.4)",,"3,422 (12.5)",,"2,757 (17.0)",,"1,238 (11.4)",
+Total,"34,788 (100.0)",,"27,396 (100.0)",,"16,191 (100.0)",,"10,828 (100.0)",

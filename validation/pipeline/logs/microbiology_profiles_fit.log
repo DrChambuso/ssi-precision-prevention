@@ -1,0 +1,64 @@
+  k tot_withinss between_ratio mean_silhouette minimum_group_size
+1 2    20.986218     0.4023142       0.3844000                  2
+2 3     8.963229     0.7447279       0.4783335                  2
+3 4     5.969072     0.8300013       0.3276077                  2
+                           profile_id             role n_pathogen_reports
+            adult|2015-2017|Abdominal        Discovery              83297
+              adult|2015-2017|Cardiac        Discovery               8647
+               adult|2015-2017|Ob/Gyn        Discovery              20345
+           adult|2015-2017|Orthopedic        Discovery              36147
+     adult|2015-2017|Other procedures        Discovery               5697
+            adult|2018-2021|Abdominal Later evaluation             112285
+               adult|2018-2021|Breast Later evaluation               2325
+              adult|2018-2021|Cardiac Later evaluation              10506
+        adult|2018-2021|Neurosurgical Later evaluation               3921
+               adult|2018-2021|Ob/Gyn Later evaluation              26181
+           adult|2018-2021|Orthopedic Later evaluation              55613
+             adult|2018-2021|Vascular Later evaluation               2801
+     adult|2018-2021|Other procedures Later evaluation               2037
+        pediatric|2015-2017|Abdominal        Discovery               2215
+          pediatric|2015-2017|Cardiac        Discovery                312
+    pediatric|2015-2017|Neurosurgical        Discovery                419
+       pediatric|2015-2017|Orthopedic        Discovery                487
+ pediatric|2015-2017|Other procedures        Discovery                 93
+        pediatric|2018-2021|Abdominal Later evaluation               3060
+          pediatric|2018-2021|Cardiac Later evaluation                427
+    pediatric|2018-2021|Neurosurgical Later evaluation                793
+       pediatric|2018-2021|Orthopedic Later evaluation                892
+ pediatric|2018-2021|Other procedures Later evaluation                110
+ ecotype         PC1         PC2
+       1 -2.02540740 -0.85812213
+       2  0.30019567  1.22246108
+       2 -1.04176586  0.42218784
+       2  0.60238128  1.39622176
+       2  0.01397654  0.40518830
+       1 -2.29791203 -1.03377285
+       2  0.61062666  1.18746354
+       2  0.17313485  0.89217837
+       2  1.08821466  0.30108878
+       2 -1.22790746  0.27914344
+       2  0.38269532  1.29002747
+       2 -0.57720524  0.94890341
+       1 -0.83520038 -1.09242581
+       1 -1.78951804 -1.66865669
+       3  2.25931247 -1.50112177
+       3  1.77097408 -0.99681294
+       2 -0.23213346  1.51109368
+       2  0.14198473  0.06756086
+       1 -2.10402802 -1.77955803
+       3  1.08521692 -0.56864903
+       3  1.30327171 -0.99889391
+       2 -0.13446648  2.07343994
+       2 -0.18558894  0.57585056
+  ecotype Candida albicans Coagulase-negative staphylococci
+1       1      0.041501100                       0.03346342
+2       2      0.013811344                       0.11306054
+3       3      0.008387645                       0.19236889
+  Enterococcus faecalis Escherichia coli Proteus spp Pseudomonas aeruginosa
+1            0.08626233       0.21930409 0.013544975             0.06959232
+2            0.05338192       0.08163336 0.036244865             0.07307206
+3            0.02038966       0.02591258 0.001193317             0.06181537
+  Remaining reported taxa Staphylococcus aureus Viridans group streptococci
+1               0.4066625            0.07667759                  0.05299166
+2               0.3472398            0.26657468                  0.01498140
+3               0.2811869            0.38320788                  0.02553776

@@ -1,0 +1,14 @@
+"profile_id","age","period","category","n_pathogen_reports","role","residual_profile","ecotype","PC1","PC2","depth","count","total","proportion"
+"adult|2018-2021|Abdominal","adult","2018-2021","Abdominal",112285,"Later evaluation","False",1,-2.29791202844407,-1.03377285075275,"Organ/space",75963,112285,0.676519570735183
+"adult|2018-2021|Breast","adult","2018-2021","Breast",2325,"Later evaluation","False",2,0.610626656827352,1.1874635418882,"Organ/space",480,2325,0.206451612903226
+"adult|2018-2021|Cardiac","adult","2018-2021","Cardiac",10506,"Later evaluation","False",2,0.173134850999631,0.892178369217133,"Organ/space",3381,10506,0.32181610508281
+"adult|2018-2021|Neurosurgical","adult","2018-2021","Neurosurgical",3921,"Later evaluation","False",2,1.08821466135265,0.301088780071466,"Organ/space",2794,3921,0.712573323131854
+"adult|2018-2021|Ob/Gyn","adult","2018-2021","Ob/Gyn",26181,"Later evaluation","False",2,-1.2279074592949,0.279143437556067,"Organ/space",10481,26181,0.4003284824873
+"adult|2018-2021|Orthopedic","adult","2018-2021","Orthopedic",55613,"Later evaluation","False",2,0.3826953231504,1.29002746779117,"Organ/space",21228,55613,0.381709312570802
+"adult|2018-2021|Vascular","adult","2018-2021","Vascular",2801,"Later evaluation","False",2,-0.577205237692046,0.948903413925962,"Organ/space",369,2801,0.131738664762585
+"adult|2018-2021|Other procedures","adult","2018-2021","Other procedures",2037,"Later evaluation","True",1,-0.835200378471518,-1.09242581031485,"Organ/space",799,2037,0.392243495336279
+"pediatric|2018-2021|Abdominal","pediatric","2018-2021","Abdominal",3060,"Later evaluation","False",1,-2.10402801966839,-1.77955802847976,"Organ/space",1970,3060,0.643790849673203
+"pediatric|2018-2021|Cardiac","pediatric","2018-2021","Cardiac",427,"Later evaluation","False",3,1.08521691945038,-0.568649030361215,"Organ/space",229,427,0.536299765807963
+"pediatric|2018-2021|Neurosurgical","pediatric","2018-2021","Neurosurgical",793,"Later evaluation","False",3,1.30327171062382,-0.998893906291835,"Organ/space",683,793,0.861286254728878
+"pediatric|2018-2021|Orthopedic","pediatric","2018-2021","Orthopedic",892,"Later evaluation","False",2,-0.134466476484427,2.07343994455436,"Organ/space",222,892,0.248878923766816
+"pediatric|2018-2021|Other procedures","pediatric","2018-2021","Other procedures",110,"Later evaluation","True",2,-0.1855889408261,0.575850564197376,"Organ/space",23,110,0.209090909090909

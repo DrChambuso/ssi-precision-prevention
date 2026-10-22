@@ -1,0 +1,86 @@
+
+Call:
+glm(formula = outcome ~ age + procedure + log_volume_z + log_expected_rate_z + 
+    log_prior_sir_z + log_history_sir_z, family = binomial(), 
+    data = train, control = glm.control(maxit = 100))
+
+Coefficients:
+                                                     Estimate Std. Error
+(Intercept)                                         -3.151421   0.503589
+agePediatric                                        -0.221515   0.065932
+procedureAppendix surgery                            0.606391   0.509125
+procedureBile duct, liver or pancreatic surgery      2.272962   0.508706
+procedureCardiac surgery                             0.801044   0.515043
+procedureCesarean section                           -0.005023   0.512977
+procedureColon surgery                               2.415159   0.506959
+procedureCoronary bypass, chest and donor incisions  1.478739   0.512803
+procedureCoronary bypass, chest incision only        1.022368   0.532623
+procedureExploratory abdominal surgery (laparotomy)  1.244856   0.508008
+procedureGallbladder surgery                         0.867595   0.508907
+procedureGastric surgery                             1.607512   0.509086
+procedureHeart transplant                            1.642087   0.632832
+procedureHip prosthesis                              1.489543   0.508052
+procedureHysterectomy, abdominal                     1.411884   0.508537
+procedureHysterectomy, vaginal                       0.905519   0.515367
+procedureKidney surgery                              0.806490   0.515453
+procedureKidney transplant                           1.228029   0.557631
+procedureKnee prosthesis                             1.069818   0.509309
+procedureLaminectomy                                 0.820897   0.511167
+procedureLiver transplant                            1.801663   0.622807
+procedureOpen reduction of fracture                  1.344933   0.507719
+procedureOvarian surgery                            -0.941198   0.523368
+procedurePacemaker surgery                           0.089063   0.515703
+procedureRectal surgery                              1.213042   0.514665
+procedureSmall bowel surgery                         2.286368   0.506972
+procedureSpinal fusion                               1.527490   0.509055
+procedureSpleen surgery                              1.227539   0.522617
+procedureThoracic surgery                            0.441919   0.513079
+log_volume_z                                         0.552823   0.046789
+log_expected_rate_z                                 -0.723091   0.058050
+log_prior_sir_z                                      0.130694   0.017361
+log_history_sir_z                                    0.242894   0.018633
+                                                    z value Pr(>|z|)    
+(Intercept)                                          -6.258 3.90e-10 ***
+agePediatric                                         -3.360  0.00078 ***
+procedureAppendix surgery                             1.191  0.23364    
+procedureBile duct, liver or pancreatic surgery       4.468 7.89e-06 ***
+procedureCardiac surgery                              1.555  0.11988    
+procedureCesarean section                            -0.010  0.99219    
+procedureColon surgery                                4.764 1.90e-06 ***
+procedureCoronary bypass, chest and donor incisions   2.884  0.00393 ** 
+procedureCoronary bypass, chest incision only         1.919  0.05492 .  
+procedureExploratory abdominal surgery (laparotomy)   2.450  0.01427 *  
+procedureGallbladder surgery                          1.705  0.08823 .  
+procedureGastric surgery                              3.158  0.00159 ** 
+procedureHeart transplant                             2.595  0.00946 ** 
+procedureHip prosthesis                               2.932  0.00337 ** 
+procedureHysterectomy, abdominal                      2.776  0.00550 ** 
+procedureHysterectomy, vaginal                        1.757  0.07891 .  
+procedureKidney surgery                               1.565  0.11767    
+procedureKidney transplant                            2.202  0.02765 *  
+procedureKnee prosthesis                              2.101  0.03568 *  
+procedureLaminectomy                                  1.606  0.10829    
+procedureLiver transplant                             2.893  0.00382 ** 
+procedureOpen reduction of fracture                   2.649  0.00807 ** 
+procedureOvarian surgery                             -1.798  0.07212 .  
+procedurePacemaker surgery                            0.173  0.86289    
+procedureRectal surgery                               2.357  0.01843 *  
+procedureSmall bowel surgery                          4.510 6.49e-06 ***
+procedureSpinal fusion                                3.001  0.00269 ** 
+procedureSpleen surgery                               2.349  0.01883 *  
+procedureThoracic surgery                             0.861  0.38907    
+log_volume_z                                         11.815  < 2e-16 ***
+log_expected_rate_z                                 -12.456  < 2e-16 ***
+log_prior_sir_z                                       7.528 5.16e-14 ***
+log_history_sir_z                                    13.036  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 35703  on 39352  degrees of freedom
+Residual deviance: 29497  on 39320  degrees of freedom
+AIC: 29563
+
+Number of Fisher Scoring iterations: 6
+

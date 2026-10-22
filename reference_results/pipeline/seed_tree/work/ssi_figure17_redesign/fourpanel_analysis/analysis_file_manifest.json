@@ -1,0 +1,157 @@
+[
+  {
+    "file": "all_independent_outcome_tests_BH_family4.csv",
+    "sha256": "37e69f5455ab88021f30e1c2a441c3853d7bb51d60584f9c3c2e6aa4cf7345cb",
+    "bytes": 758
+  },
+  {
+    "file": "cluster_number_diagnostics.csv",
+    "sha256": "829871170415af9d84827602be13f363b3ec76b6491bce2c688b33624f11c6ed",
+    "bytes": 245
+  },
+  {
+    "file": "ecological_profile_permutation_tests.csv",
+    "sha256": "e145840d729fde85ad5b4d4227e912bdc7e94e3dbc976182ac484481531f5d9a",
+    "bytes": 595
+  },
+  {
+    "file": "evaluate_ecotypes.R",
+    "sha256": "8b299cb84ef2b197e9d55149e487a08b8a1caaa2aa82d8b9f9acb64f7ae6fd59",
+    "bytes": 6608
+  },
+  {
+    "file": "fourpanel_analysis.json",
+    "sha256": "9b4adb6cdc479e170081e286532cdcdc8033ef01ec2d77bdc7fd8dfecb252e7b",
+    "bytes": 12037
+  },
+  {
+    "file": "frozen_clr_cluster_centroids.csv",
+    "sha256": "0cc9fc5f9a139e9404c13ffe553c4b1b2c59db1df3ee5c7553263d56f5fa1a05",
+    "bytes": 720
+  },
+  {
+    "file": "later_conditional_mrsa_profiles.csv",
+    "sha256": "fddd4f8121f3f7076cb89c4bfc1c530b38f23c78818d47417dbf95c5b14816c2",
+    "bytes": 1185
+  },
+  {
+    "file": "later_organ_space_profile_values.csv",
+    "sha256": "29230518f3f11be36359ae577822dc6f1860f6eee70274be49abed5da2fa1735",
+    "bytes": 2433
+  },
+  {
+    "file": "learn_ecotypes.R",
+    "sha256": "e30c5c603e2d3668daa8099d6209f36082b70b7fc6dd64683fda1108c96223a7",
+    "bytes": 3402
+  },
+  {
+    "file": "package_analysis.py",
+    "sha256": "5566b2627c3d9d08c4ffd6685ebe7d8cf36da3ebac56a8afcae6e9ef88e33ed7",
+    "bytes": 11110
+  },
+  {
+    "file": "panel_a_convex_hull_vertices.csv",
+    "sha256": "5651dc4c09e4f676fa600f7f911602766fa41739dedcc1a9927cf64720539184",
+    "bytes": 1427
+  },
+  {
+    "file": "panel_a_projection_points.csv",
+    "sha256": "9c7af8f30a1743456f2063bf563ef5837484df0f92d2d3de37dfc274fc29f547",
+    "bytes": 3936
+  },
+  {
+    "file": "panel_b_all_depth_prevalences.csv",
+    "sha256": "5d1e74f8e660f131b09b7dad5c97356818907392b3ed69cddae648f13cee65f4",
+    "bytes": 1283
+  },
+  {
+    "file": "panel_b_later_depth_prevalence.csv",
+    "sha256": "c81d3994e6ab6b3240112d30e9c3516bdd39d6b3374e8849c0f40eb237219d0e",
+    "bytes": 639
+  },
+  {
+    "file": "panel_b_pairwise_profile_contrasts.csv",
+    "sha256": "5d484f235b705f42c11bad4ff081169a8b0e80ad704fe8c2e6651a3075f4d89d",
+    "bytes": 352
+  },
+  {
+    "file": "panel_b_unweighted_profile_means.csv",
+    "sha256": "fcd82aad3871ed9668295af114ca20f1863bb94df85953900179359280fc9c12",
+    "bytes": 1255
+  },
+  {
+    "file": "panel_c_later_component_heatmap.csv",
+    "sha256": "5c81c0bea722e3a2a5bb6e06c4751068818d5c4cef0a0d54345432163d73b9f6",
+    "bytes": 1551
+  },
+  {
+    "file": "panel_d_age_adjusted_mrsa_effects.csv",
+    "sha256": "ae771d098a96ece2ac9c9251075443ebc809d705421fcad9a9524bac98a72b51",
+    "bytes": 319
+  },
+  {
+    "file": "panel_d_later_conditional_mrsa_values.csv",
+    "sha256": "5c1f53e6675edc71ef9e9ef3bba748bd9c5bf0f42c821f9778dba614f2898178",
+    "bytes": 1327
+  },
+  {
+    "file": "panel_d_mrsa_box_summary.csv",
+    "sha256": "42a7d07aac5e9d6274cbb7120aa79db7275475eaa465dc34615bceb4e19493c7",
+    "bytes": 155
+  },
+  {
+    "file": "pca_component_loadings.csv",
+    "sha256": "a597a9bba2404ff889d52eed6be9dc4bdf5b548badb9d420992c3811dcbe061e",
+    "bytes": 580
+  },
+  {
+    "file": "pca_explained_variance.csv",
+    "sha256": "183f09d62aecf3ead5ea50f926e78e638fce51065d2a66b698ab98e8c2edbf84",
+    "bytes": 260
+  },
+  {
+    "file": "prepare_profiles.py",
+    "sha256": "61640e8a853de868b73d7e1147574e61295c9ee7e68b876c5452ec31faafd37f",
+    "bytes": 4611
+  },
+  {
+    "file": "profile_counts_long.csv",
+    "sha256": "9b8ad972ddf147845f41b29e80d1cf8d35154600a25d3194c127b02930f69766",
+    "bytes": 16528
+  },
+  {
+    "file": "profile_counts_wide.csv",
+    "sha256": "a3dbf9af0a4e0457078ebe12749f7afa36387254d0be3e270f9eb49811d3aa41",
+    "bytes": 1662
+  },
+  {
+    "file": "profile_depth_counts_long.csv",
+    "sha256": "5161fb630cf4948d245b8fce34686771702c3ee3a55de6326b7c6fa990bc8fa9",
+    "bytes": 5178
+  },
+  {
+    "file": "profile_ecotypes_and_projection.csv",
+    "sha256": "30d4f49c718e7474759c086832295bcbb76b4869979f78247e8165785f8f05ea",
+    "bytes": 3147
+  },
+  {
+    "file": "profile_metadata.csv",
+    "sha256": "99331220d1d55309fca88fa1da9c5f29555bbf0ef50cd232872586a42103cea4",
+    "bytes": 1969
+  },
+  {
+    "file": "pseudocount_sensitivity.csv",
+    "sha256": "b03234b3eeae110cbd9fa42e14d35e12156ee9a98e1c7498692cd802bf008e3f",
+    "bytes": 2920
+  },
+  {
+    "file": "source_validation.json",
+    "sha256": "b3ec3731b2470fe0d95ee1af94895567cb1b0d53fa69d1ee61a5da115ce6023b",
+    "bytes": 1123
+  },
+  {
+    "file": "training_profile_component_shares.csv",
+    "sha256": "fdca0a6833b9f5432c81552cbc844544ae6789df8a1200190d792032d247081c",
+    "bytes": 2278
+  }
+]

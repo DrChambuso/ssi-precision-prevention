@@ -1,0 +1,54 @@
+6 
+ 
+Table 5. The Top 15 CAUTI Pathogens Reported to NHSN, by Location Type, Adults, 2018-2021 
+ 
+ Acute Care Hospitals (n=3,550 hospitals) 
+ Hospital ICUs Hospital Wards1 Hospital Oncology Units2 
+LTACHs3 
+(n=428 hospitals) 
+IRFs or IRF Units4 
+(n=924 facilities) 
+Pathogen 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+Escherichia coli 14,283 33.5 1 15,678 32.5 1 799 29.6 1 2,041 22.8 1 1,881 35.3 1 
+Select Klebsiella spp. 6,159 14.5 2 7,425 15.4 2 433 16.0 2 1,669 18.6 3 919 17.2 2 
+Pseudomonas aeruginosa 5,701 13.4 3 7,283 15.1 3 424 15.7 3 2,034 22.7 2 850 15.9 3 
+Enterococcus faecalis5 5,273 12.4 4 4,796 9.9 4 317 11.7 4 572 6.4 5 355 6.7 4 
+Proteus spp. 1,966 4.6 5 3,158 6.5 5 112 4.1 6 779 8.7 4 323 6.1 5 
+Enterobacter 1,930 4.5 6 2,042 4.2 6 122 4.5 5 397 4.4 7 252 4.7 6 
+Enterococcus faecium5 1,303 3.1 7 1,242 2.6 7 101 3.7 7 500 5.6 6 57 1.1 12 
+Coagulase-negative 
+staphylococci 1,256 2.9 8 952 2.0 11 68 2.5 8 62 0.7 15 85 1.6 9 
+Other Enterococcus spp.5 980 2.3 9 989 2.0 10 48 1.8 11 87 1.0 13 77 1.4 10 
+Citrobacter spp. 780 1.8 10 1,025 2.1 8 64 2.4 9 147 1.6 8 138 2.6 7 
+Staphylococcus aureus 634 1.5 11 999 2.1 9 61 2.3 10 107 1.2 10 89 1.7 8 
+Serratia spp. 474 1.1 12 483 1.0 12 21 0.8 12 93 1.0 11 75 1.4 11 
+Morganella spp. 317 0.7 13 432 0.9 13 21 0.8 12 70 0.8 14 38 0.7 13 
+Acinetobacter spp. 156 0.4 14 234 0.5 14 13 0.5 14 120 1.3 9 27 0.5 14 
+Group B streptococci 131 0.3 15 108 0.2 16 9 0.3 16 3 <0.1 30 5 0.1 24 
+Other pathogen 1,273 3.0   1,467 3.0   90 3.3   290 3.2   160 3.0   
+Total 42,616 100.0   48,313 100.0   2,703 100.0   8,971 100.0   5,331 100.0   
+Note: Refer to Technical Resources for more information about the acronyms and terms used in this table.   
+Footnotes: 
+1. Some rankings are not shown: Providencia stuartii (#15, 0.4%). 
+2. Some rankings are not shown: Staphylococcus not specified (#15, 0.4%). 
+3. Some rankings are not shown: Providencia stuartii (#12, 1.0%). 

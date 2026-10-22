@@ -1,0 +1,51 @@
+[
+  {
+    "release_file": "data/derived/main12/statistics/future_SSI_case_capture_comparisons.csv",
+    "source_label": "Final Dataset/figure_data/final_analyses/statistics/future_SSI_case_capture_comparisons.csv",
+    "source_sha256": "8efd7acc4397049deaead3e50edcc0cc53231e11ee6920e4b0e9ccb79320388c",
+    "release_sha256": "8efd7acc4397049deaead3e50edcc0cc53231e11ee6920e4b0e9ccb79320388c"
+  },
+  {
+    "release_file": "data/derived/main12/statistics/prediction_metrics_1999_cluster_bootstrap.csv",
+    "source_label": "Final Dataset/figure_data/final_analyses/statistics/prediction_metrics_1999_cluster_bootstrap.csv",
+    "source_sha256": "9713f2397cbb35423638bc6cc761cce83abb6b020a645d12137dd29fcdbea3bd",
+    "release_sha256": "9713f2397cbb35423638bc6cc761cce83abb6b020a645d12137dd29fcdbea3bd"
+  },
+  {
+    "release_file": "data/derived/main12/statistics/prediction_paired_comparisons_1999_cluster_bootstrap.csv",
+    "source_label": "Final Dataset/figure_data/final_analyses/statistics/prediction_paired_comparisons_1999_cluster_bootstrap.csv",
+    "source_sha256": "6c0ea66ac34dddf6302265a0993b82489c59495ef3f7c3db15cb494d2a4d98cb",
+    "release_sha256": "6c0ea66ac34dddf6302265a0993b82489c59495ef3f7c3db15cb494d2a4d98cb"
+  },
+  {
+    "release_file": "data/derived/main12/microbiology/national_ssi_source_totals.csv",
+    "source_label": "Final Dataset/microbiology/national_ssi_source_totals.csv",
+    "source_sha256": "b4754500ba3358a257ed9237652500c705a9b360023b951dea5acd5099cfae4b",
+    "release_sha256": "b4754500ba3358a257ed9237652500c705a9b360023b951dea5acd5099cfae4b"
+  },
+  {
+    "release_file": "data/derived/main12/summaries/Age_group_totals.csv",
+    "source_label": "Final Dataset/summaries/Age_group_totals.csv",
+    "source_sha256": "48d20aa8562f1e949a459f39ef017b5f600019c65ec6c0c7135b378e8f792291",
+    "release_sha256": "48d20aa8562f1e949a459f39ef017b5f600019c65ec6c0c7135b378e8f792291"
+  },
+  {
+    "release_file": "data/derived/main12/microbiology/pooled_category_enrichment_tests.csv",
+    "source_label": "Final Dataset/microbiology/pooled_category_enrichment_tests.csv",
+    "source_sha256": "0305269d38b16bd829881061f12e91ebcfe0bba90db0a272e808a3b191e5f89a",
+    "release_sha256": "0305269d38b16bd829881061f12e91ebcfe0bba90db0a272e808a3b191e5f89a"
+  },
+  {
+    "release_file": "data/derived/main12/microbiology/cross_period_pathogen_signal_replication.csv",
+    "source_label": "Final Dataset/microbiology/cross_period_pathogen_signal_replication.csv",
+    "source_sha256": "66728aee672a923b2872c37282a12b7a26ee7cfd6d74e13657eeae6f35883d66",
+    "release_sha256": "66728aee672a923b2872c37282a12b7a26ee7cfd6d74e13657eeae6f35883d66"
+  },
+  {
+    "release_file": "data/derived/main12/fig14-source-data.json",
+    "source_label": "verified_28_procedure_table_display_cache",
+    "source_sha256": "4625ab8cc74b5c0596aa8bd68a2f8e9c938fe6c43d3574af784788c5806d4d5a",
+    "release_sha256": "4625ab8cc74b5c0596aa8bd68a2f8e9c938fe6c43d3574af784788c5806d4d5a",
+    "note": "Panel a uses archived verified display values, not raw-model refitting."
+  }
+]

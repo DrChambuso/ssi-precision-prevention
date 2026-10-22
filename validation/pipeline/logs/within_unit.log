@@ -1,0 +1,72 @@
+                        population reports units sites alerts operations
+1   All three-year-history reports   46465  8732   404   8571    4796726
+2 Outcome-varying units contribute   24019  3541   345   7959    3626664
+  SSI_cases
+1     27584
+2     24013
+            comparison conditional_OR     lower     upper  robust_SE
+history01 01 versus 00      0.6085999 0.5684677 0.6515653 0.03480504
+history10 10 versus 00      0.6068350 0.5697609 0.6463215 0.03216389
+history11 11 versus 00      0.4877529 0.4473069 0.5318560 0.04416607
+                     p         q_BH reports units sites alerts
+history01 3.469616e-46 3.469616e-46   24019  3541   345   7959
+history10 2.181125e-54 3.271688e-54   24019  3541   345   7959
+history11 2.038366e-59 6.115099e-59   24019  3541   345   7959
+Call:
+coxph(formula = Surv(rep(1, 24019L), alert) ~ history + log_prior_volume + 
+    log_prior_expected_rate + year_f + strata(unit), data = g, 
+    control = coxph.control(iter.max = 100), x = TRUE, method = "efron", 
+    cluster = site)
+
+  n= 24019, number of events= 7959 
+
+                            coef exp(coef) se(coef) robust se       z
+history01               -0.49659   0.60860  0.03455   0.03481 -14.268
+history10               -0.49950   0.60684  0.03535   0.03216 -15.530
+history11               -0.71795   0.48775  0.04049   0.04417 -16.256
+log_prior_volume        -0.25253   0.77684  0.07761   0.09462  -2.669
+log_prior_expected_rate -0.62112   0.53734  0.11305   0.13200  -4.705
+year_f2019               0.01856   1.01873  0.04475   0.04310   0.431
+year_f2020              -0.13367   0.87488  0.04758   0.05378  -2.486
+year_f2021              -0.09544   0.90897  0.04764   0.05565  -1.715
+year_f2022               0.04694   1.04805  0.04657   0.05723   0.820
+year_f2023               0.05646   1.05808  0.04694   0.05991   0.942
+year_f2024               0.06493   1.06709  0.04724   0.05859   1.108
+year_f2025               0.10319   1.10870  0.04700   0.06314   1.634
+                          Pr(>|z|)    
+history01                  < 2e-16 ***
+history10                  < 2e-16 ***
+history11                  < 2e-16 ***
+log_prior_volume           0.00761 ** 
+log_prior_expected_rate 0.00000253 ***
+year_f2019                 0.66677    
+year_f2020                 0.01294 *  
+year_f2021                 0.08637 .  
+year_f2022                 0.41218    
+year_f2023                 0.34605    
+year_f2024                 0.26776    
+year_f2025                 0.10221    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                        exp(coef) exp(-coef) lower .95 upper .95
+history01                  0.6086     1.6431    0.5685    0.6516
+history10                  0.6068     1.6479    0.5698    0.6463
+history11                  0.4878     2.0502    0.4473    0.5319
+log_prior_volume           0.7768     1.2873    0.6453    0.9351
+log_prior_expected_rate    0.5373     1.8610    0.4148    0.6960
+year_f2019                 1.0187     0.9816    0.9362    1.1085
+year_f2020                 0.8749     1.1430    0.7874    0.9721
+year_f2021                 0.9090     1.1001    0.8150    1.0137
+year_f2022                 1.0481     0.9541    0.9368    1.1725
+year_f2023                 1.0581     0.9451    0.9408    1.1899
+year_f2024                 1.0671     0.9371    0.9513    1.1969
+year_f2025                 1.1087     0.9020    0.9796    1.2548
+
+Concordance= 0.613  (se = 0.01 )
+Likelihood ratio test= 479  on 12 df,   p=<2e-16
+Wald test            = 398  on 12 df,   p=<2e-16
+Score (logrank) test = 482.2  on 12 df,   p=<2e-16,   Robust = 170.7  p=<2e-16
+
+  (Note: the likelihood ratio and score tests assume independence of
+     observations within a cluster, the Wald and robust score tests do not).

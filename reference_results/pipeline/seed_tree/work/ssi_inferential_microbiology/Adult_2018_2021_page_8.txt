@@ -1,0 +1,35 @@
+8 
+ 
+Table 6. The Top 15 PVAP Pathogens Reported to NHSN, by Facility Type, Adults, 2018-2021 
+ 
+  
+Acute Care Hospitals 
+(n=1,155 hospitals) 
+LTACHs1,2 
+(n=110 hospitals) 
+Pathogen # Pathogens % Pathogens Rank # Pathogens % Pathogens Rank 
+Staphylococcus aureus 4,556 29.6 1 65 18.7 2 
+Pseudomonas aeruginosa 2,062 13.4 2 105 30.2 1 
+Select Klebsiella spp. 1,869 12.1 3 38 10.9 3 
+Enterobacter spp. 932 6.1 4 14 4.0 7 
+Escherichia coli 802 5.2 5 16 4.6 6 
+Serratia spp. 783 5.1 6 25 7.2 4 
+Stenotrophomonas maltophilia 699 4.5 7 11 3.2 8 
+Haemophilus influenzae 628 4.1 8 0 0.0 . 
+Streptococcus spp. 582 3.8 9 3 0.9 14 
+Acinetobacter spp. 443 2.9 10 23 6.6 5 
+Proteus spp. 243 1.6 11 9 2.6 9 
+Citrobacter spp. 212 1.4 12 2 0.6 15 
+Coronavirus3 169 1.1 13 0 0.0 . 
+Moraxella catarrhalis 86 0.6 14 0 0.0 . 
+Virus, not specified 75 0.5 15 0 0.0 . 
+Other pathogen 1,244 8.1   37 10.6   
+Total 15,385 100.0   348 100.0   
+Note: Refer to Technical Resources for more information about the acronyms and terms used in this table.   
+Footnotes: 
+1. Some rankings are not shown: Providencia stuartii (#10, 1.7%); Pseudomonas not specified and Corynebacterium striatum (#11, 1.4%); 
+Non-fermentative gram-negative bacillus (#13, 1.1%). 
+2. Citrobacter spp., Klebsiella not specified, and Pseudomonas putida are tied for ranking #15. 
+3. Consists of pathogens reported as "human coronavirus" and SARS-CoV-2. Among those pathogens reported in this category, 167 (99%) 
+were reported in 2020-2021. 
+ 

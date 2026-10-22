@@ -1,0 +1,424 @@
+{
+  "status": "passed_for_executed_stages",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "latest_stage_status": {
+    "signal_bootstrap": "completed",
+    "case_bootstrap": "completed",
+    "prediction_prepare": "completed",
+    "prediction_fit": "completed",
+    "prediction_evaluate": "completed",
+    "prediction_diagnostics": "completed",
+    "prediction_verify": "completed",
+    "inferential": "completed",
+    "earlier_context": "completed",
+    "within_unit": "completed",
+    "severity_survival": "completed",
+    "inferential_verify": "completed",
+    "service_profiles_fit": "completed",
+    "service_profiles_panels": "completed",
+    "service_profiles_verify": "completed",
+    "microbiology_tables": "completed",
+    "microbiology_exact": "completed",
+    "microbiology_profiles_prepare": "completed",
+    "microbiology_profiles_fit": "completed",
+    "microbiology_profiles_evaluate": "completed",
+    "figures_base": "completed",
+    "figures_microbiology": "completed",
+    "microbiology_context_tables": "completed"
+  },
+  "latest_successful_stages": 23,
+  "failed_latest_stages": [],
+  "numerical_tables_compared": 28,
+  "all_comparisons_passed": true,
+  "largest_absolute_numeric_difference": 8.271806125530277e-25,
+  "comparisons": [
+    {
+      "table": "work/ssi_inferential_stats/procedure_prior_alert_adjusted_RR.csv",
+      "rows": 25,
+      "numeric_columns": 14,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_microbiology/national_ssi_pathogens.csv",
+      "rows": 373,
+      "numeric_columns": 4,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_figure17_redesign/fourpanel_prediction_analysis/profile_future_outcome_pairwise_contrasts.csv",
+      "rows": 12,
+      "numeric_columns": 8,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_stats/prediction_paired_comparisons_1999_cluster_bootstrap.csv",
+      "rows": 555,
+      "numeric_columns": 16,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_figure17_redesign/fourpanel_prediction_analysis/later_test_profile_assignments.csv",
+      "rows": 18132,
+      "numeric_columns": 21,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_new_prediction/model_coefficients.csv",
+      "rows": 33,
+      "numeric_columns": 3,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_stats/earlier_service_context_standardized_contrasts.csv",
+      "rows": 6,
+      "numeric_columns": 9,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_microbiology/category_enrichment_tests.csv",
+      "rows": 276,
+      "numeric_columns": 21,
+      "maximum_absolute_difference": 4.1359030627651384e-25,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_stats/future_SSI_case_capture_comparisons.csv",
+      "rows": 6,
+      "numeric_columns": 12,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_microbiology/national_ssi_source_totals.csv",
+      "rows": 4,
+      "numeric_columns": 5,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_figure17_redesign/fourpanel_analysis/frozen_clr_cluster_centroids.csv",
+      "rows": 3,
+      "numeric_columns": 10,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_figure17_redesign/fourpanel_prediction_analysis/training_scaling.csv",
+      "rows": 4,
+      "numeric_columns": 2,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_stats/procedure_annual_trend_adjusted_IRR.csv",
+      "rows": 25,
+      "numeric_columns": 14,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_microbiology/national_ssi_depth.csv",
+      "rows": 123,
+      "numeric_columns": 3,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_stats/all_site_robust_GLM_coefficients.csv",
+      "rows": 1194,
+      "numeric_columns": 13,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_microbiology/national_ssi_amr.csv",
+      "rows": 330,
+      "numeric_columns": 13,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_stats/within_unit_memory_exact_conditional_site_robust_OR.csv",
+      "rows": 12,
+      "numeric_columns": 9,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_figure17_redesign/fourpanel_analysis/profile_ecotypes_and_projection.csv",
+      "rows": 23,
+      "numeric_columns": 5,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_stats/two_year_memory_contrasts.csv",
+      "rows": 6,
+      "numeric_columns": 7,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_stats/procedure_early_late_adjusted_IRR.csv",
+      "rows": 26,
+      "numeric_columns": 14,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_microbiology/cross_period_pathogen_signal_replication.csv",
+      "rows": 116,
+      "numeric_columns": 13,
+      "maximum_absolute_difference": 4.1359030627651384e-25,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_new_prediction/training_feature_scaling.csv",
+      "rows": 4,
+      "numeric_columns": 2,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_microbiology/amr_occurrence_priority_rounding_bounds.csv",
+      "rows": 105,
+      "numeric_columns": 11,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_microbiology/depth_pathogen_tests.csv",
+      "rows": 30,
+      "numeric_columns": 21,
+      "maximum_absolute_difference": 1.5930919111324523e-58,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_new_prediction/heldout_predictions.csv",
+      "rows": 18341,
+      "numeric_columns": 32,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_figure17_redesign/fourpanel_prediction_analysis/PCA_training_loadings.csv",
+      "rows": 4,
+      "numeric_columns": 4,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_inferential_microbiology/pooled_category_enrichment_tests.csv",
+      "rows": 116,
+      "numeric_columns": 21,
+      "maximum_absolute_difference": 8.271806125530277e-25,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    },
+    {
+      "table": "work/ssi_figure17_redesign/fourpanel_prediction_analysis/frozen_training_centroids.csv",
+      "rows": 3,
+      "numeric_columns": 5,
+      "maximum_absolute_difference": 0.0,
+      "absolute_and_relative_tolerance": 1e-07,
+      "status": "passed"
+    }
+  ],
+  "independent_verification_files": {
+    "prediction_independent": "validation/pipeline/prediction_independent.json",
+    "cluster_and_conditional_independent": "validation/pipeline/cluster_and_conditional_independent.json",
+    "service_profile_independent": "validation/pipeline/service_profile_independent.json",
+    "microbiology_additional": "validation/pipeline/microbiology_additional.json"
+  },
+  "generated_base_figures": [
+    {
+      "file": "Figure_23_SSI_depth_specific_pathogen_signals.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 1279
+    },
+    {
+      "file": "Figure_16_future_SSI_case_capture_tradeoff.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 787
+    },
+    {
+      "file": "Figure_24_procedure_specific_AMR_profiles.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 4679
+    },
+    {
+      "file": "Figure_12_geographic_transport_to_Oregon.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 902
+    },
+    {
+      "file": "Figure_14_annual_procedure_SSI_trajectories.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 2925
+    },
+    {
+      "file": "Figure_01_cumulative_report_workload_and_SSI_burden.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 3443
+    },
+    {
+      "file": "Figure_21_procedure_specific_SSI_pathogen_ecology.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 1586
+    },
+    {
+      "file": "Figure_06_procedure_prevention_review_cards.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 3727
+    },
+    {
+      "file": "Figure_07_annual_signal_transition_matrices.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 1580
+    },
+    {
+      "file": "Figure_13_all_procedure_SSI_incidence_and_precision.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 2082
+    },
+    {
+      "file": "Figure_05_hierarchical_procedure_signal_profiles.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 2234
+    },
+    {
+      "file": "Figure_11_prediction_calibration_and_precision_recall.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 882
+    },
+    {
+      "file": "Figure_02_followup_signal_survival_and_summary.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 1618
+    },
+    {
+      "file": "Figure_17_procedure_change_concordance_map.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 1956
+    },
+    {
+      "file": "Figure_09_maximum_sample_heldout_procedure_ROC.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 2804
+    },
+    {
+      "file": "Figure_10_prevention_review_capacity.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 1167
+    },
+    {
+      "file": "Figure_22_procedure_ecology_effect_sizes.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 1925
+    },
+    {
+      "file": "Figure_03_ranked_temporal_SSI_signal_oncoprint.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 932
+    },
+    {
+      "file": "Figure_26_resistance_percentage_vs_phenotype_review_priority.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 1212
+    },
+    {
+      "file": "Figure_08_baseline_signal_gradient_time_to_alert.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 1035
+    },
+    {
+      "file": "Figure_15_adjusted_signal_history_and_service_context.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 1267
+    },
+    {
+      "file": "Figure_25_age_specific_ecology_and_microbiology_capture.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 1635
+    },
+    {
+      "file": "Figure_04_SSI_burden_by_reporting_pathway.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 2070
+    },
+    {
+      "file": "Figure_18_evidence_to_prevention_review_map.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "text_characters": 2837
+    }
+  ],
+  "all_base_figures_without_raster_images": true,
+  "scope_limits": [
+    "Raw source acquisition/re-extraction and later editorial panel assembly are distinct workflows.",
+    "Original-file hash refresh optional external source stage was not executed in this verification.",
+    "Reference results are seeded to allow isolated stage checks;execution ledger identifies exactly which computations actually ran."
+  ],
+  "repair_record": "An initial national figure run preceded restored post-extraction completeness fields. The numerical-context adapter was added,then context and all national base figures were rerun successfully. This did not change statistical equations.",
+  "execution_ledger": "validation/pipeline/execution_ledger.json",
+  "log_normalization": "Absolute release/runtime prefixes,if present,were replaced with RELEASE_ROOT in distributed logs. Statistical values remain unchanged."
+}

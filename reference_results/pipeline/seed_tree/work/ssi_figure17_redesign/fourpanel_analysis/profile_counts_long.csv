@@ -1,0 +1,208 @@
+profile_id,pathogen,count,total,proportion
+adult|2015-2017|Abdominal,Candida albicans,4131,83297,0.04959362281954932
+adult|2015-2017|Abdominal,Coagulase-negative staphylococci,2980,83297,0.03577559816079811
+adult|2015-2017|Abdominal,Enterococcus faecalis,8053,83297,0.09667815167412992
+adult|2015-2017|Abdominal,Escherichia coli,16378,83297,0.19662172707300382
+adult|2015-2017|Abdominal,Proteus spp,1542,83297,0.0185120712630707
+adult|2015-2017|Abdominal,Pseudomonas aeruginosa,4787,83297,0.05746905650863777
+adult|2015-2017|Abdominal,Staphylococcus aureus,6193,83297,0.07434841590933647
+adult|2015-2017|Abdominal,Viridans group streptococci,3112,83297,0.03736028908604151
+adult|2015-2017|Abdominal,Remaining reported taxa,36121,83297,0.43364106750543235
+adult|2015-2017|Cardiac,Candida albicans,142,8647,0.016421880420955246
+adult|2015-2017|Cardiac,Coagulase-negative staphylococci,1288,8647,0.14895339424077714
+adult|2015-2017|Cardiac,Enterococcus faecalis,281,8647,0.03249681970625651
+adult|2015-2017|Cardiac,Escherichia coli,478,8647,0.05527928761420146
+adult|2015-2017|Cardiac,Proteus spp,400,8647,0.046258818087197874
+adult|2015-2017|Cardiac,Pseudomonas aeruginosa,658,8647,0.0760957557534405
+adult|2015-2017|Cardiac,Staphylococcus aureus,2331,8647,0.2695732624031456
+adult|2015-2017|Cardiac,Viridans group streptococci,101,8647,0.011680351567017463
+adult|2015-2017|Cardiac,Remaining reported taxa,2968,8647,0.34324043020700823
+adult|2015-2017|Ob/Gyn,Candida albicans,216,20345,0.010616859179159499
+adult|2015-2017|Ob/Gyn,Coagulase-negative staphylococci,1476,20345,0.07254853772425657
+adult|2015-2017|Ob/Gyn,Enterococcus faecalis,1862,20345,0.09152125829442123
+adult|2015-2017|Ob/Gyn,Escherichia coli,2778,20345,0.1365446055541902
+adult|2015-2017|Ob/Gyn,Proteus spp,888,20345,0.043647087736544604
+adult|2015-2017|Ob/Gyn,Pseudomonas aeruginosa,907,20345,0.04458097812730401
+adult|2015-2017|Ob/Gyn,Staphylococcus aureus,3092,20345,0.15197837306463505
+adult|2015-2017|Ob/Gyn,Viridans group streptococci,601,20345,0.029540427623494715
+adult|2015-2017|Ob/Gyn,Remaining reported taxa,8525,20345,0.4190218726959941
+adult|2015-2017|Orthopedic,Candida albicans,259,36147,0.007165186599164522
+adult|2015-2017|Orthopedic,Coagulase-negative staphylococci,4693,36147,0.1298309679918112
+adult|2015-2017|Orthopedic,Enterococcus faecalis,1779,36147,0.049215702547929285
+adult|2015-2017|Orthopedic,Escherichia coli,1737,36147,0.04805378039671342
+adult|2015-2017|Orthopedic,Proteus spp,1356,36147,0.03751348659639804
+adult|2015-2017|Orthopedic,Pseudomonas aeruginosa,2184,36147,0.060419951863225164
+adult|2015-2017|Orthopedic,Staphylococcus aureus,13968,36147,0.3864221097186489
+adult|2015-2017|Orthopedic,Viridans group streptococci,323,36147,0.008935734639112514
+adult|2015-2017|Orthopedic,Remaining reported taxa,9848,36147,0.272443079646997
+adult|2015-2017|Other procedures,Candida albicans,99,5697,0.017377567140600316
+adult|2015-2017|Other procedures,Coagulase-negative staphylococci,669,5697,0.11743022643496577
+adult|2015-2017|Other procedures,Enterococcus faecalis,292,5697,0.05125504651571002
+adult|2015-2017|Other procedures,Escherichia coli,375,5697,0.06582411795681938
+adult|2015-2017|Other procedures,Proteus spp,171,5697,0.030015797788309637
+adult|2015-2017|Other procedures,Pseudomonas aeruginosa,420,5697,0.0737230121116377
+adult|2015-2017|Other procedures,Staphylococcus aureus,1386,5697,0.24328593996840442
+adult|2015-2017|Other procedures,Viridans group streptococci,130,5697,0.02281902755836405
+adult|2015-2017|Other procedures,Remaining reported taxa,2155,5697,0.3782692645251887
+adult|2018-2021|Abdominal,Candida albicans,6565,112285,0.05846729304893797
+adult|2018-2021|Abdominal,Coagulase-negative staphylococci,3318,112285,0.029549806296477712
+adult|2018-2021|Abdominal,Enterococcus faecalis,10722,112285,0.09548915705570646
+adult|2018-2021|Abdominal,Escherichia coli,22250,112285,0.19815647682237164
+adult|2018-2021|Abdominal,Proteus spp,1980,112285,0.01763369995992341
+adult|2018-2021|Abdominal,Pseudomonas aeruginosa,6541,112285,0.05825355123124193
+adult|2018-2021|Abdominal,Staphylococcus aureus,6407,112285,0.05706015941577237
+adult|2018-2021|Abdominal,Viridans group streptococci,4617,112285,0.04111858217927595
+adult|2018-2021|Abdominal,Remaining reported taxa,49885,112285,0.44427127399029254
+adult|2018-2021|Breast,Candida albicans,9,2325,0.003870967741935484
+adult|2018-2021|Breast,Coagulase-negative staphylococci,215,2325,0.09247311827956989
+adult|2018-2021|Breast,Enterococcus faecalis,96,2325,0.04129032258064516
+adult|2018-2021|Breast,Escherichia coli,106,2325,0.04559139784946237
+adult|2018-2021|Breast,Proteus spp,74,2325,0.031827956989247314
+adult|2018-2021|Breast,Pseudomonas aeruginosa,275,2325,0.11827956989247312
+adult|2018-2021|Breast,Staphylococcus aureus,769,2325,0.330752688172043
+adult|2018-2021|Breast,Viridans group streptococci,28,2325,0.012043010752688172
+adult|2018-2021|Breast,Remaining reported taxa,753,2325,0.32387096774193547
+adult|2018-2021|Cardiac,Candida albicans,236,10506,0.022463354273748334
+adult|2018-2021|Cardiac,Coagulase-negative staphylococci,1389,10506,0.1322101656196459
+adult|2018-2021|Cardiac,Enterococcus faecalis,322,10506,0.030649152865029505
+adult|2018-2021|Cardiac,Escherichia coli,571,10506,0.05434989529792499
+adult|2018-2021|Cardiac,Proteus spp,434,10506,0.04130972777460499
+adult|2018-2021|Cardiac,Pseudomonas aeruginosa,913,10506,0.08690272225395013
+adult|2018-2021|Cardiac,Staphylococcus aureus,2574,10506,0.24500285551113649
+adult|2018-2021|Cardiac,Viridans group streptococci,165,10506,0.015705311250713876
+adult|2018-2021|Cardiac,Remaining reported taxa,3902,10506,0.37140681515324575
+adult|2018-2021|Neurosurgical,Candida albicans,65,3921,0.016577403723539913
+adult|2018-2021|Neurosurgical,Coagulase-negative staphylococci,765,3921,0.19510328997704668
+adult|2018-2021|Neurosurgical,Enterococcus faecalis,61,3921,0.015557255802091304
+adult|2018-2021|Neurosurgical,Escherichia coli,107,3921,0.02728895689875032
+adult|2018-2021|Neurosurgical,Proteus spp,60,3921,0.015302218821729151
+adult|2018-2021|Neurosurgical,Pseudomonas aeruginosa,205,3921,0.052282580974241266
+adult|2018-2021|Neurosurgical,Staphylococcus aureus,846,3921,0.21576128538638104
+adult|2018-2021|Neurosurgical,Viridans group streptococci,60,3921,0.015302218821729151
+adult|2018-2021|Neurosurgical,Remaining reported taxa,1752,3921,0.4468247895944912
+adult|2018-2021|Ob/Gyn,Candida albicans,275,26181,0.010503800465986785
+adult|2018-2021|Ob/Gyn,Coagulase-negative staphylococci,1860,26181,0.0710438867881288
+adult|2018-2021|Ob/Gyn,Enterococcus faecalis,2485,26181,0.0949161605744624
+adult|2018-2021|Ob/Gyn,Escherichia coli,3555,26181,0.13578549329666553
+adult|2018-2021|Ob/Gyn,Proteus spp,1163,26181,0.04442152706160957
+adult|2018-2021|Ob/Gyn,Pseudomonas aeruginosa,1079,26181,0.041213093464726326
+adult|2018-2021|Ob/Gyn,Staphylococcus aureus,3025,26181,0.11554180512585463
+adult|2018-2021|Ob/Gyn,Viridans group streptococci,936,26181,0.0357511172224132
+adult|2018-2021|Ob/Gyn,Remaining reported taxa,11803,26181,0.4508231160001528
+adult|2018-2021|Orthopedic,Candida albicans,500,55613,0.008990703612464712
+adult|2018-2021|Orthopedic,Coagulase-negative staphylococci,6939,55613,0.12477298473378527
+adult|2018-2021|Orthopedic,Enterococcus faecalis,2851,55613,0.051264991998273786
+adult|2018-2021|Orthopedic,Escherichia coli,2883,55613,0.051840397029471526
+adult|2018-2021|Orthopedic,Proteus spp,2350,55613,0.042256306978584145
+adult|2018-2021|Orthopedic,Pseudomonas aeruginosa,3702,55613,0.06656716954668872
+adult|2018-2021|Orthopedic,Staphylococcus aureus,18744,55613,0.3370434970240771
+adult|2018-2021|Orthopedic,Viridans group streptococci,611,55613,0.010986639814431877
+adult|2018-2021|Orthopedic,Remaining reported taxa,17033,55613,0.30627730926222285
+adult|2018-2021|Vascular,Candida albicans,46,2801,0.016422706176365584
+adult|2018-2021|Vascular,Coagulase-negative staphylococci,183,2801,0.06533380935380222
+adult|2018-2021|Vascular,Enterococcus faecalis,187,2801,0.0667618707604427
+adult|2018-2021|Vascular,Escherichia coli,211,2801,0.07533023920028561
+adult|2018-2021|Vascular,Proteus spp,137,2801,0.04891110317743663
+adult|2018-2021|Vascular,Pseudomonas aeruginosa,278,2801,0.09925026776151374
+adult|2018-2021|Vascular,Staphylococcus aureus,611,2801,0.21813637986433418
+adult|2018-2021|Vascular,Viridans group streptococci,41,2801,0.014637629418064976
+adult|2018-2021|Vascular,Remaining reported taxa,1107,2801,0.3952159942877544
+adult|2018-2021|Other procedures,Candida albicans,86,2037,0.04221894943544428
+adult|2018-2021|Other procedures,Coagulase-negative staphylococci,175,2037,0.0859106529209622
+adult|2018-2021|Other procedures,Enterococcus faecalis,147,2037,0.07216494845360824
+adult|2018-2021|Other procedures,Escherichia coli,191,2037,0.0937653411880216
+adult|2018-2021|Other procedures,Proteus spp,31,2037,0.01521845851742759
+adult|2018-2021|Other procedures,Pseudomonas aeruginosa,167,2037,0.0819833087874325
+adult|2018-2021|Other procedures,Staphylococcus aureus,225,2037,0.11045655375552282
+adult|2018-2021|Other procedures,Viridans group streptococci,136,2037,0.06676485027000491
+adult|2018-2021|Other procedures,Remaining reported taxa,879,2037,0.43151693667157587
+pediatric|2015-2017|Abdominal,Candida albicans,74,2215,0.033408577878103835
+pediatric|2015-2017|Abdominal,Coagulase-negative staphylococci,69,2215,0.031151241534988713
+pediatric|2015-2017|Abdominal,Enterococcus faecalis,168,2215,0.07584650112866817
+pediatric|2015-2017|Abdominal,Escherichia coli,536,2215,0.24198645598194132
+pediatric|2015-2017|Abdominal,Proteus spp,19,2215,0.008577878103837472
+pediatric|2015-2017|Abdominal,Pseudomonas aeruginosa,181,2215,0.08171557562076749
+pediatric|2015-2017|Abdominal,Staphylococcus aureus,175,2215,0.07900677200902935
+pediatric|2015-2017|Abdominal,Viridans group streptococci,152,2215,0.06862302483069978
+pediatric|2015-2017|Abdominal,Remaining reported taxa,841,2215,0.3796839729119639
+pediatric|2015-2017|Cardiac,Candida albicans,3,312,0.009615384615384616
+pediatric|2015-2017|Cardiac,Coagulase-negative staphylococci,56,312,0.1794871794871795
+pediatric|2015-2017|Cardiac,Enterococcus faecalis,9,312,0.028846153846153848
+pediatric|2015-2017|Cardiac,Escherichia coli,5,312,0.016025641025641024
+pediatric|2015-2017|Cardiac,Proteus spp,0,312,0.0
+pediatric|2015-2017|Cardiac,Pseudomonas aeruginosa,14,312,0.04487179487179487
+pediatric|2015-2017|Cardiac,Staphylococcus aureus,152,312,0.48717948717948717
+pediatric|2015-2017|Cardiac,Viridans group streptococci,7,312,0.022435897435897436
+pediatric|2015-2017|Cardiac,Remaining reported taxa,66,312,0.21153846153846154
+pediatric|2015-2017|Neurosurgical,Candida albicans,3,419,0.007159904534606206
+pediatric|2015-2017|Neurosurgical,Coagulase-negative staphylococci,86,419,0.2052505966587112
+pediatric|2015-2017|Neurosurgical,Enterococcus faecalis,5,419,0.011933174224343675
+pediatric|2015-2017|Neurosurgical,Escherichia coli,15,419,0.03579952267303103
+pediatric|2015-2017|Neurosurgical,Proteus spp,1,419,0.002386634844868735
+pediatric|2015-2017|Neurosurgical,Pseudomonas aeruginosa,33,419,0.07875894988066826
+pediatric|2015-2017|Neurosurgical,Staphylococcus aureus,117,419,0.27923627684964203
+pediatric|2015-2017|Neurosurgical,Viridans group streptococci,12,419,0.028639618138424822
+pediatric|2015-2017|Neurosurgical,Remaining reported taxa,147,419,0.35083532219570407
+pediatric|2015-2017|Orthopedic,Candida albicans,10,487,0.02053388090349076
+pediatric|2015-2017|Orthopedic,Coagulase-negative staphylococci,34,487,0.06981519507186858
+pediatric|2015-2017|Orthopedic,Enterococcus faecalis,10,487,0.02053388090349076
+pediatric|2015-2017|Orthopedic,Escherichia coli,53,487,0.10882956878850103
+pediatric|2015-2017|Orthopedic,Proteus spp,24,487,0.049281314168377825
+pediatric|2015-2017|Orthopedic,Pseudomonas aeruginosa,58,487,0.11909650924024641
+pediatric|2015-2017|Orthopedic,Staphylococcus aureus,157,487,0.32238193018480493
+pediatric|2015-2017|Orthopedic,Viridans group streptococci,3,487,0.006160164271047228
+pediatric|2015-2017|Orthopedic,Remaining reported taxa,138,487,0.28336755646817247
+pediatric|2015-2017|Other procedures,Candida albicans,1,93,0.010752688172043012
+pediatric|2015-2017|Other procedures,Coagulase-negative staphylococci,13,93,0.13978494623655913
+pediatric|2015-2017|Other procedures,Enterococcus faecalis,7,93,0.07526881720430108
+pediatric|2015-2017|Other procedures,Escherichia coli,7,93,0.07526881720430108
+pediatric|2015-2017|Other procedures,Proteus spp,1,93,0.010752688172043012
+pediatric|2015-2017|Other procedures,Pseudomonas aeruginosa,6,93,0.06451612903225806
+pediatric|2015-2017|Other procedures,Staphylococcus aureus,21,93,0.22580645161290322
+pediatric|2015-2017|Other procedures,Viridans group streptococci,1,93,0.010752688172043012
+pediatric|2015-2017|Other procedures,Remaining reported taxa,36,93,0.3870967741935484
+pediatric|2018-2021|Abdominal,Candida albicans,127,3060,0.04150326797385621
+pediatric|2018-2021|Abdominal,Coagulase-negative staphylococci,70,3060,0.02287581699346405
+pediatric|2018-2021|Abdominal,Enterococcus faecalis,235,3060,0.07679738562091504
+pediatric|2018-2021|Abdominal,Escherichia coli,725,3060,0.2369281045751634
+pediatric|2018-2021|Abdominal,Proteus spp,30,3060,0.00980392156862745
+pediatric|2018-2021|Abdominal,Pseudomonas aeruginosa,253,3060,0.0826797385620915
+pediatric|2018-2021|Abdominal,Staphylococcus aureus,220,3060,0.0718954248366013
+pediatric|2018-2021|Abdominal,Viridans group streptococci,268,3060,0.08758169934640522
+pediatric|2018-2021|Abdominal,Remaining reported taxa,1132,3060,0.36993464052287583
+pediatric|2018-2021|Cardiac,Candida albicans,8,427,0.01873536299765808
+pediatric|2018-2021|Cardiac,Coagulase-negative staphylococci,60,427,0.1405152224824356
+pediatric|2018-2021|Cardiac,Enterococcus faecalis,25,427,0.0585480093676815
+pediatric|2018-2021|Cardiac,Escherichia coli,11,427,0.02576112412177986
+pediatric|2018-2021|Cardiac,Proteus spp,3,427,0.00702576112412178
+pediatric|2018-2021|Cardiac,Pseudomonas aeruginosa,26,427,0.06088992974238876
+pediatric|2018-2021|Cardiac,Staphylococcus aureus,171,427,0.40046838407494145
+pediatric|2018-2021|Cardiac,Viridans group streptococci,11,427,0.02576112412177986
+pediatric|2018-2021|Cardiac,Remaining reported taxa,112,427,0.26229508196721313
+pediatric|2018-2021|Neurosurgical,Candida albicans,10,793,0.012610340479192938
+pediatric|2018-2021|Neurosurgical,Coagulase-negative staphylococci,168,793,0.21185372005044137
+pediatric|2018-2021|Neurosurgical,Enterococcus faecalis,21,793,0.02648171500630517
+pediatric|2018-2021|Neurosurgical,Escherichia coli,30,793,0.03783102143757881
+pediatric|2018-2021|Neurosurgical,Proteus spp,4,793,0.005044136191677175
+pediatric|2018-2021|Neurosurgical,Pseudomonas aeruginosa,64,793,0.0807061790668348
+pediatric|2018-2021|Neurosurgical,Staphylococcus aureus,202,793,0.2547288776796974
+pediatric|2018-2021|Neurosurgical,Viridans group streptococci,32,793,0.0403530895334174
+pediatric|2018-2021|Neurosurgical,Remaining reported taxa,262,793,0.33039092055485497
+pediatric|2018-2021|Orthopedic,Candida albicans,8,892,0.008968609865470852
+pediatric|2018-2021|Orthopedic,Coagulase-negative staphylococci,54,892,0.06053811659192825
+pediatric|2018-2021|Orthopedic,Enterococcus faecalis,21,892,0.023542600896860985
+pediatric|2018-2021|Orthopedic,Escherichia coli,100,892,0.11210762331838565
+pediatric|2018-2021|Orthopedic,Proteus spp,40,892,0.04484304932735426
+pediatric|2018-2021|Orthopedic,Pseudomonas aeruginosa,100,892,0.11210762331838565
+pediatric|2018-2021|Orthopedic,Staphylococcus aureus,273,892,0.3060538116591928
+pediatric|2018-2021|Orthopedic,Viridans group streptococci,2,892,0.002242152466367713
+pediatric|2018-2021|Orthopedic,Remaining reported taxa,294,892,0.3295964125560538
+pediatric|2018-2021|Other procedures,Candida albicans,2,110,0.01818181818181818
+pediatric|2018-2021|Other procedures,Coagulase-negative staphylococci,12,110,0.10909090909090909
+pediatric|2018-2021|Other procedures,Enterococcus faecalis,4,110,0.03636363636363636
+pediatric|2018-2021|Other procedures,Escherichia coli,6,110,0.05454545454545454
+pediatric|2018-2021|Other procedures,Proteus spp,5,110,0.045454545454545456
+pediatric|2018-2021|Other procedures,Pseudomonas aeruginosa,6,110,0.05454545454545454
+pediatric|2018-2021|Other procedures,Staphylococcus aureus,25,110,0.22727272727272727
+pediatric|2018-2021|Other procedures,Viridans group streptococci,3,110,0.02727272727272727
+pediatric|2018-2021|Other procedures,Remaining reported taxa,47,110,0.42727272727272725

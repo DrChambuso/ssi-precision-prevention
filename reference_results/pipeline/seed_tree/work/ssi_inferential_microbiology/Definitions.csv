@@ -1,0 +1,26 @@
+Sheet,Field or topic,Definition
+All sheets,Blank numeric cell,Unavailable or not applicable. Zero is retained only when reported.
+Cohorts,Reports or isolates,"Source volume counted once per location, age group and nonoverlapping time period. Not unique patients."
+Cohorts,Core analysis,"Oncology/hematology, general wards, adult/pediatric ICUs, Chinese respiratory departments and Beijing clinical replication."
+Cohorts,Extended comparator,"US neonatal ICUs and long-term acute-care hospitals. Additional care-setting comparisons, separate from the core cancer-care contrasts."
+Cohorts,Target,Oncology/hematology setting. Does not establish confirmed cancer in every patient.
+Cohorts,CN04,522 isolates from 508 episodes. Use as a mixed hematology replication or sensitivity cohort.
+Pathogens,One row,One mutually exclusive pathogen category within a cohort. Parent taxonomic totals are excluded.
+Pathogens,Cohort denominator,"Repeated across pathogen rows. Sum Count, not the repeated denominator."
+Pathogens,Proportion,Count divided by the cohort denominator. Guangdong covers bacteria; US and Beijing include fungi.
+Pathogens,Count basis,Published count or explicit residual calculation from published parent totals.
+Pathogens,Other Gram-positive bacteria,Guangdong source remainder. Staphylococcus parent totals are not added; selected leaf rows reconcile to department totals.
+Pathogens,Unallocated source remainder,"The respiratory-department Gram-negative categories total 2,867, versus the published group total of 2,876. Nine isolates remain taxonomically unallocated; original counts are unchanged."
+Pathogens,Taxonomic comparability,"Klebsiella species groups, Acinetobacter genus/species and incomplete coagulase-negative staphylococcal groups require separate mappings. An absent row is not a zero."
+Pathogens,Cross-country comparison,Compare compatible taxa within source strata; harmonize the organism universe before comparing proportions. Clinical BSI and CLABSI are distinct endpoints.
+Resistance,Reported percent,"Percentage points (0-100), retained as published. Antibiotic-specific tested denominators are often unavailable."
+Resistance,Reported organism count,"Species or phenotype reporting volume, not necessarily the number tested for the drug. Repeats across drugs."
+Resistance,Non-susceptible isolates,Tested minus susceptible when both exact counts are available. Not equivalent to resistant.
+Resistance,Repeated tests,"Repeated drugs, mucosal-barrier subgroups and years are not extra patients or additions to the pathogen cohort total."
+Resistance,Selected resistant isolates,"Guangdong Tables 7 and 8 use 20 carbapenem-resistant isolates per species. Percentages describe this selected subset, not resistance prevalence in the surveillance population."
+Resistance,Percent tested,Percentage of CDC organism reports tested for the phenotype. Published rounding prevents reconstruction of exact tested counts.
+Clinical sensitivity,Nanfang cohort,599 adults with hematological malignancies and BSI. Before pandemic: 341; during pandemic: 258. All-period rows repeat those participants.
+Clinical sensitivity,Overlap,Nanfang 2020-2021 may overlap Guangdong surveillance. Retained for cancer-specific clinical sensitivity; excluded from summed pathogen volume.
+WHO context,Use,General-population resistance context. No cancer-specific sample size is added.
+Excluded source,China 23 institutions,"358,786 isolates span all clinical specimens. Blood-specific exact counts and independent overlap status are unavailable; excluded from bloodstream volume."
+All sheets,Inference,Aggregate source tables do not identify patient-level predictors or hospital-level variation. Cohort sample volume differs from the number of independent source strata.

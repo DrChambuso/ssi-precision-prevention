@@ -1,0 +1,29 @@
+procedure,label,code
+Abdominal aortic aneurysm repair,Aortic aneurysm repair,P01
+Appendix surgery,Appendix,P02
+"Bile duct, liver or pancreatic surgery","Bile, liver, pancreas",P03
+Cardiac surgery,Cardiac,P04
+Cesarean section,Cesarean,P05
+Colon surgery,Colon,P06
+"Coronary bypass, chest and donor incisions","Coronary bypass, chest + donor",P07
+"Coronary bypass, chest incision only","Coronary bypass, chest only",P08
+Exploratory abdominal surgery (laparotomy),Exploratory laparotomy,P09
+Gallbladder surgery,Gallbladder,P10
+Gastric surgery,Gastric,P11
+Heart transplant,Heart transplant,P12
+Hip prosthesis,Hip prosthesis,P13
+"Hysterectomy, abdominal",Abdominal hysterectomy,P14
+"Hysterectomy, vaginal",Vaginal hysterectomy,P15
+Kidney surgery,Kidney,P16
+Kidney transplant,Kidney transplant,P17
+Knee prosthesis,Knee prosthesis,P18
+Laminectomy,Laminectomy,P19
+Liver transplant,Liver transplant,P20
+Open reduction of fracture,Fracture reduction,P21
+Ovarian surgery,Ovarian,P22
+Pacemaker surgery,Pacemaker,P23
+Rectal surgery,Rectal,P24
+Small bowel surgery,Small bowel,P25
+Spinal fusion,Spinal fusion,P26
+Spleen surgery,Spleen,P27
+Thoracic surgery,Thoracic,P28

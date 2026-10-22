@@ -1,0 +1,30 @@
+4 
+ 
+Table P3: The Top 15 HAI Pathogens Reported to NHSN, Pediatrics, 2018 - 20211 
+Pathogen # Pathogens % Pathogens Rank 
+Staphylococcus aureus 3,385 14.9 1 
+Escherichia coli 2,910 12.8 2 
+Coagulase-negative staphylococci 2,557 11.3 3 
+Enterococcus faecalis2 2,028 8.9 4 
+Select Klebsiella spp. 1,946 8.6 5 
+Pseudomonas aeruginosa 1,413 6.2 6 
+Enterobacter spp. 1,191 5.2 7 
+Viridans group streptococci 1,160 5.1 8 
+Other Candida spp.2 728 3.2 9 
+Serratia spp. 580 2.6 10 
+Candida albicans2 562 2.5 11 
+Enterococcus faecium2 400 1.8 12 
+Other Enterococcus spp.2 325 1.4 13 
+Bacteroides spp. 276 1.2 14 
+Citrobacter spp. 192 0.8 15 
+Other pathogen 3,037 13.4   
+Total 22,690 100.0   
+Note: Refer to Technical Resources for more information about the acronyms and terms used in this 
+table.   
+Footnotes: 
+1. Supplemental data tables are available for download that contain HAI pathogen distributions for 
+each year individually.  
+2. When analyzed at the genus-level, Enterococcus spp. ranked #3 (12.1%) and Candida spp. 
+ranked #7 (6.2%). 
+ 
+  

@@ -1,0 +1,355 @@
+"model","term","df","Wald_chisq","p","sites","reports"
+"SSI_rate_age_procedure_year","age",1,0.924229075633045,0.336366999724655,469,72854
+"SSI_rate_age_procedure_year","procedure",27,11002.9441179882,0,469,72854
+"SSI_rate_age_procedure_year","year_f",9,35.181470671031,0.0000553475022566474,469,72854
+"SSI_rate_linear_year_trend","age",1,0.936989245444554,0.333053335356318,469,72854
+"SSI_rate_linear_year_trend","procedure",27,11041.2819503911,0,469,72854
+"SSI_rate_linear_year_trend","year_center",1,8.03496119955782,0.00458829930223981,469,72854
+"Next_report_alert_prior_alert_adjusted","alert_lag1",1,582.710989809792,9.64689648734521e-129,431,57485
+"Next_report_alert_prior_alert_adjusted","log_prior_volume",1,45.0981811822273,0.0000000000187399370165317,431,57485
+"Next_report_alert_prior_alert_adjusted","log_prior_expected_rate",1,138.68048988761,5.17332245103696e-32,431,57485
+"Next_report_alert_prior_alert_adjusted","age",1,2.50002686058334,0.113844356301357,431,57485
+"Next_report_alert_prior_alert_adjusted","procedure",27,952.51932393999,2.59714552747688e-183,431,57485
+"Next_report_alert_prior_alert_adjusted","year_f",8,48.5466889577389,0.0000000776507895922489,431,57485
+"Next_report_SSI_rate_prior_alert_adjusted","alert_lag1",1,409.7283560875,4.20006895589555e-91,431,57485
+"Next_report_SSI_rate_prior_alert_adjusted","log_prior_volume",1,203.605971342412,3.41163413088438e-46,431,57485
+"Next_report_SSI_rate_prior_alert_adjusted","log_prior_expected_rate",1,364.765027937109,2.58244743372066e-81,431,57485
+"Next_report_SSI_rate_prior_alert_adjusted","age",1,0.0199983442914798,0.887541708272922,431,57485
+"Next_report_SSI_rate_prior_alert_adjusted","procedure",27,931.380837891664,7.64000379489844e-179,431,57485
+"Next_report_SSI_rate_prior_alert_adjusted","year_f",8,28.7344588355159,0.000352976419306249,431,57485
+"Family_SSI_rate_prior_alert:All ages and procedures","alert_lag1",1,409.7283560875,4.20006895589555e-91,431,57485
+"Family_SSI_rate_prior_alert:All ages and procedures","log_prior_volume",1,203.605971342412,3.41163413088438e-46,431,57485
+"Family_SSI_rate_prior_alert:All ages and procedures","log_prior_expected_rate",1,364.765027937109,2.58244743372066e-81,431,57485
+"Family_SSI_rate_prior_alert:All ages and procedures","age",1,0.0199983442914798,0.887541708272922,431,57485
+"Family_SSI_rate_prior_alert:All ages and procedures","procedure",27,931.380837891664,7.64000379489844e-179,431,57485
+"Family_SSI_rate_prior_alert:All ages and procedures","year_f",8,28.7344588355159,0.000352976419306249,431,57485
+"Family_next_report_alert:All ages and procedures","alert_lag1",1,582.710989809792,9.64689648734521e-129,431,57485
+"Family_next_report_alert:All ages and procedures","log_prior_volume",1,45.0981811822273,0.0000000000187399370165317,431,57485
+"Family_next_report_alert:All ages and procedures","log_prior_expected_rate",1,138.68048988761,5.17332245103696e-32,431,57485
+"Family_next_report_alert:All ages and procedures","age",1,2.50002686058334,0.113844356301357,431,57485
+"Family_next_report_alert:All ages and procedures","procedure",27,952.51932393999,2.59714552747688e-183,431,57485
+"Family_next_report_alert:All ages and procedures","year_f",8,48.5466889577389,0.0000000776507895922489,431,57485
+"Family_current_workload:All ages and procedures","alert_lag1",1,36.940941084106,0.00000000121762109628763,431,57485
+"Family_current_workload:All ages and procedures","log_prior_volume",1,64881.7860210301,0,431,57485
+"Family_current_workload:All ages and procedures","age",1,100.013415903942,1.51368249569642e-23,431,57485
+"Family_current_workload:All ages and procedures","procedure",27,809.910388750352,3.18587632290878e-153,431,57485
+"Family_current_workload:All ages and procedures","year_f",8,146.827631649951,8.99149064686131e-28,431,57485
+"Family_SSI_rate_prior_alert:Bone and spine","alert_lag1",1,137.413079020742,9.79377402640529e-32,419,12492
+"Family_SSI_rate_prior_alert:Bone and spine","log_prior_volume",1,98.4918528315061,3.26364606440552e-23,419,12492
+"Family_SSI_rate_prior_alert:Bone and spine","log_prior_expected_rate",1,189.237557168674,4.66398943762932e-43,419,12492
+"Family_SSI_rate_prior_alert:Bone and spine","age",1,0.568666103151461,0.450789458813474,419,12492
+"Family_SSI_rate_prior_alert:Bone and spine","procedure",4,112.042777397934,2.66844225664983e-23,419,12492
+"Family_SSI_rate_prior_alert:Bone and spine","year_f",8,14.1271615381895,0.0785106176293464,419,12492
+"Family_next_report_alert:Bone and spine","alert_lag1",1,216.98997223528,4.10173450662768e-49,419,12492
+"Family_next_report_alert:Bone and spine","log_prior_volume",1,18.8625459975747,0.0000140484056591486,419,12492
+"Family_next_report_alert:Bone and spine","log_prior_expected_rate",1,47.3070672043583,0.000000000006069299766712,419,12492
+"Family_next_report_alert:Bone and spine","age",1,0.0666896889893711,0.796219012367765,419,12492
+"Family_next_report_alert:Bone and spine","procedure",4,81.8260843511603,7.14563337185765e-17,419,12492
+"Family_next_report_alert:Bone and spine","year_f",8,19.9311620200889,0.0105996484605787,419,12492
+"Family_current_workload:Bone and spine","alert_lag1",1,10.52461276083,0.00117795092596014,419,12492
+"Family_current_workload:Bone and spine","log_prior_volume",1,44223.3829627594,0,419,12492
+"Family_current_workload:Bone and spine","age",1,40.5959401074173,0.000000000187195203599168,419,12492
+"Family_current_workload:Bone and spine","procedure",4,52.1293792178498,0.000000000129614079849351,419,12492
+"Family_current_workload:Bone and spine","year_f",8,136.790631424251,1.10256468348922e-25,419,12492
+"Family_SSI_rate_prior_alert:Digestive procedures","alert_lag1",1,253.302346851211,4.94899232783229e-57,424,25446
+"Family_SSI_rate_prior_alert:Digestive procedures","log_prior_volume",1,128.750152201104,7.69158466678457e-30,424,25446
+"Family_SSI_rate_prior_alert:Digestive procedures","log_prior_expected_rate",1,215.361324884373,9.29490601711512e-49,424,25446
+"Family_SSI_rate_prior_alert:Digestive procedures","age",1,2.82552559118547,0.0927765162726963,424,25446
+"Family_SSI_rate_prior_alert:Digestive procedures","procedure",8,453.639008213434,6.14027200613769e-93,424,25446
+"Family_SSI_rate_prior_alert:Digestive procedures","year_f",8,24.0698892848614,0.00223075903813288,424,25446
+"Family_next_report_alert:Digestive procedures","alert_lag1",1,302.951659820721,7.4940126063397e-68,424,25446
+"Family_next_report_alert:Digestive procedures","log_prior_volume",1,26.1639076887272,0.000000313630054460069,424,25446
+"Family_next_report_alert:Digestive procedures","log_prior_expected_rate",1,105.565000632187,9.18355041286661e-25,424,25446
+"Family_next_report_alert:Digestive procedures","age",1,8.51567853191163,0.00352099614322637,424,25446
+"Family_next_report_alert:Digestive procedures","procedure",8,395.402626011217,1.8025809028293e-80,424,25446
+"Family_next_report_alert:Digestive procedures","year_f",8,24.9841122309631,0.00156422374201625,424,25446
+"Family_current_workload:Digestive procedures","alert_lag1",1,25.0353698010022,0.000000562882272969461,424,25446
+"Family_current_workload:Digestive procedures","log_prior_volume",1,44260.8071762031,0,424,25446
+"Family_current_workload:Digestive procedures","age",1,88.5759403220702,4.89203199245068e-21,424,25446
+"Family_current_workload:Digestive procedures","procedure",8,192.260567412656,2.7239553868172e-37,424,25446
+"Family_current_workload:Digestive procedures","year_f",8,86.8069197859925,2.06483932856468e-15,424,25446
+"Family_SSI_rate_prior_alert:Heart, chest and aorta","alert_lag1",1,58.0663487729814,2.53424541656323e-14,361,6376
+"Family_SSI_rate_prior_alert:Heart, chest and aorta","log_prior_volume",1,18.7536190500807,0.0000148740818255198,361,6376
+"Family_SSI_rate_prior_alert:Heart, chest and aorta","log_prior_expected_rate",1,44.6157309717493,0.0000000000239757527635054,361,6376
+"Family_SSI_rate_prior_alert:Heart, chest and aorta","age",1,3.49770315249885,0.0614540044143655,361,6376
+"Family_SSI_rate_prior_alert:Heart, chest and aorta","procedure",5,25.2391716345184,0.000125271158930264,361,6376
+"Family_SSI_rate_prior_alert:Heart, chest and aorta","year_f",8,7.20307540832189,0.51488943748425,361,6376
+"Family_next_report_alert:Heart, chest and aorta","alert_lag1",1,67.7967058876524,1.81252050672841e-16,361,6376
+"Family_next_report_alert:Heart, chest and aorta","log_prior_volume",1,8.19945152485585,0.00419030551516317,361,6376
+"Family_next_report_alert:Heart, chest and aorta","log_prior_expected_rate",1,11.1534585546446,0.000838751544235127,361,6376
+"Family_next_report_alert:Heart, chest and aorta","age",1,0.583249751160564,0.445041333998425,361,6376
+"Family_next_report_alert:Heart, chest and aorta","procedure",5,74.3847309844564,1.25025971436048e-14,361,6376
+"Family_next_report_alert:Heart, chest and aorta","year_f",8,22.2829818837623,0.00441775416981407,361,6376
+"Family_current_workload:Heart, chest and aorta","alert_lag1",1,3.62703606109457,0.0568479725859033,361,6376
+"Family_current_workload:Heart, chest and aorta","log_prior_volume",1,17477.3497034633,0,361,6376
+"Family_current_workload:Heart, chest and aorta","age",1,11.3182018179438,0.000767510026006746,361,6376
+"Family_current_workload:Heart, chest and aorta","procedure",5,123.177406562378,6.66062686988372e-25,361,6376
+"Family_current_workload:Heart, chest and aorta","year_f",8,81.0793212394776,2.96382921211838e-14,361,6376
+"Family_SSI_rate_prior_alert:Other procedures","alert_lag1",1,135.451207558216,2.6305312489359e-31,411,13171
+"Family_SSI_rate_prior_alert:Other procedures","log_prior_volume",1,34.3302572996314,0.00000000465094476101596,411,13171
+"Family_SSI_rate_prior_alert:Other procedures","log_prior_expected_rate",1,65.5809310016183,5.57758319199042e-16,411,13171
+"Family_SSI_rate_prior_alert:Other procedures","age",1,6.49147840629344,0.0108392797318118,411,13171
+"Family_SSI_rate_prior_alert:Other procedures","procedure",7,194.925804695391,1.36172359152988e-38,411,13171
+"Family_SSI_rate_prior_alert:Other procedures","year_f",8,16.3450689755084,0.0376991397426969,411,13171
+"Family_next_report_alert:Other procedures","alert_lag1",1,114.34075003664,1.09734343044072e-26,411,13171
+"Family_next_report_alert:Other procedures","log_prior_volume",1,7.5366011909649,0.00604579834272428,411,13171
+"Family_next_report_alert:Other procedures","log_prior_expected_rate",1,33.6349582611165,0.00000000664870243855282,411,13171
+"Family_next_report_alert:Other procedures","age",1,3.84690839249046,0.0498377753854512,411,13171
+"Family_next_report_alert:Other procedures","procedure",7,249.402825053412,3.71270556424671e-50,411,13171
+"Family_next_report_alert:Other procedures","year_f",8,27.4186766073133,0.000598394543538791,411,13171
+"Family_current_workload:Other procedures","alert_lag1",1,7.96831609856981,0.004760320168263,411,13171
+"Family_current_workload:Other procedures","log_prior_volume",1,25126.4568652926,0,411,13171
+"Family_current_workload:Other procedures","age",1,121.468658046467,3.01730621004328e-28,411,13171
+"Family_current_workload:Other procedures","procedure",7,343.58322549828,2.91144310604841e-70,411,13171
+"Family_current_workload:Other procedures","year_f",8,129.442185328745,3.69193687295507e-24,411,13171
+"Next_report_alert_two_year_memory_adjusted","history",3,649.559367318418,1.81506465805299e-140,404,46465
+"Next_report_alert_two_year_memory_adjusted","log_prior_volume",1,37.5814918966512,0.000000000876724351225495,404,46465
+"Next_report_alert_two_year_memory_adjusted","log_prior_expected_rate",1,129.17173270178,6.21972983022938e-30,404,46465
+"Next_report_alert_two_year_memory_adjusted","age",1,0.735463999843337,0.391117806503947,404,46465
+"Next_report_alert_two_year_memory_adjusted","procedure",27,844.079377687137,2.02908155390357e-160,404,46465
+"Next_report_alert_two_year_memory_adjusted","year_f",7,44.7082213230149,0.000000155803212449738,404,46465
+"Two_year_memory_logistic_sensitivity","history",3,695.084237716112,2.44319312825583e-150,404,46465
+"Two_year_memory_logistic_sensitivity","log_prior_volume",1,39.2806913960279,0.000000000367053168555886,404,46465
+"Two_year_memory_logistic_sensitivity","log_prior_expected_rate",1,67.4349317240267,2.17756414270918e-16,404,46465
+"Two_year_memory_logistic_sensitivity","age",1,0.225155252973871,0.635139639521445,404,46465
+"Two_year_memory_logistic_sensitivity","procedure",27,727.58920661446,6.29102882159693e-136,404,46465
+"Two_year_memory_logistic_sensitivity","year_f",7,46.274149972475,0.0000000773117807075642,404,46465
+"Procedure_next_alert:Colon surgery","alert_lag1",1,63.9493218644969,1.27661245565844e-15,412,3061
+"Procedure_next_alert:Colon surgery","log_prior_volume",1,3.40558309227233,0.0649761463841064,412,3061
+"Procedure_next_alert:Colon surgery","log_prior_expected_rate",1,15.2270880121274,0.0000953262216343705,412,3061
+"Procedure_next_alert:Colon surgery","age",1,0.0670169918026403,0.795730605716283,412,3061
+"Procedure_next_alert:Colon surgery","year_f",8,15.8243893449751,0.0449637295766699,412,3061
+"Early_late_rate:Colon surgery","late",1,0.149986042714737,0.69854869673977,446,3044
+"Early_late_rate:Colon surgery","age",1,1.51299466778881,0.218682694716208,446,3044
+"Pediatric_adult_rate:Colon surgery","age",1,2.33971949439508,0.126112261101539,450,3815
+"Pediatric_adult_rate:Colon surgery","year_f",9,18.3763743919431,0.0310496744322172,450,3815
+"Procedure_rate_year_trend:Colon surgery","year_center",1,0.847571875099228,0.357240151237412,450,3815
+"Procedure_rate_year_trend:Colon surgery","age",1,2.36987295200289,0.123697118111798,450,3815
+"Early_late_rate:Abdominal aortic aneurysm repair","late",1,2.04540805014236,0.152666044443507,215,715
+"Procedure_next_alert:Appendix surgery","alert_lag1",1,22.8480359287228,0.00000175328402593886,410,4485
+"Procedure_next_alert:Appendix surgery","log_prior_volume",1,18.1140334929479,0.0000208062338859364,410,4485
+"Procedure_next_alert:Appendix surgery","log_prior_expected_rate",1,4.31240654888162,0.037835401747556,410,4485
+"Procedure_next_alert:Appendix surgery","age",1,5.23689423327572,0.022112716372158,410,4485
+"Procedure_next_alert:Appendix surgery","year_f",8,17.7834363555519,0.0229100090728102,410,4485
+"Early_late_rate:Appendix surgery","late",1,15.6399432660687,0.0000766189477212297,448,4342
+"Early_late_rate:Appendix surgery","age",1,1.78596956003456,0.181418004096999,448,4342
+"Pediatric_adult_rate:Appendix surgery","age",1,1.63952903642288,0.200390098451035,452,5452
+"Pediatric_adult_rate:Appendix surgery","year_f",9,29.3997718900592,0.000554694613637821,452,5452
+"Procedure_rate_year_trend:Appendix surgery","year_center",1,18.2169358217704,0.0000197118227280154,452,5452
+"Procedure_rate_year_trend:Appendix surgery","age",1,1.69038884819907,0.193549718356726,452,5452
+"Procedure_next_alert:Bile duct, liver or pancreatic surgery","alert_lag1",1,69.1356974814178,9.1916522950257e-17,348,2100
+"Procedure_next_alert:Bile duct, liver or pancreatic surgery","log_prior_volume",1,43.187311706686,0.0000000000497422108379929,348,2100
+"Procedure_next_alert:Bile duct, liver or pancreatic surgery","log_prior_expected_rate",1,3.10469663746657,0.0780667738451796,348,2100
+"Procedure_next_alert:Bile duct, liver or pancreatic surgery","age",1,2.10950716075762,0.146386455717097,348,2100
+"Procedure_next_alert:Bile duct, liver or pancreatic surgery","year_f",8,13.8003144377,0.0871209263473759,348,2100
+"Early_late_rate:Bile duct, liver or pancreatic surgery","late",1,1.98362331963318,0.159009217427799,394,2216
+"Early_late_rate:Bile duct, liver or pancreatic surgery","age",1,18.9670691055014,0.0000132994118860159,394,2216
+"Pediatric_adult_rate:Bile duct, liver or pancreatic surgery","age",1,19.8989124323202,0.00000816467587925817,400,2777
+"Pediatric_adult_rate:Bile duct, liver or pancreatic surgery","year_f",9,36.135348180406,0.0000375128372415976,400,2777
+"Procedure_rate_year_trend:Bile duct, liver or pancreatic surgery","year_center",1,4.30849800451256,0.0379224301446734,400,2777
+"Procedure_rate_year_trend:Bile duct, liver or pancreatic surgery","age",1,20.8276856949935,0.00000502512779167031,400,2777
+"Procedure_next_alert:Cardiac surgery","alert_lag1",1,16.86183186126,0.0000402019257531664,224,1439
+"Procedure_next_alert:Cardiac surgery","log_prior_volume",1,5.42460378835342,0.0198549400908695,224,1439
+"Procedure_next_alert:Cardiac surgery","log_prior_expected_rate",1,1.67295775497536,0.195862835495959,224,1439
+"Procedure_next_alert:Cardiac surgery","age",1,0.0000304857715415514,0.995594588813789,224,1439
+"Procedure_next_alert:Cardiac surgery","year_f",8,10.3489070924125,0.241385986571884,224,1439
+"Early_late_rate:Cardiac surgery","late",1,0.212785307474704,0.644593012929913,278,1494
+"Early_late_rate:Cardiac surgery","age",1,11.3590447335788,0.000750814314442899,278,1494
+"Pediatric_adult_rate:Cardiac surgery","age",1,8.57152957114457,0.00341460175660415,289,1862
+"Pediatric_adult_rate:Cardiac surgery","year_f",9,13.350843415577,0.147362896894884,289,1862
+"Procedure_rate_year_trend:Cardiac surgery","year_center",1,0.207329654506859,0.648868493097119,289,1862
+"Procedure_rate_year_trend:Cardiac surgery","age",1,8.83964565806263,0.00294756368048532,289,1862
+"Procedure_next_alert:Cesarean section","alert_lag1",1,65.5350203129283,5.70904130760522e-16,308,2691
+"Procedure_next_alert:Cesarean section","log_prior_volume",1,16.4768711394127,0.0000492471906232248,308,2691
+"Procedure_next_alert:Cesarean section","log_prior_expected_rate",1,2.98635013502812,0.0839692330049624,308,2691
+"Procedure_next_alert:Cesarean section","age",1,2.21357767841669,0.136801089070628,308,2691
+"Procedure_next_alert:Cesarean section","year_f",8,15.2889043378339,0.0537654208430423,308,2691
+"Early_late_rate:Cesarean section","late",1,12.8908269209531,0.00033019650854063,339,2757
+"Early_late_rate:Cesarean section","age",1,10.7082738534038,0.00106657489766901,339,2757
+"Pediatric_adult_rate:Cesarean section","age",1,12.1186881192036,0.000499190098577057,344,3489
+"Pediatric_adult_rate:Cesarean section","year_f",9,20.8902592378658,0.0131466990095042,344,3489
+"Procedure_rate_year_trend:Cesarean section","year_center",1,12.2793228952105,0.000458004512368454,344,3489
+"Procedure_rate_year_trend:Cesarean section","age",1,11.9892454610397,0.0005350845070326,344,3489
+"Procedure_next_alert:Coronary bypass, chest and donor incisions","alert_lag1",1,16.0057994615008,0.0000631487464555545,167,991
+"Procedure_next_alert:Coronary bypass, chest and donor incisions","log_prior_volume",1,0.0393040673820928,0.84284748661349,167,991
+"Procedure_next_alert:Coronary bypass, chest and donor incisions","log_prior_expected_rate",1,4.97295718628635,0.0257465916644437,167,991
+"Procedure_next_alert:Coronary bypass, chest and donor incisions","year_f",8,11.2985697855968,0.185348877761491,167,991
+"Early_late_rate:Coronary bypass, chest and donor incisions","late",1,0.0114913008820593,0.914632310274041,186,965
+"Procedure_rate_year_trend:Coronary bypass, chest and donor incisions","year_center",1,0.186926239885659,0.665487289760214,192,1196
+"Procedure_next_alert:Coronary bypass, chest incision only","alert_lag1",1,0.0453042439812287,0.831445572580734,155,864
+"Procedure_next_alert:Coronary bypass, chest incision only","log_prior_volume",1,0.505932562843432,0.476904939604019,155,864
+"Procedure_next_alert:Coronary bypass, chest incision only","log_prior_expected_rate",1,1.59887724819944,0.206062393617091,155,864
+"Procedure_next_alert:Coronary bypass, chest incision only","year_f",8,3.32597537428494,0.912268223437076,155,864
+"Early_late_rate:Coronary bypass, chest incision only","late",1,0.0735768411288266,0.786198364469732,175,859
+"Procedure_rate_year_trend:Coronary bypass, chest incision only","year_center",1,0.0106175442778914,0.917930058812534,181,1075
+"Procedure_next_alert:Exploratory abdominal surgery (laparotomy)","alert_lag1",1,61.0301603919357,5.6207095171172e-15,417,3421
+"Procedure_next_alert:Exploratory abdominal surgery (laparotomy)","log_prior_volume",1,1.3482212180535,0.245589326713001,417,3421
+"Procedure_next_alert:Exploratory abdominal surgery (laparotomy)","log_prior_expected_rate",1,40.4557006820013,0.000000000201124773826849,417,3421
+"Procedure_next_alert:Exploratory abdominal surgery (laparotomy)","age",1,0.435876775149063,0.5091193037646,417,3421
+"Procedure_next_alert:Exploratory abdominal surgery (laparotomy)","year_f",8,23.333249342405,0.00296173106523177,417,3421
+"Early_late_rate:Exploratory abdominal surgery (laparotomy)","late",1,3.93073789676168,0.0474111368018489,455,3430
+"Early_late_rate:Exploratory abdominal surgery (laparotomy)","age",1,0.166568134541629,0.68318000106629,455,3430
+"Pediatric_adult_rate:Exploratory abdominal surgery (laparotomy)","age",1,0.617164198303931,0.432103043746358,459,4321
+"Pediatric_adult_rate:Exploratory abdominal surgery (laparotomy)","year_f",9,31.1047463550631,0.000284029065168704,459,4321
+"Procedure_rate_year_trend:Exploratory abdominal surgery (laparotomy)","year_center",1,4.98386384976586,0.0255847801816753,459,4321
+"Procedure_rate_year_trend:Exploratory abdominal surgery (laparotomy)","age",1,0.645027368994833,0.421896155558913,459,4321
+"Procedure_next_alert:Gallbladder surgery","alert_lag1",1,34.1369876489286,0.00000000513655731239596,418,3420
+"Procedure_next_alert:Gallbladder surgery","log_prior_volume",1,18.6254064733252,0.0000159086247942779,418,3420
+"Procedure_next_alert:Gallbladder surgery","log_prior_expected_rate",1,12.7544654220174,0.000355160241941145,418,3420
+"Procedure_next_alert:Gallbladder surgery","age",1,10.728839548888,0.00105478574430017,418,3420
+"Procedure_next_alert:Gallbladder surgery","year_f",8,11.3939548097397,0.18036045597934,418,3420
+"Early_late_rate:Gallbladder surgery","late",1,2.16722457169032,0.140980472328599,451,3497
+"Early_late_rate:Gallbladder surgery","age",1,11.2231967169986,0.000807812281406682,451,3497
+"Procedure_rate_year_trend:Gallbladder surgery","year_center",1,1.54763647830427,0.213484700121525,458,4403
+"Procedure_rate_year_trend:Gallbladder surgery","age",1,14.1026200791792,0.000173102495000543,458,4403
+"Procedure_next_alert:Gastric surgery","alert_lag1",1,16.5429711256977,0.000047559948181923,386,2384
+"Procedure_next_alert:Gastric surgery","log_prior_volume",1,11.0728187676652,0.000876024093612707,386,2384
+"Procedure_next_alert:Gastric surgery","log_prior_expected_rate",1,0.395701745392186,0.529317445292689,386,2384
+"Procedure_next_alert:Gastric surgery","year_f",8,20.3868689653928,0.00896741092369028,386,2384
+"Early_late_rate:Gastric surgery","late",1,1.153031613169,0.282915424930603,429,2337
+"Early_late_rate:Gastric surgery","age",1,0.716105931822963,0.397424212304634,429,2337
+"Pediatric_adult_rate:Gastric surgery","age",1,0.313796108696028,0.57536002999484,433,2909
+"Pediatric_adult_rate:Gastric surgery","year_f",9,23.4851921298046,0.00519387952760085,433,2909
+"Procedure_rate_year_trend:Gastric surgery","year_center",1,0.869119675866561,0.351199134880706,433,2909
+"Procedure_rate_year_trend:Gastric surgery","age",1,0.751469326780151,0.386011431591972,433,2909
+"Procedure_next_alert:Hip prosthesis","alert_lag1",1,30.7793027299415,0.0000000289105011754119,401,2597
+"Procedure_next_alert:Hip prosthesis","log_prior_volume",1,0.338051592257514,0.560956044626006,401,2597
+"Procedure_next_alert:Hip prosthesis","log_prior_expected_rate",1,18.4098315742677,0.0000178136492864709,401,2597
+"Procedure_next_alert:Hip prosthesis","age",1,0.109665967024843,0.740524748458605,401,2597
+"Procedure_next_alert:Hip prosthesis","year_f",8,8.30280192659398,0.404464383298905,401,2597
+"Early_late_rate:Hip prosthesis","late",1,0.97611337890386,0.323160237705203,434,2523
+"Early_late_rate:Hip prosthesis","age",1,0.0380985244926129,0.845245433804153,434,2523
+"Procedure_rate_year_trend:Hip prosthesis","year_center",1,1.34687900606293,0.245824475077583,439,3150
+"Procedure_rate_year_trend:Hip prosthesis","age",1,0.104643524926636,0.746326819036735,439,3150
+"Procedure_next_alert:Hysterectomy, abdominal","alert_lag1",1,30.4956267471164,0.000000033461997447885,381,2416
+"Procedure_next_alert:Hysterectomy, abdominal","log_prior_volume",1,0.155955618327454,0.692907711574527,381,2416
+"Procedure_next_alert:Hysterectomy, abdominal","log_prior_expected_rate",1,22.1914236307433,0.00000246773667545139,381,2416
+"Procedure_next_alert:Hysterectomy, abdominal","age",1,16.8936118345629,0.0000395344106339297,381,2416
+"Procedure_next_alert:Hysterectomy, abdominal","year_f",8,16.441808004024,0.0364757471567308,381,2416
+"Early_late_rate:Hysterectomy, abdominal","late",1,1.68320942907199,0.194498540179381,426,2362
+"Early_late_rate:Hysterectomy, abdominal","age",1,3.76602591460929,0.0523037630674572,426,2362
+"Procedure_rate_year_trend:Hysterectomy, abdominal","year_center",1,1.97456099314593,0.159964569371696,431,2931
+"Procedure_rate_year_trend:Hysterectomy, abdominal","age",1,2.75152714408229,0.097161586810546,431,2931
+"Procedure_next_alert:Hysterectomy, vaginal","alert_lag1",1,4.16715852537534,0.0412148656655491,335,1769
+"Procedure_next_alert:Hysterectomy, vaginal","log_prior_volume",1,1.77994733409597,0.182155793639941,335,1769
+"Procedure_next_alert:Hysterectomy, vaginal","log_prior_expected_rate",1,0.0944064513475157,0.758648273778677,335,1769
+"Procedure_next_alert:Hysterectomy, vaginal","year_f",8,20.2514141131382,0.00942558729129939,335,1769
+"Early_late_rate:Hysterectomy, vaginal","late",1,2.41997600961201,0.119796765049673,385,1864
+"Procedure_rate_year_trend:Hysterectomy, vaginal","year_center",1,0.732063689678054,0.392215083153105,390,2298
+"Procedure_next_alert:Kidney surgery","alert_lag1",1,1.47099490541333,0.225188785634191,277,1591
+"Procedure_next_alert:Kidney surgery","log_prior_volume",1,2.66912887558568,0.102312009831488,277,1591
+"Procedure_next_alert:Kidney surgery","log_prior_expected_rate",1,0.0356831274127839,0.850171364909277,277,1591
+"Procedure_next_alert:Kidney surgery","year_f",8,10.4497123933693,0.234868991593668,277,1591
+"Early_late_rate:Kidney surgery","late",1,1.03698522450493,0.308523666962429,335,1622
+"Procedure_rate_year_trend:Kidney surgery","year_center",1,1.34285838917594,0.246530513915757,341,2013
+"Procedure_next_alert:Kidney transplant","alert_lag1",1,5.31546875015894,0.0211369065264249,32,221
+"Procedure_next_alert:Kidney transplant","log_prior_volume",1,6.67255019911277,0.0097908994018547,32,221
+"Procedure_next_alert:Kidney transplant","log_prior_expected_rate",1,15.669107247288,0.0000754464706906182,32,221
+"Procedure_next_alert:Kidney transplant","age",1,1.19751110981666,0.273819695278993,32,221
+"Procedure_next_alert:Kidney transplant","year_f",8,19.3932970819987,0.0128920590072308,32,221
+"Early_late_rate:Kidney transplant","late",1,4.45681328522234,0.0347622912240741,47,236
+"Early_late_rate:Kidney transplant","age",1,0.043594660614155,0.834609567328703,47,236
+"Pediatric_adult_rate:Kidney transplant","age",1,0.000270271515168257,0.986883419254551,49,287
+"Pediatric_adult_rate:Kidney transplant","year_f",9,96.7804140326952,7.03546722887179e-17,49,287
+"Procedure_rate_year_trend:Kidney transplant","year_center",1,4.33693149228841,0.0372940792061853,49,287
+"Procedure_rate_year_trend:Kidney transplant","age",1,0.00114366189404579,0.973022225991826,49,287
+"Procedure_next_alert:Knee prosthesis","alert_lag1",1,76.0282972035915,2.79628771201946e-18,392,2426
+"Procedure_next_alert:Knee prosthesis","log_prior_volume",1,4.48405544630682,0.0342124470397611,392,2426
+"Procedure_next_alert:Knee prosthesis","log_prior_expected_rate",1,3.23101575715453,0.0722558586719629,392,2426
+"Procedure_next_alert:Knee prosthesis","age",1,1.35629203672796,0.244181139115453,392,2426
+"Procedure_next_alert:Knee prosthesis","year_f",8,10.4348058491809,0.235823943390571,392,2426
+"Early_late_rate:Knee prosthesis","late",1,1.05441359374285,0.304492781873221,432,2383
+"Early_late_rate:Knee prosthesis","age",1,16.7978666204129,0.0000415800220618983,432,2383
+"Procedure_rate_year_trend:Knee prosthesis","year_center",1,1.32754498411824,0.249242437654712,437,2969
+"Procedure_rate_year_trend:Knee prosthesis","age",1,13.8653834875046,0.000196382522853832,437,2969
+"Procedure_next_alert:Laminectomy","alert_lag1",1,36.0865240374946,0.00000000188747629672472,316,2013
+"Procedure_next_alert:Laminectomy","log_prior_volume",1,0.769604212621197,0.380339520165783,316,2013
+"Procedure_next_alert:Laminectomy","log_prior_expected_rate",1,18.7677391022814,0.0000147643599059488,316,2013
+"Procedure_next_alert:Laminectomy","age",1,16.2382443592406,0.0000558550901790306,316,2013
+"Procedure_next_alert:Laminectomy","year_f",8,17.5957004092092,0.0244704612109922,316,2013
+"Early_late_rate:Laminectomy","late",1,5.1069975031667,0.0238295251772939,363,2089
+"Early_late_rate:Laminectomy","age",1,52.2615436863368,4.85795275658476e-13,363,2089
+"Pediatric_adult_rate:Laminectomy","age",1,47.2190871350682,0.00000000000634792670819342,371,2606
+"Pediatric_adult_rate:Laminectomy","year_f",9,16.3527066096422,0.0598716039167739,371,2606
+"Procedure_rate_year_trend:Laminectomy","year_center",1,1.94462909155711,0.163166794844121,371,2606
+"Procedure_rate_year_trend:Laminectomy","age",1,47.2415603814537,0.00000000000627556091796006,371,2606
+"Procedure_next_alert:Open reduction of fracture","alert_lag1",1,36.7612231735092,0.00000000133519741296794,410,3367
+"Procedure_next_alert:Open reduction of fracture","log_prior_volume",1,9.21117975596516,0.00240541631565104,410,3367
+"Procedure_next_alert:Open reduction of fracture","log_prior_expected_rate",1,51.8058339615863,6.12694886203264e-13,410,3367
+"Procedure_next_alert:Open reduction of fracture","age",1,12.5833427739165,0.000389199988290793,410,3367
+"Procedure_next_alert:Open reduction of fracture","year_f",8,5.36136703511304,0.718346159712927,410,3367
+"Early_late_rate:Open reduction of fracture","late",1,1.76331638263312,0.184211396962487,444,3614
+"Early_late_rate:Open reduction of fracture","age",1,23.3851191081961,0.00000132600350512118,444,3614
+"Pediatric_adult_rate:Open reduction of fracture","age",1,22.2911443444562,0.00000234284561107911,448,4379
+"Pediatric_adult_rate:Open reduction of fracture","year_f",9,12.9375580449756,0.165452110579939,448,4379
+"Procedure_rate_year_trend:Open reduction of fracture","year_center",1,3.78197456723698,0.0518074892465832,448,4379
+"Procedure_rate_year_trend:Open reduction of fracture","age",1,21.6069516199942,0.00000334636768391711,448,4379
+"Procedure_next_alert:Ovarian surgery","alert_lag1",1,0.0585307362353381,0.808833424850835,392,2438
+"Procedure_next_alert:Ovarian surgery","log_prior_volume",1,0.243250480808533,0.621868240407621,392,2438
+"Procedure_next_alert:Ovarian surgery","log_prior_expected_rate",1,1.15251868467844,0.283022520782189,392,2438
+"Procedure_next_alert:Ovarian surgery","year_f",8,1.73833486203111,0.988009995544822,392,2438
+"Early_late_rate:Ovarian surgery","late",1,0.277788273472214,0.598154538377863,433,2367
+"Procedure_rate_year_trend:Ovarian surgery","year_center",1,0.717907325658865,0.396831203307016,437,2951
+"Procedure_next_alert:Pacemaker surgery","alert_lag1",1,42.4537188102431,0.0000000000723746723939688,328,1926
+"Procedure_next_alert:Pacemaker surgery","log_prior_volume",1,0.144478847012952,0.703868415666772,328,1926
+"Procedure_next_alert:Pacemaker surgery","log_prior_expected_rate",1,1.27562481385176,0.258714114835846,328,1926
+"Procedure_next_alert:Pacemaker surgery","year_f",8,4.55198162488691,0.804210259938437,328,1926
+"Early_late_rate:Pacemaker surgery","late",1,1.94841853202103,0.162757370933993,371,1916
+"Early_late_rate:Pacemaker surgery","age",1,3.9355450210481,0.0472758189810122,371,1916
+"Procedure_rate_year_trend:Pacemaker surgery","year_center",1,1.15113399566198,0.283311890407382,376,2377
+"Procedure_rate_year_trend:Pacemaker surgery","age",1,4.02417387882354,0.0448525815142202,376,2377
+"Procedure_next_alert:Rectal surgery","alert_lag1",1,3.28462300537583,0.0699316867765834,370,2318
+"Procedure_next_alert:Rectal surgery","log_prior_volume",1,0.189752542083189,0.663122654407702,370,2318
+"Procedure_next_alert:Rectal surgery","log_prior_expected_rate",1,6.36840629300313,0.011616988058467,370,2318
+"Procedure_next_alert:Rectal surgery","age",1,2.46671845282776,0.116280466741428,370,2318
+"Procedure_next_alert:Rectal surgery","year_f",8,4.06035857396053,0.851637024901673,370,2318
+"Early_late_rate:Rectal surgery","late",1,5.4419314760458,0.0196589188882981,423,2373
+"Early_late_rate:Rectal surgery","age",1,3.8713914001439,0.0491157874820779,423,2373
+"Pediatric_adult_rate:Rectal surgery","age",1,4.36922527341853,0.0365936255739052,427,2965
+"Pediatric_adult_rate:Rectal surgery","year_f",9,16.6116444277156,0.0551564819364939,427,2965
+"Procedure_rate_year_trend:Rectal surgery","year_center",1,4.85691863379395,0.0275354724879188,427,2965
+"Procedure_rate_year_trend:Rectal surgery","age",1,4.47093212220319,0.0344761786866259,427,2965
+"Procedure_next_alert:Small bowel surgery","alert_lag1",1,62.1946477799819,3.11132385286347e-15,408,2940
+"Procedure_next_alert:Small bowel surgery","log_prior_volume",1,8.75384594144702,0.00308949818420229,408,2940
+"Procedure_next_alert:Small bowel surgery","log_prior_expected_rate",1,60.7817622575291,6.37659415798581e-15,408,2940
+"Procedure_next_alert:Small bowel surgery","age",1,11.7071964145256,0.000622588503862916,408,2940
+"Procedure_next_alert:Small bowel surgery","year_f",8,17.5900095530797,0.0245192899467573,408,2940
+"Early_late_rate:Small bowel surgery","late",1,5.49104582474952,0.0191141060884753,439,2966
+"Early_late_rate:Small bowel surgery","age",1,6.43435933643817,0.0111933522550921,439,2966
+"Pediatric_adult_rate:Small bowel surgery","age",1,9.0783547969476,0.00258652637456376,444,3715
+"Pediatric_adult_rate:Small bowel surgery","year_f",9,23.5036532092988,0.00515899713699725,444,3715
+"Procedure_rate_year_trend:Small bowel surgery","year_center",1,7.3997685592111,0.00652322692110078,444,3715
+"Procedure_rate_year_trend:Small bowel surgery","age",1,9.10247369513337,0.00255264034960046,444,3715
+"Procedure_next_alert:Spinal fusion","alert_lag1",1,77.0077757720677,1.70286196278144e-18,303,2089
+"Procedure_next_alert:Spinal fusion","log_prior_volume",1,9.15891076021043,0.00247509851119369,303,2089
+"Procedure_next_alert:Spinal fusion","log_prior_expected_rate",1,14.3174115044722,0.000154429879037302,303,2089
+"Procedure_next_alert:Spinal fusion","age",1,8.78585793377555,0.00303574757862282,303,2089
+"Procedure_next_alert:Spinal fusion","year_f",8,10.0254186467301,0.263246390954877,303,2089
+"Early_late_rate:Spinal fusion","late",1,16.7505786847563,0.0000426292611987862,335,2097
+"Early_late_rate:Spinal fusion","age",1,12.4094209933743,0.000427173294215817,335,2097
+"Pediatric_adult_rate:Spinal fusion","age",1,16.2474416803191,0.0000555845995166145,341,2639
+"Pediatric_adult_rate:Spinal fusion","year_f",9,18.9940584399928,0.0252434622632099,341,2639
+"Procedure_rate_year_trend:Spinal fusion","year_center",1,17.3135818123781,0.0000316913647316233,341,2639
+"Procedure_rate_year_trend:Spinal fusion","age",1,16.2712535380618,0.0000548904033297005,341,2639
+"Procedure_next_alert:Spleen surgery","alert_lag1",1,7.66550319538807,0.00562865606045103,266,1317
+"Procedure_next_alert:Spleen surgery","log_prior_volume",1,0.636373317697495,0.425027130655795,266,1317
+"Procedure_next_alert:Spleen surgery","log_prior_expected_rate",1,0.00594314202291196,0.938550534836969,266,1317
+"Procedure_next_alert:Spleen surgery","year_f",8,10.0368730012374,0.262447448675041,266,1317
+"Early_late_rate:Spleen surgery","late",1,1.45392311169863,0.227899497778241,361,1516
+"Procedure_rate_year_trend:Spleen surgery","year_center",1,0.890483747381377,0.345346250632223,370,1879
+"Procedure_next_alert:Thoracic surgery","alert_lag1",1,33.2498762701913,0.00000000810449109824341,358,2477
+"Procedure_next_alert:Thoracic surgery","log_prior_volume",1,20.8194634783657,0.0000050467470060605,358,2477
+"Procedure_next_alert:Thoracic surgery","log_prior_expected_rate",1,1.94190438476402,0.163461908098918,358,2477
+"Procedure_next_alert:Thoracic surgery","age",1,3.56862745674439,0.0588809606055741,358,2477
+"Procedure_next_alert:Thoracic surgery","year_f",8,15.5841196457494,0.0487345097858867,358,2477
+"Early_late_rate:Thoracic surgery","late",1,7.30927424782144,0.00685996271424905,411,2591
+"Early_late_rate:Thoracic surgery","age",1,0.393892342338484,0.53026048444719,411,2591
+"Pediatric_adult_rate:Thoracic surgery","age",1,2.12973441458828,0.144465784922507,417,3242
+"Pediatric_adult_rate:Thoracic surgery","year_f",9,18.5344812171975,0.0294552663553424,417,3242
+"Procedure_rate_year_trend:Thoracic surgery","year_center",1,8.02294765892609,0.00461883354364476,417,3242
+"Procedure_rate_year_trend:Thoracic surgery","age",1,2.13371137058642,0.144091503804163,417,3242
+"Calibration_joint:Test:All ages and procedures","lp",1,1356.82887228005,5.0548930488534e-297,337,18132
+"Calibration_joint:Test:Adult","lp",1,1279.34427662839,3.48359487888386e-280,336,16618
+"Calibration_joint:Test:Pediatric","lp",1,183.358912121234,8.95509273222872e-42,245,1514
+"Calibration_joint:Oregon external:All ages and procedures","lp",1,14.6238883256517,0.000131240366893417,46,209
+"Calibration_joint:Oregon external:Adult","lp",1,14.3645123636826,0.000150614295032486,46,201

@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_new_prediction/training_feature_scaling.csv",
+  "rows": 4,
+  "numeric_columns": 2,
+  "maximum_absolute_difference": 0.0,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

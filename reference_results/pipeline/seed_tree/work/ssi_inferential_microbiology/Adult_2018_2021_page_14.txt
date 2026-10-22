@@ -1,0 +1,39 @@
+14 
+ 
+Table 11. Percent of HAI Pathogens That Were Resistant to Selected Antimicrobials and 
+Classified as "Urgent" or "Serious" Antimicrobial Resistant Threats1, by HAI Type, Adults, 
+2018-2021 
+ Device-associated HAIs Surgical Site Infections 
+Pathogen, Antimicrobial Phenotype # Reported % Tested %R # Reported % Tested %R 
+Urgent Threats       
+Acinetobacter spp. 2,158   802   
+Carbapenem-NS  80.8 44.6  77.8 28.0 
+        
+Select Enterobacterales2 79,603   50,880   
+Carbapenem-resistant (CRE)  75.5 3.3  74.2 1.6 
+        
+Serious Threats       
+Select Enterobacterales3 68,558   40,538   
+Extended-spectrum cephalosporin-NS  85.5 25.8  84.3 18.1 
+        
+Enterobacter spp. 9,118   9,313   
+Cefepime-NS  77.7 13.6  77.4 7.8 
+        
+Enterococcus faecalis 22,258   16,871   
+Vancomycin-resistant (VRE)  89.1 5.5  89.0 2.4 
+        
+Enterococcus faecium 10,754   6,150   
+Vancomycin-resistant (VRE)  91.5 77.0  91.8 48.8 
+        
+Pseudomonas aeruginosa 22,844   13,160   
+Multidrug-resistant (MDR)  94.5 11.9  94.5 3.9 
+        
+Staphylococcus aureus 17,930   33,201   
+Meth/ox/cefox - resistant (MRSA)  88.4 45.5  90.7 39.2 
+Note: Refer to Technical Resources for more information about phenotype definitions, acronyms, and 
+terms used in this table.   
+Footnotes: 
+1. As classified by CDC's 2022 Special Report: COVID-19 U.S. Impact on Antimicrobial Resistance 
+2. Consists of E.coli, Klebsiella oxytoca, Klebsiella pneumoniae, Klebsiella aerogenes, and 
+Enterobacter spp. 
+3. Consists of E.coli, Klebsiella oxytoca, and Klebsiella pneumoniae. 

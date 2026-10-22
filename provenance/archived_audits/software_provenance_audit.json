@@ -1,0 +1,40 @@
+{
+  "Python": {
+    "version": "3.12.14",
+    "direct_historical_output": "Original root execution 2026-10-16T03:27:20.839Z, call_6e399306f21f4e9aae4626680caa97cc. Output: Python 3.12.14.",
+    "release_url": "https://www.python.org/downloads/release/python-31214/",
+    "release_date": "2026-08-12",
+    "binary_build": "main, Aug25,2026,13:50:33;Clang22.1.3",
+    "actual_command_interpreter": "author_archive/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3"
+  },
+  "core_python_packages": {
+    "NumPy": "2.3.5",
+    "pandas": "2.2.3",
+    "evidence": "Original prediction preparation/evaluation and final1,999-draw inference commands invoked bundled Python without PYTHONPATH or sys.path override. These scripts import NumPy/pandas directly. Bundled installed distribution METADATA files are versioned2.3.5/2.2.3 and predate execution, modified October10,2026. Reconstructed actual execution environment, not claimed to be a package lockfile written during the run.",
+    "direct_historical_package_version_output": false,
+    "historic_commands_file": "original_prediction_commands.json",
+    "installed_metadata_file": "current_bundled_distribution_metadata.json"
+  },
+  "figure_python_packages": {
+    "NumPy": "2.5.4",
+    "Matplotlib": "3.11.2",
+    "direct_historical_output": "Original root execution2026-10-16T03:27:30.389Z,call_414890c5e5aa4aa4a333abea7c053efc,withPYTHONPATH=work/analysis_packages;output2.5.4 3.11.2. Figure scripts using this overlay import it before NumPy. Some earlier plotting scripts import bundled NumPy before adding overlay, so both NumPy versions occur in the overall figure pipeline.",
+    "overlay": "work/analysis_packages"
+  },
+  "R": {
+    "version": "4.5.0",
+    "survival": "3.8-3",
+    "Matrix": "1.7-3",
+    "stats": "4.5.0",
+    "platform": "aarch64-apple-darwin20",
+    "macOS": "26.6.2",
+    "archived_session": "work/ssi_inferential_stats/R_session_information.txt",
+    "source_release_date": "2025-04-11"
+  },
+  "excluded": {
+    "Python3.14": "cp314 cache files arose from attempted incompatible import; no basis for stating the final numerical analyses usedPython3.14.",
+    "SciPy": "Not used by the final core analysis scripts; historical explicit import failed.",
+    "scikit-learn": "Not used by final33-coefficient logistic fit; fit performed in R stats.",
+    "requirements.txt": "Earlier generic version ranges are not an exact environment record and should not be used to invent versions."
+  }
+}

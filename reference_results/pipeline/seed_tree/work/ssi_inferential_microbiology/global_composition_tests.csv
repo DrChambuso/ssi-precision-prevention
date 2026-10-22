@@ -1,0 +1,5 @@
+"age","period","n_reports","categories","explicit_taxa","chi_square","degrees_freedom","p_value","minimum_expected","cramers_v","test","p_label","q_value"
+"adult","2015-2017",148436,4,15,36934.1385606576,45,9.99999999999999e-301,99.6727006925544,0.287994197967361,"Pearson chi-square on shared explicit taxa plus common residual","P<0.001",1.33333333333333e-300
+"adult","2018-2021",213632,7,11,45242.9150741817,66,9.99999999999999e-301,32.9978654883164,0.187873926197069,"Pearson chi-square on shared explicit taxa plus common residual","P<0.001",1.33333333333333e-300
+"pediatric","2015-2017",3433,4,16,1114.40949595826,48,5.93158867445507e-202,3.45353917856103,0.32894619939017,"Pearson chi-square on shared explicit taxa plus common residual","P<0.001",5.93158867445507e-202
+"pediatric","2018-2021",5172,4,15,1606.03172499012,45,9.99999999999999e-301,5.11871616395978,0.321726751957892,"Pearson chi-square on shared explicit taxa plus common residual","P<0.001",1.33333333333333e-300

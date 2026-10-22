@@ -1,0 +1,82 @@
+{
+  "source_register": [
+    {
+      "source": "adult_2015_2017",
+      "title": "Antimicrobial-resistant pathogens associated with adult healthcare-associated infections: Summary of data reported to the National Healthcare Safety Network, 2015-2017",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8276252/",
+      "tables_used": "Tables 2, 8, 9, 15; Table 8 crosswalk footnotes",
+      "sha256": "0fa56563e45586c27a0ff7b8083e388406a7b836b7dabf5e3d038b697b5e037f",
+      "expected_archive_filename": "adult_2015_2017.html",
+      "sha256_basis": "Archived study source bytes recorded in original source metadata;not a new website download.",
+      "locator_type": "Original PMC HTML;website wrapper bytes may change while the factual tables remain the same."
+    },
+    {
+      "source": "pediatric_2015_2017",
+      "title": "Antimicrobial-resistant pathogens associated with pediatric healthcare-associated infections: Summary of data reported to the National Healthcare Safety Network, 2015-2017",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8276251/",
+      "tables_used": "Tables 2, 8, 9, 12",
+      "sha256": "52c00983be0490ebe318294f9919272213c78533a412926a93e5ba59ce2daced",
+      "expected_archive_filename": "pediatric_2015_2017.html",
+      "sha256_basis": "Archived study source bytes recorded in original source metadata;not a new website download.",
+      "locator_type": "Original PMC HTML;website wrapper bytes may change while the factual tables remain the same."
+    },
+    {
+      "source": "adult_2018_2021",
+      "title": "2018-2021 HAI Pathogens & Antimicrobial Resistance Report: Data Tables for Adult HAIs",
+      "source_url": "https://www.cdc.gov/nhsn/hai-report/index.html",
+      "tables_used": "Tables 2, 7, 8, 9, 10, 16, 17, 18; PDF pages 3, 9, 10, 12, 13, 21, 23, 25",
+      "sha256": "6899ed6f47455122d9a64a7fe45507bf042d07d225b98d8ea1bb4897e517aab9",
+      "expected_archive_filename": "Adult Pathogen & Resistance Tables.pdf",
+      "sha256_basis": "Archived study source bytes recorded in original source metadata;not a new website download.",
+      "download_container_url": "https://www.cdc.gov/nhsn/hai-report/full-hai-pathogens-ar-report.zip",
+      "container_member_filename": "Adult Pathogen & Resistance Tables.pdf",
+      "locator_type": "PDF member of official CDC report ZIP;no standalone PDF URL was invented.",
+      "current_table_index_url": "https://www.cdc.gov/nhsn/hai-report/data-tables-adult/index.html",
+      "tables": {
+        "2": "https://www.cdc.gov/nhsn/hai-report/data-tables-adult/table-2.html",
+        "7": "https://www.cdc.gov/nhsn/hai-report/data-tables-adult/table-7.html",
+        "8": "https://www.cdc.gov/nhsn/hai-report/data-tables-adult/table-8.html",
+        "9": "https://www.cdc.gov/nhsn/hai-report/data-tables-adult/table-9.html",
+        "10": "https://www.cdc.gov/nhsn/hai-report/data-tables-adult/table-10.html",
+        "16": "https://www.cdc.gov/nhsn/hai-report/data-tables-adult/table-16.html",
+        "17": "https://www.cdc.gov/nhsn/hai-report/data-tables-adult/table-17.html",
+        "18": "https://www.cdc.gov/nhsn/hai-report/data-tables-adult/table-18.html"
+      }
+    },
+    {
+      "source": "pediatric_2018_2021",
+      "title": "2018-2021 HAI Pathogens & Antimicrobial Resistance Report: Data Tables for Pediatric HAIs",
+      "source_url": "https://www.cdc.gov/nhsn/hai-report/index.html",
+      "tables_used": "Tables P2, P6, P7, P10; PDF pages 3, 8, 9, 14",
+      "sha256": "2bff023234e0c20026362b032e08ddc770dec8074063815b568afa8c1b8d856e",
+      "expected_archive_filename": "Pediatric Pathogen & Resistance Tables.pdf",
+      "sha256_basis": "Archived study source bytes recorded in original source metadata;not a new website download.",
+      "download_container_url": "https://www.cdc.gov/nhsn/hai-report/full-hai-pathogens-ar-report.zip",
+      "container_member_filename": "Pediatric Pathogen & Resistance Tables.pdf",
+      "locator_type": "PDF member of official CDC report ZIP;no standalone PDF URL was invented.",
+      "current_table_index_url": "https://www.cdc.gov/nhsn/hai-report/data-tables-pediatric/index.html",
+      "tables": {
+        "2": "https://www.cdc.gov/nhsn/hai-report/data-tables-pediatric/table-p2.html",
+        "6": "https://www.cdc.gov/nhsn/hai-report/data-tables-pediatric/table-p6.html",
+        "7": "https://www.cdc.gov/nhsn/hai-report/data-tables-pediatric/table-p7.html",
+        "10": "https://www.cdc.gov/nhsn/hai-report/data-tables-pediatric/table-p10.html"
+      }
+    },
+    {
+      "source": "methods_2018_2021",
+      "title": "HAI Pathogens and Antimicrobial Resistance Report, 2018-2021",
+      "source_url": "https://www.cdc.gov/nhsn/hai-report/index.html",
+      "tables_used": "Methods: PDF pages 7-9, especially page 8 for taxonomy and phenotype changes",
+      "sha256": "9100fe469e9c2e8e975d9bcb6062527f3acb99e22f4f7b8dbe7ce9c6dab7ce4f",
+      "expected_archive_filename": "HAI Pathogen & AR Report 2018-2021.pdf",
+      "sha256_basis": "Archived study source bytes recorded in original source metadata;not a new website download.",
+      "download_container_url": "https://www.cdc.gov/nhsn/hai-report/full-hai-pathogens-ar-report.zip",
+      "container_member_filename": "HAI Pathogen & AR Report 2018-2021.pdf",
+      "locator_type": "PDF member of official CDC report ZIP;no standalone PDF URL was invented."
+    }
+  ],
+  "locator_verification_date": "2026-10-22",
+  "official_zip_link_evidence": "CDC HAI report landing page Download Entire Report & Files link resolves to full-hai-pathogens-ar-report.zip. The web reader rejects the ZIP content type;the URL is exposed by the official page.",
+  "fresh_download_performed": false,
+  "historical_pdf_extraction_note": "Original2018-2021page text is archived in reference_results/pipeline/seed_tree/work/ssi_inferential_microbiology. These facts support downstream numeric reruns. Byte-identical new PDF extraction is separately checked,not assumed."
+}

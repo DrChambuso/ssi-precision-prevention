@@ -1,0 +1,31 @@
+block,row,profile,raw_value,raw_unit,row_standardized_value,reports
+Prior features,Prior operation volume,1,-0.99304863152365,Training-standardized feature mean,-1.1542310254216335,16097
+Prior features,Prior operation volume,2,0.668376141804134,Training-standardized feature mean,0.5486013940045765,15324
+Prior features,Prior operation volume,3,0.724017627915985,Training-standardized feature mean,0.6056296314170568,7932
+Prior features,Smoothed prior expected-rate feature,1,0.952703531565388,Training-standardized feature mean,1.154684496728924,16097
+Prior features,Smoothed prior expected-rate feature,2,-0.662772025271486,Training-standardized feature mean,-0.5826133735198397,15324
+Prior features,Smoothed prior expected-rate feature,3,-0.652969015676682,Training-standardized feature mean,-0.5720711232090843,7932
+Prior features,Prior observed/predicted SSI ratio,1,0.196379539320797,Training-standardized feature mean,0.01497203339688481,16097
+Prior features,Prior observed/predicted SSI ratio,2,-0.802024478903565,Training-standardized feature mean,-1.0074019524960334,15324
+Prior features,Prior observed/predicted SSI ratio,3,1.15092053331714,Training-standardized feature mean,0.9924299190991485,7932
+Prior features,Three-year observed/predicted SSI ratio,1,0.180068461351127,Training-standardized feature mean,0.0020846924923523754,16097
+Prior features,Three-year observed/predicted SSI ratio,2,-0.772196421163909,Training-standardized feature mean,-1.0010407165163029,15324
+Prior features,Three-year observed/predicted SSI ratio,3,1.12639636101193,Training-standardized feature mean,0.9989560240239503,7932
+Training procedure mix,Appendix surgery,1,0.07429955892402311,Fraction of training reports in profile,-0.4221055248397325,1196
+Training procedure mix,Appendix surgery,2,0.09175150091359958,Fraction of training reports in profile,1.1418428539146295,1406
+Training procedure mix,Appendix surgery,3,0.07097831568330812,Fraction of training reports in profile,-0.7197373290748983,563
+Training procedure mix,"Bile duct, liver or pancreatic surgery",1,0.06050816922407902,Fraction of training reports in profile,1.1236691196121942,974
+Training procedure mix,"Bile duct, liver or pancreatic surgery",2,0.017032106499608457,Fraction of training reports in profile,-0.7921078370713226,261
+Training procedure mix,"Bile duct, liver or pancreatic surgery",3,0.027483610690872417,Fraction of training reports in profile,-0.33156128254087164,218
+Training procedure mix,Colon surgery,1,0.04236814313226067,Fraction of training reports in profile,-0.8801495075932401,682
+Training procedure mix,Colon surgery,2,0.05357608979378752,Fraction of training reports in profile,-0.20722937349791085,821
+Training procedure mix,Colon surgery,3,0.0751386787695411,Fraction of training reports in profile,1.0873788810911498,596
+Training procedure mix,Gallbladder surgery,1,0.04882897434304529,Fraction of training reports in profile,-1.1475079586193575,786
+Training procedure mix,Gallbladder surgery,2,0.0680631688854085,Fraction of training reports in profile,0.4623129021481327,1043
+Training procedure mix,Gallbladder surgery,3,0.07072617246596066,Fraction of training reports in profile,0.6851950564712255,561
+Training procedure mix,Open reduction of fracture,1,0.048891097720072066,Fraction of training reports in profile,-1.145107317943285,787
+Training procedure mix,Open reduction of fracture,2,0.06356042808666144,Fraction of training reports in profile,0.44391881612355316,974
+Training procedure mix,Open reduction of fracture,3,0.06593545133635906,Fraction of training reports in profile,0.7011885018197317,523
+Training procedure mix,Rectal surgery,1,0.06243399391190905,Fraction of training reports in profile,1.0728925981947741,1005
+Training procedure mix,Rectal surgery,2,0.029169929522317933,Fraction of training reports in profile,-0.1667489843192692,447
+Training procedure mix,Rectal surgery,3,0.009329299041855773,Fraction of training reports in profile,-0.9061436138755044,74

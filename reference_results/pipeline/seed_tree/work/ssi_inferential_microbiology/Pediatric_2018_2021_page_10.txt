@@ -1,0 +1,6 @@
+10 
+ 
+4. Some rankings are not shown: Cutibacterium acnes (#5, 4.5%); Acinetobacter spp. (#12, 1.4%); Citrobacter spp. (#14, 0.9%); Micrococcus luteus and gram-positive coccus not specified 
+(#15, 0.6%). 
+5. Some rankings are not shown: Cutibacterium acnes (#11, 1.2%); Aspergillus fumigatus (tied for #12, 0.9%). 
+6. When analyzed on the Genus-level for all procedures, Candida spp. ranked #8 (4.8%) and Enterococcus spp. ranked #3 (9.2%).

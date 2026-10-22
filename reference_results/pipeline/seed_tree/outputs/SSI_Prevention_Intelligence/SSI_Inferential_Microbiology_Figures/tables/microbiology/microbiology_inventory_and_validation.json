@@ -1,0 +1,13 @@
+{
+  "national_ssi_pathogen_reports": 378610,
+  "national_ssi_events": 330914,
+  "pathogen_rows": 373,
+  "depth_rows": 123,
+  "amr_rows": 330,
+  "amr_source_p_markers": 51,
+  "amr_exact_tested_counts": 0,
+  "amr_rounding_compatible_cells": 272,
+  "original_bloodstream_source_volume": 274807,
+  "california_linkage": "No row-level hospital, patient, procedure or event identifiers linking microbiology to California SSI reports; national SSI surveillance can overlap California cases, so denominators must not be added",
+  "note": "Pathogen report counts are not operation or patient counts. Fisher tests assume report exchangeability and lack hospital or event clustering because only published marginals are available. Periods are nonoverlapping but facilities can recur. Treat count-based microbiology p-values as exploratory, and emphasize effect sizes, Wilson CIs, replication, BH correction. AMR count ranges are reconstructed under nearest0.1 percentage-point rounding, never presented as source exact counts."
+}

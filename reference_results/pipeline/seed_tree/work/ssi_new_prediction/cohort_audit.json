@@ -1,0 +1,22 @@
+{
+  "source_panel_sha256": "f995e71bc8ac1c5cff9ec65bfaa34dd223af87d7b8cb309a7bf3980eba386afd",
+  "source_rows_CA": 72854,
+  "source_operations_CA": 6737972,
+  "source_SSI_CA": 37525,
+  "source_predicted_CA": 43255.891,
+  "source_sites_CA": 469,
+  "prediction_outcome": "Target annual report has reported SSI count greater than source predicted SSI count (O>E). This is an annual report alert, not infection onset.",
+  "training": "California target years 2017-2022, Adult and Pediatric.",
+  "test": "California target years 2023-2025, Adult and Pediatric.",
+  "external": "Oregon target year 2017 with Oregon 2016 features; no hospital identity join to California. Geographic transport check using historical outcomes, not a later-time validation; California training ends in 2022.",
+  "feature_history": "Available reports in t-3 to t-1. Requires immediate previous year t-1. Missing older years contribute no unobserved values; aggregate only available history.",
+  "zero_expected": "Retained when nonnegative and finite; alert defined by count comparison and model predictors use half-count smoothing.",
+  "unit_definition": "Canonical State|county|hospital name, age group and procedure. Consecutive annual reports paired within this identity.",
+  "feature_list": [
+    "log_volume",
+    "log_expected_rate",
+    "log_prior_sir",
+    "log_history_sir"
+  ],
+  "rounding": "Predicted and comparator scores rounded to 12 significant digits for exact ties."
+}

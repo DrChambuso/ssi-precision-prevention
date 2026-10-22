@@ -1,0 +1,3219 @@
+{
+  "audit_version": "1.0.0",
+  "pymupdf_version": "1.28.2",
+  "figure_count": 32,
+  "main_figure_count": 11,
+  "supplementary_figure_count": 21,
+  "missing_main_figure_numbers_in_source_manuscript": [
+    6,
+    7
+  ],
+  "mixed_artwork_files": [],
+  "extractable_text_dash_findings": [],
+  "scope": "Structural raster/font/text inspection only; no assertion of full numerical reproduction or new clinical validation.",
+  "figures": [
+    {
+      "file": "figures/main/Main_Figure_01.pdf",
+      "sha256": "1f2231210f8cf0b0fcbeb65b56e86b802f236d72a34b3b76d9e063951a80d33d",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 612.0,
+          "height_pt": 1008.0,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 810,
+          "extractable_text_characters": 3499,
+          "font_resources": [
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAC+Aptos",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "AAAAAE+Aptos-Bold",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "Helvetica",
+              "type": "Type1",
+              "extension": "n/a",
+              "embedded": false,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "Helvetica",
+              "type": "Type1",
+              "extension": "n/a",
+              "embedded": false,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "Helvetica-Bold",
+              "type": "Type1",
+              "extension": "n/a",
+              "embedded": false,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "Helvetica",
+              "type": "Type1",
+              "extension": "n/a",
+              "embedded": false,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "Helvetica",
+              "type": "Type1",
+              "extension": "n/a",
+              "embedded": false,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "Helvetica-Bold",
+              "type": "Type1",
+              "extension": "n/a",
+              "embedded": false,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "AAAAAA+ArialNarrow-Bold",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "Helvetica",
+              "type": "Type1",
+              "extension": "n/a",
+              "embedded": false,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "Helvetica",
+              "type": "Type1",
+              "extension": "n/a",
+              "embedded": false,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "Helvetica-Bold",
+              "type": "Type1",
+              "extension": "n/a",
+              "embedded": false,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "AAAAAA+ArialNarrow-Bold",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "Helvetica",
+              "type": "Type1",
+              "extension": "n/a",
+              "embedded": false,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            }
+          ],
+          "unembedded_font_resource_count": 10,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/main/Main_Figure_02.pdf",
+      "sha256": "a1d92f2b8857cdcefe8b69ccdf89481dce3588f6ba6abe99ae74e48ca2aa37e7",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 843.0,
+          "height_pt": 1076.921509,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 1399,
+          "extractable_text_characters": 4297,
+          "font_resources": [
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAK+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "AAAAAC+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAE+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAG+ArialNarrow-Bold",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAI+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialNarrow-Bold"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/main/Main_Figure_03.pdf",
+      "sha256": "2d99c5b05fa3ecfa1ee8acb62c202fbba0c18629a5e491293456778454aa8f7a",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 481.889771,
+          "height_pt": 504.566925,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 1537,
+          "extractable_text_characters": 0,
+          "font_resources": [],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Outlined glyph text is not extractable; zero text does not prove missing labels or ASCII-only visible labels."
+        }
+      ]
+    },
+    {
+      "file": "figures/main/Main_Figure_04.pdf",
+      "sha256": "7b91dd941023fceaafe6deb7a3e69a1b1106771b26b6d4c1643e24db79f97c4a",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 481.889771,
+          "height_pt": 538.582703,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 1416,
+          "extractable_text_characters": 0,
+          "font_resources": [],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Outlined glyph text is not extractable; zero text does not prove missing labels or ASCII-only visible labels."
+        }
+      ]
+    },
+    {
+      "file": "figures/main/Main_Figure_05.pdf",
+      "sha256": "ded3386859df45457f6dda8e20eb19ae20097e746a8b3ff7b4d79beadaf73e30",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 481.889771,
+          "height_pt": 538.582703,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 1367,
+          "extractable_text_characters": 0,
+          "font_resources": [],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Outlined glyph text is not extractable; zero text does not prove missing labels or ASCII-only visible labels."
+        }
+      ]
+    },
+    {
+      "file": "figures/main/Main_Figure_08.pdf",
+      "sha256": "9f343a86accadb07e13caffe4868e800dfac6ad8b7fdcf38aed7ea0929028bbf",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 842.880005,
+          "height_pt": 925.919983,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 31011,
+          "extractable_text_characters": 0,
+          "font_resources": [],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Outlined glyph text is not extractable; zero text does not prove missing labels or ASCII-only visible labels."
+        }
+      ]
+    },
+    {
+      "file": "figures/main/Main_Figure_09.pdf",
+      "sha256": "24d680c4e53928c0138b28e6e9d9cef39bf1c1a8f382dc871f875a7b5ca60b48",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 481.889771,
+          "height_pt": 538.582703,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 2303,
+          "extractable_text_characters": 0,
+          "font_resources": [],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Outlined glyph text is not extractable; zero text does not prove missing labels or ASCII-only visible labels."
+        }
+      ]
+    },
+    {
+      "file": "figures/main/Main_Figure_10.pdf",
+      "sha256": "3b04f0886b691ad61e0c017aa8fdaaf8442d6b0d87d28dd727ce31e7d2056a95",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 843.0,
+          "height_pt": 505.56958,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 669,
+          "extractable_text_characters": 1336,
+          "font_resources": [
+            {
+              "name": "CKJELR+ArialMT",
+              "type": "Type0",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "Helvetica",
+              "type": "Type1",
+              "extension": "n/a",
+              "embedded": false,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "BXWSXJ+Arial-BoldMT",
+              "type": "Type0",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "CMGYQB+Arial-ItalicMT",
+              "type": "Type0",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "AAAAAA+Arial-BoldItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 1,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldItalicMT",
+            "Arial-BoldMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/main/Main_Figure_11.pdf",
+      "sha256": "69b6a92a342f76effd2777a9b91e93648030bb082eabcd946cf7ccde2cce52c2",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 843.0,
+          "height_pt": 730.599976,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 389,
+          "extractable_text_characters": 4102,
+          "font_resources": [
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldItalicMT",
+            "Arial-BoldMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/main/Main_Figure_12.pdf",
+      "sha256": "0073e0859e77540f691e75404d32af91a9482c9854cbd55686b55cdead8454a9",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 481.799988,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 80,
+          "extractable_text_characters": 2310,
+          "font_resources": [
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "Arial-ItalicMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/main/Main_Figure_13.pdf",
+      "sha256": "2184af6217b7792c1c510a4d0204b2a873c75e5fede1c3bfbbe38a488329db51",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 481.889771,
+          "height_pt": 348.661407,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 1100,
+          "extractable_text_characters": 0,
+          "font_resources": [],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Outlined glyph text is not extractable; zero text does not prove missing labels or ASCII-only visible labels."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S01.pdf",
+      "sha256": "db699c316982d63e715dacec154b6416d0e4ccf6d61af1aa915d3e9846565154",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 416.949677,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 154,
+          "extractable_text_characters": 1451,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S02.pdf",
+      "sha256": "5d643997d8715cd89a83a53398cd080ea8488190ff007f686ae4cca32511c431",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 528.052551,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 3762,
+          "extractable_text_characters": 699,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 267.026276,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 1728,
+          "extractable_text_characters": 337,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S03.pdf",
+      "sha256": "272b5c1d9edc3dde461f6f0342ceb4c79aa0f69e8e7084a97d050f6ede3d880a",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 467.002747,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 73,
+          "extractable_text_characters": 952,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S04.pdf",
+      "sha256": "16c146b40f7c93f8904eba71947e9ecfeba09b5a39130e88518fba39d62801aa",
+      "page_count": 4,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 493.550201,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 2767,
+          "extractable_text_characters": 795,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 493.550201,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 2741,
+          "extractable_text_characters": 783,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 3,
+          "width_pt": 518.740173,
+          "height_pt": 493.550201,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 2780,
+          "extractable_text_characters": 788,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 4,
+          "width_pt": 518.740173,
+          "height_pt": 250.775101,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 1393,
+          "extractable_text_characters": 386,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S05.pdf",
+      "sha256": "a6abf7cfcda4d23a72bca956d1ba852a1a19648fa9e73e68de777352b72adb2f",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 534.325806,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 79,
+          "extractable_text_characters": 373,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 360.0,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 14,
+          "extractable_text_characters": 1209,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S06.pdf",
+      "sha256": "04aa9898fdbc5b3783cbb4c3376519f8cef8359108627550733a735f0cf2dcef",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 531.210815,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 16,
+          "extractable_text_characters": 910,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 268.605408,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 4,
+          "extractable_text_characters": 227,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S07.pdf",
+      "sha256": "e06e4d9fdfad3fabe47172e7af394cb2791c9e54fd184f6d57eb8f499365e76d",
+      "page_count": 5,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 410.86441,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 276,
+          "extractable_text_characters": 655,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 410.86441,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 276,
+          "extractable_text_characters": 636,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 3,
+          "width_pt": 518.740173,
+          "height_pt": 410.86441,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 276,
+          "extractable_text_characters": 655,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 4,
+          "width_pt": 518.740173,
+          "height_pt": 410.86441,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 276,
+          "extractable_text_characters": 623,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 5,
+          "width_pt": 518.740173,
+          "height_pt": 410.86441,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 276,
+          "extractable_text_characters": 647,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S08.pdf",
+      "sha256": "ef28178a8f3111440356a81e549d5fc08e8fdad897d8d5e672ba0f339e1f1b7d",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 642.978577,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 122972,
+          "extractable_text_characters": 760,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S09.pdf",
+      "sha256": "e62b0bfb56df00128d8d181e19af550d39d76fd40d065d4fcb06d87f29558ea0",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 532.471924,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 100,
+          "extractable_text_characters": 351,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 672.742554,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 110,
+          "extractable_text_characters": 454,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S10.pdf",
+      "sha256": "b345c83694dc76212950ca74ef097642889a37cc09f02b4d9d76e355b5e7a67d",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 449.733704,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 72,
+          "extractable_text_characters": 566,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S11.pdf",
+      "sha256": "c723eb98c98efd3160c66c3aab6aae54f317721a251931f6265ff061449dd7dc",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 504.886261,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 42,
+          "extractable_text_characters": 348,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 504.886261,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 159,
+          "extractable_text_characters": 294,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S12.pdf",
+      "sha256": "6d96bb3b79cb1c55f27f84122649cd8a73ad980c779a4f3a56f690c3b71f229f",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 576.134888,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 39,
+          "extractable_text_characters": 329,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 576.134888,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 39,
+          "extractable_text_characters": 333,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S13.pdf",
+      "sha256": "bf751fdac6d82ec95ddc9eae34b11f0f11f9be45222abad603a1e79f0076c247",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 500.556915,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 70,
+          "extractable_text_characters": 651,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "Arial-ItalicMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 589.973572,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 40,
+          "extractable_text_characters": 576,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "Arial-ItalicMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S14.pdf",
+      "sha256": "f25b432aa0cf3001460f69a5f2462fc650c49795ad45e2badf5ecb5ff86032c3",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 603.473083,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 102,
+          "extractable_text_characters": 747,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "Arial-ItalicMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 603.473083,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 102,
+          "extractable_text_characters": 741,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "Arial-ItalicMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S15.pdf",
+      "sha256": "fee86ee34b5b40d2c28df0e9b6b5a4ffec4dfcc83535928a0be38213f54615da",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 537.789246,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 31,
+          "extractable_text_characters": 465,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "Arial-ItalicMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 537.789246,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 31,
+          "extractable_text_characters": 461,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "Arial-ItalicMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S16.pdf",
+      "sha256": "afe9eab6a91e5cc6d91865a550ebdfc0a7a8d63fc7a4d09cf6e4838c60760e93",
+      "page_count": 3,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 336.041931,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 41,
+          "extractable_text_characters": 339,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "Arial-ItalicMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 336.041931,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 45,
+          "extractable_text_characters": 336,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "Arial-ItalicMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 3,
+          "width_pt": 518.740173,
+          "height_pt": 392.203644,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 58,
+          "extractable_text_characters": 378,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S17.pdf",
+      "sha256": "6ad18080e5302b175e3ded38131a21cac4df74a6ea10f524445303ffb7c4a99d",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 606.936584,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 82,
+          "extractable_text_characters": 341,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldItalicMT",
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 606.936584,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 82,
+          "extractable_text_characters": 321,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            },
+            {
+              "name": "AAAAAA+Arial-BoldItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldItalicMT",
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S18.pdf",
+      "sha256": "bdcdb75bf988bbbf5af449f66c6f12f0648608bb046d5d0db833fbe0c06b5da8",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 423.742035,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 42,
+          "extractable_text_characters": 269,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 553.742004,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 43,
+          "extractable_text_characters": 552,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S19.pdf",
+      "sha256": "a3907bbdc5b8808ca62d17491345ab2bd1499aa64fc30868970a2822021fd0b2",
+      "page_count": 2,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 528.15033,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 28,
+          "extractable_text_characters": 190,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 520.826965,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 17,
+          "extractable_text_characters": 179,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-ItalicMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": false
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S20.pdf",
+      "sha256": "fa7c23d69678bbbdef74159d1b109dcbb054b35cdab0ddd4a55ebc58c35584f3",
+      "page_count": 4,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 480.10437,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 1136,
+          "extractable_text_characters": 881,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 2,
+          "width_pt": 518.740173,
+          "height_pt": 480.10437,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 1136,
+          "extractable_text_characters": 875,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 3,
+          "width_pt": 518.740173,
+          "height_pt": 480.10437,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 1136,
+          "extractable_text_characters": 896,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        },
+        {
+          "page": 4,
+          "width_pt": 518.740173,
+          "height_pt": 480.10437,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 1136,
+          "extractable_text_characters": 892,
+          "font_resources": [
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    },
+    {
+      "file": "figures/supplementary/Supplementary_Figure_S21.pdf",
+      "sha256": "15cde1c53771c5a7638a4cff893b39a2a21c7ab55208451e39ea9c51d512e54f",
+      "page_count": 1,
+      "artwork_classification": "no displayed raster images detected",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 518.740173,
+          "height_pt": 335.0,
+          "displayed_raster_image_occurrences": 0,
+          "image_resource_count": 0,
+          "displayed_image_dimensions_px": [],
+          "vector_drawing_paths": 19,
+          "extractable_text_characters": 683,
+          "font_resources": [
+            {
+              "name": "AAAAAA+Arial-BoldMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            },
+            {
+              "name": "AAAAAA+ArialMT",
+              "type": "TrueType",
+              "extension": "ttf",
+              "embedded": true,
+              "used_in_extractable_text": true
+            }
+          ],
+          "unembedded_font_resource_count": 0,
+          "fonts_used_in_extractable_text": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "unembedded_fonts_used_in_extractable_text": [],
+          "extracted_prohibited_dash_counts": {},
+          "text_audit_limit": "Only extractable text audited; outlined glyphs require source inspection."
+        }
+      ]
+    }
+  ]
+}

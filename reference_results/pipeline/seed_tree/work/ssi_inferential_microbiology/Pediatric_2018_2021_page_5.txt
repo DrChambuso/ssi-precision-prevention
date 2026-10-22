@@ -1,0 +1,53 @@
+5 
+ 
+Table P4. The Top 15 CLABSI Pathogens Reported to NHSN, by Location Type, Pediatrics, 2018-2021 
+  
+NICUs 
+(n=698 hospitals) 
+Pediatric Oncology Units1 
+(n=111 hospitals) 
+Pediatric ICUs2 
+(n=247 hospitals) 
+Pediatric Wards3 
+(n=263 hospitals) 
+Pathogen 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+Staphylococcus aureus 1,346 27.2 1 281 6.2 5 511 13.6 2 324 12.6 2 
+Coagulase-negative staphylococci 931 18.8 2 545 12.1 2 428 11.4 3 217 8.5 4 
+Escherichia coli 593 12.0 3 530 11.8 3 172 4.6 9 214 8.3 5 
+Enterococcus faecalis4 511 10.3 4 225 5.0 6 553 14.8 1 238 9.3 3 
+Select Klebsiella spp. 375 7.6 5 440 9.8 4 389 10.4 4 346 13.5 1 
+Candida albicans4 196 4.0 6 35 0.8 17 106 2.8 11 70 2.7 11 
+Enterobacter spp. 167 3.4 7 193 4.3 8 275 7.3 5 171 6.7 6 
+Serratia spp. 148 3.0 8 36 0.8 16 188 5.0 7 107 4.2 9 
+Pseudomonas aeruginosa 144 2.9 9 217 4.8 7 178 4.8 8 97 3.8 10 
+Other Candida spp.4 114 2.3 10 162 3.6 9 241 6.4 6 131 5.1 8 
+Group B streptococci 98 2.0 11 15 0.3 29 16 0.4 19 8 0.3 25 
+Acinetobacter spp. 28 0.6 12 42 0.9 15 46 1.2 13 32 1.2 14 
+Candida glabrata4 25 0.5 13 22 0.5 22 21 0.6 16 21 0.8 17 
+Citrobacter spp. 23 0.5 14 30 0.7 19 22 0.6 15 31 1.2 15 
+Enterococcus faecium4 22 0.4 15 130 2.9 10 109 2.9 10 49 1.9 12 
+Other pathogen 224 4.5   1,595 35.5   490 13.1   511 19.9   
+Total 4,945 100.0   4,498 100.0   3,745 100.0   2,567 100.0   
+Note: Refer to Technical Resources for more information about the acronyms and terms used in this table.   
+Footnotes: 
+1. Some rankings are not shown: Viridans group streptococci (#1, 15.1%); Other Enterococcus spp. (#11, 1.9%); Rothia mucilaginosa (#12, 1.8%); 
+Granulicatella adiacens (#13, 1.4%); Stenotrophomonas maltophilia (#14, 1.2%). 
+2. Some rankings are not shown: Stenotrophomonas maltophilia (#12, 1.9%); Other Enterococcus spp. (#14, 1.2%). 
+3. Some rankings are not shown: Viridans group streptococci (#7, 5.3%); Other Enterococcus spp. (#13, 1.4%). 
+4. When analyzed at the genus-level, Candida spp. and Enterococcus spp. resulted in the following rankings: 

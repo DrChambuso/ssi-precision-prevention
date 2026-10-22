@@ -1,0 +1,68 @@
+Test All ages and procedures 18132 337 done
+Test Adult 16618 336 done
+Test Pediatric 1514 245 done
+Test Target year 2023 6533 319 done
+Test Target year 2024 5834 317 done
+Test Target year 2025 5765 317 done
+Test Abdominal aortic aneurysm repair 146 73 done
+Test Appendix surgery 1320 324 done
+Test Bile duct, liver or pancreatic surgery 647 245 done
+Test Cardiac surgery 478 160 done
+Test Cesarean section 702 221 done
+Test Colon surgery 962 323 done
+Test Coronary bypass, chest and donor incisions 335 122 done
+Test Coronary bypass, chest incision only 291 111 done
+Test Exploratory abdominal surgery (laparotomy) 1054 326 done
+Test Gallbladder surgery 1030 326 done
+Test Gastric surgery 816 300 done
+Test Heart transplant 36 14 done
+Test Hip prosthesis 852 307 done
+Test Hysterectomy, abdominal 778 287 done
+Test Hysterectomy, vaginal 502 211 done
+Test Kidney surgery 525 197 done
+Test Kidney transplant 67 19 done
+Test Knee prosthesis 779 289 done
+Test Laminectomy 636 222 done
+Test Liver transplant 43 14 done
+Test Open reduction of fracture 1083 316 done
+Test Ovarian surgery 796 298 done
+Test Pacemaker surgery 630 241 done
+Test Rectal surgery 792 283 done
+Test Small bowel surgery 957 316 done
+Test Spinal fusion 665 217 done
+Test Spleen surgery 420 179 done
+Test Thoracic surgery 790 266 done
+Oregon external All ages and procedures 209 46 done
+Oregon external Adult 201 46 done
+Oregon external Target year 2017 209 46 done
+        dataset                   group  reports  sites  alerts  operations  SSI_cases  bootstrap_repeats   comparator     metric  combined  comparator_estimate  difference     lower    upper  bootstrap_SE  p_centered_bootstrap  p_normal_bootstrap_SE  valid_draws  q_BH
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999 prior_volume        AUC  0.781456             0.731438    0.050018  0.043033 0.057004      0.003624                0.0005           2.523952e-43         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999 prior_volume         AP  0.436432             0.341597    0.094834  0.080015 0.109240      0.007431                0.0005           2.675185e-37         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999 prior_volume capture_10  0.261638             0.187940    0.073698  0.058729 0.087870      0.007497                0.0005           8.288936e-23         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999 prior_volume capture_20  0.459605             0.375972    0.083633  0.067117 0.101292      0.008724                0.0005           9.097255e-22         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999 prior_volume capture_30  0.626836             0.543898    0.082938  0.065550 0.098900      0.008300                0.0005           1.651139e-23         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999  prior_cases        AUC  0.781456             0.683368    0.098089  0.088688 0.107717      0.004862                0.0005           1.695864e-90         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999  prior_cases         AP  0.436432             0.343654    0.092778  0.080793 0.104129      0.005832                0.0005           5.514850e-57         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999  prior_cases capture_10  0.261638             0.252705    0.008933 -0.002037 0.017397      0.004951                0.0755           7.117820e-02         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999  prior_cases capture_20  0.459605             0.435664    0.023940  0.013722 0.035444      0.005531                0.0005           1.500123e-05         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999  prior_cases capture_30  0.626836             0.565705    0.061131  0.037909 0.083161      0.011380                0.0005           7.798316e-08         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999    prior_sir        AUC  0.781456             0.535868    0.245588  0.230056 0.262525      0.008209                0.0005          1.159982e-196         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999    prior_sir         AP  0.436432             0.281383    0.155049  0.139871 0.169109      0.007448                0.0005           2.955227e-96         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999    prior_sir capture_10  0.261638             0.207249    0.054389  0.039747 0.066275      0.006867                0.0005           2.366866e-15         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999    prior_sir capture_20  0.459605             0.415186    0.044418  0.026283 0.071944      0.011409                0.0005           9.893069e-05         1999   NaN
+           Test All ages and procedures    18132    337    3540     1959747      11897               1999    prior_sir capture_30  0.626836             0.432255    0.194581  0.167905 0.222387      0.013648                0.0005           4.035193e-46         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999 prior_volume        AUC  0.725738             0.670779    0.054959 -0.012392 0.122258      0.034442                0.1015           1.105548e-01         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999 prior_volume         AP  0.529811             0.413505    0.116306 -0.018929 0.222490      0.062998                0.0645           6.486664e-02         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999 prior_volume capture_10  0.252727             0.161818    0.090909 -0.016667 0.195846      0.053124                0.0945           8.703565e-02         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999 prior_volume capture_20  0.400000             0.327273    0.072727 -0.050064 0.214286      0.067452                0.3005           2.809383e-01         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999 prior_volume capture_30  0.563636             0.488182    0.075455 -0.066711 0.204579      0.066463                0.2605           2.562557e-01         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999  prior_cases        AUC  0.725738             0.687485    0.038253 -0.010149 0.084910      0.024124                0.1190           1.128101e-01         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999  prior_cases         AP  0.529811             0.450962    0.078849  0.013334 0.150329      0.035754                0.0275           2.743054e-02         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999  prior_cases capture_10  0.252727             0.226364    0.026364 -0.036893 0.094438      0.033114                0.4045           4.259493e-01         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999  prior_cases capture_20  0.400000             0.398384    0.001616 -0.060613 0.090706      0.039271                0.9655           9.671733e-01         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999  prior_cases capture_30  0.563636             0.512108    0.051528 -0.045426 0.107881      0.039302                0.2490           1.898300e-01         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999    prior_sir        AUC  0.725738             0.646576    0.079162 -0.012030 0.167758      0.045893                0.0880           8.454417e-02         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999    prior_sir         AP  0.529811             0.461567    0.068243 -0.023831 0.164298      0.046983                0.1470           1.463588e-01         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999    prior_sir capture_10  0.252727             0.236364    0.016364 -0.065574 0.134884      0.050506                0.7830           7.459424e-01         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999    prior_sir capture_20  0.400000             0.363636    0.036364 -0.056604 0.160875      0.054761                0.5275           5.066650e-01         1999   NaN
+Oregon external All ages and procedures      209     46      55       34916        219               1999    prior_sir capture_30  0.563636             0.521818    0.041818 -0.051770 0.139535      0.048025                0.3920           3.838867e-01         1999   NaN

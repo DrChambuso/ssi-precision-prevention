@@ -1,0 +1,858 @@
+{
+  "issues": [],
+  "checks": {
+    "master:reporting_year": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:state": {
+      "pass": true,
+      "rows": 72854
+    },
+    "master:age_group": {
+      "pass": true,
+      "rows": 72854
+    },
+    "master:surgical_procedure": {
+      "pass": true,
+      "rows": 72854
+    },
+    "master:procedure_group": {
+      "pass": true,
+      "rows": 72854
+    },
+    "master:hospital_id": {
+      "pass": true,
+      "rows": 72854
+    },
+    "master:hospital_procedure_age_id": {
+      "pass": true,
+      "rows": 72854
+    },
+    "master:operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:ssi_per_1000_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:predicted_ssi_per_1000_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:observed_to_predicted_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:above_predicted_ssi_signal": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:ssi_signal_pattern_code": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:source_rows_combined": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:previous_year_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:previous_year_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:previous_year_predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:previous_year_ssi_signal": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:two_years_earlier_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:two_years_earlier_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:two_years_earlier_predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "master:two_years_earlier_ssi_signal": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "ids:sequence": {
+      "pass": true,
+      "rows": 72854
+    },
+    "derived:has_previous_year": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "derived:has_two_previous_years": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "derived:signal_pattern": {
+      "pass": true,
+      "rows": 72854
+    },
+    "derived:transition_code": {
+      "pass": true,
+      "rows": 72854
+    },
+    "derived:history_code": {
+      "pass": true,
+      "rows": 72854
+    },
+    "master:counts": {
+      "reports": 72854,
+      "operations": 6737972,
+      "SSIs": 37525,
+      "duplicate_report_id": 0,
+      "duplicate_original_key": 0
+    },
+    "raw:source_record_id": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:state": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:reporting_period": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:age_group": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:risk_adjustment_baseline": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:source_facility_id": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:hospital_name": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:source_procedure_label": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 78583
+    },
+    "raw:ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 78583
+    },
+    "raw:predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 78583
+    },
+    "raw:source_file": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:source_row": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 78583
+    },
+    "raw:source_panel": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:reporting_year": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 78583
+    },
+    "raw:surgical_procedure": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:hospital_id": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:hospital_procedure_age_id": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:source_facility_identity": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:age_procedure_stratum": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:county": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:hospital_type": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw:report_id": {
+      "pass": true,
+      "rows": 78583
+    },
+    "raw_aggregation:operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "raw_aggregation:ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "raw_aggregation:predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 1.7763568394002505e-15,
+      "rows": 72854
+    },
+    "raw_aggregation:source_rows_combined": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "raw_aggregation:source_record_ids": {
+      "pass": true,
+      "rows": 72854
+    },
+    "raw_aggregation:source_reporting_periods": {
+      "pass": true,
+      "rows": 72854
+    },
+    "raw_aggregation:hospital_name": {
+      "pass": true,
+      "rows": 72854
+    },
+    "raw_aggregation:source_facility_id": {
+      "pass": true,
+      "rows": 72854
+    },
+    "raw_aggregation:county": {
+      "pass": true,
+      "rows": 72854
+    },
+    "raw_aggregation:hospital_type": {
+      "pass": true,
+      "rows": 72854
+    },
+    "raw_aggregation:source_risk_adjustment_baseline": {
+      "pass": true,
+      "rows": 72854
+    },
+    "raw_aggregation:source_procedure_label": {
+      "pass": true,
+      "rows": 72854
+    },
+    "prediction:three_years_earlier_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:three_years_earlier_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:three_years_earlier_predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:previous_three_years_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:previous_three_years_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:previous_three_years_predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:previous_three_years_reports_available": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:previous_year_smoothed_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:previous_three_years_smoothed_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:model_log_previous_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:model_log_previous_benchmark_rate": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:model_log_previous_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:model_log_history_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:eligible": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "prediction:period": {
+      "pass": true,
+      "rows": 72854
+    },
+    "prediction:probability": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "profile:service_profile": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "profile:service_profile_component_1": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "profile:service_profile_component_2": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "profile:service_profile_component_3": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "profile:service_profile_component_4": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "profile:standardized_log_previous_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "profile:standardized_log_previous_benchmark_rate": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "profile:standardized_log_previous_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "profile:standardized_log_history_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "scaling:center": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 4
+    },
+    "scaling:SD": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 4
+    },
+    "scaling:reconstruct": {
+      "pass": true,
+      "max_difference": 1.1546319456101628e-14,
+      "rows": 291416
+    },
+    "PCA:reconstruct": {
+      "pass": true,
+      "max_difference": 1.4210854715202004e-14,
+      "rows": 291416
+    },
+    "profiles:reconstruct": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 57485
+    },
+    "context:earlier_context_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "context:earlier_context_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "context:earlier_context_predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "context:earlier_context_report_years": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "context:eligible": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "context:history_agrees": {
+      "pass": true,
+      "rows": 19978
+    },
+    "context:reconstruct_eligibility": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 72854
+    },
+    "context:reconstruct_earlier_context_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 19978
+    },
+    "context:reconstruct_earlier_context_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 19978
+    },
+    "context:reconstruct_earlier_context_predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 7.105427357601002e-15,
+      "rows": 19978
+    },
+    "context:reconstruct_earlier_context_report_years": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 19978
+    },
+    "model:reconstruct_frozen_probabilities": {
+      "pass": true,
+      "max_difference": 5.009881398621019e-13,
+      "rows": 18132
+    },
+    "dictionary:columns": {
+      "pass": true,
+      "rows": 68
+    },
+    "dictionary:missing:report_id": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:reporting_year": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:state": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:county": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:hospital_name": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:source_facility_id": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:hospital_type": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:age_group": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:surgical_procedure": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:procedure_group": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:hospital_id": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:hospital_procedure_age_id": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:ssi_per_1000_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:predicted_ssi_per_1000_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:observed_to_predicted_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:above_predicted_ssi_signal": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:ssi_signal_pattern": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:ssi_signal_pattern_code": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:source_rows_combined": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:source_reporting_periods": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:source_record_ids": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:source_risk_adjustment_baseline": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:source_procedure_label": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:has_previous_year_report": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:has_two_previous_year_reports": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:previous_year_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:previous_year_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:previous_year_predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:previous_year_ssi_signal": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:two_years_earlier_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:two_years_earlier_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:two_years_earlier_predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:two_years_earlier_ssi_signal": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:three_years_earlier_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:three_years_earlier_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:three_years_earlier_predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:previous_to_current_signal_code": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:two_year_signal_history_code": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:prediction_analysis_eligible": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:prediction_analysis_period": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:previous_three_years_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:previous_three_years_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:previous_three_years_predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:previous_three_years_reports_available": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:previous_year_smoothed_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:previous_three_years_smoothed_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:model_log_previous_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:model_log_previous_benchmark_rate": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:model_log_previous_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:model_log_history_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:predicted_probability_of_report_signal": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:service_profile": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:service_profile_component_1": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:service_profile_component_2": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:service_profile_component_3": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:service_profile_component_4": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:standardized_log_previous_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:standardized_log_previous_benchmark_rate": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:standardized_log_previous_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:standardized_log_history_ssi_ratio": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:earlier_context_analysis_eligible": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:earlier_context_operations": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:earlier_context_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:earlier_context_predicted_ssi_cases": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "dictionary:missing:earlier_context_report_years": {
+      "pass": true,
+      "max_difference": 0.0,
+      "rows": 1
+    },
+    "text:prohibited_dashes": [],
+    "text:literal_missing_tokens": 0,
+    "master:zero_expected_reports": 5025,
+    "master:ratio_missing_exactly_zero_expected": true
+  },
+  "master_sha256": "3ec4a5bf5a3a057aa96677d40f9264742243cb83a941f2afb7a480ee78b5d760"
+}

@@ -1,0 +1,24 @@
+profile_id,age,period,category,n_pathogen_reports,role,residual_profile,ecotype,PC1,PC2,profile_label,ecotype_label
+adult|2015-2017|Abdominal,adult,2015-2017,Abdominal,83297,Discovery,False,1,-2.02540740042781,-0.858122126589995,Adult Abdominal,Enteric and yeast enriched
+adult|2015-2017|Cardiac,adult,2015-2017,Cardiac,8647,Discovery,False,2,0.300195670085695,1.22246108213003,Adult Cardiac,Mixed operative profile
+adult|2015-2017|Ob/Gyn,adult,2015-2017,Ob/Gyn,20345,Discovery,False,2,-1.04176586301327,0.422187835729888,Adult Ob/Gyn,Mixed operative profile
+adult|2015-2017|Orthopedic,adult,2015-2017,Orthopedic,36147,Discovery,False,2,0.602381275161856,1.39622176053582,Adult Orthopedic,Mixed operative profile
+adult|2015-2017|Other procedures,adult,2015-2017,Other procedures,5697,Discovery,True,2,0.0139765408230942,0.405188298158782,Adult Other procedures,Mixed operative profile
+adult|2018-2021|Abdominal,adult,2018-2021,Abdominal,112285,Later evaluation,False,1,-2.29791202844407,-1.03377285075275,Adult Abdominal,Enteric and yeast enriched
+adult|2018-2021|Breast,adult,2018-2021,Breast,2325,Later evaluation,False,2,0.610626656827352,1.1874635418882,Adult Breast,Mixed operative profile
+adult|2018-2021|Cardiac,adult,2018-2021,Cardiac,10506,Later evaluation,False,2,0.173134850999631,0.892178369217133,Adult Cardiac,Mixed operative profile
+adult|2018-2021|Neurosurgical,adult,2018-2021,Neurosurgical,3921,Later evaluation,False,2,1.08821466135265,0.301088780071466,Adult Neurosurgical,Mixed operative profile
+adult|2018-2021|Ob/Gyn,adult,2018-2021,Ob/Gyn,26181,Later evaluation,False,2,-1.2279074592949,0.279143437556067,Adult Ob/Gyn,Mixed operative profile
+adult|2018-2021|Orthopedic,adult,2018-2021,Orthopedic,55613,Later evaluation,False,2,0.3826953231504,1.29002746779117,Adult Orthopedic,Mixed operative profile
+adult|2018-2021|Vascular,adult,2018-2021,Vascular,2801,Later evaluation,False,2,-0.577205237692046,0.948903413925962,Adult Vascular,Mixed operative profile
+adult|2018-2021|Other procedures,adult,2018-2021,Other procedures,2037,Later evaluation,True,1,-0.835200378471518,-1.09242581031485,Adult Other procedures,Enteric and yeast enriched
+pediatric|2015-2017|Abdominal,pediatric,2015-2017,Abdominal,2215,Discovery,False,1,-1.78951804125539,-1.66865669127978,Pediatric Abdominal,Enteric and yeast enriched
+pediatric|2015-2017|Cardiac,pediatric,2015-2017,Cardiac,312,Discovery,False,3,2.25931246519541,-1.50112176514217,Pediatric Cardiac,Pediatric staphylococcal concentrated
+pediatric|2015-2017|Neurosurgical,pediatric,2015-2017,Neurosurgical,419,Discovery,False,3,1.77097408291188,-0.99681293603745,Pediatric Neurosurgical,Pediatric staphylococcal concentrated
+pediatric|2015-2017|Orthopedic,pediatric,2015-2017,Orthopedic,487,Discovery,False,2,-0.232133458125349,1.51109368424304,Pediatric Orthopedic,Mixed operative profile
+pediatric|2015-2017|Other procedures,pediatric,2015-2017,Other procedures,93,Discovery,True,2,0.141984728643884,0.067560858251828,Pediatric Other procedures,Mixed operative profile
+pediatric|2018-2021|Abdominal,pediatric,2018-2021,Abdominal,3060,Later evaluation,False,1,-2.10402801966839,-1.77955802847976,Pediatric Abdominal,Enteric and yeast enriched
+pediatric|2018-2021|Cardiac,pediatric,2018-2021,Cardiac,427,Later evaluation,False,3,1.08521691945038,-0.568649030361215,Pediatric Cardiac,Pediatric staphylococcal concentrated
+pediatric|2018-2021|Neurosurgical,pediatric,2018-2021,Neurosurgical,793,Later evaluation,False,3,1.30327171062382,-0.998893906291835,Pediatric Neurosurgical,Pediatric staphylococcal concentrated
+pediatric|2018-2021|Orthopedic,pediatric,2018-2021,Orthopedic,892,Later evaluation,False,2,-0.134466476484427,2.07343994455436,Pediatric Orthopedic,Mixed operative profile
+pediatric|2018-2021|Other procedures,pediatric,2018-2021,Other procedures,110,Later evaluation,True,2,-0.1855889408261,0.575850564197376,Pediatric Other procedures,Mixed operative profile

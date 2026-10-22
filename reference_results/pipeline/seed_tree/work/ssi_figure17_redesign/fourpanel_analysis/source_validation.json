@@ -1,0 +1,38 @@
+{
+  "stable_explicit_taxa": [
+    "Candida albicans",
+    "Coagulase-negative staphylococci",
+    "Enterococcus faecalis",
+    "Escherichia coli",
+    "Proteus spp",
+    "Pseudomonas aeruginosa",
+    "Staphylococcus aureus",
+    "Viridans group streptococci"
+  ],
+  "composition_components": 9,
+  "profile_count": 23,
+  "discovery_profiles": 10,
+  "evaluation_profiles": 13,
+  "all_pathogen_reports": 378610,
+  "later_mrsa_profiles": 11,
+  "later_mrsa_pathogen_reports": 218804,
+  "later_mrsa_s_aureus_reports": 33842,
+  "all_compositions_close": true,
+  "all_depth_rows_close": true,
+  "unreported_taxa_imputed_zero": false,
+  "taxonomy_shift_groups_excluded_as_explicit_features": true,
+  "source_files": [
+    {
+      "file": "national_ssi_pathogens.csv",
+      "sha256": "acfa9fd14baa3c0e0a89500902c48dd259215900b25a8260e376645064d4ee28"
+    },
+    {
+      "file": "national_ssi_depth.csv",
+      "sha256": "99a76af048f66a5c875153310ae53309e5d2299fc6a6f35407f7012d695a1fd8"
+    },
+    {
+      "file": "national_ssi_amr.csv",
+      "sha256": "ce1bcf2c3648e448317a3c0c3a6919ebc1cd31a0cd828755862e777b533fdc6f"
+    }
+  ]
+}

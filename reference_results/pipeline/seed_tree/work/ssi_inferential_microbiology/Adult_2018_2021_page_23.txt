@@ -1,0 +1,33 @@
+23 
+ 
+Table 17. Percent of SSI Pathogens That Were Resistant to Selected Antimicrobials and Classified as "Urgent" or "Serious" 
+Antimicrobial Resistant Threats1 for Select Surgical Categories with Low Pathogen Volume2, Adults, 2018-2021  
+  Neurologic Breast Vascular 
+Pathogen, Antimicrobial Phenotype # Reported % Tested %R # Reported % Tested %R # Reported % Tested %R 
+Urgent Threats                   
+Acinetobacter spp. 34     37     24     
+Carbapenem-NS   67.6 21.7   75.7 3.6   87.5 57.1 
+                    
+Select Enterobacterales3 594     324     535     
+Carbapenem-resistant (CRE)   66.2 1.5   71.3 .   80.4 2.3 
+                    
+Serious Threats                   
+Select Enterobacterales4 308     176     363     
+Extended-spectrum cephalosporin-NS   85.7 20.5   91.5 9.9   87.9 16.6 
+                    
+Enterobacter spp. 212     137     165     
+Cefepime-NS   80.2 2.4   80.3 1.8   85.5 9.2 
+                    
+Enterococcus faecalis 61     96     187     
+Vancomycin-resistant (VRE)   90.2 3.6   84.4 3.7   87.7 6.7 
+                    
+Enterococcus faecium 15     0     40     
+Vancomycin-resistant (VRE)   . .   . .   90.0 72.2 
+                    
+Pseudomonas aeruginosa 205     275     278     
+Multidrug-resistant (MDR)   94.6 3.1   95.3 2.3   96.4 3.4 
+                    
+Staphylococcus aureus 846     769     611     
+Meth/ox/cefox - resistant (MRSA)   90.2 29.1   86.5 21.7   93.5 42.2 
+Note: Percent resistance is not calculated when the number of tested isolates is < 20. Refer to Technical Resources for more information about 
+phenotype definitions, acronyms, and terms used in this table.   

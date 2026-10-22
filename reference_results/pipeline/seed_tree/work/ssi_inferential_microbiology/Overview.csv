@@ -1,0 +1,9 @@
+Measure,Count,Unit,Scope
+Available bloodstream reports and isolates,274807,Reports / isolates,Core cohorts plus extended US care-setting comparators
+Core analysis and clinical replication,245309,Reports / isolates,"Oncology/hematology, ward, ICU and respiratory comparisons"
+Oncology and hematology settings,56015,Reports / isolates,"46,525 US oncology + 8,968 Guangdong hematology + 522 Beijing"
+Core comparison settings,189294,Reports / isolates,"General wards, adult/pediatric ICUs and respiratory medicine"
+Extended comparison settings,29498,Reports / isolates,US neonatal ICUs and long-term acute-care hospitals
+Nanfang clinical sensitivity cohort,599,Patients / BSI cases,Separate cohort; not added to bloodstream totals
+Location-age-period strata,20,Aggregate strata,16 US strata and 4 Chinese strata
+Pathogen category records,314,Dataset rows,Counts reconcile to cohort denominators

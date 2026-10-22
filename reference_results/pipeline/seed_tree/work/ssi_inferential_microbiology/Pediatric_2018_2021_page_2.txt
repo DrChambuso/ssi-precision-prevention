@@ -1,0 +1,29 @@
+2 
+ 
+Table P1. Facilities Reporting at Least 1 HAI Pathogen to NHSN, Pediatrics1, 2018 - 2021 
+  Facilities Pathogens 
+Facility Type # % # % 
+General 784 84.8 10,967 48.3 
+Children's 93 10.1 10,521 46.4 
+Women's and Children's 12 1.3 737 3.2 
+Women's 8 0.9 138 0.6 
+Military 6 0.6 31 0.1 
+Critical Access 5 0.5 9 <0.1 
+Orthopedic 5 0.5 6 <0.1 
+Surgical 5 0.5 14 0.1 
+Free-standing Inpatient Rehabilitation 4 0.4 8 <0.1 
+Oncology 3 0.3 259 1.1 
+     
+  Facilities Pathogens 
+Bed Size # % # % 
+1-200 210 22.7 2,308 10.2 
+201-350 276 29.8 5,999 26.4 
+351-500 217 23.5 5,259 23.2 
+≥ 501 222 24.0 9,124 40.2 
+Total 925 100.0 22,690 100.0 
+Note: Refer to Technical Resources for more information about the acronyms and terms used in this 
+table.   
+Footnotes: 
+1. Refer to Methods for criteria used to define adult and pediatric patient populations. 
+ 
+  

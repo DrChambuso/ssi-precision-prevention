@@ -1,0 +1,34 @@
+{
+  "all_training_and_test_assignments_independently_reconstructed": true,
+  "frozen_PCA_projection_max_error": 1.9984014443252818e-14,
+  "training_centroids_equal_within_profile_feature_means": true,
+  "future_outcomes_excluded_from_clustering_feature_list": true,
+  "hospital_bootstrap_CI_max_error": 5.551115123125783e-17,
+  "bootstrap_seed_and_whole_hospital_frame_verified": true,
+  "test_population_reconciles_to_source": true,
+  "four_model_independent_robust_SE_max_error": 6.251332784756869e-12,
+  "reference_profile2_contrasts_exact_reexpressions": true,
+  "heatmap_training_components_and_procedure_denominators_verified": true,
+  "panel_d_all_report_values_and_zero_counts_verified": true,
+  "panel_d_display_reports": 11502,
+  "panel_d_model_reports": 18132,
+  "panel_d_zero_SSI_reports": 6966,
+  "training_clustering_diagnostics": [
+    {
+      "training_reports": 39353,
+      "training_sites": 392,
+      "k": 3,
+      "nstart": 100,
+      "seed": 20261019,
+      "iterations": 3,
+      "ifault": 0,
+      "total_sum_of_squares": 157407.999999995,
+      "within_sum_of_squares": 65098.7536591012,
+      "between_sum_of_squares": 92309.2463408935
+    }
+  ],
+  "model_warning_rows": 0,
+  "source_hash_unchanged": true,
+  "prohibited_dash_files": [],
+  "status": "PASS"
+}

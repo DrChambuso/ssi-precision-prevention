@@ -1,0 +1,45 @@
+10 
+ 
+Table 8. The Top 15 SSI Pathogens Reported to NHSN, by SSI Type, Adults, 2018-2021 
+Note: Refer to Technical Resources for more information about the acronyms and terms used in this table.   
+Footnotes: 
+1. Some rankings are not shown: Group B streptococci (#14, 1.4%); Cutibacterium acnes (#15, 1.3%). 
+2. Some rankings are not shown: Candida glabrata (#14, 1.6%). 
+3. When analyzed at the genus-level, Candida spp. and Enterococcus spp. resulted in the following rankings: 
+a. Candida spp. - All SSIs (#6, 5.6%); superficial incision (#9, 3.0%); deep incisional (#9, 2.3%); organ/space (#4, 8.2%). 
+  All SSIs Superficial Incisional Deep Incisional1 Organ/Space2 
+Pathogen 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+# 
+Pathogens 
+% 
+Pathogens Rank 
+Staphylococcus aureus 33,201 15.4 1 11,789 18.4 1 9,563 26.4 1 11,849 10.3 2 
+Escherichia coli 29,874 13.9 2 7,452 11.6 2 3,216 8.9 3 19,206 16.6 1 
+Enterococcus faecalis3 16,871 7.8 3 5,082 7.9 5 2,299 6.4 5 9,490 8.2 3 
+Coagulase-negative 
+staphylococci 14,844 6.9 4 5,552 8.7 3 3,595 9.9 2 5,697 4.9 7 
+Pseudomonas aeruginosa 13,160 6.1 5 5,360 8.4 4 2,414 6.7 4 5,386 4.7 8 
+Select Klebsiella spp. 11,693 5.4 6 3,703 5.8 6 1,673 4.6 7 6,317 5.5 5 
+Bacteroides spp. 10,316 4.8 7 1,781 2.8 9 717 2.0 11 7,818 6.8 4 
+Enterobacter spp. 9,313 4.3 8 3,148 4.9 7 1,884 5.2 6 4,281 3.7 11 
+Candida albicans3 7,782 3.6 9 1,383 2.2 10 510 1.4 13 5,889 5.1 6 
+Viridans group streptococci 6,594 3.1 10 1,358 2.1 12 723 2.0 10 4,513 3.9 9 
+Proteus spp. 6,229 2.9 11 2,707 4.2 8 1,438 4.0 8 2,084 1.8 13 
+Enterococcus faecium3 6,150 2.9 12 1,153 1.8 14 593 1.6 12 4,404 3.8 10 
+Other Enterococcus spp.3 5,162 2.4 13 1,363 2.1 11 474 1.3 16 3,325 2.9 12 
+Citrobacter spp. 3,057 1.4 14 912 1.4 15 409 1.1 17 1,736 1.5 15 
+Serratia spp. 3,036 1.4 15 1,185 1.9 13 763 2.1 9 1,088 0.9 17 
+Other pathogen 38,387 17.8   10,060 15.7   5,915 16.3   22,412 19.4   
+Total 215,669 100.0   63,988 100.0   36,186 100.0   115,495 100.0   

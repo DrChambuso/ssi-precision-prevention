@@ -1,0 +1,65 @@
+age,period,depth,pathogen,count,total,source_table,proportion
+adult,2018-2021,All SSI types,Staphylococcus aureus,33201,215669,Table 8,0.15394423862492987
+adult,2018-2021,Superficial incisional,Staphylococcus aureus,11789,63988,Table 8,0.18423766956304308
+adult,2018-2021,Deep incisional,Staphylococcus aureus,9563,36186,Table 8,0.2642734759299176
+adult,2018-2021,Organ/space,Staphylococcus aureus,11849,115495,Table 8,0.1025931858522014
+adult,2018-2021,All SSI types,Escherichia coli,29874,215669,Table 8,0.13851782129095977
+adult,2018-2021,Superficial incisional,Escherichia coli,7452,63988,Table 8,0.11645933612552353
+adult,2018-2021,Deep incisional,Escherichia coli,3216,36186,Table 8,0.08887415022384347
+adult,2018-2021,Organ/space,Escherichia coli,19206,115495,Table 8,0.16629291311312178
+adult,2018-2021,All SSI types,Enterococcus faecalis,16871,215669,Table 8,0.07822635612906816
+adult,2018-2021,Superficial incisional,Enterococcus faecalis,5082,63988,Table 8,0.0794211414640245
+adult,2018-2021,Deep incisional,Enterococcus faecalis,2299,36186,Table 8,0.06353285801138561
+adult,2018-2021,Organ/space,Enterococcus faecalis,9490,115495,Table 8,0.082168059223343
+adult,2018-2021,All SSI types,Coagulase-negative staphylococci,14844,215669,Table 8,0.0688276942907882
+adult,2018-2021,Superficial incisional,Coagulase-negative staphylococci,5552,63988,Table 8,0.08676626867537664
+adult,2018-2021,Deep incisional,Coagulase-negative staphylococci,3595,36186,Table 8,0.09934781407174045
+adult,2018-2021,Organ/space,Coagulase-negative staphylococci,5697,115495,Table 8,0.049326810684445214
+adult,2018-2021,All SSI types,Pseudomonas aeruginosa,13160,215669,Table 8,0.06101943255637111
+adult,2018-2021,Superficial incisional,Pseudomonas aeruginosa,5360,63988,Table 8,0.0837657060698881
+adult,2018-2021,Deep incisional,Pseudomonas aeruginosa,2414,36186,Table 8,0.0667108826618029
+adult,2018-2021,Organ/space,Pseudomonas aeruginosa,5386,115495,Table 8,0.04663405342222607
+adult,2018-2021,All SSI types,Selected Klebsiella spp,11693,215669,Table 8,0.0542173423162346
+adult,2018-2021,Superficial incisional,Selected Klebsiella spp,3703,63988,Table 8,0.05787022566731262
+adult,2018-2021,Deep incisional,Selected Klebsiella spp,1673,36186,Table 8,0.046233349914331506
+adult,2018-2021,Organ/space,Selected Klebsiella spp,6317,115495,Table 8,0.05469500844192389
+adult,2018-2021,All SSI types,Bacteroides spp,10316,215669,Table 8,0.04783255822579972
+adult,2018-2021,Superficial incisional,Bacteroides spp,1781,63988,Table 8,0.027833343751953493
+adult,2018-2021,Deep incisional,Bacteroides spp,717,36186,Table 8,0.01981429282042779
+adult,2018-2021,Organ/space,Bacteroides spp,7818,115495,Table 8,0.06769124204511018
+adult,2018-2021,All SSI types,Enterobacter spp,9313,215669,Table 8,0.043181913024124934
+adult,2018-2021,Superficial incisional,Enterobacter spp,3148,63988,Table 8,0.049196724385822344
+adult,2018-2021,Deep incisional,Enterobacter spp,1884,36186,Table 8,0.05206433427292323
+adult,2018-2021,Organ/space,Enterobacter spp,4281,115495,Table 8,0.03706653967704229
+adult,2018-2021,All SSI types,Candida albicans,7782,215669,Table 8,0.036083071744200605
+adult,2018-2021,Superficial incisional,Candida albicans,1383,63988,Table 8,0.021613427517659562
+adult,2018-2021,Deep incisional,Candida albicans,510,36186,Table 8,0.01409384844967667
+adult,2018-2021,Organ/space,Candida albicans,5889,115495,Table 8,0.05098922031256764
+adult,2018-2021,All SSI types,Viridans group streptococci,6594,215669,Table 8,0.03057463056813914
+adult,2018-2021,Superficial incisional,Viridans group streptococci,1358,63988,Table 8,0.021222729261736576
+adult,2018-2021,Deep incisional,Viridans group streptococci,723,36186,Table 8,0.01998010280218869
+adult,2018-2021,Organ/space,Viridans group streptococci,4513,115495,Table 8,0.039075284644356896
+adult,2018-2021,All SSI types,Proteus spp,6229,215669,Table 8,0.02888222229434921
+adult,2018-2021,Superficial incisional,Proteus spp,2707,63988,Table 8,0.04230480715134088
+adult,2018-2021,Deep incisional,Proteus spp,1438,36186,Table 8,0.03973912562869618
+adult,2018-2021,Organ/space,Proteus spp,2084,115495,Table 8,0.018044071171912205
+adult,2018-2021,All SSI types,Enterococcus faecium,6150,215669,Table 8,0.02851592022961112
+adult,2018-2021,Superficial incisional,Enterococcus faecium,1153,63988,Table 8,0.018019003563168094
+adult,2018-2021,Deep incisional,Enterococcus faecium,593,36186,Table 8,0.016387553197369148
+adult,2018-2021,Organ/space,Enterococcus faecium,4404,115495,Table 8,0.03813152084505823
+adult,2018-2021,All SSI types,Other Enterococcus spp,5162,215669,Table 8,0.0239348260528866
+adult,2018-2021,Superficial incisional,Other Enterococcus spp,1363,63988,Table 8,0.021300868912921173
+adult,2018-2021,Deep incisional,Other Enterococcus spp,474,36186,Table 8,0.013098988559111258
+adult,2018-2021,Organ/space,Other Enterococcus spp,3325,115495,Table 8,0.028789125070349367
+adult,2018-2021,All SSI types,Citrobacter spp,3057,215669,Table 8,0.014174498884865234
+adult,2018-2021,Superficial incisional,Citrobacter spp,912,63988,Table 8,0.014252672376070512
+adult,2018-2021,Deep incisional,Citrobacter spp,409,36186,Table 8,0.011302713756701487
+adult,2018-2021,Organ/space,Citrobacter spp,1736,115495,Table 8,0.0150309537209403
+adult,2018-2021,All SSI types,Serratia spp,3036,215669,Table 8,0.014077127449934853
+adult,2018-2021,Superficial incisional,Serratia spp,1185,63988,Table 8,0.018519097330749516
+adult,2018-2021,Deep incisional,Serratia spp,763,36186,Table 8,0.021085502680594705
+adult,2018-2021,Organ/space,Serratia spp,1088,115495,Table 8,0.0094203212260271
+adult,2018-2021,All SSI types,Other reported taxa,38387,215669,Table 8,0.1779903463177369
+adult,2018-2021,Superficial incisional,Other reported taxa,10060,63988,Table 8,0.15721697818340938
+adult,2018-2021,Deep incisional,Other reported taxa,5915,36186,Table 8,0.16346100701928923
+adult,2018-2021,Organ/space,Other reported taxa,22412,115495,Table 8,0.19405169054937443

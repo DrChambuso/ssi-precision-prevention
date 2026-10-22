@@ -1,0 +1,33 @@
+25 
+ 
+Table 18. Percent of SSI Pathogens That Were Resistant to Selected Antimicrobials and Classified as "Urgent" or "Serious" 
+Antimicrobial Resistant Threats1, by SSI Type, Adults, 2018-2021 
+  Superficial Incisional SSI Deep Incisional SSI Organ/Space SSI 
+Pathogen, Antimicrobial Phenotype # Reported % Tested %R # Reported % Tested %R # Reported % Tested %R 
+Urgent Threats                   
+Acinetobacter spp. 330     207     265     
+Carbapenem-NS   74.8 20.6   77.3 28.8   81.9 35.9 
+                    
+Select Enterobacterales2 14,303     6,773     29,804     
+Carbapenem-resistant (CRE)   74.2 1.2   72.9 1.6   74.4 1.8 
+                    
+Serious Threats                   
+Select Enterobacterales3 10,783     4,748     25,007     
+Extended-spectrum cephalosporin-NS   84.0 19.3   84.6 18.7   84.3 17.5 
+                    
+Enterobacter spp. 3,148     1,884     4,281     
+Cefepime-NS   76.2 5.0   77.3 6.9   78.2 10.1 
+                    
+Enterococcus faecalis 5,082     2,299     9,490     
+Vancomycin-resistant (VRE)   88.3 2.0   89.5 3.6   89.2 2.2 
+                    
+Enterococcus faecium 1,153     593     4,404     
+Vancomycin-resistant (VRE)   91.1 51.2   92.6 61.4   91.9 46.5 
+                    
+Pseudomonas aeruginosa 5,360     2,414     5,386     
+Multidrug-resistant (MDR)   94.9 2.9   95.6 3.9   93.7 4.9 
+                    
+Staphylococcus aureus 11,789     9,563     11,849     
+Meth/ox/cefox - resistant (MRSA)   92.0 41.4   90.9 38.5   89.1 37.4 
+Note: Refer to Technical Resources for more information about phenotype definitions, acronyms, and terms used in this table.   
+ Footnotes: 

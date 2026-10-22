@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_inferential_microbiology/cross_period_pathogen_signal_replication.csv",
+  "rows": 116,
+  "numeric_columns": 13,
+  "maximum_absolute_difference": 4.1359030627651384e-25,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

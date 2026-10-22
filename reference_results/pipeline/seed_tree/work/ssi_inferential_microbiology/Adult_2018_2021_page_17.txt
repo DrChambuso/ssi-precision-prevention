@@ -1,0 +1,31 @@
+17 
+ 
+Table 13. Percent of CLABSI Pathogens Reported From Oncology Units That Were Resistant to Selected Antimicrobials and 
+Classified as "Urgent" or "Serious" Antimicrobial Threats1, by Mucosal Barrier Injury (MBI) Status, Adults, 2018-2021 
+ 
+ MBI-LCBIs Non-MBI LCBIs 
+Pathogen, Antimicrobial Phenotype2 # Reported % Tested %R # Reported % Tested %R 
+Urgent Threats             
+Select Enterobacterales3 5,182     1,306     
+Carbapenem-resistant (CRE)   74.6 3.6   73.4 2.7 
+              
+Serious Threats             
+Select Enterobacterales4 4,605     1,094     
+Extended-spectrum cephalosporin-NS   81.5 32.5   83.7 22.4 
+              
+Enterobacter spp. 546     195     
+Cefepime-NS   77.1 13.5   74.4 3.4 
+              
+Enterococcus faecalis 609     361     
+Vancomycin-resistant (VRE)   86.5 5.9   89.8 2.5 
+              
+Enterococcus faecium 1,535     439     
+Vancomycin-resistant (VRE)   88.8 72.0   92.3 64.7 
+Note: Refer to Technical Resources for more information about phenotype definitions, acronyms, and terms used in this table.   
+Footnotes: 
+1. As classified by CDC's 2022 Special Report: COVID-19 U.S. Impact on Antimicrobial Resistance 
+2. MBI-LCBIs cannot be reported with Acinetobacter spp., Pseudomonas aeruginosa, or Staphylococcus aureus pathogens. Therefore, 
+antimicrobial resistance phenotypes for these pathogens are not shown.  
+3. Consists of E.coli, Klebsiella oxytoca, Klebsiella pneumoniae, Klebsiella aerogenes, and Enterobacter spp. 
+4. Consists of E.coli, Klebsiella oxytoca, and Klebsiella pneumoniae. 
+ 

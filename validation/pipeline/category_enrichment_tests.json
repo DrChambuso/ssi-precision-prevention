@@ -1,0 +1,8 @@
+{
+  "table": "work/ssi_inferential_microbiology/category_enrichment_tests.csv",
+  "rows": 276,
+  "numeric_columns": 21,
+  "maximum_absolute_difference": 4.1359030627651384e-25,
+  "absolute_and_relative_tolerance": 1e-07,
+  "status": "passed"
+}

@@ -1,0 +1,18 @@
+{
+  "independent_memory_GLM_robust_SE_max_error": 1.9081958235744878e-13,
+  "memory_score_stationarity_max_abs": 1.0293840659869602e-06,
+  "independent_earlier_context_GLM_robust_SE_max_error": 1.212807632100521e-12,
+  "earlier_context_score_stationarity_max_abs": 2.9186253414081875e-09,
+  "earlier_context_population_and_nonoverlapping_history_independently_verified": true,
+  "exact_conditional_units": 3541,
+  "exact_conditional_reports": 24019,
+  "exact_conditional_sites": 345,
+  "exact_conditional_assignment_count": 85004,
+  "exact_conditional_log_likelihood": -9111.205642853733,
+  "exact_conditional_score_stationarity_max_abs": 1.6002754676947006e-12,
+  "exact_conditional_information_SE_max_error": 1.942890293094024e-16,
+  "primary_effect_tables_finite_and_interval_ordered": true,
+  "survival_estimates_finite_and_interval_ordered": true,
+  "paired_bootstrap_P_valid_and_at_least_90_percent_valid_draws": true,
+  "prohibited_dash_files": []
+}

@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "destination": "model/model_coefficients.csv",
+      "source_authority": "final manuscript project dataset",
+      "source_basename": "model_coefficients.csv",
+      "sha256": "0656feb8cacb3227e0c7ae78ed28771981de6978e4c3b18563295f9577124035",
+      "archive_equivalence": "all parsed cells equivalent within1e-14 absolute and relative tolerance",
+      "archive_sha256": "57f9537f88d7c6fd643e44ea505fe898c1014c3dc76e53fe487ecd5632593c00"
+    },
+    {
+      "destination": "model/training_feature_scaling.csv",
+      "source_authority": "final manuscript project dataset",
+      "source_basename": "training_feature_scaling.csv",
+      "sha256": "d9a802bc8acc9c1e7964e14127ec7ca2df74ca819652cb48ffc3736bcecdfe01",
+      "archive_equivalence": "all parsed cells equivalent within1e-14 absolute and relative tolerance",
+      "archive_sha256": "2b0dd5e1011bff03dbb02d6130278728eab1a50536575e1df19b3476847dc88a"
+    },
+    {
+      "destination": "data/derived/prediction/lagged_prediction_cohort.csv.gz",
+      "source_authority": "final manuscript project dataset",
+      "source_basename": "lagged_prediction_cohort.csv",
+      "uncompressed_sha256": "f1931e1ab336a78a6ca0a5b3117f39eecaac257fff1923193c97c53975f44670",
+      "sha256": "96f921cbf12f8a335bce0118411c9526f108e2e5bd98a777f270e77bc0974517",
+      "archive_equivalence": "57,694 rows and37columns, all parsed cells equivalent within1e-12 absolute and relative tolerance",
+      "archive_sha256": "3e73859cb165d1f24e4b175bf688b65b4cc54a4d227501943e986820c823405a"
+    },
+    {
+      "destination": "data/derived/prediction/heldout_predictions.csv",
+      "source_authority": "original integrated publication analysis archive",
+      "source_basename": "heldout_predictions.csv",
+      "sha256": "aeffb6ffab2344ac4fcf833761114b0b54811fac2e3f386b262d9e55f9c2c77f"
+    },
+    {
+      "destination": "model/report_alert_model.rds",
+      "source_authority": "original integrated publication analysis archive",
+      "source_basename": "report_alert_model.rds",
+      "sha256": "2cf109e3d93929d12e490b5fc44b62ff8b90e1d24ee70a9037ad60f1e6345184"
+    },
+    {
+      "destination": "model/model_fit_audit.txt",
+      "source_authority": "original integrated publication analysis archive",
+      "source_basename": "model_fit_audit.txt",
+      "sha256": "868fe0d24ada8ea2367d9f3c98a3a975693b65309da200b51679850276fb1655"
+    }
+  ],
+  "comparison_runtime": "NumPy and pandas current packaged audit environment; see executed validation report"
+}

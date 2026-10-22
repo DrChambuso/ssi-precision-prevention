@@ -1,0 +1,39 @@
+13 
+ 
+Table P9. Percent of CAUTI Pathogens That Were Resistant to Selected Antimicrobials and 
+Classified as "Urgent" or "Serious" Antimicrobial Resistant Threats1, Pediatrics, 2018-2021 
+ All Reporting Facilities and Locations 
+ Pathogen, Antimicrobial Phenotype # Reported % Tested %R 
+Urgent Threats       
+Acinetobacter spp. 8     
+Carbapenem-NS   . . 
+        
+Select Enterobacterales2 796     
+Carbapenem-resistant (CRE)   76.1 1.0 
+        
+Serious Threats       
+Select Enterobacterales3 689     
+Extended-spectrum cephalosporin-NS   89.8 27.6 
+        
+Enterobacter spp. 99     
+Cefepime-NS   78.8 16.7 
+        
+Enterococcus faecalis 195     
+Vancomycin-resistant (VRE)   85.6 1.2 
+        
+Enterococcus faecium 28     
+Vancomycin-resistant (VRE)   85.7 29.2 
+        
+Pseudomonas aeruginosa 328     
+Multidrug-resistant (MDR)   92.7 5.3 
+        
+Staphylococcus aureus 32     
+Meth/ox/cefox - resistant (MRSA)   87.5 50.0 
+Note: Percent resistance is not calculated when the number of tested isolates is < 20. Refer to Technical 
+Resources for more information about phenotype definitions, acronyms, and terms used in this table.   
+Footnotes: 
+1. As classified by CDC's 2022 Special Report: COVID-19 U.S. Impact on Antimicrobial Resistance 
+2. Consists of E.coli, Klebsiella oxytoca, Klebsiella pneumoniae, Klebsiella aerogenes, and 
+Enterobacter spp. 
+3. Consists of E.coli, Klebsiella oxytoca, and Klebsiella pneumoniae. 
+ 
